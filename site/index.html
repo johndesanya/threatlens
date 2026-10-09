@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ThreatLens — Live Threat Intelligence</title>
+<meta name="description" content="Daily-updated threat intelligence: APT group tracking, vendor reports, extracted IoCs, MITRE ATT&CK and CISA KEV.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%2306121f' stroke='%2300e5a8' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%2300e5a8'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<header class="top">
+  <div class="brand"><span class="logo"></span><b>Threat<span>Lens</span></b><i id="live" class="live">LIVE</i></div>
+  <nav id="tabs">
+    <button data-tab="overview" class="on">Overview</button>
+    <button data-tab="reports">Reports</button>
+    <button data-tab="groups">APT Groups</button>
+    <button data-tab="iocs">IoC Explorer</button>
+    <button data-tab="attack">ATT&amp;CK</button>
+    <button data-tab="vulns">Exploited CVEs</button>
+    <button data-tab="sources">Sources</button>
+  </nav>
+  <div class="upd" id="updated">loading…</div>
+</header>
+
+<main>
+  <section id="overview" class="tab on">
+    <div class="hero">
+      <div>
+        <h1>Global threat landscape, <em>refreshed daily</em>.</h1>
+        <p>Vendor research, CERT advisories and news are collected automatically, attributed to threat actors, and mined for indicators of compromise.</p>
+      </div>
+      <div class="lookup">
+        <label for="q">Quick IoC / actor / CVE lookup</label>
+        <input id="q" placeholder="8.8.8.x · sha256 · evil[.]com · APT29 · CVE-2024-…" autocomplete="off">
+        <div id="qres"></div>
+      </div>
+    </div>
+    <div class="kpis" id="kpis"></div>
+    <div class="grid2">
+      <div class="card"><h3>Reporting activity <small>last 60 days</small></h3><div id="chartDaily"></div></div>
+      <div class="card"><h3>Most active actors</h3><div id="chartGroups"></div></div>
+    </div>
+    <div class="grid3">
+      <div class="card"><h3>Attributed origin <small>by report volume</small></h3><div id="chartCountry"></div></div>
+      <div class="card"><h3>IoC types collected</h3><div id="chartIoc"></div></div>
+      <div class="card"><h3>Trending themes</h3><div id="chartTags" class="cloud"></div></div>
+    </div>
+    <div class="grid2">
+      <div class="card"><h3>Highest-signal reports <small>threat score</small></h3><div id="topReports"></div></div>
+      <div class="card"><h3>Most-cited CVEs</h3><div id="topCves"></div></div>
+    </div>
+  </section>
+
+  <section id="reports" class="tab">
+    <div class="bar">
+      <input id="rq" placeholder="Search title, summary, actor, CVE…">
+      <select id="rsrc"><option value="">All sources</option></select>
+      <select id="rtype"><option value="">All types</option><option value="research">Vendor research</option><option value="gov">Government</option><option value="news">News</option></select>
+      <select id="rtag"><option value="">All themes</option></select>
+      <select id="rrange"><option value="7">7 days</option><option value="30" selected>30 days</option><option value="90">90 days</option><option value="9999">All</option></select>
+      <label class="chk"><input type="checkbox" id="rapt"> APT-attributed</label>
+      <label class="chk"><input type="checkbox" id="rioc"> Has IoCs</label>
+    </div>
+    <div class="count" id="rcount"></div>
+    <div id="rlist"></div>
+    <button id="rmore" class="more">Load more</button>
+  </section>
+
+  <section id="groups" class="tab">
+    <div class="bar">
+      <input id="gq" placeholder="Search group or alias (e.g. Fancy Bear, Midnight Blizzard)…">
+      <select id="gc"><option value="">All origins</option></select>
+      <label class="chk"><input type="checkbox" id="gk" checked> Only known actors</label>
+    </div>
+    <div id="glist" class="gcards"></div>
+  </section>
+
+  <section id="iocs" class="tab">
+    <div class="bar">
+      <input id="iq" placeholder="Filter indicators, actor or report…">
+      <select id="it"><option value="">All types</option></select>
+      <select id="ig"><option value="">All actors</option></select>
+      <label class="chk"><input type="checkbox" id="idf" checked> Defang display</label>
+      <button id="icsv" class="btn">Export CSV</button>
+      <button id="itxt" class="btn">Export TXT</button>
+    </div>
+    <div class="note">⚠ Indicators are auto-extracted from public reports and may contain false positives. Validate before blocking. Bulk feeds: <a href="iocs/all.csv">all.csv</a> · <a href="iocs/all.json">all.json</a> · <a href="iocs/feeds/ipv4.txt">ipv4</a> · <a href="iocs/feeds/domain.txt">domains</a> · <a href="iocs/feeds/url.txt">urls</a> · <a href="iocs/feeds/sha256.txt">sha256</a> · <a href="iocs/feeds/md5.txt">md5</a></div>
+    <details class="bulk"><summary>Bulk check — paste a log or list and see which indicators we know</summary>
+      <textarea id="bulk" rows="5" placeholder="Paste IPs, domains, hashes…"></textarea><button id="bulkgo" class="btn">Check</button><div id="bulkres"></div></details>
+    <div class="count" id="icount"></div>
+    <div class="tablewrap"><table id="itable"><thead><tr><th>Type</th><th>Indicator</th><th>Actor</th><th>Last seen</th><th>Reports</th><th></th></tr></thead><tbody></tbody></table></div>
+    <button id="imore" class="more">Load more</button>
+  </section>
+
+  <section id="attack" class="tab">
+    <div class="card"><h3>MITRE ATT&amp;CK techniques referenced in reports</h3><p class="muted">Technique IDs mentioned across collected reports. Larger bar = more reports.</p><div id="tech"></div></div>
+  </section>
+
+  <section id="vulns" class="tab">
+    <div class="kpis" id="kevk"></div>
+    <div class="bar"><input id="kq" placeholder="Search vendor, product or CVE in CISA KEV…"></div>
+    <div id="kevlist"></div>
+  </section>
+
+  <section id="sources" class="tab">
+    <div class="card"><h3>Collection health</h3><p class="muted" id="shealth"></p><div id="slist" class="slist"></div></div>
+  </section>
+</main>
+
+<div id="modal" class="modal" hidden><div class="mbox"><button id="mclose" class="x" aria-label="Close">×</button><div id="mbody"></div></div></div>
+<footer>ThreatLens · open-source intelligence only · data from public vendor and government feeds · <a href="iocs/all.csv">download IoCs</a></footer>
+<script src="app.js"></script>
+</body>
+</html>
