@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-09T12:47:02.919Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-09T12:58:24.267Z - source: public vendor reports. Verify before blocking.
 c0cc.cc
 hunt.io
 doxx.net
