@@ -1,4 +1,6 @@
 type,value,first_seen,last_seen,groups,report_count,report_ids
+"domain","xcai.pro","2026-10-07","2026-10-10","","3","7b482e28a390|a2699a640a72|9a30bde8c66d"
+"domain","www.criminalip.io","2026-10-10","2026-10-10","","1","d95f3c459ddd"
 "domain","lake-90.com","2026-10-09","2026-10-09","","1","89b1c5b22d39"
 "domain","install.sh","2026-10-09","2026-10-09","","1","89b1c5b22d39"
 "domain","claude-desk-code.com","2026-10-09","2026-10-09","","1","89b1c5b22d39"
@@ -6,7 +8,6 @@ type,value,first_seen,last_seen,groups,report_count,report_ids
 "domain","c0cc.cc","2026-10-08","2026-10-09","Flax Typhoon|Hafnium","2","6b6450d641eb|f9f8b060f2b7"
 "domain","doxx.net","2026-10-09","2026-10-09","","1","3d2d26c82afc"
 "url","http://38.244.50.120:18899/.claude/CLAUDE.md","2026-10-07","2026-10-09","","2","7b482e28a390|a2699a640a72"
-"domain","xcai.pro","2026-10-07","2026-10-09","","2","7b482e28a390|a2699a640a72"
 "ipv4","38.244.50.120","2026-10-07","2026-10-09","","2","7b482e28a390|a2699a640a72"
 "ipv4","23.248.249.90","2026-10-07","2026-10-09","","2","7b482e28a390|a2699a640a72"
 "ipv4","23.158.220.98","2026-10-07","2026-10-09","","2","7b482e28a390|a2699a640a72"
