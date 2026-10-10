@@ -1,4 +1,7 @@
 type,value,first_seen,last_seen,groups,report_count,report_ids
+"domain","lake-90.com","2026-10-09","2026-10-09","","1","89b1c5b22d39"
+"domain","install.sh","2026-10-09","2026-10-09","","1","89b1c5b22d39"
+"domain","claude-desk-code.com","2026-10-09","2026-10-09","","1","89b1c5b22d39"
 "domain","hunt.io","2026-10-07","2026-10-09","Flax Typhoon|Hafnium","8","3898f914ce5a|627347097e29|9cb755d0222f|e48eb5515d8e|a2699a640a72|f9f8b060f2b7|fa9eb409767b|08915c9e4558"
 "domain","c0cc.cc","2026-10-08","2026-10-09","Flax Typhoon|Hafnium","2","6b6450d641eb|f9f8b060f2b7"
 "domain","doxx.net","2026-10-09","2026-10-09","","1","3d2d26c82afc"

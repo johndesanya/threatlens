@@ -1,4 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-09T17:31:18.282Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-10T05:30:54.057Z - source: public vendor reports. Verify before blocking.
+lake-90.com
+install.sh
+claude-desk-code.com
 hunt.io
 c0cc.cc
 doxx.net
