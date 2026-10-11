@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-11T05:31:33.017Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-11T17:30:29.568Z - source: public vendor reports. Verify before blocking.
 http://38.244.50.120:18899/.claude/CLAUDE.md
 https://aka.ms/rootcert
 http://imagefiles-backup.oss-ap-southeast-7.aliyuncs.com/javas/Office/win/msedge.exe
