@@ -1,4 +1,25 @@
-# ThreatLens IoC feed - generated 2026-10-12T05:34:56.911Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-12T17:34:39.909Z - source: public vendor reports. Verify before blocking.
+workers.dev
+trycloudflare.com
+ubuntu.com
+canonical.com
+shutterstock.com
+vrf.apexaccs.org
+verify.apexfdn.xyz
+updater.sh
+update.apex-arena-router.com
+token.apexaccs.org
+main.router-apex.com
+loader.sh
+fdn4apex.com
+ehegisnightmare.icu
+cloudmain365duo.top
+ccmihr.com
+arenapex.cloud
+arena.apexfdn.xyz
+arena.apexaccs.org
+apexaccs.org
+0auth-chromium.com
 hunt.io
 xcai.pro
 www.criminalip.io
@@ -172,7 +193,6 @@ a.alitagotest.cf
 1421.cloud.96html.com
 1421.client.96html.com
 067.cz
-shutterstock.com
 rvice.com
 nerate.com
 lanner.pro
@@ -761,7 +781,6 @@ abyssos.in
 it.to
 infrastructure.by
 joomlacontenteditor.net
-trycloudflare.com
 memory.md
 lhr.life
 api.trycloudflare.com

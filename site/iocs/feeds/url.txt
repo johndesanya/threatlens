@@ -1,4 +1,15 @@
-# ThreatLens IoC feed - generated 2026-10-12T05:34:56.911Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-12T17:34:39.909Z - source: public vendor reports. Verify before blocking.
+https://vrf.apexaccs.org/api/v1/vrf
+https://verify.apexfdn.xyz/macos/installer/terminal/interactive/bash
+https://update.apex-arena-router.com/loader.sh
+https://main.router-apex.com/updater.sh
+https://ehegisnightmare.icu/build/nTOugj-fWWMurYHg/bludness.exe
+https://ehegisnightmare.icu/build/J2BkQFArlBUXf4MF/install.exe
+https://ccmihr.com/macos/jquery.js
+https://arena.apexaccs.org/dashboard/pilot
+https://arena.apexaccs.org/api/llm/v1/chat/completions
+https://arena.apexaccs.org/api/llm/v1
+https://arena.apexaccs.org/api/copilot/mcp
 http://38.244.50.120:18899/.claude/CLAUDE.md
 https://aka.ms/rootcert
 http://imagefiles-backup.oss-ap-southeast-7.aliyuncs.com/javas/Office/win/msedge.exe
