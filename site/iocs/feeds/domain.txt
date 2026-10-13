@@ -1,4 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-13T05:35:43.728Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-13T17:34:47.722Z - source: public vendor reports. Verify before blocking.
+updateopswatsdk.pl
+support.swann.com
+doxx.net
 maas.io
 assets.ubuntu.com
 academy.canonical.com
@@ -30,7 +33,6 @@ lake-90.com
 install.sh
 claude-desk-code.com
 c0cc.cc
-doxx.net
 youtubecard.com
 outlook3650.com
 linkedinns.net

@@ -1,4 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-13T05:35:43.728Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-13T17:34:47.722Z - source: public vendor reports. Verify before blocking.
+https://”
+http://”
+https://support.swann.com/hc/en-us/requests/new
 https://vrf.apexaccs.org/api/v1/vrf
 https://verify.apexfdn.xyz/macos/installer/terminal/interactive/bash
 https://update.apex-arena-router.com/loader.sh
