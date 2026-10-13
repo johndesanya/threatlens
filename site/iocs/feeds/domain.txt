@@ -1,8 +1,11 @@
-# ThreatLens IoC feed - generated 2026-10-12T17:34:39.909Z - source: public vendor reports. Verify before blocking.
-workers.dev
-trycloudflare.com
+# ThreatLens IoC feed - generated 2026-10-13T05:35:43.728Z - source: public vendor reports. Verify before blocking.
+maas.io
+assets.ubuntu.com
+academy.canonical.com
 ubuntu.com
 canonical.com
+workers.dev
+trycloudflare.com
 shutterstock.com
 vrf.apexaccs.org
 verify.apexfdn.xyz
