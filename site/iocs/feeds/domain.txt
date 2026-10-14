@@ -1,4 +1,6 @@
-# ThreatLens IoC feed - generated 2026-10-13T17:34:47.722Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-14T05:45:16.563Z - source: public vendor reports. Verify before blocking.
+snort.org
+golang.org
 updateopswatsdk.pl
 support.swann.com
 doxx.net
@@ -204,7 +206,6 @@ lanner.pro
 f.com
 guard.io
 crates.io
-snort.org
 lore.kernel.org
 openpediatrics.site
 onthegotree.site
