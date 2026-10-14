@@ -1,4 +1,6 @@
-# ThreatLens IoC feed - generated 2026-10-14T05:45:16.563Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-14T17:46:22.008Z - source: public vendor reports. Verify before blocking.
+https://www.watchguard-vpn.net/
+https://cdn.watchguard.com/SoftwareCenter/Files/MUVPN_SSL/12_11_5/WG-MVPN-SSL_12_11_5.exe
 https://”
 http://”
 https://support.swann.com/hc/en-us/requests/new

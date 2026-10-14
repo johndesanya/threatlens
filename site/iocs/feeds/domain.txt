@@ -1,4 +1,18 @@
-# ThreatLens IoC feed - generated 2026-10-14T05:45:16.563Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-14T17:46:22.008Z - source: public vendor reports. Verify before blocking.
+rasd-state.ws
+crasadr.com
+certa.website
+jewishchoice.org
+jointhetalent.info
+joinquest.info
+joinhire.info
+calendly.com
+www.watchguard-vpn.net
+watchguard-vpn.net
+watchguard-vpn.com
+watchguard-ssl.online
+software.watchguard.com
+cdn.watchguard.com
 snort.org
 golang.org
 updateopswatsdk.pl
