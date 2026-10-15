@@ -1,4 +1,9 @@
-# ThreatLens IoC feed - generated 2026-10-14T17:46:22.008Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-15T05:45:54.597Z - source: public vendor reports. Verify before blocking.
+www.hashicorp.com
+www.akamai.com
+developer.hashicorp.com
+open.bigmodel.cn
+api.deepseek.com
 rasd-state.ws
 crasadr.com
 certa.website
@@ -450,7 +455,6 @@ effectivecpmnetwork.com
 advancedfuturetechnology.com
 abuse.ch
 cdn.discordapp.com
-api.deepseek.com
 thecovnresation.net
 thecovnresation.com
 theconversation.com

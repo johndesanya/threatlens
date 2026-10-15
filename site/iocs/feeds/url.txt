@@ -1,4 +1,16 @@
-# ThreatLens IoC feed - generated 2026-10-14T17:46:22.008Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-15T05:45:54.597Z - source: public vendor reports. Verify before blocking.
+https://www.hashicorp.com/en/blog/managing-ssh-access-at-scale-with-hashicorp-vault
+https://www.akamai.com/blog/security-research/new-p2p-botnet-panchan
+https://www.akamai.com/blog/security-research/cryptominer-anatomy-internals
+https://developer.hashicorp.com/vault/docs/secrets/ssh/signed-ssh-certificates
+http://47.18.167.159:8085/pM.js
+http://23.240.77.233:8085/pM.js
+http://23.240.77.233:8085/
+http://23.240.77.233:8084/directory
+http://23.240.77.233:8084/acme/order/11111
+http://23.240.77.233:8084/acme/new-acct
+http://23.240.77.233:8084/acme/finalize/61924744/774083503
+http://23.240.77.233:8084/acme/authz/1
 https://www.watchguard-vpn.net/
 https://cdn.watchguard.com/SoftwareCenter/Files/MUVPN_SSL/12_11_5/WG-MVPN-SSL_12_11_5.exe
 https://”
