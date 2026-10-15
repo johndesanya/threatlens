@@ -1,4 +1,6 @@
-# ThreatLens IoC feed - generated 2026-10-15T05:45:54.597Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-15T17:44:41.907Z - source: public vendor reports. Verify before blocking.
+eseecloud.app
+booking.com
 www.hashicorp.com
 www.akamai.com
 developer.hashicorp.com
@@ -234,7 +236,6 @@ essaywritingservice.site
 dailylifeproject.site
 check.vykyn.click
 burnsworth.site
-booking.com
 agents.md
 matchyjoin.com
 joinmatchy.com
