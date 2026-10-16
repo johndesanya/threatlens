@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-16T05:45:31.697Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-16T17:44:04.242Z - source: public vendor reports. Verify before blocking.
 wibu-bau-bawang.online
 transfer.sh
 solidmonpe.com
@@ -9,6 +9,15 @@ beraskencur.site
 bashupload.com
 ir.varonis.com
 eseecloud.app
+www2.aomeisoftware.com
+storage-data.com
+serv.oss-cn-hongkong.aliyuncs.com
+promotion.storage-data.com
+ifconfig.me
+icanhazip.com
+aomei.storage-data.com
+account.aomeitech.com
+api.ipify.org
 booking.com
 www.hashicorp.com
 www.akamai.com
@@ -952,7 +961,6 @@ monteviral2026.duckdns.org
 gestionmontelavaria2026.online
 fakeupdate.net
 bancaporinternetbbmx.online
-api.ipify.org
 website.in
 implementation.in
 debank.com

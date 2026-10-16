@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-16T05:45:31.697Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-16T17:44:04.242Z - source: public vendor reports. Verify before blocking.
 93.93.112.57
 88.80.150.232
 88.119.167.57
@@ -16,6 +16,10 @@
 109.224.53.140
 104.248.131.53
 104.194.158.65
+96.126.191.98
+8.218.65.184
+8.210.84.56
+47.239.60.117
 66.42.72.14
 208.83.239.114
 149.248.47.234
