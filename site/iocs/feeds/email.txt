@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-16T17:44:04.242Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-17T05:43:17.183Z - source: public vendor reports. Verify before blocking.
 zed@zediel.com
 rc4@sec.com
 first-team@cyber.go.jp

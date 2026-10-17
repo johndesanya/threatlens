@@ -1,4 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-16T17:44:04.242Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-17T05:43:17.183Z - source: public vendor reports. Verify before blocking.
+executed.at
+activity.to
+cloud.shinewrist.net
 wibu-bau-bawang.online
 transfer.sh
 solidmonpe.com
@@ -633,7 +636,6 @@ msbenefit.com
 gitprogram.com
 document.gitprogram.com
 d71bedcf-307a-4432-beec-ce943223d0e3.cfargotunnel.com
-cloud.shinewrist.net
 www.marketsandmarkets.com
 machinelearningmastery.com
 knowledge.md
