@@ -1,4 +1,5 @@
 type,value,first_seen,last_seen,groups,report_count,report_ids
+"ipv4","144.172.64.128","2026-10-16","2026-10-17","","2","e70b33f08be1|5aba2bdccac5"
 "url","http://209.141.43.95/files/kw2-freebsd-x64-s11","2026-10-16","2026-10-16","","1","33661c320779"
 "domain","executed.at","2026-10-16","2026-10-16","","1","33661c320779"
 "domain","activity.to","2026-10-16","2026-10-16","","1","33661c320779"
