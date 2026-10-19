@@ -1,4 +1,10 @@
-# ThreatLens IoC feed - generated 2026-10-19T05:46:39.712Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-19T17:44:40.930Z - source: public vendor reports. Verify before blocking.
+rankmath.com
+rank1cdn.com
+storage-data.com
+promotion.storage-data.com
+aomei.storage-data.com
+shinywire.com
 executed.at
 activity.to
 cloud.shinewrist.net
@@ -13,12 +19,9 @@ bashupload.com
 ir.varonis.com
 eseecloud.app
 www2.aomeisoftware.com
-storage-data.com
 serv.oss-cn-hongkong.aliyuncs.com
-promotion.storage-data.com
 ifconfig.me
 icanhazip.com
-aomei.storage-data.com
 account.aomeitech.com
 api.ipify.org
 booking.com
