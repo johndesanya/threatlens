@@ -1,4 +1,5 @@
-# ThreatLens IoC feed - generated 2026-10-20T15:59:29.053Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-20T19:05:40.315Z - source: public vendor reports. Verify before blocking.
+https://www.wago.com/de/d/15739#versions
 https://www2.aomeisoftware.com/download/abpopup/down_html.ini
 https://account.aomeitech.com/Notifycfg.ini
 https://TARGET/archibus/schema/per-site/exportReports/DataViewReport
@@ -45,6 +46,8 @@ https://paidy.farradae.com/paidy/ubmissionsjp
 https://new-app-haixing.com/1DWSd1DeDf.kumamoto-city.jp
 https://lygyaou.com/9AioLNhtdi.kumamoto-city.jp
 https://kenandy.shop/paidy/ubmisionsjp/
+https://www.cvedetails.com/vulnerability-list.php?vendor_id=53&year=2026&month=10
+https://www.cvedetails.com/vulnerability-list.php?vendor_id=26&year=2026&month=10
 https://www.watchguard-vpn.net/
 https://cdn.watchguard.com/SoftwareCenter/Files/MUVPN_SSL/12_11_5/WG-MVPN-SSL_12_11_5.exe
 https://”

@@ -1,5 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-20T15:59:29.053Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-20T19:05:40.315Z - source: public vendor reports. Verify before blocking.
 wizardexpensive.com
+www.wago.com
+www.hitachienergy.com
 justin.sh
 hexane.cc
 gov.uk
@@ -183,6 +185,7 @@ joinhire.info
 calendly.com
 news.am
 hub.ivanti.com
+forums.ivanti.com
 malicious.net
 affecting.net
 www.watchguard-vpn.net
@@ -194,6 +197,9 @@ cdn.watchguard.com
 snort.org
 golang.org
 updateopswatsdk.pl
+server356.web-hosting.com
+ws.sh
+db-ip.com
 support.swann.com
 doxx.net
 maas.io
@@ -426,7 +432,6 @@ www.action1.com
 update-two-tau.vercel.app
 up-theta-rose.vercel.app
 server.na-2.action1.com
-www.hitachienergy.com
 www.johnsoncontrols.com
 portal.sharjahairport.cloud
 ns1.soroshpasargad.com
