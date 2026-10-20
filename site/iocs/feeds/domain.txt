@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-20T19:05:40.315Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-20T21:55:58.142Z - source: public vendor reports. Verify before blocking.
 wizardexpensive.com
 www.wago.com
 www.hitachienergy.com
@@ -207,6 +207,17 @@ assets.ubuntu.com
 academy.canonical.com
 ubuntu.com
 canonical.com
+two.ru
+tejlurer.site
+tejlurer.online
+past.am
+mediatime.am
+arm24news.ru
+24newsarm.ru
+24.tejlurer.site
+24.arm24news.ru
+1in.tejlurer.online
+1in.arm24news.ru
 workers.dev
 trycloudflare.com
 vrf.apexaccs.org
