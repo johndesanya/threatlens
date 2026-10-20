@@ -10,13 +10,32 @@ const FLAGS = { RU: '🇷🇺', CN: '🇨🇳', KP: '🇰🇵', IR: '🇮🇷', 
 const ATTACK = { T1566: 'Phishing', T1059: 'Command & Scripting', T1190: 'Exploit Public-Facing App', T1078: 'Valid Accounts', T1105: 'Ingress Tool Transfer', T1027: 'Obfuscated Files', T1071: 'App Layer Protocol', T1055: 'Process Injection', T1053: 'Scheduled Task', T1547: 'Boot/Logon Autostart', T1036: 'Masquerading', T1070: 'Indicator Removal', T1082: 'System Info Discovery', T1083: 'File & Dir Discovery', T1003: 'OS Credential Dumping', T1021: 'Remote Services', T1486: 'Data Encrypted for Impact', T1041: 'Exfil Over C2', T1204: 'User Execution', T1218: 'System Binary Proxy Exec', T1562: 'Impair Defenses', T1112: 'Modify Registry', T1140: 'Deobfuscate/Decode', T1056: 'Input Capture', T1057: 'Process Discovery', T1012: 'Query Registry', T1018: 'Remote System Discovery', T1033: 'System Owner Discovery', T1046: 'Network Service Discovery', T1074: 'Data Staged', T1090: 'Proxy', T1095: 'Non-App Layer Protocol', T1102: 'Web Service', T1133: 'External Remote Services', T1189: 'Drive-by Compromise', T1195: 'Supply Chain Compromise', T1203: 'Exploitation for Client Exec', T1219: 'Remote Access Software', T1485: 'Data Destruction', T1490: 'Inhibit System Recovery', T1496: 'Resource Hijacking', T1505: 'Server Software Component', T1543: 'Create/Modify System Process', T1546: 'Event Triggered Execution', T1553: 'Subvert Trust Controls', T1560: 'Archive Collected Data', T1567: 'Exfil Over Web Service', T1568: 'Dynamic Resolution', T1573: 'Encrypted Channel', T1574: 'Hijack Execution Flow', T1587: 'Develop Capabilities', T1588: 'Obtain Capabilities', T1589: 'Gather Victim Identity', T1595: 'Active Scanning', T1598: 'Phishing for Information', T1621: 'MFA Request Generation' };
 const COUNTRY = { RU: 'Russia', CN: 'China', KP: 'North Korea', IR: 'Iran', US: 'United States', IN: 'India', PK: 'Pakistan', VN: 'Vietnam', BY: 'Belarus', KR: 'South Korea', SD: 'Sudan', Intl: 'eCrime / Intl', '??': 'Unattributed' };
 
-let META, REPORTS = [], GROUPS = [], KEV, IOCS = [], repById = new Map();
+let META, REPORTS = [], GROUPS = [], KEV, IOCS = [], COUNTRIES = [], repById = new Map();
 
-async function j(u) { const r = await fetch(u, { cache: 'no-cache' }); if (!r.ok) throw new Error(u); return r.json(); }
+/* Data is read live from the GitHub repo (updated by the scheduled job), so the site stays fresh without
+   a Netlify redeploy. If GitHub is unreachable, the copy bundled with the site is used instead. */
+const REMOTE = 'https://raw.githubusercontent.com/johndesanya/threatlens/main/site/';
+const LOCAL_DEV = ['localhost', '127.0.0.1'].includes(location.hostname);   // when testing locally, use local files only
+async function j(u) {
+  for (const base of LOCAL_DEV ? [''] : [REMOTE, '']) {
+    try { const r = await fetch(base + u, { cache: 'no-cache' }); if (r.ok) return await r.json(); } catch { /* try next source */ }
+  }
+  throw new Error(u);
+}
+const nrm = s => String(s).toLowerCase().replace(/ё/g, 'е').trim();
+const cname = c => COUNTRIES.find(x => x.code === c)?.name || c;
+/* country codes a search query refers to: "armenia", "армения", "arm", "georgian"… */
+function countryCodesFor(q) {
+  q = nrm(q); const out = new Set(); if (q.length < 3) return out;
+  for (const c of COUNTRIES) if ([c.name, ...c.aliases].some(a => { a = nrm(a); return a === q || a.startsWith(q) || (a.length >= 5 && q.startsWith(a)); })) out.add(c.code);
+  return out;
+}
 async function init() {
   try {
     [META, GROUPS, KEV] = await Promise.all([j('data/meta.json'), j('data/groups.json'), j('data/kev.json').catch(() => null)]);
     REPORTS = (await j('data/reports.json')).reports; repById = new Map(REPORTS.map(r => [r.id, r]));
+    REPORTS.forEach(r => { r.countries = r.countries || []; });
+    COUNTRIES = await j('data/countries.json').catch(() => []);
     IOCS = await j('iocs/all.json').catch(() => []);
   } catch (e) {
     $('#overview').innerHTML = '<div class="empty">No data yet. Run <code>node collector/collect.mjs</code> (or trigger a Netlify build) to collect the first batch.</div>'; return;
@@ -64,16 +83,28 @@ function buildOverview() {
   $('#topReports').innerHTML = [...REPORTS].filter(r => Date.now() - new Date(r.published) < 30 * 864e5).sort((a, b) => b.score - a.score).slice(0, 7).map(repHtml).join('');
   $('#topCves').innerHTML = META.topCves.slice(0, 14).map(c => `<div class="hbar" style="grid-template-columns:140px 1fr 30px"><a class="lbl" target="_blank" rel="noopener" href="https://nvd.nist.gov/vuln/detail/${esc(c.cve)}" style="font-family:var(--mono)">${esc(c.cve)}</a><span class="track"><span class="fill" style="display:block;width:${c.n / META.topCves[0].n * 100}%;background:linear-gradient(90deg,#ff4d6d,#ffb020)"></span></span><span class="n">${c.n}</span></div>${c.kev ? '' : ''}`).join('');
   $('#q').oninput = lookup;
+  buildRegion();
 }
+/* "Countries in the news" chart + one-click regional focus */
+const FOCUS = ['AM', 'GE', 'AZ', 'TR', 'KZ', 'UZ', 'RU', 'UA', 'BY', 'IR', 'IL', 'CN', 'KP', 'US', 'GB', 'DE', 'FR', 'PL'];
+function buildRegion() {
+  const m = META.mentions || {};
+  const all = {}; REPORTS.forEach(r => r.countries.forEach(c => { all[c] = (all[c] || 0) + 1; }));
+  hbars('#chartMention', Object.entries(m).sort((a, b) => b[1] - a[1]).slice(0, 12).map(([c, n]) => [cname(c), n, '']), r => { const c = COUNTRIES.find(x => x.name === r[0]); if (c) gotoCountry(c.code); }, 'linear-gradient(90deg,#00e5a8,#3da5ff)');
+  $('#region').innerHTML = FOCUS.map(c => `<button class="rbtn" data-c="${esc(c)}">${esc(cname(c))} <b>${all[c] || 0}</b></button>`).join('');
+  $('#region').onclick = e => { const b = e.target.closest('[data-c]'); if (b) gotoCountry(b.dataset.c); };
+}
+function gotoCountry(code) { $('#rq').value = ''; $('#rcountry').value = code; $('#rrange').value = '9999'; $('#rsrc').value = ''; $('#rtag').value = ''; $('#rtype').value = ''; show('reports'); renderReports(true); }
 function lookup() {
   const q = $('#q').value.trim().toLowerCase().replace(/\[\.\]/g, '.'); const out = $('#qres'); if (q.length < 3) { out.innerHTML = ''; return; }
   const hits = [];
   GROUPS.filter(g => (g.name + ' ' + g.aliases.join(' ')).toLowerCase().includes(q)).slice(0, 4).forEach(g => hits.push(`<div class="hit" data-g="${esc(g.name)}">${FLAGS[g.country] || ''} <b>${esc(g.name)}</b> <span class="muted">${g.reportCount} reports</span></div>`));
   IOCS.filter(i => i.v.includes(q)).slice(0, 5).forEach(i => hits.push(`<div class="hit" data-i="${esc(i.v)}"><span class="ty ${esc(i.t)}">${esc(i.t)}</span> <code>${esc(defang(i.v, i.t)).slice(0, 60)}</code> <span class="muted">${esc(i.g.slice(0, 2).join(', '))}</span></div>`));
   if (/^cve-/.test(q)) { const n = REPORTS.filter(r => r.cves.some(c => c.toLowerCase() === q)).length; hits.push(`<div class="hit" data-r="${esc(q)}">🔥 <b>${esc(q.toUpperCase())}</b> <span class="muted">mentioned in ${n} reports</span></div>`); }
+  countryCodesFor(q).forEach(c => { const n = REPORTS.filter(r => r.countries.includes(c)).length; hits.unshift(`<div class="hit" data-c="${esc(c)}">🌍 <b>${esc(cname(c))}</b> <span class="muted">${n} reports mention it</span></div>`); });
   out.innerHTML = hits.join('') || '<div class="muted" style="padding:6px">No match</div>';
 }
-$('#qres').onclick = e => { const h = e.target.closest('.hit'); if (!h) return; if (h.dataset.g) openGroup(h.dataset.g); else if (h.dataset.i) { $('#iq').value = h.dataset.i; show('iocs'); renderIocs(true); } else { $('#rq').value = h.dataset.r; $('#rrange').value = '9999'; show('reports'); renderReports(true); } };
+$('#qres').onclick = e => { const h = e.target.closest('.hit'); if (!h) return; if (h.dataset.c) return gotoCountry(h.dataset.c); if (h.dataset.g) openGroup(h.dataset.g); else if (h.dataset.i) { $('#iq').value = h.dataset.i; show('iocs'); renderIocs(true); } else { $('#rq').value = h.dataset.r; $('#rrange').value = '9999'; show('reports'); renderReports(true); } };
 
 /* ---------- reports ---------- */
 function scoreColor(s) { return s >= 70 ? 'var(--bad)' : s >= 40 ? 'var(--warn)' : 'var(--acc2)'; }
@@ -83,26 +114,30 @@ function repHtml(r) {
   <h4><a href="${safeUrl(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a></h4>
   <div class="meta"><span>${esc(r.source)}</span><span>${esc(r.published.slice(0, 10))} · ${ago(r.published)}</span>${r.sourceType === 'gov' ? '<span class="flag">GOV</span>' : ''}${r.deep ? '' : '<span title="Only the feed teaser was analysed">teaser</span>'}</div>
   ${r.summary ? `<p class="sum">${esc(r.summary.slice(0, 230))}…</p>` : ''}
-  <div class="chips">${r.groups.map(g => `<span class="chip g" data-g="${esc(g.name)}">${FLAGS[g.country] || ''} ${esc(g.name)}</span>`).join('')}${r.iocTotal ? `<span class="chip i" data-ioc="${esc(r.id)}" title="${esc(ic)}">⚑ ${r.iocTotal} IoCs</span>` : ''}${r.cves.slice(0, 4).map(c => `<span class="chip c">${esc(c)}</span>`).join('')}${r.cves.length > 4 ? `<span class="chip">+${r.cves.length - 4} CVEs</span>` : ''}${r.tags.slice(0, 4).map(t => `<span class="chip t" data-tag="${esc(t)}">#${esc(t)}</span>`).join('')}</div></div></article>`;
+  <div class="chips">${r.groups.map(g => `<span class="chip g" data-g="${esc(g.name)}">${FLAGS[g.country] || ''} ${esc(g.name)}</span>`).join('')}${r.countries.slice(0, 4).map(c => `<span class="chip k" data-c="${esc(c)}" title="Reports mentioning ${esc(cname(c))}">${esc(cname(c))}</span>`).join('')}${r.iocTotal ? `<span class="chip i" data-ioc="${esc(r.id)}" title="${esc(ic)}">⚑ ${r.iocTotal} IoCs</span>` : ''}${r.cves.slice(0, 4).map(c => `<span class="chip c">${esc(c)}</span>`).join('')}${r.cves.length > 4 ? `<span class="chip">+${r.cves.length - 4} CVEs</span>` : ''}${r.tags.slice(0, 4).map(t => `<span class="chip t" data-tag="${esc(t)}">#${esc(t)}</span>`).join('')}</div></div></article>`;
 }
 let rShown = 0, rFiltered = [];
 function buildReports() {
   const src = [...new Set(REPORTS.map(r => r.source))].sort(); $('#rsrc').innerHTML += src.map(s => `<option>${esc(s)}</option>`).join('');
   $('#rtag').innerHTML += Object.keys(META.tags).sort().map(s => `<option>${esc(s)}</option>`).join('');
-  ['#rq', '#rsrc', '#rtype', '#rtag', '#rrange', '#rapt', '#rioc'].forEach(s => $(s).addEventListener('input', () => renderReports(true)));
+  const cnt = {}; REPORTS.forEach(r => r.countries.forEach(c => { cnt[c] = (cnt[c] || 0) + 1; }));
+  $('#rcountry').innerHTML += Object.entries(cnt).sort((a, b) => b[1] - a[1]).map(([c, n]) => `<option value="${esc(c)}">${esc(cname(c))} (${n})</option>`).join('');
+  ['#rq', '#rsrc', '#rtype', '#rtag', '#rcountry', '#rrange', '#rapt', '#rioc'].forEach(s => $(s).addEventListener('input', () => renderReports(true)));
   $('#rmore').onclick = () => renderReports(false); $('#rlist').onclick = repClick; $('#topReports').onclick = repClick;
   renderReports(true);
 }
 function repClick(e) {
   const g = e.target.closest('[data-g]'); if (g) return openGroup(g.dataset.g);
+  const k = e.target.closest('[data-c]'); if (k) return gotoCountry(k.dataset.c);
   const t = e.target.closest('[data-tag]'); if (t) { $('#rtag').value = t.dataset.tag; $('#rrange').value = '9999'; show('reports'); return renderReports(true); }
   const i = e.target.closest('[data-ioc]'); if (i) openReportIocs(i.dataset.ioc);
 }
 function renderReports(reset) {
   if (reset) {
-    const q = $('#rq').value.toLowerCase(), cut = Date.now() - +$('#rrange').value * 864e5;
-    rFiltered = REPORTS.filter(r => new Date(r.published) >= cut && (!$('#rsrc').value || r.source === $('#rsrc').value) && (!$('#rtype').value || r.sourceType === $('#rtype').value) && (!$('#rtag').value || r.tags.includes($('#rtag').value)) && (!$('#rapt').checked || r.groups.length) && (!$('#rioc').checked || r.iocTotal) &&
-      (!q || (r.title + ' ' + r.summary + ' ' + r.groups.map(g => g.name).join(' ') + ' ' + r.cves.join(' ')).toLowerCase().includes(q)));
+    const q = nrm($('#rq').value), cut = Date.now() - +$('#rrange').value * 864e5, cc = $('#rcountry').value;
+    const qCodes = countryCodesFor(q);   // "armenia" / "армения" / "arm" -> reports tagged with that country
+    rFiltered = REPORTS.filter(r => new Date(r.published) >= cut && (!$('#rsrc').value || r.source === $('#rsrc').value) && (!$('#rtype').value || r.sourceType === $('#rtype').value) && (!$('#rtag').value || r.tags.includes($('#rtag').value)) && (!cc || r.countries.includes(cc)) && (!$('#rapt').checked || r.groups.length) && (!$('#rioc').checked || r.iocTotal) &&
+      (!q || nrm(r.title + ' ' + r.summary + ' ' + r.source + ' ' + r.groups.map(g => g.name).join(' ') + ' ' + r.cves.join(' ') + ' ' + r.countries.map(cname).join(' ')).includes(q) || r.countries.some(c => qCodes.has(c))));
     rShown = 0; $('#rlist').innerHTML = ''; $('#rcount').textContent = `${fmt(rFiltered.length)} reports`;
   }
   $('#rlist').insertAdjacentHTML('beforeend', rFiltered.slice(rShown, rShown + 25).map(repHtml).join('')); rShown += 25;

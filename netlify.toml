@@ -1,8 +1,11 @@
 [build]
-  # Every Netlify build re-runs the collector, so a daily build hook = daily fresh intel.
-  # The collector never fails the build: if feeds are unreachable the committed data is deployed.
-  command = "node collector/collect.mjs"
+  # The site is static and reads its data live from the GitHub repo (see REMOTE in site/app.js),
+  # so Netlify only needs to rebuild when the page itself changes - not on every data refresh.
+  # This keeps you far below Netlify's free build/deploy limits.
+  command = "echo static site"
   publish = "site"
+  # exit 0 = skip the build. Build only when front-end files changed.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- site/index.html site/app.js site/style.css netlify.toml"
 
 [build.environment]
   NODE_VERSION = "20"
@@ -13,7 +16,7 @@
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     Referrer-Policy = "no-referrer"
-    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'"
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://raw.githubusercontent.com; object-src 'none'; base-uri 'none'; frame-ancestors 'none'"
 
 [[headers]]
   for = "/data/*"

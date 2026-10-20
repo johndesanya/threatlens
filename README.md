@@ -1,37 +1,33 @@
 # ThreatLens
 
-Daily-updating threat-intelligence dashboard. A zero-dependency Node collector pulls ~35 public sources (vendor research, CERT advisories, news, CISA KEV), attributes reports to APT/crimeware groups, extracts IoCs / CVEs / ATT&CK IDs, and writes static files that Netlify serves.
+Threat-intelligence dashboard. A zero-dependency Node collector pulls ~120 public sources (vendor research, national CERTs,
+regional + global news, CISA KEV), attributes reports to APT / crimeware groups, tags **countries**, extracts IoCs / CVEs /
+ATT&CK IDs and writes static files. A GitHub Action runs it every 3 hours; the site reads the data live from the repo.
 
 ```
-collector/collect.mjs   the collector (Node 18+, no npm install)
-collector/sources.json  feed list – add/remove feeds here
-collector/groups.json   actor names + aliases + origin – extend freely
-site/                   what Netlify publishes
-  index.html app.js style.css
-  data/                 reports.json groups.json meta.json kev.json
-  iocs/                 <- extracted IoCs live here
-    all.json all.csv    deduplicated, with first/last seen, actors, report ids
-    feeds/*.txt         plain blocklists: ipv4 domain url md5 sha1 sha256 email
-    by-month/YYYY-MM.json  IoCs per report, grouped by month
-    daily/YYYY-MM-DD.json   what was newly collected on that day
+collector/collect.mjs     the collector (Node 18+, no npm install)
+collector/sources.json    feed list - add/remove feeds here ("country" tags a source to a country)
+collector/groups.json     actor names + aliases
+collector/countries.json  country names, demonyms, capitals, Russian stems -> used for country search
+site/                     what Netlify publishes (index.html app.js style.css)
+  data/                   reports.json groups.json meta.json kev.json countries.json
+  iocs/                   all.json all.csv feeds/*.txt by-month/*.json daily/*.json
+.github/workflows/        scheduled collection (every 3 hours) + manual "Run workflow"
 ```
+
+## Why the site stays fresh without redeploys
+`site/app.js` loads `data/*.json` from `raw.githubusercontent.com/<user>/threatlens/main/site/` (see `REMOTE`).
+The GitHub Action commits new data, the page picks it up within ~5 minutes. Netlify only rebuilds when the front-end
+files change (`ignore` rule in `netlify.toml`), which keeps you inside Netlify's free limits.
+If you rename the repo or user, change `REMOTE` in `site/app.js`.
 
 ## Run locally
-```
-node collector/collect.mjs      # incremental
-FULL=1 node collector/collect.mjs   # rebuild everything
-npx serve site                  # or any static server
-```
-
-## Deploy to Netlify
-1. Push this folder to a GitHub repo.
-2. Netlify → *Add new site → Import from Git*. Settings are read from `netlify.toml` (build: `node collector/collect.mjs`, publish: `site`).
-3. **Daily refresh** – pick one:
-   - Included: `.github/workflows/daily-collect.yml` runs the collector twice a day and commits fresh data; Netlify redeploys on push.
-   - Or: Netlify → *Site settings → Build hooks* → create a hook, then call it daily from cron-job.org / a GitHub Action (`curl -X POST <hook-url>`). Every build re-collects.
-4. Drag-and-drop also works: run the collector locally, then drop the `site/` folder onto Netlify Drop.
+    node collector/collect.mjs            # incremental
+    FULL=1 node collector/collect.mjs     # rebuild from the feeds' current contents
+    npx serve site
 
 ## Notes
-- IoCs are auto-extracted from prose and may contain false positives; defanged by default in the UI.
-- Extraction is context-aware (defanged forms, IoC sections, nearby "C2/server/IP" wording), and ignores major benign domains.
-- Only public OSINT sources are used. Respect each source's terms; the collector sends a descriptive User-Agent and only fetches new articles.
+- IoCs are auto-extracted from prose and may contain false positives; they are defanged in the UI.
+- Some sites block cloud IPs (Cloudflare), so single feeds can fail on some runs - see the "Sources" tab.
+- Georgian / Armenian / Azerbaijani CERTs publish no RSS; those countries are covered through targeted news queries
+  and through every vendor report that mentions them.

@@ -22,10 +22,11 @@ const DATA = path.join(SITE, 'data');
 const IOCS = path.join(SITE, 'iocs');
 
 const MAX_AGE_DAYS = +process.env.MAX_AGE_DAYS || 120;   // ignore feed items older than this
-const RETAIN_DAYS = +process.env.RETAIN_DAYS || 365;     // keep reports this long
-const MAX_DEEP_FETCH = +process.env.MAX_DEEP_FETCH || 260; // article pages fetched per run
-const CONCURRENCY = 8;
-const UA = 'Mozilla/5.0 (compatible; ThreatLensBot/1.0; +https://github.com/threatlens)';
+const RETAIN_DAYS = +process.env.RETAIN_DAYS || 240;     // keep reports this long
+const MAX_DEEP_FETCH = +process.env.MAX_DEEP_FETCH || 450; // article pages fetched per run
+const SCHEMA = 2;                                         // bump to force old reports to be re-tagged
+const CONCURRENCY = 10;
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 ThreatLens/2.0';
 const FULL = !!process.env.FULL;
 
 const readJson = (p, d) => { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return d; } };
@@ -42,10 +43,14 @@ async function pool(items, n, fn) {
   }));
   return out;
 }
-async function get(url, timeout = 25000) {
-  const r = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'text/html,application/xml,application/rss+xml,application/json,*/*' }, redirect: 'follow', signal: AbortSignal.timeout(timeout) });
-  if (!r.ok) throw new Error('HTTP ' + r.status);
-  return await r.text();
+async function get(url, timeout = 25000, retries = 1) {
+  for (let a = 0; ; a++) {
+    try {
+      const r = await fetch(url, { headers: { 'User-Agent': UA, 'Accept-Language': 'en-US,en;q=0.9', Accept: 'text/html,application/xml,application/rss+xml,application/json,*/*' }, redirect: 'follow', signal: AbortSignal.timeout(timeout) });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return await r.text();
+    } catch (e) { if (a >= retries || /HTTP (403|404|410)/.test(e.message)) throw e; await new Promise(r => setTimeout(r, 1500)); }
+  }
 }
 const ENT = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', ndash: '-', mdash: '-', hellip: '...', rsquo: "'", lsquo: "'", ldquo: '"', rdquo: '"' };
 const decode = s => s.replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (m, e) => {
@@ -202,12 +207,41 @@ function score(r) {
   return Math.min(100, s);
 }
 
+/* ----------------------------------------------------------- country tagging */
+// Each country has aliases (English, Russian stems, capitals, demonyms). A trailing "~" = any word ending
+// (Russian declension), a leading "=" = case-sensitive match. Mentioned in title / intro / several times => tagged.
+const countryList = readJson(path.join(ROOT, 'collector', 'countries.json'), []);
+const LET = '[\\p{L}\\p{N}_]';
+const aliasPattern = a => escRe(a.replace(/^=/, '')).replace(/~/g, '\\p{L}{0,6}');
+const countryRes = countryList.map(c => {
+  const ci = c.aliases.filter(a => !a.startsWith('=')), cs = c.aliases.filter(a => a.startsWith('='));
+  const mk = (list, fl) => list.length ? new RegExp('(?<!' + LET + ')(?:' + list.sort((x, y) => y.length - x.length).map(aliasPattern).join('|') + ')(?!' + LET + ')', fl) : null;
+  return { code: c.code, ci: mk(ci, 'giu'), cs: mk(cs, 'gu'), avoid: c.avoidIf ? new RegExp(c.avoidIf, 'i') : null };
+});
+const count = (re, t) => { if (!re || !t) return 0; re.lastIndex = 0; let n = 0; while (re.exec(t)) n++; return n; };
+function detectCountries(title, text, srcCountry) {
+  const intro = text.slice(0, 1500), res = [];
+  for (const c of countryRes) {
+    const bad = c.avoid && c.avoid.test(title + ' ' + text);
+    const f = t => count(c.ci, t) + (bad ? 0 : count(c.cs, t));
+    let sc = f(title) * 5 + f(intro) * 2 + f(text.slice(1500));
+    if (srcCountry === c.code) sc += 3;
+    if (sc >= 3) res.push([c.code, sc]);
+  }
+  return res.sort((a, b) => b[1] - a[1]).slice(0, 6).map(x => x[0]);
+}
+const CYBER = /(cyber|hack|malware|ransom|phish|spyware|data (?:leak|breach)|breach|ddos|\bapt\b|\bioc|vulnerab|surveillance|pegasus|exploit|botnet|infostealer|backdoor|espionage|кибер|хакер|вредонос|утечк|фишинг|уязвимост|вымогат|siber|saldırı)/i;
+
 /* ------------------------------------------------------------------- main */
 async function main() {
   const t0 = Date.now();
   const sources = readJson(path.join(ROOT, 'collector', 'sources.json'), []);
   const store = FULL ? { reports: [] } : readJson(path.join(DATA, 'reports.json'), { reports: [] });
   const existing = new Map((store.reports || []).map(r => [r.id, r]));
+  const srcById = new Map(sources.map(x => [x.id, x]));
+  let retagged = 0;
+  for (const r of existing.values()) if (!r.countries) { r.countries = detectCountries(r.title, r.summary || '', srcById.get(r.sourceId)?.country); retagged++; }
+  if (retagged) log(`Re-tagged ${retagged} existing reports with countries.`);
   const cutoff = Date.now() - MAX_AGE_DAYS * 864e5;
   const today = new Date().toISOString().slice(0, 10);
 
@@ -224,7 +258,7 @@ async function main() {
     if (!r || r.error) { health.push({ id: s.id, name: s.name, type: s.type, ok: false, error: r?.error || 'unknown', items: 0, new: 0 }); log(`  x ${s.name}: ${r?.error}`); return; }
     let fresh = 0;
     for (const e of r) {
-      const d = toDate(e.date) || new Date();
+      const d = toDate(e.date); if (!d) continue;   // undated items (some CERT feeds) would all look like 'today'
       if (d.getTime() < cutoff) continue;
       const id = sha1(e.link.replace(/[?#].*$/, '').replace(/\/$/, '')).slice(0, 12);
       if (existing.has(id)) continue;
@@ -238,7 +272,7 @@ async function main() {
   // Deep fetch article pages where the feed only carried a teaser
   candidates.sort((a, b) => (b.published > a.published ? 1 : -1));
   let deepBudget = MAX_DEEP_FETCH;
-  const needDeep = candidates.filter(c => c.src.type !== 'news' || THREAT_WORDS.test(c.e.title)).filter(c => htmlToText(c.e.html).length < 6000);
+  const needDeep = candidates.filter(c => !/news\.google\.com/.test(c.e.link)).filter(c => c.src.type !== 'news' || THREAT_WORDS.test(c.e.title)).filter(c => htmlToText(c.e.html).length < 6000);
   const deepSet = new Set(needDeep.slice(0, deepBudget).map(c => c.id));
   log(`Candidates: ${candidates.length}; fetching ${deepSet.size} full articles...`);
   await pool(candidates.filter(c => deepSet.has(c.id)), CONCURRENCY, async c => {
@@ -252,17 +286,19 @@ async function main() {
     const host = (() => { try { return new URL(c.e.link).hostname; } catch { return ''; } })();
     const { iocs, total, hasDefang } = extractIocs(c.fullText ? c.fullText : text, host);
     const grp = attribute(c.e.title, text);
+    if (c.src.type === 'regional' && !CYBER.test(c.e.title + ' ' + feedText.slice(0, 600))) continue;
+    const countries = detectCountries(c.e.title, text, c.src.country);
     const tags = TAGS.filter(([, re]) => re.test(c.e.title + ' ' + text.slice(0, 20000))).map(([n]) => n);
     const rep = {
       id: c.id, title: c.e.title.slice(0, 220), url: c.e.link, source: c.src.name, sourceId: c.src.id, sourceType: c.src.type,
-      published: c.published, collected: today, summary: (feedText || text).replace(/\s+/g, ' ').slice(0, 360),
-      groups: grp.map(g => ({ name: g.name, country: g.country, sponsor: g.sponsor })), tags,
+      published: c.published, collected: today, summary: (feedText || text).replace(/\s+/g, ' ').slice(0, 300),
+      groups: grp.map(g => ({ name: g.name, country: g.country, sponsor: g.sponsor })), tags, countries,
       cves: cves(text), techniques: techniques(text), iocCounts: Object.fromEntries(Object.entries(iocs).filter(([, v]) => v.length).map(([k, v]) => [k, v.length])),
       iocTotal: total, deep: !!c.fullText, defanged: hasDefang,
     };
     rep.score = score(rep);
     // non-research news that has no threat relevance at all is dropped to keep the feed clean
-    if (c.src.type === 'news' && !grp.length && !total && !rep.cves.length && !THREAT_WORDS.test(c.e.title)) continue;
+    if ((c.src.type === 'news') && !grp.length && !total && !rep.cves.length && !THREAT_WORDS.test(c.e.title)) continue;
     existing.set(rep.id, rep); added++;
     if (total) {
       const mf = path.join(IOCS, 'by-month', c.published.slice(0, 7) + '.json');
@@ -276,7 +312,7 @@ async function main() {
 
   // retention
   const keepFrom = Date.now() - RETAIN_DAYS * 864e5;
-  const reports = [...existing.values()].filter(r => new Date(r.published).getTime() >= keepFrom).sort((a, b) => (a.published < b.published ? 1 : -1)).slice(0, 3000);
+  const reports = [...existing.values()].filter(r => new Date(r.published).getTime() >= keepFrom).sort((a, b) => (a.published < b.published ? 1 : -1)).slice(0, 6000);
   const byId = new Map(reports.map(r => [r.id, r]));
 
   // aggregate IoCs from the archive folder (source of truth)
@@ -348,16 +384,19 @@ async function main() {
   const tagCount = {}; for (const r of reports) for (const t of r.tags) tagCount[t] = (tagCount[t] || 0) + 1;
   const techCount = {}; for (const r of reports) for (const t of r.techniques) techCount[t.split('.')[0]] = (techCount[t.split('.')[0]] || 0) + 1;
   const countryCount = {}; for (const g of groupList) countryCount[g.country] = (countryCount[g.country] || 0) + g.reportCount;
+  const mentionCount = {}; const since90 = Date.now() - 90 * 864e5;
+  for (const r of reports) if (new Date(r.published).getTime() > since90) for (const c of r.countries || []) mentionCount[c] = (mentionCount[c] || 0) + 1;
   const week = Date.now() - 7 * 864e5;
   const meta = {
     updated: new Date().toISOString(), runSeconds: Math.round((Date.now() - t0) / 1000),
     totals: { reports: reports.length, groups: groupList.length, iocs: allIocs.length, cves: Object.keys(cveCount).length, sources: sources.length, sourcesOk: health.filter(h => h.ok).length,
       reports7d: reports.filter(r => new Date(r.published).getTime() > week).length, newThisRun: added, iocsThisRun: newDaily.length },
-    iocTypes: typeTotals, daily, tags: tagCount, techniques: Object.entries(techCount).sort((a, b) => b[1] - a[1]).slice(0, 25), countries: countryCount, topCves, sources: health,
+    iocTypes: typeTotals, daily, tags: tagCount, techniques: Object.entries(techCount).sort((a, b) => b[1] - a[1]).slice(0, 25), countries: countryCount, mentions: mentionCount, topCves, sources: health,
   };
   writeJson(path.join(DATA, 'meta.json'), meta);
   writeJson(path.join(DATA, 'groups.json'), groupList);
-  writeJson(path.join(DATA, 'reports.json'), { updated: meta.updated, reports });
+  writeJson(path.join(DATA, 'countries.json'), countryList.map(({ code, name, aliases }) => ({ code, name, aliases: aliases.map(a => a.replace(/^=/, '').replace(/~$/, '')) })));
+  writeJson(path.join(DATA, 'reports.json'), { updated: meta.updated, schema: SCHEMA, reports });
   log(`Done in ${meta.runSeconds}s: ${reports.length} reports, ${groupList.length} groups, ${allIocs.length} unique IoCs.`);
 }
-main().catch(e => { console.error('Collector failed:', e); process.exit(0); /* never break the Netlify build */ });
+main().catch(e => { console.error('Collector failed:', e); process.exit(0); /* never fail the workflow/build */ });

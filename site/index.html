@@ -48,6 +48,10 @@
       <div class="card"><h3>Trending themes</h3><div id="chartTags" class="cloud"></div></div>
     </div>
     <div class="grid2">
+      <div class="card"><h3>Countries in the reports <small>last 90 days · click to open</small></h3><div id="chartMention"></div></div>
+      <div class="card"><h3>Regional focus <small>Caucasus · Eurasia · Middle East · West</small></h3><div id="region" class="region"></div></div>
+    </div>
+    <div class="grid2">
       <div class="card"><h3>Highest-signal reports <small>threat score</small></h3><div id="topReports"></div></div>
       <div class="card"><h3>Most-cited CVEs</h3><div id="topCves"></div></div>
     </div>
@@ -59,10 +63,12 @@
       <select id="rsrc"><option value="">All sources</option></select>
       <select id="rtype"><option value="">All types</option><option value="research">Vendor research</option><option value="gov">Government</option><option value="news">News</option></select>
       <select id="rtag"><option value="">All themes</option></select>
+      <select id="rcountry"><option value="">All countries</option></select>
       <select id="rrange"><option value="7">7 days</option><option value="30" selected>30 days</option><option value="90">90 days</option><option value="9999">All</option></select>
       <label class="chk"><input type="checkbox" id="rapt"> APT-attributed</label>
       <label class="chk"><input type="checkbox" id="rioc"> Has IoCs</label>
     </div>
+    <div class="hint">Search by country or region in English or Russian: <i>Armenia, Georgia, Azerbaijan, Turkey, Kazakhstan, россия, армения, грузия…</i> — reports that mention the country are found even when the word is not in the title.</div>
     <div class="count" id="rcount"></div>
     <div id="rlist"></div>
     <button id="rmore" class="more">Load more</button>

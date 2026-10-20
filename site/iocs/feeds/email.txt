@@ -1,7 +1,16 @@
-# ThreatLens IoC feed - generated 2026-10-20T05:46:16.235Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-20T15:02:18.653Z - source: public vendor reports. Verify before blocking.
+billing-update@account-notif.com
 zed@zediel.com
 rc4@sec.com
 first-team@cyber.go.jp
 unynqaplrs@finger.linkeders.net
 support@lantronix.com
 bounce@chamber-ua.org
+zmul1@buildandconsulting.com
+info@valisluureamet.ee
+info@ncsc.govt.nz
+hostingclient@pinmx.net
+garrysmithme@pinmx.net
+cybersec@sis.md
+ctiteam@aw.gov.pl
+cert-fr@ssi.gouv.fr
