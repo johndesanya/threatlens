@@ -20,6 +20,7 @@
 { "id": "bitdefender", "name": "Bitdefender Labs", "type": "research", "url": "https://www.bitdefender.com/blog/api/rss/labs/" },
 { "id": "zscaler", "name": "Zscaler ThreatLabz", "type": "research", "url": "https://www.zscaler.com/blogs/feeds/security-research" },
 { "id": "citizenlab", "name": "Citizen Lab", "type": "research", "url": "https://citizenlab.ca/feed/" },
+{ "id": "citizenlab-research", "name": "Citizen Lab Research", "type": "research", "url": "https://citizenlab.ca/feed/?post_type=research" },
 { "id": "cisa", "name": "CISA Advisories", "type": "gov", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml", "country": "US" },
 { "id": "ncsc", "name": "UK NCSC", "type": "gov", "url": "https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml", "country": "GB" },
 { "id": "sans", "name": "SANS ISC", "type": "research", "url": "https://isc.sans.edu/rssfeed.xml" },

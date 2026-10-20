@@ -1,0 +1,4 @@
+# Reports you don't want to miss: one URL per line. The collector fetches each page on every run,
+# analyses it (countries, IoCs, actors, ATT&CK) and adds it to the site. Lines starting with # are ignored.
+https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/
+https://citizenlab.ca/research/exposing-adfection-executive-summary/

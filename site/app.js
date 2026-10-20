@@ -138,6 +138,9 @@ function renderReports(reset) {
     const qCodes = countryCodesFor(q);   // "armenia" / "армения" / "arm" -> reports tagged with that country
     rFiltered = REPORTS.filter(r => new Date(r.published) >= cut && (!$('#rsrc').value || r.source === $('#rsrc').value) && (!$('#rtype').value || r.sourceType === $('#rtype').value) && (!$('#rtag').value || r.tags.includes($('#rtag').value)) && (!cc || r.countries.includes(cc)) && (!$('#rapt').checked || r.groups.length) && (!$('#rioc').checked || r.iocTotal) &&
       (!q || nrm(r.title + ' ' + r.summary + ' ' + r.source + ' ' + r.groups.map(g => g.name).join(' ') + ' ' + r.cves.join(' ') + ' ' + r.countries.map(cname).join(' ')).includes(q) || r.countries.some(c => qCodes.has(c))));
+    // when searching by country, reports where that country is the main subject come first
+    const want = cc ? new Set([cc]) : qCodes;
+    if (want.size) { const rank = r => { let m = 50; r.countries.forEach((c, i) => { if (want.has(c) && i < m) m = i; }); return m; }; rFiltered.sort((a, b) => rank(a) - rank(b) || (a.published < b.published ? 1 : -1)); }
     rShown = 0; $('#rlist').innerHTML = ''; $('#rcount').textContent = `${fmt(rFiltered.length)} reports`;
   }
   $('#rlist').insertAdjacentHTML('beforeend', rFiltered.slice(rShown, rShown + 25).map(repHtml).join('')); rShown += 25;

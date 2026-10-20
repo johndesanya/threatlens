@@ -1,5 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-20T15:02:18.653Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-20T15:54:24.091Z - source: public vendor reports. Verify before blocking.
 billing-update@account-notif.com
+kfir@volasim.com
+info@rockhoster.com
 zed@zediel.com
 rc4@sec.com
 first-team@cyber.go.jp

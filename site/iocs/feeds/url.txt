@@ -1,10 +1,11 @@
-# ThreatLens IoC feed - generated 2026-10-20T15:02:18.653Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-20T15:54:24.091Z - source: public vendor reports. Verify before blocking.
 https://www2.aomeisoftware.com/download/abpopup/down_html.ini
 https://account.aomeitech.com/Notifycfg.ini
 https://TARGET/archibus/schema/per-site/exportReports/DataViewReport
 https://v5v.in/r.sh?k=
 http://209.141.43.95/files/kw2-freebsd-x64-s11
 https://cloud.shinewrist.net/foo/Files1.html
+https://oauth2
 https://fqdn
 https://trubomet.ru/product/bobyshka-tipa-bp1-20h1-5-55/?ysclid=muov5q95xh802265990
 https://flareru.live/ru.msi
@@ -16,6 +17,13 @@ https://promotion.storage-data.com/download/abpopup/upgrade-now.zip
 https://promotion.storage-data.com/config/whitelist.ini
 https://promotion.storage-data.com/config/en.zip
 https://promotion.storage-data.com/config/component.zip
+https://sincereaccertain.com/?qq=
+https://myipinfo.io
+https://king.com
+https://api-docs.freewheel.tv/advertiser/v2.0/discuss/60a53c1531fb4d001c01435e
+https://aliexpress.com
+https://advertising.market.com/dsp-privacy-policy/”
+http://discover-tech.io/dsp-privacy-policy/”
 https://api.cloudsettle.org/pin-data”
 https://api.cloudsettle.org
 https://www.hashicorp.com/en/blog/managing-ssh-access-at-scale-with-hashicorp-vault

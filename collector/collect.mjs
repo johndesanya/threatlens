@@ -226,9 +226,9 @@ function detectCountries(title, text, srcCountry) {
     const f = t => count(c.ci, t) + (bad ? 0 : count(c.cs, t));
     let sc = f(title) * 5 + f(intro) * 2 + f(text.slice(1500));
     if (srcCountry === c.code) sc += 3;
-    if (sc >= 3) res.push([c.code, sc]);
+    if (sc >= 1) res.push([c.code, sc]);
   }
-  return res.sort((a, b) => b[1] - a[1]).slice(0, 6).map(x => x[0]);
+  return res.sort((a, b) => b[1] - a[1]).slice(0, 10).map(x => x[0]);
 }
 const CYBER = /(cyber|hack|malware|ransom|phish|spyware|data (?:leak|breach)|breach|ddos|\bapt\b|\bioc|vulnerab|surveillance|pegasus|exploit|botnet|infostealer|backdoor|espionage|кибер|хакер|вредонос|утечк|фишинг|уязвимост|вымогат|siber|saldırı)/i;
 
@@ -280,34 +280,76 @@ async function main() {
   });
 
   const newDaily = []; let added = 0;
-  for (const c of candidates) {
-    const feedText = htmlToText(c.e.html);
-    const text = c.fullText || feedText;
-    const host = (() => { try { return new URL(c.e.link).hostname; } catch { return ''; } })();
-    const { iocs, total, hasDefang } = extractIocs(c.fullText ? c.fullText : text, host);
-    const grp = attribute(c.e.title, text);
-    if (c.src.type === 'regional' && !CYBER.test(c.e.title + ' ' + feedText.slice(0, 600))) continue;
-    const countries = detectCountries(c.e.title, text, c.src.country);
-    const tags = TAGS.filter(([, re]) => re.test(c.e.title + ' ' + text.slice(0, 20000))).map(([n]) => n);
+  const hostOf = u => { try { return new URL(u).hostname; } catch { return ''; } };
+  const idOf = u => sha1(u.replace(/[?#].*$/, '').replace(/\/$/, '')).slice(0, 12);
+
+  // Turn a page of text into a report object + its IoCs (used for new feed items, manual links and upgrades)
+  function analyze({ id, src, title, url, published, feedText, fullText, collected }) {
+    const text = fullText || feedText;
+    const { iocs, total, hasDefang } = extractIocs(text, hostOf(url));
+    const grp = attribute(title, text);
+    const countries = detectCountries(title, text, src.country);
+    const tags = TAGS.filter(([, re]) => re.test(title + ' ' + text.slice(0, 20000))).map(([n]) => n);
     const rep = {
-      id: c.id, title: c.e.title.slice(0, 220), url: c.e.link, source: c.src.name, sourceId: c.src.id, sourceType: c.src.type,
-      published: c.published, collected: today, summary: (feedText || text).replace(/\s+/g, ' ').slice(0, 300),
+      id, title: title.slice(0, 220), url, source: src.name, sourceId: src.id, sourceType: src.type,
+      published, collected: collected || today, summary: (feedText || text).replace(/\s+/g, ' ').slice(0, 300),
       groups: grp.map(g => ({ name: g.name, country: g.country, sponsor: g.sponsor })), tags, countries,
       cves: cves(text), techniques: techniques(text), iocCounts: Object.fromEntries(Object.entries(iocs).filter(([, v]) => v.length).map(([k, v]) => [k, v.length])),
-      iocTotal: total, deep: !!c.fullText, defanged: hasDefang,
+      iocTotal: total, deep: !!fullText, defanged: hasDefang,
     };
     rep.score = score(rep);
-    // non-research news that has no threat relevance at all is dropped to keep the feed clean
-    if ((c.src.type === 'news') && !grp.length && !total && !rep.cves.length && !THREAT_WORDS.test(c.e.title)) continue;
-    existing.set(rep.id, rep); added++;
-    if (total) {
-      const mf = path.join(IOCS, 'by-month', c.published.slice(0, 7) + '.json');
-      const month = readJson(mf, { entries: [] }).entries.filter(e => e.report.id !== rep.id);
-      month.push({ report: { id: rep.id, title: rep.title, url: rep.url, source: rep.source, published: rep.published, groups: rep.groups.map(g => g.name), cves: rep.cves, techniques: rep.techniques }, iocs });
-      writeJson(mf, { entries: month });
-      for (const [type, arr] of Object.entries(iocs)) for (const v of arr) newDaily.push({ type, value: v, report: rep.id, groups: rep.groups.map(g => g.name), published: rep.published });
-    }
+    return { rep, iocs, total, grp };
   }
+  function saveIocs(rep, iocs, total) {
+    if (!total) return;
+    const mf = path.join(IOCS, 'by-month', rep.published.slice(0, 7) + '.json');
+    const month = readJson(mf, { entries: [] }).entries.filter(e => e.report.id !== rep.id);
+    month.push({ report: { id: rep.id, title: rep.title, url: rep.url, source: rep.source, published: rep.published, groups: rep.groups.map(g => g.name), cves: rep.cves, techniques: rep.techniques }, iocs });
+    writeJson(mf, { entries: month });
+    for (const [type, arr] of Object.entries(iocs)) for (const v of arr) newDaily.push({ type, value: v, report: rep.id, groups: rep.groups.map(g => g.name), published: rep.published });
+  }
+
+  for (const c of candidates) {
+    const feedText = htmlToText(c.e.html);
+    if (c.src.type === 'regional' && !CYBER.test(c.e.title + ' ' + feedText.slice(0, 600))) continue;
+    const { rep, iocs, total, grp } = analyze({ id: c.id, src: c.src, title: c.e.title, url: c.e.link, published: c.published, feedText, fullText: c.fullText });
+    // non-research news that has no threat relevance at all is dropped to keep the feed clean
+    if (c.src.type === 'news' && !grp.length && !total && !rep.cves.length && !THREAT_WORDS.test(c.e.title)) continue;
+    existing.set(rep.id, rep); added++;
+    saveIocs(rep, iocs, total);
+  }
+
+  // Manual links: put any report URL you don't want to miss into collector/extra-urls.txt (one per line)
+  const metaOf = (h, names) => { for (const n of names) { const m = h.match(new RegExp('<meta[^>]+(?:property|name)=["\']' + n + '["\'][^>]*content=["\']([^"\']+)', 'i')) || h.match(new RegExp('<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name)=["\']' + n + '["\']', 'i')); if (m) return decode(m[1]); } return ''; };
+  const pins = fs.existsSync(path.join(ROOT, 'collector', 'extra-urls.txt')) ? fs.readFileSync(path.join(ROOT, 'collector', 'extra-urls.txt'), 'utf8').split(/\r?\n/).map(x => x.trim()).filter(x => /^https?:\/\//.test(x)) : [];
+  let pinned = 0;
+  await pool(pins.filter(u => !existing.get(idOf(u))?.deep), 4, async u => {
+    try {
+      const h = await get(u, 25000); const txt = articleBody(h);
+      const title = decode(metaOf(h, ['og:title', 'twitter:title']) || (h.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || u).replace(/\s+/g, ' ').trim();
+      const pub = toDate(metaOf(h, ['article:published_time', 'datePublished', 'og:updated_time']) || (h.match(/"datePublished"\s*:\s*"([^"]+)"/) || [])[1] || (h.match(/<time[^>]+datetime=["']([^"']+)/i) || [])[1]) || new Date();
+      const src = { id: 'manual', name: 'Pinned: ' + hostOf(u).replace(/^www\./, ''), type: 'research' };
+      const { rep, iocs, total } = analyze({ id: idOf(u), src, title, url: u, published: pub.toISOString(), feedText: txt.slice(0, 600), fullText: txt });
+      existing.set(rep.id, rep); saveIocs(rep, iocs, total); pinned++;
+      log(`  pinned: ${title.slice(0, 80)} [${rep.countries.join(',')}]`);
+    } catch (e) { log('  pin failed:', u, e.message); }
+  });
+
+  // Upgrade pass: reports that were stored from the feed teaser only get their full article re-fetched
+  // (a few per run), so country / IoC / ATT&CK extraction improves over time.
+  const MAX_UPGRADE = +process.env.MAX_UPGRADE || 60; let upgraded = 0;
+  const todo = [...existing.values()].filter(r => !r.deep && (r.tries || 0) < 3 && ['research', 'gov'].includes(r.sourceType) && !/news\.google\.com/.test(r.url))
+    .sort((x, y) => (x.published < y.published ? 1 : -1)).slice(0, MAX_UPGRADE);
+  await pool(todo, CONCURRENCY, async r => {
+    try {
+      const txt = articleBody(await get(r.url, 20000));
+      if (txt.length < (r.summary || '').length * 1.5) throw new Error('short');
+      const src = srcById.get(r.sourceId) || { id: r.sourceId, name: r.source, type: r.sourceType };
+      const { rep, iocs, total } = analyze({ id: r.id, src, title: r.title, url: r.url, published: r.published, feedText: r.summary, fullText: txt, collected: r.collected });
+      existing.set(r.id, rep); saveIocs(rep, iocs, total); upgraded++;
+    } catch { r.tries = (r.tries || 0) + 1; }
+  });
+  if (pinned || upgraded) log(`Pinned ${pinned}, upgraded ${upgraded} teaser-only reports to full text.`);
   log(`Added ${added} reports, ${newDaily.length} IoC records.`);
 
   // retention
