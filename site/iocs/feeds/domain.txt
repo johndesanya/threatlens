@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-20T15:54:24.091Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-20T15:59:29.053Z - source: public vendor reports. Verify before blocking.
 wizardexpensive.com
 justin.sh
 hexane.cc
@@ -157,6 +157,7 @@ www.ibm.com
 www.hashicorp.com
 www.akamai.com
 developer.hashicorp.com
+greatfire.org
 supportportal.juniper.net
 open.bigmodel.cn
 api.deepseek.com

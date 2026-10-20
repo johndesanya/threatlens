@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-20T15:54:24.091Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-20T15:59:29.053Z - source: public vendor reports. Verify before blocking.
 https://www2.aomeisoftware.com/download/abpopup/down_html.ini
 https://account.aomeitech.com/Notifycfg.ini
 https://TARGET/archibus/schema/per-site/exportReports/DataViewReport
