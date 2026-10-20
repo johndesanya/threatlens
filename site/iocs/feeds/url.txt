@@ -1,15 +1,15 @@
-# ThreatLens IoC feed - generated 2026-10-19T17:44:40.930Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-20T05:46:16.235Z - source: public vendor reports. Verify before blocking.
+https://www2.aomeisoftware.com/download/abpopup/down_html.ini
+https://account.aomeitech.com/Notifycfg.ini
 http://209.141.43.95/files/kw2-freebsd-x64-s11
 https://cloud.shinewrist.net/foo/Files1.html
 https://eseecloud.app/
 https://www2.aomeisoftware.com/download/abpopup/upgrade-now.zip
-https://www2.aomeisoftware.com/download/abpopup/down_html.ini
 https://www2.aomeisoftware.com/download/abpopup/
 https://promotion.storage-data.com/download/abpopup/upgrade-now.zip
 https://promotion.storage-data.com/config/whitelist.ini
 https://promotion.storage-data.com/config/en.zip
 https://promotion.storage-data.com/config/component.zip
-https://account.aomeitech.com/Notifycfg.ini
 https://www.hashicorp.com/en/blog/managing-ssh-access-at-scale-with-hashicorp-vault
 https://www.akamai.com/blog/security-research/new-p2p-botnet-panchan
 https://www.akamai.com/blog/security-research/cryptominer-anatomy-internals
