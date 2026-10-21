@@ -1,8 +1,11 @@
-# ThreatLens IoC feed - generated 2026-10-21T13:13:23.982Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-21T16:01:29.290Z - source: public vendor reports. Verify before blocking.
+cipher-proxy.sh
+rpms.remirepo.net
+php.net
+calif.io
+booking.com
 youtubechannelverification.com
 amazonyt.com
-booking.com
-php.net
 orders.staples.com
 order.dell.com
 install.sh
@@ -22,6 +25,9 @@ cubedesign.co.kr
 cynex.nict.go.jp
 teamupdraft.com
 www.php.net
+container.id
+process.parent.name
+host.name
 wizardexpensive.com
 www.wago.com
 www.hitachienergy.com
@@ -666,7 +672,15 @@ arcticwolf.com
 webhook.site
 thepaypers.com
 bank.in
-devices.in
+www.qmsjmfb.com
+damaix9k.com
+muddy-sound-e0cd.nodetectonn.workers.dev
+blessedongrace.duckdns.org
+whyavc-qwmv6stx.vercel.app
+soyyoo-cwpc5n0e.vercel.app
+rpc-gbz5.vercel.app
+router-wdoi.vercel.app
+node-f1ey.vercel.app
 winmanage-me.network
 microsoft-entra.net
 enroll.azuredevice.cloud
@@ -952,8 +966,6 @@ broker.hivemq.com
 orchestrator.resource.name
 kubernetes.audit.user.extra.authentication.kubernetes.io
 container.name
-container.id
-host.name
 update.team-c2.com
 update.opentls2.com
 update.aliyun.la
@@ -1262,7 +1274,6 @@ istc-cloud.com
 emailanalytics.com.ua
 analyticemailmeter.com
 wp2shell.com
-process.parent.name
 standards.ieee.org
 motd.ubuntu.com
 get.gravitational.com

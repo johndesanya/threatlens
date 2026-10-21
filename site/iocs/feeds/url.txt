@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-21T13:13:23.982Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-21T16:01:29.290Z - source: public vendor reports. Verify before blocking.
 https://www.ksog.org/insert_file/handle.php
 https://rcsh.co.kr/modules/bbs/tiles/bbs_div/inputForm.php
 https://pythonapischool.com/api/detach
@@ -223,6 +223,7 @@ https://socket.dev/blog/antv-packages-compromised
 https://socket.dev/blog/2023-npm-retrospective
 https://blog.gitguardian.com/three-supply-chain-campaigns-hit-npm-pypi-and-docker-hub-in-48-hours/
 https://arcticwolf.com/resources/blog/wormable-malware-causing-supply-chain-compromise-of-npm-code-packages/
+http://www.Qmsjmfb.Com
 https://www.wyden.senate.gov/imo/media/doc/wyden-schmitt_dod_letter.pdf
 https://www.uscc.gov/sites/default/files/annual_reports/2010-Report-to-Congress.pdf
 https://docs.fcc.gov/public/attachments/FCC-24-62A1.pdf
