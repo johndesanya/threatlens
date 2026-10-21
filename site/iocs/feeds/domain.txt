@@ -1,4 +1,9 @@
-# ThreatLens IoC feed - generated 2026-10-21T07:13:48.772Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-21T09:58:51.867Z - source: public vendor reports. Verify before blocking.
+install.sh
+cloud.ru
+workers.dev
+skill.md
+legal-records.us
 www.ksog.org
 rcsh.co.kr
 pythonapischool.com
@@ -18,7 +23,6 @@ hexane.cc
 gov.uk
 shutterstock.com
 iphones.ru
-install.sh
 nginx.org
 gofile.io
 file.io
@@ -229,7 +233,6 @@ arm24news.ru
 24.arm24news.ru
 1in.tejlurer.online
 1in.arm24news.ru
-workers.dev
 trycloudflare.com
 vrf.apexaccs.org
 verify.apexfdn.xyz
@@ -297,7 +300,6 @@ aa86a52a98162b7d.com
 5.ahd187.com
 442fe7151fb1e9b5.com
 0aa0cf0637d66c0d.com
-skill.md
 zerogravity1986.softether.net
 ximmd.sexytube0.com
 www.npa.go.jp
@@ -572,9 +574,8 @@ driftshare.co
 cloudsyncpulse.com
 cirrushare.co
 1drv.ms
-format.network
+hessattorneys.co.za
 aware-cr1.com
-2cloader.in
 wsweb03.blob.core.windows.net
 wslogzimbra.linkpc.net
 transzimbra.linkpc.net
