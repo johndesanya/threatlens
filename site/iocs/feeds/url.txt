@@ -1,4 +1,15 @@
-# ThreatLens IoC feed - generated 2026-10-21T01:09:16.727Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-21T03:59:26.804Z - source: public vendor reports. Verify before blocking.
+https://www.ksog.org/insert_file/handle.php
+https://rcsh.co.kr/modules/bbs/tiles/bbs_div/inputForm.php
+https://pythonapischool.com/api/detach
+https://k-wbc.co.kr/skin/social/social_view.php
+https://javadevhouse.co.kr/ajax/libs/jquery/1.7.3/jquery.min.js
+https://fp-news.co.kr/shop/cart
+https://cubedesign.co.kr/news/economy/article/12345678
+https://cubedesign.co.kr/news/AABBCC
+https://cubedesign.co.kr/news
+https://cubedesign.co.kr/mobile/fashion
+https://cynex.nict.go.jp/library/261013-01.html
 https://www.wago.com/de/d/15739#versions
 https://www2.aomeisoftware.com/download/abpopup/down_html.ini
 https://account.aomeitech.com/Notifycfg.ini
