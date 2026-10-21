@@ -1,4 +1,14 @@
-# ThreatLens IoC feed - generated 2026-10-21T19:06:55.436Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-21T21:58:00.551Z - source: public vendor reports. Verify before blocking.
+techora.ru
+srsnodgrass.com
+sync-memory.sh
+sync-cc-users.sh
+sync-all.sh
+surface.md
+scope.md
+collector.md
+analyzer.md
+xcai.pro
 www.litellm.dev
 cipher-proxy.sh
 rpms.remirepo.net
@@ -265,7 +275,6 @@ arena.apexaccs.org
 apexaccs.org
 0auth-chromium.com
 hunt.io
-xcai.pro
 www.criminalip.io
 ta.com
 nstagarm.com
@@ -769,6 +778,7 @@ alb-k9ugfht8xgewgi1lrb.us-east-1.alb.aliyuncsslbintl.com
 alb-htjwboeswuvyfbey5r.us-east-1.alb.aliyuncsslbintl.com
 alb-a53d7s5jp0wd9h0iam.us-east-1.alb.aliyuncsslbintl.com
 aff.odyss.club
+download.keyshot.com
 viewdocument.live
 storageonline.me
 sharedfuturetech.com
@@ -780,7 +790,10 @@ advancedfuturetechnology.com
 abuse.ch
 datacamp.co.uk
 cdn77.com
+trzepak.pl
 cdn.discordapp.com
+nic.lv
+cyberchess.lv
 thecovnresation.net
 thecovnresation.com
 theconversation.com
@@ -799,6 +812,9 @@ americanprgoress.top
 throughoutes.net
 please-contact-secret-scanning-github.com
 on-our-processes--please-contact-secret-scanning-github.com
+instance-udppxf-relay.screenconnect.com
+icci-sa.com
+allsecured.net
 www.tinklify.com
 www.mactroubleshoots.pro
 www.heyhay.online

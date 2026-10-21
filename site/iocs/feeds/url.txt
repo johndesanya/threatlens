@@ -1,4 +1,5 @@
-# ThreatLens IoC feed - generated 2026-10-21T19:06:55.436Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-21T21:58:00.551Z - source: public vendor reports. Verify before blocking.
+https://xcai.pro/v1
 http://www.litellm.dev/healthcheck
 https://www.ksog.org/insert_file/handle.php
 https://rcsh.co.kr/modules/bbs/tiles/bbs_div/inputForm.php
@@ -276,7 +277,12 @@ http://47.84.77.127/A2W80jUc
 http://47.84.194.202/asnvoycs
 https://onlineview365.com/propi.msi
 https://vpn
+https://cyberchess.lv/
 https://americanprgoress.top/chrome_cleanup.exe
+https://icci-sa.com/xgov/social_secur1tiy_administr3tion.php?download=exe
+https://icci-sa.com/xgov/social_secur1tiy_administr3tion.php
+https://icci-sa.com/xgov/
+https://icci-sa.com/xgov
 https://deadhub.org
 http://193.23.118.155
 https://ipinfo.io/jsoncurl

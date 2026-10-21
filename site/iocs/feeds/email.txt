@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-21T19:06:55.436Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-21T21:58:00.551Z - source: public vendor reports. Verify before blocking.
 support@orders.staples.com
 info@jpcert.or.jp
 billing-update@account-notif.com
@@ -14,6 +14,8 @@ unynqaplrs@finger.linkeders.net
 mark@hessattorneys.co.za
 funhouse8764@tutamail.com
 support@lantronix.com
+information@allsecured.net
+20260913140542.71b0635a54b0e91f@allsecured.net
 bounce@chamber-ua.org
 zmul1@buildandconsulting.com
 info@valisluureamet.ee
