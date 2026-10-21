@@ -1,4 +1,10 @@
-# ThreatLens IoC feed - generated 2026-10-21T09:58:51.867Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-21T13:13:23.982Z - source: public vendor reports. Verify before blocking.
+youtubechannelverification.com
+amazonyt.com
+booking.com
+php.net
+orders.staples.com
+order.dell.com
 install.sh
 cloud.ru
 workers.dev
@@ -15,6 +21,7 @@ fp-news.co.kr
 cubedesign.co.kr
 cynex.nict.go.jp
 teamupdraft.com
+www.php.net
 wizardexpensive.com
 www.wago.com
 www.hitachienergy.com
@@ -168,7 +175,6 @@ ads-monitor.xyz
 ads-impressions.com
 adnxs.com
 admin.mtrtb.com
-booking.com
 api.cloudsettle.org
 www.ibm.com
 www.hashicorp.com
@@ -644,6 +650,7 @@ byveo.org
 bpdaersa.click
 docs.netscaler.com
 3322.org
+space.ru
 www.lantronix.com
 www.baicells.com
 www.anjvision.com

@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-21T09:58:51.867Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-21T13:13:23.982Z - source: public vendor reports. Verify before blocking.
 https://www.ksog.org/insert_file/handle.php
 https://rcsh.co.kr/modules/bbs/tiles/bbs_div/inputForm.php
 https://pythonapischool.com/api/detach
