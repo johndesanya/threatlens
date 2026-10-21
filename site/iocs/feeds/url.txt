@@ -1,4 +1,5 @@
-# ThreatLens IoC feed - generated 2026-10-21T16:01:29.290Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-21T19:06:55.436Z - source: public vendor reports. Verify before blocking.
+http://www.litellm.dev/healthcheck
 https://www.ksog.org/insert_file/handle.php
 https://rcsh.co.kr/modules/bbs/tiles/bbs_div/inputForm.php
 https://pythonapischool.com/api/detach
@@ -256,6 +257,23 @@ https://docsend.appstore.com.mx/dcc737d157ef4271/stage2.enc
 https://docsend.appstore.com.mx/dcc737d157ef4271/Helper.pkg.enc
 https://docsend.appstore.com.mx/dcc737d157ef4271/CoreUpdate.pkg.enc
 https://docsend.appstore.com.mx
+https://x.euono.com/r.html?c=FR
+https://x.euono.com/fokr/main.v2.js
+https://tuonew.oss-me-east-1.aliyuncs.com/aqmu2155
+https://nmx4e6qj.com/bV1p5aXg?campaign=10375&sub_aff=5063176325&sub_aff3=EZ
+https://epayment.teleaudio.pl/api2/typeundef_
+https://epayment.teleaudio.pl/api2/ta/direct/status/
+https://epayment.teleaudio.pl/api2/ta/direct/confirm
+https://epayment.teleaudio.pl/api2/cellular_
+https://epayment.teleaudio.pl/api2/
+https://boitim.oss-eu-west-2.aliyuncs.com/taoxe
+https://auezon.com/QgybEYAV?aff_sub2=10447&aff_sub3=3501-245651-0
+https://api.tehsnb.link/sabd/mckd
+http://epayment.teleaudio.pl/api2/cellular_
+http://47.84.77.127/a3b1c2de
+http://47.84.77.127/E8m72HOs
+http://47.84.77.127/A2W80jUc
+http://47.84.194.202/asnvoycs
 https://onlineview365.com/propi.msi
 https://vpn
 https://americanprgoress.top/chrome_cleanup.exe
