@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-21T03:59:26.804Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-21T07:13:48.772Z - source: public vendor reports. Verify before blocking.
 info@jpcert.or.jp
 billing-update@account-notif.com
 kfir@volasim.com

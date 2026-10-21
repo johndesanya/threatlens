@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-21T03:59:26.804Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-21T07:13:48.772Z - source: public vendor reports. Verify before blocking.
 www.ksog.org
 rcsh.co.kr
 pythonapischool.com
@@ -468,6 +468,7 @@ cloud.g-drive.cam
 asdfafadafg.online
 linkeders.net
 wget.sh
+natureforce.com
 transaction.id
 wasabisys.com
 spam.suwaccqi.com
