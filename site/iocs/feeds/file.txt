@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-22T22:16:21.384Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-22T23:03:48.352Z - source: public vendor reports. Verify before blocking.
 sample.exe
 cca616647db9370c88998ae25da6997f.exe
 485055033bcddfde56325c0d2feea4f2.exe
@@ -134,7 +134,25 @@ tmp00055df5.dll
 f_006048.exe
 d4aa3e7010220ad1b458fac17039c274_63_Exe.exe
 chrome.exe
+comsvcs.dll
 Firefox.exe
+sckit.exe
+CagService.Exe
+AdrAcroPro11.2_3D_client.Exe
+ms.Exe
+slc.dll
+sdiagnhost.exe
+sdiageng.dll
+result.ps1
+meeting.T11065885611.doc.exe
+TestAssembly.dll
+GatherOsState.exe
+default.exe
+build_tbuild.exe
+version.Dll
+sys.Dll
+pythonw.Exe
+curl.Exe
 hmn_hook.dll
 auto.exe
 78324.exe
