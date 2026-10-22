@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-22T10:00:34.643Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-22T13:13:26.311Z - source: public vendor reports. Verify before blocking.
 https://xcai.pro/v1
 http://www.litellm.dev/healthcheck
 https://www.ksog.org/insert_file/handle.php
@@ -357,6 +357,7 @@ https://www.channelinsider.com/#website
 https://www.channelinsider.com/#organization
 https://www.channelinsider.com/#/schema/logo/image/
 https://www.channelinsider.com/
+http://167.148.195.53:8888/socktz_v9.exe
 https://www.mrtb.gov.ng/apps/attvpn.vip
 https://tisup.camaratunapolis.sc.gov.br/SoftEther.exe
 https://suporte.camaratunapolis.sc.gov.br/ti/attvpn.zip

@@ -1,8 +1,10 @@
-# ThreatLens IoC feed - generated 2026-10-22T10:00:34.643Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-22T13:13:26.311Z - source: public vendor reports. Verify before blocking.
+techora.ru
+newsru.co.il
+shutterstock.com
 www.sglacpas.com
 www.archivetj.com
 pan.am
-techora.ru
 srsnodgrass.com
 sync-memory.sh
 sync-cc-users.sh
@@ -13,6 +15,7 @@ collector.md
 analyzer.md
 xcai.pro
 www.litellm.dev
+www.php.net
 cipher-proxy.sh
 rpms.remirepo.net
 php.net
@@ -38,7 +41,6 @@ fp-news.co.kr
 cubedesign.co.kr
 cynex.nict.go.jp
 teamupdraft.com
-www.php.net
 container.id
 process.parent.name
 host.name
@@ -48,7 +50,6 @@ www.hitachienergy.com
 justin.sh
 hexane.cc
 gov.uk
-shutterstock.com
 iphones.ru
 nginx.org
 gofile.io
@@ -896,11 +897,11 @@ theprint.in
 officialinfo.org
 ipinfo.io
 ipapi.co
+ip-api.com
 indiatodays.org
 indiatoday.in
 f005.backblazeb2.com
 clients-easy.s3.us-east-005.backblazeb2.com
-ip-api.com
 httpbin.org
 devtunnels.ms
 malware-traffic-analysis.net
@@ -1362,6 +1363,12 @@ broker.hivemq.com
 orchestrator.resource.name
 kubernetes.audit.user.extra.authentication.kubernetes.io
 container.name
+m-doxa-vacunas.duckdns.org
+m-doxa-sre.duckdns.org
+m-doxa-repuve.duckdns.org
+m-doxa-intel.duckdns.org
+m-doxa-geo.duckdns.org
+m-doxa-apodo.duckdns.org
 update.team-c2.com
 update.opentls2.com
 update.aliyun.la
@@ -1394,6 +1401,7 @@ polygon.iwmukj.xyz
 monitor5.roast-core85.click
 metric.gardenpark.click
 elitecheatsx.live
+www.sonicwall.com
 www.mrtb.gov.ng
 tisup.camaratunapolis.sc.gov.br
 suporte.ourinhos.sp.gov.br
