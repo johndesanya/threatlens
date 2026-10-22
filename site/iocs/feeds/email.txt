@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-22T01:06:58.921Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-22T03:59:41.541Z - source: public vendor reports. Verify before blocking.
 support@orders.staples.com
 info@jpcert.or.jp
 billing-update@account-notif.com

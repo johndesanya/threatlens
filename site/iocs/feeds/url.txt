@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-22T01:06:58.921Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-22T03:59:41.541Z - source: public vendor reports. Verify before blocking.
 https://xcai.pro/v1
 http://www.litellm.dev/healthcheck
 https://www.ksog.org/insert_file/handle.php
@@ -294,6 +294,9 @@ https://grove-89.com/api/metrics/run?event=pasted
 https://getmacouscloud.com
 https://ferncore13.com/curl/608e70d1338612686917ee5cd300ff7ed8e318dfd787a50257f92142e99bd688
 https://ferncore13.com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/m1/update
+https://payae.cc/Qwpf734
+https://payae.cc/QTTb209
+https://payae.cc/
 https://zaviro.online//api/v1/fingerprint
 https://www.hltv.org/
 https://volmira.site/api/ext?p=98d8049e-804f-11f1-b79f-ae3a8bb85d01
@@ -313,7 +316,8 @@ https://acrobat-updater.com/generate
 https://acrobat-updater.com/api/v2/acrobat/latest
 http://www.creamp1eonlyfans.net
 https://stro7121.blob.core.windows.net/dpp1/hostfxr.dll
-https://stro7121.blob.core.windows.net/dpp1/config.py.SloppyRAT
+https://stro7121.blob.core.windows.net/dpp1/config.py
+https://skipraid.com/dsVGmQTrzX/default2
 https://xyz0102.gitprogram.com/a001
 https://proof.gitprogram.com/a4/j8
 https://photos.msbenefit.com/fb/w3z
