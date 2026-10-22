@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-22T20:06:15.962Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-22T20:56:35.233Z - source: public vendor reports. Verify before blocking.
 test@test.com
 support@orders.staples.com
 audit@trackscope.app
@@ -7,6 +7,8 @@ kfir@volasim.com
 info@rockhoster.com
 ari.vale@maplequay.net
 bbl@anmarinee.it.com
+obsender4snake@exzwzc.com
+kingmethodlogs2026@exzwzc.com
 zed@zediel.com
 rc4@sec.com
 first-team@cyber.go.jp

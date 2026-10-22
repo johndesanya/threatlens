@@ -1,7 +1,10 @@
-# ThreatLens IoC feed - generated 2026-10-22T20:06:15.962Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-22T20:56:35.233Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+research.splunk.com
+detectionengineering.net
+motor.net
 litellm.dev
 hackattackkaboom.botlesscucks.st
 thunder.godofthunder.st
@@ -494,7 +497,12 @@ oast.fun
 crates.io
 render-984.pages.dev
 c0cc.cc
-listchoiseopenleaderboardseptember.netlify.app
+trojan.win32.fugrafa.tc
+trojan-psw.win32.bropass.tc
+hacktool.win32.agentb.k.tc
+backdoor.php.phpshell.eg.tc
+dns.studiocloud.xyz
+changelog.md
 turbowave45.com
 too.clawddddd.com
 rapid-craft567.com
@@ -503,6 +511,7 @@ homeopatiaalemana.com
 fine-byte2.com
 fairpoint29.com
 cli-desktop.com
+listchoiseopenleaderboardseptember.netlify.app
 youtubecard.com
 outlook3650.com
 linkedinns.net
@@ -513,16 +522,12 @@ ssl.com
 aka.ms
 xmr.kryptex.network
 imagefiles-backup.oss-ap-southeast-7.aliyuncs.com
-supportaru.serveftp.com
-stage-fashion365.vercel.app
-diagnose.hashicorp-terraform.io
-campaign.in
-arusupport-region1-webhook.online
-hashicorp-terraform.io
+skills.sh
 painel.seu-dominio.com
 painel.installscenter.com
 installscenter.com
 c2.installscenter.com
+cphost17.qhoster.net
 co.cc
 zhuifengzhe.top
 weatherlive.world
@@ -588,7 +593,6 @@ etechhosting.twimg.co.uk
 eg.twimg.co.uk
 dsdsei.com
 dns361.tk
-dns.studiocloud.xyz
 dellme.ml
 dasxcyb.ga
 cktime.ooguy.com
@@ -672,6 +676,17 @@ rvice.com
 nerate.com
 lanner.pro
 f.com
+asianstudies.secboxes.com
+asianstudies.org
+iseekaigogo.com
+gh-token-monitor.sh
+kibana.alert.rule.name
+supportaru.serveftp.com
+stage-fashion365.vercel.app
+diagnose.hashicorp-terraform.io
+delay.servehttp.com
+arusupport-region1-webhook.online
+hashicorp-terraform.io
 guard.io
 vuln-triage.md
 copilot-instructions.md
@@ -1246,8 +1261,6 @@ bosch-sensortec.site
 black-flower-9250.v93xdd5g.workers.dev
 aurexdefense.online
 attcdn.com
-asianstudies.secboxes.com
-asianstudies.org
 app.eduac.workers.dev
 api-prod.secboxes.com
 airproducts.ink
