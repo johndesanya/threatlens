@@ -1,5 +1,8 @@
-# ThreatLens IoC feed - generated 2026-10-22T13:13:26.311Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-22T15:58:02.072Z - source: public vendor reports. Verify before blocking.
+oskeysetup.com
+litellm.dev
 techora.ru
+calif.io
 newsru.co.il
 shutterstock.com
 www.sglacpas.com
@@ -19,7 +22,6 @@ www.php.net
 cipher-proxy.sh
 rpms.remirepo.net
 php.net
-calif.io
 booking.com
 youtubechannelverification.com
 amazonyt.com
@@ -1454,6 +1456,8 @@ digimediaskill.com
 crossdwm.azurewebsites.net
 aceofspadesmanagement.com
 cursor.click
+san-sid.com
+onmicrosoft.com
 qnwallpaper.keansoft.cn
 meeting.tencent.com
 redirector.domain.com

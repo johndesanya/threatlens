@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-22T13:13:26.311Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-22T15:58:02.072Z - source: public vendor reports. Verify before blocking.
 https://xcai.pro/v1
 http://www.litellm.dev/healthcheck
 https://www.ksog.org/insert_file/handle.php
@@ -388,6 +388,7 @@ https://Rgbteller.azurewebsites.net
 https://GamebarAppinformation.azurewebsites.net
 https://GamebarApp.azurewebsites.net
 https://api
+https://san-sid.com/owners
 https://qnwallpaper.keansoft.cn/
 https://meeting.tencent.com/download/
 https://redirector.domain.com/script
