@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-22T03:59:41.541Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-22T07:15:37.836Z - source: public vendor reports. Verify before blocking.
 https://xcai.pro/v1
 http://www.litellm.dev/healthcheck
 https://www.ksog.org/insert_file/handle.php
@@ -285,11 +285,11 @@ https://icci-sa.com/xgov/
 https://icci-sa.com/xgov
 https://deadhub.org
 http://193.23.118.155
+https://ipinfo.io/json
 https://ipapi.co/json
 https://f005.backblazeb2.com/file/Clients-easy/DriverInstaller.zip
 https://clients-easy.s3.us-east-005.backblazeb2.com/Automata-20.zip
 http://ip-api.com/json
-https://ipinfo.io/json
 https://grove-89.com/api/metrics/run?event=pasted
 https://getmacouscloud.com
 https://ferncore13.com/curl/608e70d1338612686917ee5cd300ff7ed8e318dfd787a50257f92142e99bd688
@@ -344,6 +344,9 @@ https://api-prod.secboxes.com:443/download
 https://1a062f4982564d6d19a76884ce8bcbb6.r2.cloudflarestorage.com/datago/krita.exe
 https://1a062f4982564d6d19a76884ce8bcbb6.r2.cloudflarestorage.com/datago/krita.dll
 https://1a062f4982564d6d19a76884ce8bcbb6.r2.cloudflarestorage.com/datago/SysPr.prx
+https://stryper.info/t.ps1
+https://stryper.info/aa.js
+http://aa.amazingshield.xyz/33244556546.py
 https://www.marketsandmarkets.com/Market-Reports/ai-agents-market-15761548.html
 https://machinelearningmastery.com/7-agentic-ai-trends-to-watch-in-2026/
 https://www.mrtb.gov.ng/apps/attvpn.vip
