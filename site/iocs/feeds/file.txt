@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-22T18:35:48.912Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-22T19:23:10.774Z - source: public vendor reports. Verify before blocking.
 sample.exe
 cca616647db9370c88998ae25da6997f.exe
 485055033bcddfde56325c0d2feea4f2.exe
@@ -88,6 +88,9 @@ csc.sys
 Spaceport.sys
 HTTP.sys
 rndismp6.sys
+CTB-FIRMWARE-6.0.2.260143-M6.iso
+pivot_relay.Ps1
+LocaleMgr.Exe
 ScreenConnect.exe
 ScreenConnect.ClientSetup.exe
 dllhost.exe

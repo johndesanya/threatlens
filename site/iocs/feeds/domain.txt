@@ -1,12 +1,14 @@
-# ThreatLens IoC feed - generated 2026-10-22T18:35:48.912Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-22T19:23:10.774Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+litellm.dev
+hackattackkaboom.botlesscucks.st
+thunder.godofthunder.st
 dns.name
 oskeysetup.com
 contoso.add-passkey.com
 booking.com
-litellm.dev
 stadiadev.cc
 www.web.com
 www.apps.disneyplus.com
@@ -103,7 +105,6 @@ scope.md
 collector.md
 analyzer.md
 advisories.stormshield.eu
-thunder.godofthunder.st
 cipher-proxy.sh
 xcai.pro
 api.deepseek.com
@@ -403,6 +404,9 @@ snort.org
 golang.org
 agentbaseline.org
 updateopswatsdk.pl
+ws.sh
+db-ip.com
+server356.web-hosting.com
 support.swann.com
 doxx.net
 oastify.com
@@ -411,6 +415,7 @@ assets.ubuntu.com
 academy.canonical.com
 canonical.com
 trycloudflare.com
+labs.watchtowr.com
 vrf.apexaccs.org
 verify.apexfdn.xyz
 updater.sh
