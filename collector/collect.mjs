@@ -60,6 +60,7 @@ const decode = s => s.replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (m, e) => {
 function htmlToText(h) {
   return decode(h
     .replace(/<(script|style|noscript|svg|nav|footer|header|form)[\s\S]*?<\/\1>/gi, ' ')
+    .replace(/<\/t[dh]>/gi, ' | ')
     .replace(/<\/(p|div|li|tr|h[1-6]|pre|section|article|table|blockquote)>|<br\s*\/?>/gi, '\n')
     .replace(/<[^>]+>/g, ' '))
     .replace(/[ \t\f\v ]+/g, ' ').replace(/ *\n */g, '\n').replace(/\n{3,}/g, '\n\n').trim();
@@ -92,9 +93,19 @@ const BENIGN = new Set(`anthropic.com claude.ai openai.com chatgpt.com langchain
 const TLDS = new Set(`com net org io info biz xyz top online site club live shop store tech app dev cloud pro icu vip cn ru ir kp kr jp in de fr uk us co me tv cc ws to su ua by kz tk ml ga cf gq pw link click work page space website fun one ink cyou buzz sbs bond rest cam monster today life world network systems services solutions digital email support center agency news media group company ltd inc tel mobi name eu nl se no fi dk pl cz ro bg hu gr tr il sa ae eg pk bd vn th id my sg ph hk tw au nz br ar mx cl pe za ng ke ma tn dz ly sy iq lb jo af cu ve it es pt at ch be ie lt lv ee rs hr si sk md am az ge kg uz tj tm mn la kh mm np lk bt ir cx gg im je sx gl nu st sh ac io vc bz tc ms ag gd lc dm kn xn`.split(/\s+/));
 const SUSP_EXT = /\.(exe|dll|zip|rar|7z|ps1|sh|js|hta|bat|vbs|bin|msi|iso|lnk|doc|docx|xls|xlsx|jar|scr|elf|apk|php)(\?|$)/i;
 const EXCLUDE_IP = new Set(['8.8.8.8', '8.8.4.4', '1.1.1.1', '1.0.0.1', '9.9.9.9', '0.0.0.0', '255.255.255.255', '208.67.222.222', '208.67.220.220']);
-const ZONE_RE = /(indicators? of compromise|\bIOCs?\b|\bIoCs\b|network indicators|host indicators|\bC2s?\b|\bC&C\b|command[- ]and[- ]control|infrastructure|malicious (?:domains?|ips?|urls?)|appendix)/gi;
-const CTX_RE = /\b(ip|address|c2|c&c|server|host|domain|connect|beacon|download|payload|infrastructure|resolve|contact|communicat|exfil|callback|staging|hosted)/i;
-
+const ZONE_RE = /(indicators?(?: of compromise)?|\bIOCs?\b|\bIoCs\b|\bIOAs?\b|network indicators|host indicators|file (?:hashes|indicators)|\bhashes\b|observed (?:ips?|domains?|urls?|infrastructure|ip addresses)|malicious (?:domains?|ips?|urls?|infrastructure|files?|ip addresses)|\bC2s?\b|\bC&C\b|command[- ]and[- ]control|ip addresses?|appendix|threat actor infrastructure|infrastructure)/gi;
+const CTX_RE = /\b(ip|address|c2|c&c|server|host|domain|connect|beacon|download|payload|infrastructure|resolve|contact|communicat|exfil|callback|staging|hosted|observed|malicious|scann|attack|exploit)/i;
+const FILE_BENIGN = new Set('cmd.exe powershell.exe pwsh.exe svchost.exe rundll32.exe regsvr32.exe mshta.exe cscript.exe wscript.exe explorer.exe notepad.exe calc.exe conhost.exe lsass.exe services.exe winlogon.exe csrss.exe wininit.exe taskhost.exe taskhostw.exe msiexec.exe schtasks.exe certutil.exe bitsadmin.exe wmic.exe net.exe net1.exe ping.exe whoami.exe tasklist.exe taskkill.exe reg.exe sc.exe at.exe kernel32.dll ntdll.dll user32.dll advapi32.dll shell32.dll ws2_32.dll wininet.dll winhttp.dll crypt32.dll setup.exe install.exe update.exe'.split(' '));
+const MONTHS = 'jan feb mar apr may jun jul aug sep oct nov dec'.split(' ');
+const DATE_RE = /(\d{1,2}\/\d{1,2}\/\d{4}|\d{4}-\d{2}-\d{2}|\d{4}\/\d{2}\/\d{2}|(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.? \d{1,2},? \d{4}|\d{1,2} (?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]* \d{4})/i;
+function parseObsDate(s) {
+  let m;
+  if ((m = s.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/))) { let a = +m[1], b = +m[2]; const y = +m[3]; let mo = a, d = b; if (a > 12) { mo = b; d = a; } return mo >= 1 && mo <= 12 && d >= 1 && d <= 31 ? `${y}-${String(mo).padStart(2, '0')}-${String(d).padStart(2, '0')}` : null; }
+  if ((m = s.match(/^(\d{4})[-/](\d{2})[-/](\d{2})$/))) return `${m[1]}-${m[2]}-${m[3]}`;
+  if ((m = s.match(/^([a-z]{3})[a-z]*\.? (\d{1,2}),? (\d{4})$/i))) { const mo = MONTHS.indexOf(m[1].toLowerCase()) + 1; return mo ? `${m[3]}-${String(mo).padStart(2, '0')}-${String(+m[2]).padStart(2, '0')}` : null; }
+  if ((m = s.match(/^(\d{1,2}) ([a-z]{3})[a-z]* (\d{4})$/i))) { const mo = MONTHS.indexOf(m[2].toLowerCase()) + 1; return mo ? `${m[3]}-${String(mo).padStart(2, '0')}-${String(+m[1]).padStart(2, '0')}` : null; }
+  return null;
+}
 function refang(t) {
   return t.replace(/\[\.\]|\(\.\)|\{\.\}|\[dot\]|\(dot\)|\\\./gi, '.').replace(/h[xX]{2}ps?/g, m => 'http' + (m.toLowerCase().endsWith('s') ? 's' : ''))
     .replace(/\[:\/\/\]|\[:\]/g, m => (m === '[:]' ? ':' : '://')).replace(/\[@\]|\[at\]|\(at\)/gi, '@').replace(/\[\/\]/g, '/');
@@ -105,55 +116,115 @@ const isPrivateIp = ip => {
 };
 const regDomain = h => { const p = h.split('.'); return p.length > 2 && !/^(co|com|org|net|gov|ac)$/.test(p[p.length - 2]) ? p.slice(-2).join('.') : p.length > 3 ? p.slice(-3).join('.') : h; };
 const isBenign = h => { h = h.toLowerCase(); if (BENIGN.has(h)) return true; const p = h.split('.'); for (let i = 1; i < p.length - 1; i++) if (BENIGN.has(p.slice(i).join('.'))) return true; return false; };
+const validIpv6 = s => {
+  if (!/^[0-9a-f:]+$/i.test(s) || s.length < 6) return false;
+  const dbl = s.includes('::'); if ((s.match(/::/g) || []).length > 1 || /:::/.test(s)) return false;
+  const groups = s.split(':').filter(Boolean);
+  if (groups.some(g => g.length > 4)) return false;
+  if (!dbl && groups.length !== 8) return false;
+  if (dbl && groups.length > 7) return false;
+  const lo = s.toLowerCase();
+  if (lo === '::' || lo === '::1' || /^f[cde][0-9a-f]{2}:/.test(lo) || /^fe[89ab][0-9a-f]:/.test(lo) || /^2001:0?db8:/.test(lo) || /^ff[0-9a-f]{2}:/.test(lo)) return false;
+  return true;
+};
 
+/**
+ * Extract indicators of compromise from article text.
+ * Accepts an indicator when it is defanged, sits in/after an "IOCs / indicators / hashes / C2" heading,
+ * has C2/server/IP wording nearby, or belongs to a list (several indicators of the same kind close together -
+ * e.g. an IP table). Observed dates written next to an indicator ("103.1.2.3 | 10/17/2026") are captured.
+ */
 function extractIocs(raw, ownHost) {
   const t = refang(raw);
   const zones = []; let zm;
   ZONE_RE.lastIndex = 0;
-  while ((zm = ZONE_RE.exec(t))) zones.push([zm.index, zm.index + 3500]);
+  while ((zm = ZONE_RE.exec(t))) zones.push([zm.index, zm.index + 6000]);
   const inZone = i => zones.some(([a, b]) => i >= a && i <= b);
   const defanged = v => { const dv = v.replace(/\./g, '[.]'); return raw.includes(dv) || raw.includes(v.replace(/\./g, '(.)')) || raw.includes(v.replace(/\./g, '[dot]')) || raw.includes(v.replace(/^https?/, 'hxxp').replace(/\./g, '[.]')); };
-  const ok = (v, i) => defanged(v) || inZone(i) || CTX_RE.test(t.slice(Math.max(0, i - 90), i + v.length + 90));
+  const ctx = (v, i, w = 90) => CTX_RE.test(t.slice(Math.max(0, i - w), i + v.length + w));
   const own = ownHost ? regDomain(ownHost) : '';
-  const out = { ipv4: new Set(), domain: new Set(), url: new Set(), md5: new Set(), sha1: new Set(), sha256: new Set(), email: new Set() };
+  const out = { ipv4: new Set(), ipv6: new Set(), domain: new Set(), url: new Set(), md5: new Set(), sha1: new Set(), sha256: new Set(), sha512: new Set(), email: new Set(), wallet: new Set(), file: new Set() };
+  const obs = {};
   let m;
 
-  const hashRe = /\b[a-fA-F0-9]{32,64}\b/g;
+  // observed date next to an indicator: same line after it, or a lone date on the next non-empty line
+  const obsAfter = (v, i) => {
+    let e = t.indexOf('\n', i); if (e < 0) e = t.length;
+    const same = t.slice(i + v.length, Math.min(e, i + v.length + 160)).match(DATE_RE);
+    if (same) return parseObsDate(same[1].trim());
+    const nxt = t.slice(i + v.length, i + v.length + 120).replace(/^[\s|:,;-]+/, '');   // next cell / next line
+    const mm = nxt.match(DATE_RE); if (mm && mm.index === 0) return parseObsDate(mm[1].trim());
+    return null;
+  };
+  const clustered = (list, k, win) => {                         // is there a list of >= k same-kind candidates around each item?
+    const idx = list.map(x => x.i).sort((a, b) => a - b), good = new Set();
+    for (let a = 0; a < idx.length; a++) { let n = 1; for (let b = a - 1; b >= 0 && idx[a] - idx[b] <= win; b--) n++; for (let b = a + 1; b < idx.length && idx[b] - idx[a] <= win; b++) n++; if (n >= k) good.add(idx[a]); }
+    return good;
+  };
+  const add = (type, v, i) => { out[type].add(v); const d = obsAfter(v, i); if (d) obs[type + '|' + v] = d; };
+
+  // hashes: unambiguous, accepted anywhere
+  const hashRe = /\b[a-fA-F0-9]{32,128}\b/g;
   while ((m = hashRe.exec(t))) {
     const h = m[0].toLowerCase(); const L = h.length;
-    if (L !== 32 && L !== 40 && L !== 64) continue;
+    if (L !== 32 && L !== 40 && L !== 64 && L !== 128) continue;
     if (!/[0-9]/.test(h) || !/[a-f]/.test(h) || /^(.)\1+$/.test(h)) continue;
-    out[L === 32 ? 'md5' : L === 40 ? 'sha1' : 'sha256'].add(h);
+    add(L === 32 ? 'md5' : L === 40 ? 'sha1' : L === 64 ? 'sha256' : 'sha512', h, m.index);
   }
-  const ipRe = /(?<![\w.\/-])(?:(?:25[0-5]|2[0-4]\d|1?\d?\d)\.){3}(?:25[0-5]|2[0-4]\d|1?\d?\d)(?![\w-]|\.\d)/g;
-  while ((m = ipRe.exec(t))) { const ip = m[0]; if (EXCLUDE_IP.has(ip) || isPrivateIp(ip)) continue; if (/\.0$/.test(ip) && !defanged(ip)) continue; if (ok(ip, m.index)) out.ipv4.add(ip); }
 
-  const urlRe = /\bhttps?:\/\/[^\s"'<>()\[\]{},;|\\`]+/gi;
+  // IPv4
+  const ipCands = [], ipRe = /(?<![\w.\/-])(?:(?:25[0-5]|2[0-4]\d|1?\d?\d)\.){3}(?:25[0-5]|2[0-4]\d|1?\d?\d)(?![\w-]|\.\d)/g;
+  while ((m = ipRe.exec(t))) { const ip = m[0]; if (EXCLUDE_IP.has(ip) || isPrivateIp(ip)) continue; if (/\.0$/.test(ip) && !defanged(ip)) continue; if (/(?:version|ver\.?|\bv|build|release|update|upgrade|patch)\s*$/i.test(t.slice(Math.max(0, m.index - 14), m.index)) && !defanged(ip) && !inZone(m.index)) continue; ipCands.push({ v: ip, i: m.index }); }
+  const ipList = clustered(ipCands, 3, 400);
+  for (const c of ipCands) if (defanged(c.v) || inZone(c.i) || ctx(c.v, c.i) || ipList.has(c.i)) add('ipv4', c.v, c.i);
+
+  // IPv6
+  const v6Re = /(?<![\w:])(?:[0-9a-f]{1,4}:){2,7}[0-9a-f]{0,4}(?::[0-9a-f]{1,4})*(?![\w:])|(?<![\w:])::(?:[0-9a-f]{1,4}:){0,6}[0-9a-f]{1,4}(?![\w:])/gi;
+  while ((m = v6Re.exec(t))) { const a = m[0]; if (validIpv6(a) && (defanged(a) || inZone(m.index) || ctx(a, m.index))) add('ipv6', a.toLowerCase(), m.index); }
+
+  // URLs
+  const urlCands = [], urlRe = /\bhttps?:\/\/[^\s"'<>()\[\]{},;|\\`]+/gi;
   while ((m = urlRe.exec(t))) {
-    let u = m[0].replace(/[.:!?*]+$/, ''); let host;
+    let u = m[0].replace(/[.:!?*…]+$/, ''); let host;
     try { host = new URL(u).hostname.toLowerCase(); } catch { continue; }
     if (isBenign(host) || (own && regDomain(host) === own)) continue;
     const ipHost = /^\d+\.\d+\.\d+\.\d+$/.test(host);
     if (ipHost && isPrivateIp(host)) continue;
-    if (defanged(u.replace(/^https?:\/\//, '')) || raw.includes('hxxp') || SUSP_EXT.test(u) || ipHost || inZone(m.index)) out.url.add(u.slice(0, 300));
+    urlCands.push({ v: u.slice(0, 300), i: m.index, ipHost });
   }
-  const domRe = /\b(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+([a-z]{2,24})\b/gi;
+  const urlList = clustered(urlCands, 3, 600);
+  for (const c of urlCands) if (defanged(c.v.replace(/^https?:\/\//, '')) || raw.includes('hxxp') || SUSP_EXT.test(c.v) || c.ipHost || inZone(c.i) || urlList.has(c.i)) add('url', c.v, c.i);
+
+  // domains
+  const domCands = [], domRe = /\b(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+([a-z]{2,24})\b/gi;
   while ((m = domRe.exec(t))) {
     const d = m[0].toLowerCase(), tld = m[1].toLowerCase();
     if (!TLDS.has(tld) || isBenign(d) || /^(com|org|net|io|android|ios)\./.test(d)) continue;
     if (own && regDomain(d) === own) continue;
-    const prev = t[m.index - 1];
-    if (prev === '@') continue;
+    if (t[m.index - 1] === '@') continue;
     if (d.split('.').every(p => /^\d+$/.test(p))) continue;
     if (/\.(js|exe|dll|php|html?|aspx?|json|txt|py|so)$/.test(d) && !defanged(d)) continue;
-    if (ok(d, m.index)) out.domain.add(d);
+    domCands.push({ v: d, i: m.index });
   }
+  const domList = clustered(domCands, 4, 500);
+  for (const c of domCands) if (defanged(c.v) || inZone(c.i) || ctx(c.v, c.i) || domList.has(c.i)) add('domain', c.v, c.i);
+
+  // e-mail
   const mailRe = /\b[a-z0-9._%+-]{2,40}@((?:[a-z0-9-]+\.)+[a-z]{2,10})\b/gi;
-  while ((m = mailRe.exec(t))) { const d = m[1].toLowerCase(); if (!isBenign(d) && TLDS.has(d.split('.').pop()) && (defanged(m[0].replace('@', '@')) || inZone(m.index) || raw.includes('[@]'))) out.email.add(m[0].toLowerCase()); }
+  while ((m = mailRe.exec(t))) { const d = m[1].toLowerCase(); if (!isBenign(d) && TLDS.has(d.split('.').pop()) && (defanged(m[0]) || inZone(m.index) || raw.includes('[@]'))) out.email.add(m[0].toLowerCase()); }
+
+  // crypto wallets (ransom notes, payment addresses)
+  const walRe = /\b(?:bc1[a-z0-9]{25,60}|[13][a-km-zA-HJ-NP-Z1-9]{25,34}|0x[a-fA-F0-9]{40})\b/g;
+  while ((m = walRe.exec(t))) { if (/wallet|bitcoin|btc|ethereum|\beth\b|monero|payment address|ransom|donat|crypto/i.test(t.slice(Math.max(0, m.index - 140), m.index + 140)) || inZone(m.index)) out.wallet.add(m[0]); }
+
+  // malicious-looking file names, only inside an IoC section
+  const fileRe = /(?<![\w.\\\/-])[A-Za-z0-9_][\w.-]{0,60}\.(?:exe|dll|ps1|bat|vbs|hta|lnk|msi|scr|iso|jar|apk|docm|xlsm|xll|wsf|cpl|sys|elf)\b/gi;
+  while ((m = fileRe.exec(t))) { const f = m[0]; if (!FILE_BENIGN.has(f.toLowerCase()) && inZone(m.index) && f.length > 5) out.file.add(f); }
 
   const res = {}; let total = 0;
-  for (const k of Object.keys(out)) { res[k] = [...out[k]].sort().slice(0, 400); total += res[k].length; }
-  return { iocs: res, total, hasDefang: t !== raw };
+  for (const k of Object.keys(out)) { res[k] = [...out[k]].sort().slice(0, 500); total += res[k].length; }
+  const keepObs = {}; for (const [k, v] of Object.entries(obs)) { const [ty, ...rest] = k.split('|'); if (res[ty]?.includes(rest.join('|'))) keepObs[k] = v; }
+  return { iocs: res, obs: keepObs, total, hasDefang: t !== raw };
 }
 const uniq = a => [...new Set(a)];
 const cves = t => uniq((t.match(/\bCVE-\d{4}-\d{4,7}\b/gi) || []).map(x => x.toUpperCase())).slice(0, 40);
@@ -232,6 +303,33 @@ function detectCountries(title, text, srcCountry) {
 }
 const CYBER = /(cyber|hack|malware|ransom|phish|spyware|data (?:leak|breach)|breach|ddos|\bapt\b|\bioc|vulnerab|surveillance|pegasus|exploit|botnet|infostealer|backdoor|espionage|кибер|хакер|вредонос|утечк|фишинг|уязвимост|вымогат|siber|saldırı)/i;
 
+/* ------------------------------------------------------------ publication dates */
+const metaOf = (h, names) => {
+  for (const n of names) {
+    const m = h.match(new RegExp('<meta[^>]+(?:property|name|itemprop)=["\']' + n + '["\'][^>]*content=["\']([^"\']+)', 'i')) || h.match(new RegExp('<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name|itemprop)=["\']' + n + '["\']', 'i'));
+    if (m) return decode(m[1]);
+  }
+  return '';
+};
+/** Real publication date of an article page (OpenGraph / JSON-LD / <time>), or null. */
+function pageDate(h) {
+  const cands = [];
+  for (const n of ['article:published_time', 'og:published_time', 'datePublished', 'dc.date.issued', 'dcterms.created', 'dc.date', 'date', 'publish-date', 'pubdate', 'parsely-pub-date', 'sailthru.date']) { const v = metaOf(h, n); if (v) cands.push(v); }
+  for (const m of h.matchAll(/"datePublished"\s*:\s*"([^"]+)"/g)) cands.push(m[1]);
+  const tm = h.match(/<time[^>]+datetime=["']([^"']+)/i); if (tm) cands.push(tm[1]);
+  for (const c of cands) { const d = toDate(c); if (d && d.getTime() <= Date.now() + 36e5 && d.getFullYear() >= 2015) return d; }
+  return null;
+}
+/** Decide the publication date: feed date, corrected by the page's own date when that is earlier (feeds often
+ *  carry the *updated* time); future dates are clamped to now; undated feed items take the page date. */
+function resolveDate(feedDate, pageD) {
+  const now = new Date();
+  let d = feedDate, src = 'feed';
+  if (d && d.getTime() > now.getTime() + 36e5) d = now;
+  if (pageD && (!d || (pageD.getTime() < d.getTime() - 36e5 && d.getTime() - pageD.getTime() < 400 * 864e5))) { d = pageD; src = 'page'; }
+  return d ? { date: d, src } : null;
+}
+
 /* ------------------------------------------------------------------- main */
 async function main() {
   const t0 = Date.now();
@@ -245,112 +343,165 @@ async function main() {
   const cutoff = Date.now() - MAX_AGE_DAYS * 864e5;
   const today = new Date().toISOString().slice(0, 10);
 
+  for (const x of sources) { try { BENIGN.add(regDomain(new URL(x.url).hostname.replace(/^www\./, ''))); } catch { /* ignore */ } }
   log(`Fetching ${sources.length} feeds...`);
   const feedRes = await pool(sources, CONCURRENCY, async s => {
-    const xml = await get(s.url);
-    const items = parseFeed(xml);
-    if (!items.length) throw new Error('no items parsed');
-    return items;
-  });
-  const health = [], candidates = [];
-  sources.forEach((s, i) => {
-    const r = feedRes[i];
-    if (!r || r.error) { health.push({ id: s.id, name: s.name, type: s.type, ok: false, error: r?.error || 'unknown', items: 0, new: 0 }); log(`  x ${s.name}: ${r?.error}`); return; }
-    let fresh = 0;
-    for (const e of r) {
-      const d = toDate(e.date); if (!d) continue;   // undated items (some CERT feeds) would all look like 'today'
-      if (d.getTime() < cutoff) continue;
-      const id = sha1(e.link.replace(/[?#].*$/, '').replace(/\/$/, '')).slice(0, 12);
-      if (existing.has(id)) continue;
-      if (candidates.some(c => c.id === id)) continue;
-      candidates.push({ id, src: s, e, published: d.toISOString() }); fresh++;
+    let lastErr;
+    for (const url of [s.url, ...(s.alt || [])]) {      // "alt" = backup addresses for the same feed
+      try {
+        const items = parseFeed(await get(url));
+        if (items.length) return items;
+        lastErr = new Error('no items parsed');
+      } catch (e) { lastErr = e; }
     }
-    health.push({ id: s.id, name: s.name, type: s.type, ok: true, items: r.length, new: fresh });
+    throw lastErr;
+  });
+  const hostOf = u => { try { return new URL(u).hostname; } catch { return ''; } };
+  const idOf = u => sha1(u.replace(/[?#].*$/, '').replace(/\/$/, '')).slice(0, 12);
+  const nowIso = new Date().toISOString();
+  const prevHealth = new Map((readJson(path.join(DATA, 'meta.json'), {}).sources || []).map(h => [h.id, h]));
+  const health = [], candidates = [], seen = new Set();
+  sources.forEach((s, i) => {
+    const r = feedRes[i], prev = prevHealth.get(s.id) || {};
+    if (!r || r.error) {
+      health.push({ id: s.id, name: s.name, type: s.type, ok: false, error: r?.error || 'unknown', items: 0, new: 0, lastOk: prev.lastOk || null, fails: (prev.fails || 0) + 1, since: prev.since || nowIso, newest: prev.newest || null });
+      log(`  x ${s.name}: ${r?.error}`); return;
+    }
+    let fresh = 0, newest = 0;
+    for (const e of r) {
+      const d = toDate(e.date);
+      if (d && d.getTime() > newest && d.getTime() <= Date.now() + 36e5) newest = d.getTime();
+      if (d && d.getTime() < cutoff) continue;
+      const id = idOf(e.link);
+      if (existing.has(id) || seen.has(id)) continue;
+      seen.add(id);
+      candidates.push({ id, src: s, e, feedDate: d });      // undated items get their date from the article page
+      fresh++;
+    }
+    health.push({ id: s.id, name: s.name, type: s.type, ok: true, items: r.length, new: fresh, lastOk: nowIso, fails: 0, newest: newest ? new Date(newest).toISOString() : null });
     log(`  ok ${s.name}: ${r.length} items, ${fresh} new`);
   });
 
-  // Deep fetch article pages where the feed only carried a teaser
-  candidates.sort((a, b) => (b.published > a.published ? 1 : -1));
-  let deepBudget = MAX_DEEP_FETCH;
-  const needDeep = candidates.filter(c => !/news\.google\.com/.test(c.e.link)).filter(c => c.src.type !== 'news' || THREAT_WORDS.test(c.e.title)).filter(c => htmlToText(c.e.html).length < 6000);
-  const deepSet = new Set(needDeep.slice(0, deepBudget).map(c => c.id));
+  // Deep fetch: read the full article (IoC tables, country mentions, exact publish date) where the feed only had a teaser
+  candidates.sort((a, b) => ((b.feedDate || 0) - (a.feedDate || 0)));
+  const isNews = c => /news\.google\.com/.test(c.e.link);
+  const wantsDeep = c => !isNews(c) && (!c.feedDate || ((c.src.type !== 'news' && c.src.type !== 'vendor') || THREAT_WORDS.test(c.e.title))) && (!c.feedDate || htmlToText(c.e.html).length < 6000);
+  const needDeep = candidates.filter(wantsDeep);
+  const deepSet = new Set([...needDeep.filter(c => !c.feedDate), ...needDeep.filter(c => c.feedDate)].slice(0, MAX_DEEP_FETCH).map(c => c.id));
   log(`Candidates: ${candidates.length}; fetching ${deepSet.size} full articles...`);
   await pool(candidates.filter(c => deepSet.has(c.id)), CONCURRENCY, async c => {
-    try { const h = await get(c.e.link, 20000); const txt = articleBody(h); if (txt.length > htmlToText(c.e.html).length) c.fullText = txt; } catch { /* keep teaser */ }
+    try {
+      const h = await get(c.e.link, 20000); const txt = articleBody(h);
+      if (txt.length > htmlToText(c.e.html).length) c.fullText = txt;
+      c.pageDate = pageDate(h);
+    } catch { /* keep teaser */ }
   });
 
-  const newDaily = []; let added = 0;
-  const hostOf = u => { try { return new URL(u).hostname; } catch { return ''; } };
-  const idOf = u => sha1(u.replace(/[?#].*$/, '').replace(/\/$/, '')).slice(0, 12);
+  const newDaily = []; let added = 0, dropped = 0;
 
   // Turn a page of text into a report object + its IoCs (used for new feed items, manual links and upgrades)
-  function analyze({ id, src, title, url, published, feedText, fullText, collected }) {
+  function analyze({ id, src, title, url, published, dateSrc, feedText, fullText, collected, firstSeen }) {
     const text = fullText || feedText;
-    const { iocs, total, hasDefang } = extractIocs(text, hostOf(url));
+    const { iocs, obs, total, hasDefang } = extractIocs(text, hostOf(url));
     const grp = attribute(title, text);
     const countries = detectCountries(title, text, src.country);
     const tags = TAGS.filter(([, re]) => re.test(title + ' ' + text.slice(0, 20000))).map(([n]) => n);
     const rep = {
       id, title: title.slice(0, 220), url, source: src.name, sourceId: src.id, sourceType: src.type,
-      published, collected: collected || today, summary: (feedText || text).replace(/\s+/g, ' ').slice(0, 300),
+      published, dateSrc: dateSrc || 'feed', collected: collected || today, firstSeen: firstSeen || nowIso, summary: (feedText || text).replace(/\s+/g, ' ').slice(0, 260),
       groups: grp.map(g => ({ name: g.name, country: g.country, sponsor: g.sponsor })), tags, countries,
       cves: cves(text), techniques: techniques(text), iocCounts: Object.fromEntries(Object.entries(iocs).filter(([, v]) => v.length).map(([k, v]) => [k, v.length])),
       iocTotal: total, deep: !!fullText, defanged: hasDefang,
     };
     rep.score = score(rep);
-    return { rep, iocs, total, grp };
+    return { rep, iocs, obs, total, grp };
   }
-  function saveIocs(rep, iocs, total) {
+  function saveIocs(rep, iocs, total, obs = {}) {
     if (!total) return;
     const mf = path.join(IOCS, 'by-month', rep.published.slice(0, 7) + '.json');
     const month = readJson(mf, { entries: [] }).entries.filter(e => e.report.id !== rep.id);
-    month.push({ report: { id: rep.id, title: rep.title, url: rep.url, source: rep.source, published: rep.published, groups: rep.groups.map(g => g.name), cves: rep.cves, techniques: rep.techniques }, iocs });
+    month.push({ report: { id: rep.id, title: rep.title, url: rep.url, source: rep.source, published: rep.published, groups: rep.groups.map(g => g.name), cves: rep.cves, techniques: rep.techniques }, iocs, obs });
     writeJson(mf, { entries: month });
-    for (const [type, arr] of Object.entries(iocs)) for (const v of arr) newDaily.push({ type, value: v, report: rep.id, groups: rep.groups.map(g => g.name), published: rep.published });
+    for (const [type, arr] of Object.entries(iocs)) for (const v of arr) newDaily.push({ type, value: v, report: rep.id, groups: rep.groups.map(g => g.name), published: rep.published, observed: obs[type + '|' + v] || null });
   }
 
   for (const c of candidates) {
+    const when = resolveDate(c.feedDate, c.pageDate);           // exact publication date: never in the future, page date wins if earlier
+    if (!when || when.date.getTime() < cutoff) { dropped++; continue; }
     const feedText = htmlToText(c.e.html);
     if (c.src.type === 'regional' && !CYBER.test(c.e.title + ' ' + feedText.slice(0, 600))) continue;
-    const { rep, iocs, total, grp } = analyze({ id: c.id, src: c.src, title: c.e.title, url: c.e.link, published: c.published, feedText, fullText: c.fullText });
-    // non-research news that has no threat relevance at all is dropped to keep the feed clean
-    if (c.src.type === 'news' && !grp.length && !total && !rep.cves.length && !THREAT_WORDS.test(c.e.title)) continue;
+    const { rep, iocs, obs, total, grp } = analyze({ id: c.id, src: c.src, title: c.e.title, url: c.e.link, published: when.date.toISOString(), dateSrc: when.src, feedText, fullText: c.fullText });
+    // news / general vendor blogs without any threat relevance are dropped to keep the feed clean
+    const relevant = grp.length || total || rep.cves.length || THREAT_WORDS.test(c.e.title + ' ' + feedText.slice(0, 400));
+    if ((c.src.type === 'news' || c.src.type === 'vendor') && !relevant) continue;
     existing.set(rep.id, rep); added++;
-    saveIocs(rep, iocs, total);
+    saveIocs(rep, iocs, total, obs);
   }
+  if (dropped) log(`Skipped ${dropped} items with no usable / too old publication date.`);
 
   // Manual links: put any report URL you don't want to miss into collector/extra-urls.txt (one per line)
-  const metaOf = (h, names) => { for (const n of names) { const m = h.match(new RegExp('<meta[^>]+(?:property|name)=["\']' + n + '["\'][^>]*content=["\']([^"\']+)', 'i')) || h.match(new RegExp('<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name)=["\']' + n + '["\']', 'i')); if (m) return decode(m[1]); } return ''; };
   const pins = fs.existsSync(path.join(ROOT, 'collector', 'extra-urls.txt')) ? fs.readFileSync(path.join(ROOT, 'collector', 'extra-urls.txt'), 'utf8').split(/\r?\n/).map(x => x.trim()).filter(x => /^https?:\/\//.test(x)) : [];
   let pinned = 0;
   await pool(pins.filter(u => !existing.get(idOf(u))?.deep), 4, async u => {
     try {
       const h = await get(u, 25000); const txt = articleBody(h);
       const title = decode(metaOf(h, ['og:title', 'twitter:title']) || (h.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || u).replace(/\s+/g, ' ').trim();
-      const pub = toDate(metaOf(h, ['article:published_time', 'datePublished', 'og:updated_time']) || (h.match(/"datePublished"\s*:\s*"([^"]+)"/) || [])[1] || (h.match(/<time[^>]+datetime=["']([^"']+)/i) || [])[1]) || new Date();
+      const pd = pageDate(h);
       const src = { id: 'manual', name: 'Pinned: ' + hostOf(u).replace(/^www\./, ''), type: 'research' };
-      const { rep, iocs, total } = analyze({ id: idOf(u), src, title, url: u, published: pub.toISOString(), feedText: txt.slice(0, 600), fullText: txt });
-      existing.set(rep.id, rep); saveIocs(rep, iocs, total); pinned++;
+      const { rep, iocs, obs, total } = analyze({ id: idOf(u), src, title, url: u, published: (pd || new Date()).toISOString(), dateSrc: pd ? 'page' : 'feed', feedText: txt.slice(0, 600), fullText: txt });
+      existing.set(rep.id, rep); saveIocs(rep, iocs, total, obs); pinned++;
       log(`  pinned: ${title.slice(0, 80)} [${rep.countries.join(',')}]`);
     } catch (e) { log('  pin failed:', u, e.message); }
   });
 
   // Upgrade pass: reports that were stored from the feed teaser only get their full article re-fetched
-  // (a few per run), so country / IoC / ATT&CK extraction improves over time.
-  const MAX_UPGRADE = +process.env.MAX_UPGRADE || 60; let upgraded = 0;
-  const todo = [...existing.values()].filter(r => !r.deep && (r.tries || 0) < 3 && ['research', 'gov'].includes(r.sourceType) && !/news\.google\.com/.test(r.url))
+  // (a few per run), so country / IoC / ATT&CK extraction and the publish date improve over time.
+  const MAX_UPGRADE = +process.env.MAX_UPGRADE || 80; let upgraded = 0;
+  const todo = [...existing.values()].filter(r => !r.deep && (r.tries || 0) < 3 && ['research', 'gov', 'vendor'].includes(r.sourceType) && !/news\.google\.com/.test(r.url))
     .sort((x, y) => (x.published < y.published ? 1 : -1)).slice(0, MAX_UPGRADE);
   await pool(todo, CONCURRENCY, async r => {
     try {
-      const txt = articleBody(await get(r.url, 20000));
+      const h = await get(r.url, 20000); const txt = articleBody(h);
       if (txt.length < (r.summary || '').length * 1.5) throw new Error('short');
       const src = srcById.get(r.sourceId) || { id: r.sourceId, name: r.source, type: r.sourceType };
-      const { rep, iocs, total } = analyze({ id: r.id, src, title: r.title, url: r.url, published: r.published, feedText: r.summary, fullText: txt, collected: r.collected });
-      existing.set(r.id, rep); saveIocs(rep, iocs, total); upgraded++;
+      const when = resolveDate(new Date(r.published), pageDate(h));
+      const { rep, iocs, obs, total } = analyze({ id: r.id, src, title: r.title, url: r.url, published: when.date.toISOString(), dateSrc: when.src === 'page' ? 'page' : (r.dateSrc || 'feed'), feedText: r.summary, fullText: txt, collected: r.collected, firstSeen: r.firstSeen });
+      existing.set(r.id, rep); saveIocs(rep, iocs, total, obs); upgraded++;
     } catch { r.tries = (r.tries || 0) + 1; }
   });
   if (pinned || upgraded) log(`Pinned ${pinned}, upgraded ${upgraded} teaser-only reports to full text.`);
   log(`Added ${added} reports, ${newDaily.length} IoC records.`);
+
+  // Direct IoC feeds (C2 trackers / blocklists): current snapshot kept in site/iocs/live/<id>.json, entries expire after ttlDays
+  const liveFeeds = readJson(path.join(ROOT, 'collector', 'ioc-feeds.json'), []);
+  const parseLive = (txt, type) => {
+    const out = new Set();
+    for (const raw of txt.split(/\r?\n/).slice(0, 40000)) {
+      const line = raw.trim(); if (!line || /^[#;]/.test(line)) continue;
+      const tok = line.split(/[\s,;|]+/)[0].replace(/^["']|["']$/g, '');
+      if (type === 'ipv4') { if (/^(?:\d{1,3}\.){3}\d{1,3}$/.test(tok) && tok.split('.').every(n => +n <= 255) && !isPrivateIp(tok) && !EXCLUDE_IP.has(tok)) out.add(tok); }
+      else if (type === 'url') { if (/^https?:\/\/\S+$/i.test(line)) out.add(line.slice(0, 300)); }
+      else if (type === 'domain') { const d = tok.toLowerCase(); if (/^(?:[a-z0-9-]+\.)+[a-z]{2,24}$/.test(d) && !isBenign(d)) out.add(d); }
+    }
+    return [...out];
+  };
+  const liveHealth = [];
+  await pool(liveFeeds, 4, async lf => {
+    const file = path.join(IOCS, 'live', lf.id + '.json');
+    const map = new Map(readJson(file, { items: [] }).items.map(i => [i.v, i]));
+    const h = { id: lf.id, name: lf.name, type: lf.type, ok: false, items: 0 };
+    try {
+      const vals = parseLive(await get(lf.url, 40000), lf.type);
+      if (!vals.length) throw new Error('empty list');
+      for (const v of vals) { const e = map.get(v); if (e) e.last = nowIso; else { map.set(v, { v, first: nowIso, last: nowIso }); newDaily.push({ type: lf.type, value: v, report: null, source: lf.name, groups: [], published: nowIso, observed: null }); } }
+      h.ok = true; h.listed = vals.length;
+    } catch (e) { h.error = e.message; log('  x IoC feed', lf.name + ':', e.message); }
+    const ttl = (lf.ttlDays || 7) * 864e5;
+    const items = [...map.values()].filter(i => Date.now() - new Date(i.last).getTime() <= ttl).sort((a, b) => (a.first < b.first ? 1 : -1)).slice(0, lf.cap || 500);
+    if (items.length || fs.existsSync(file)) writeJson(file, { id: lf.id, name: lf.name, type: lf.type, updated: nowIso, items });
+    h.items = items.length; liveHealth.push(h);
+  });
+  if (liveFeeds.length) log(`IoC feeds: ${liveHealth.filter(x => x.ok).length}/${liveFeeds.length} ok, ${liveHealth.reduce((n, x) => n + x.items, 0)} live indicators.`);
 
   // retention
   const keepFrom = Date.now() - RETAIN_DAYS * 864e5;
@@ -364,11 +515,18 @@ async function main() {
     if (!byId.has(j.report.id)) continue;
     for (const [type, arr] of Object.entries(j.iocs)) for (const v of arr) {
       const k = type + '|' + v; let e = agg.get(k);
-      if (!e) agg.set(k, e = { t: type, v, r: [], g: [], first: j.report.published, last: j.report.published });
+      const when = (j.obs && j.obs[k]) ? j.obs[k] + 'T00:00:00.000Z' : j.report.published;
+      if (!e) agg.set(k, e = { t: type, v, r: [], g: [], s: [], first: when, last: when });
       if (!e.r.includes(j.report.id)) e.r.push(j.report.id);
       for (const g of j.report.groups) if (!e.g.includes(g)) e.g.push(g);
-      if (j.report.published < e.first) e.first = j.report.published; if (j.report.published > e.last) e.last = j.report.published;
+      if (when < e.first) e.first = when; if (when > e.last) e.last = when;
     }
+  }
+  for (const lf of liveFeeds) for (const it of readJson(path.join(IOCS, 'live', lf.id + '.json'), { items: [] }).items) {
+    const k = lf.type + '|' + it.v; let e = agg.get(k);
+    if (!e) agg.set(k, e = { t: lf.type, v: it.v, r: [], g: [], s: [], first: it.first, last: it.last });
+    if (!e.s.includes(lf.name)) e.s.push(lf.name);
+    if (it.first < e.first) e.first = it.first; if (it.last > e.last) e.last = it.last;
   }
   const allIocs = [...agg.values()].sort((a, b) => (a.last < b.last ? 1 : -1));
   const typeTotals = {}; for (const e of allIocs) typeTotals[e.t] = (typeTotals[e.t] || 0) + 1;
@@ -383,10 +541,10 @@ async function main() {
 
   // outputs: aggregated json/csv + plain-text blocklists per type
   writeJson(path.join(IOCS, 'all.json'), allIocs.map(e => ({ ...e, r: e.r.slice(0, 6) })));
-  const csv = ['type,value,first_seen,last_seen,groups,report_count,report_ids'].concat(allIocs.map(e => [e.t, e.v, e.first.slice(0, 10), e.last.slice(0, 10), e.g.join('|'), e.r.length, e.r.join('|')].map(x => `"${String(x).replace(/"/g, '""')}"`).join(','))).join('\n');
+  const csv = ['type,value,first_seen,last_seen,groups,report_count,report_ids,feeds'].concat(allIocs.map(e => [e.t, e.v, e.first.slice(0, 10), e.last.slice(0, 10), e.g.join('|'), e.r.length, e.r.join('|'), (e.s || []).join('|')].map(x => `"${String(x).replace(/"/g, '""')}"`).join(','))).join('\n');
   writeText(path.join(IOCS, 'all.csv'), csv + '\n');
   const header = `# ThreatLens IoC feed - generated ${new Date().toISOString()} - source: public vendor reports. Verify before blocking.\n`;
-  for (const t of ['ipv4', 'domain', 'url', 'md5', 'sha1', 'sha256', 'email']) writeText(path.join(IOCS, 'feeds', `${t}.txt`), header + allIocs.filter(e => e.t === t).map(e => e.v).join('\n') + '\n');
+  for (const t of ['ipv4', 'ipv6', 'domain', 'url', 'md5', 'sha1', 'sha256', 'sha512', 'email', 'wallet', 'file']) writeText(path.join(IOCS, 'feeds', `${t}.txt`), header + allIocs.filter(e => e.t === t).map(e => e.v).join('\n') + '\n');
 
   // groups
   const gm = new Map();
@@ -409,8 +567,8 @@ async function main() {
   try {
     const k = JSON.parse(await get('https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json', 40000));
     const list = (k.vulnerabilities || []).sort((a, b) => (a.dateAdded < b.dateAdded ? 1 : -1));
-    kev = { updated: new Date().toISOString(), total: list.length, catalogVersion: k.catalogVersion, ransomware: list.filter(v => /known/i.test(v.knownRansomwareCampaignUse)).length,
-      latest: list.slice(0, 80).map(v => ({ cve: v.cveID, vendor: v.vendorProject, product: v.product, name: v.vulnerabilityName, added: v.dateAdded, due: v.dueDate, ransomware: /known/i.test(v.knownRansomwareCampaignUse), desc: (v.shortDescription || '').slice(0, 280) })) };
+    kev = { updated: new Date().toISOString(), total: list.length, catalogVersion: k.catalogVersion, ransomware: list.filter(v => v.knownRansomwareCampaignUse === 'Known').length,
+      latest: list.slice(0, 80).map(v => ({ cve: v.cveID, vendor: v.vendorProject, product: v.product, name: v.vulnerabilityName, added: v.dateAdded, due: v.dueDate, ransomware: v.knownRansomwareCampaignUse === 'Known', desc: (v.shortDescription || '').slice(0, 280) })) };
     log(`KEV: ${kev.total} entries`);
   } catch (e) { log('KEV fetch failed:', e.message); }
   if (kev) writeJson(path.join(DATA, 'kev.json'), kev);
@@ -433,7 +591,7 @@ async function main() {
     updated: new Date().toISOString(), runSeconds: Math.round((Date.now() - t0) / 1000),
     totals: { reports: reports.length, groups: groupList.length, iocs: allIocs.length, cves: Object.keys(cveCount).length, sources: sources.length, sourcesOk: health.filter(h => h.ok).length,
       reports7d: reports.filter(r => new Date(r.published).getTime() > week).length, newThisRun: added, iocsThisRun: newDaily.length },
-    iocTypes: typeTotals, daily, tags: tagCount, techniques: Object.entries(techCount).sort((a, b) => b[1] - a[1]).slice(0, 25), countries: countryCount, mentions: mentionCount, topCves, sources: health,
+    iocTypes: typeTotals, iocFeeds: liveHealth, daily, tags: tagCount, techniques: Object.entries(techCount).sort((a, b) => b[1] - a[1]).slice(0, 25), countries: countryCount, mentions: mentionCount, topCves, sources: health,
   };
   writeJson(path.join(DATA, 'meta.json'), meta);
   writeJson(path.join(DATA, 'groups.json'), groupList);
@@ -441,4 +599,5 @@ async function main() {
   writeJson(path.join(DATA, 'reports.json'), { updated: meta.updated, schema: SCHEMA, reports });
   log(`Done in ${meta.runSeconds}s: ${reports.length} reports, ${groupList.length} groups, ${allIocs.length} unique IoCs.`);
 }
-main().catch(e => { console.error('Collector failed:', e); process.exit(0); /* never fail the workflow/build */ });
+if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) main().catch(e => { console.error('Collector failed:', e); process.exit(0); /* never fail the workflow/build */ });
+export { extractIocs, htmlToText, articleBody, parseFeed, detectCountries, attribute, refang, pageDate, resolveDate };

@@ -1,0 +1,7 @@
+[
+{"id":"feodo","name":"abuse.ch Feodo Tracker (botnet C2 IPs)","type":"ipv4","url":"https://feodotracker.abuse.ch/downloads/ipblocklist.txt","cap":400,"ttlDays":14},
+{"id":"openphish","name":"OpenPhish (phishing URLs)","type":"url","url":"https://openphish.com/feed.txt","cap":400,"ttlDays":3},
+{"id":"et-compromised","name":"Emerging Threats compromised IPs","type":"ipv4","url":"https://rules.emergingthreats.net/blockrules/compromised-ips.txt","cap":500,"ttlDays":7},
+{"id":"binarydefense","name":"Binary Defense banlist","type":"ipv4","url":"https://www.binarydefense.com/banlist.txt","cap":500,"ttlDays":7},
+{"id":"phishdb-new","name":"Phishing.Database (new phishing domains)","type":"domain","url":"https://raw.githubusercontent.com/Phishing-Database/Phishing.Database/master/phishing-domains-NEW-today.txt","cap":300,"ttlDays":5}
+]

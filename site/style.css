@@ -88,3 +88,9 @@ footer{text-align:center;color:var(--mut);padding:30px;font-size:12px}
 .region{display:flex;flex-wrap:wrap;gap:8px}
 .rbtn{background:#0a1626;border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:7px 12px;cursor:pointer;font:inherit}
 .rbtn b{color:var(--acc);margin-left:4px;font-variant-numeric:tabular-nums}.rbtn:hover{border-color:var(--acc)}
+
+.ty.ipv6{background:#12355a;color:#8fd0ff}.ty.sha512{background:#35214f;color:#c3a6ff}.ty.wallet{background:#4a3a12;color:#ffd77a}.ty.file{background:#2c3a1a;color:#b6e07a}
+.new{font:700 10px var(--mono);padding:1px 6px;border-radius:99px;background:var(--acc);color:#021}
+.dt{color:#a9bbd2}
+#fresh{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:#0f2540;border:1px solid var(--acc);color:var(--txt);padding:10px 16px;border-radius:99px;z-index:60;box-shadow:0 8px 30px #000a}
+#fresh button{margin-left:10px;background:var(--acc);color:#021;border:0;border-radius:99px;padding:5px 12px;font:inherit;font-weight:700;cursor:pointer}

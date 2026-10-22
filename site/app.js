@@ -4,8 +4,10 @@ const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAl
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const safeUrl = u => /^https?:\/\//i.test(u) ? esc(u) : '#';
 const fmt = n => (n ?? 0).toLocaleString();
-const ago = iso => { const d = (Date.now() - new Date(iso)) / 864e5; return d < 1 ? 'today' : d < 2 ? 'yesterday' : Math.floor(d) + 'd ago'; };
-const defang = (v, t) => t === 'url' ? v.replace(/^http/i, 'hxxp').replace(/\./g, '[.]') : (t === 'domain' || t === 'ipv4') ? v.replace(/\./g, '[.]') : t === 'email' ? v.replace('@', '[@]').replace(/\./g, '[.]') : v;
+const ago = iso => { const m = (Date.now() - new Date(iso)) / 6e4; if (m < 1) return 'just now'; if (m < 60) return Math.floor(m) + ' min ago'; const h = m / 60; if (h < 24) return Math.floor(h) + ' h ago'; const d = h / 24; return d < 2 ? 'yesterday' : Math.floor(d) + ' d ago'; };
+const fmtDT = iso => new Date(iso).toISOString().replace('T', ' ').slice(0, 16) + ' UTC';
+const isNew = iso => Date.now() - new Date(iso) < 6 * 36e5;
+const defang = (v, t) => t === 'url' ? v.replace(/^http/i, 'hxxp').replace(/\./g, '[.]') : (t === 'domain' || t === 'ipv4') ? v.replace(/\./g, '[.]') : t === 'email' ? v.replace('@', '[@]').replace(/\./g, '[.]') : t === 'ipv6' ? v.replace(/:/g, '[:]') : v;
 const FLAGS = { RU: '🇷🇺', CN: '🇨🇳', KP: '🇰🇵', IR: '🇮🇷', US: '🇺🇸', IN: '🇮🇳', PK: '🇵🇰', VN: '🇻🇳', BY: '🇧🇾', KR: '🇰🇷', SD: '🇸🇩', Intl: '🌐', '??': '❔' };
 const ATTACK = { T1566: 'Phishing', T1059: 'Command & Scripting', T1190: 'Exploit Public-Facing App', T1078: 'Valid Accounts', T1105: 'Ingress Tool Transfer', T1027: 'Obfuscated Files', T1071: 'App Layer Protocol', T1055: 'Process Injection', T1053: 'Scheduled Task', T1547: 'Boot/Logon Autostart', T1036: 'Masquerading', T1070: 'Indicator Removal', T1082: 'System Info Discovery', T1083: 'File & Dir Discovery', T1003: 'OS Credential Dumping', T1021: 'Remote Services', T1486: 'Data Encrypted for Impact', T1041: 'Exfil Over C2', T1204: 'User Execution', T1218: 'System Binary Proxy Exec', T1562: 'Impair Defenses', T1112: 'Modify Registry', T1140: 'Deobfuscate/Decode', T1056: 'Input Capture', T1057: 'Process Discovery', T1012: 'Query Registry', T1018: 'Remote System Discovery', T1033: 'System Owner Discovery', T1046: 'Network Service Discovery', T1074: 'Data Staged', T1090: 'Proxy', T1095: 'Non-App Layer Protocol', T1102: 'Web Service', T1133: 'External Remote Services', T1189: 'Drive-by Compromise', T1195: 'Supply Chain Compromise', T1203: 'Exploitation for Client Exec', T1219: 'Remote Access Software', T1485: 'Data Destruction', T1490: 'Inhibit System Recovery', T1496: 'Resource Hijacking', T1505: 'Server Software Component', T1543: 'Create/Modify System Process', T1546: 'Event Triggered Execution', T1553: 'Subvert Trust Controls', T1560: 'Archive Collected Data', T1567: 'Exfil Over Web Service', T1568: 'Dynamic Resolution', T1573: 'Encrypted Channel', T1574: 'Hijack Execution Flow', T1587: 'Develop Capabilities', T1588: 'Obtain Capabilities', T1589: 'Gather Victim Identity', T1595: 'Active Scanning', T1598: 'Phishing for Information', T1621: 'MFA Request Generation' };
 const COUNTRY = { RU: 'Russia', CN: 'China', KP: 'North Korea', IR: 'Iran', US: 'United States', IN: 'India', PK: 'Pakistan', VN: 'Vietnam', BY: 'Belarus', KR: 'South Korea', SD: 'Sudan', Intl: 'eCrime / Intl', '??': 'Unattributed' };
@@ -40,9 +42,17 @@ async function init() {
   } catch (e) {
     $('#overview').innerHTML = '<div class="empty">No data yet. Run <code>node collector/collect.mjs</code> (or trigger a Netlify build) to collect the first batch.</div>'; return;
   }
-  $('#updated').textContent = 'updated ' + new Date(META.updated).toISOString().replace('T', ' ').slice(0, 16) + ' UTC';
-  const age = (Date.now() - new Date(META.updated)) / 36e5; if (age > 48) { $('#live').textContent = 'STALE'; $('#live').style.color = 'var(--warn)'; $('#live').style.borderColor = 'var(--warn)'; }
+  const tick = () => { $('#updated').textContent = 'data ' + fmtDT(META.updated) + ' · ' + ago(META.updated); };
+  tick(); setInterval(tick, 30000); watchForUpdates();
+  const age = (Date.now() - new Date(META.updated)) / 36e5; if (age > 3) { $('#live').textContent = 'STALE'; $('#live').style.color = 'var(--warn)'; $('#live').style.borderColor = 'var(--warn)'; }
   buildOverview(); buildReports(); buildGroups(); buildIocs(); buildAttack(); buildKev(); buildSources(); route();
+}
+
+/* poll meta.json every 3 minutes; if the collector published newer data, offer a one-click refresh */
+function watchForUpdates() {
+  setInterval(async () => {
+    try { const m = await j('data/meta.json'); if (m.updated !== META.updated && !$('#fresh')) { const b = document.createElement('div'); b.id = 'fresh'; b.innerHTML = 'New intelligence has been collected. <button id="freshgo">Refresh now</button>'; document.body.appendChild(b); $('#freshgo').onclick = () => location.reload(); } } catch { /* offline: ignore */ }
+  }, 180000);
 }
 
 /* ---------- tabs ---------- */
@@ -72,7 +82,7 @@ function dailyChart() {
 /* ---------- overview ---------- */
 function buildOverview() {
   const t = META.totals;
-  $('#kpis').innerHTML = [['Reports tracked', t.reports, `+${t.reports7d} this week`, '--acc2'], ['Threat actors', t.groups, 'attributed', '--vio'], ['Unique IoCs', t.iocs, `+${fmt(t.iocsThisRun)} last run`, '--warn'], ['CVEs referenced', t.cves, KEV ? fmt(KEV.total) + ' in CISA KEV' : '', '--bad'], ['Live sources', `${t.sourcesOk}/${t.sources}`, 'feeds healthy', '--acc']]
+  $('#kpis').innerHTML = [['Reports tracked', t.reports, `+${REPORTS.filter(r => Date.now() - new Date(r.published) < 864e5).length} in 24h · +${t.reports7d} this week`, '--acc2'], ['Threat actors', t.groups, 'attributed', '--vio'], ['Unique IoCs', t.iocs, `+${fmt(t.iocsThisRun)} last run`, '--warn'], ['CVEs referenced', t.cves, KEV ? fmt(KEV.total) + ' in CISA KEV' : '', '--bad'], ['Live sources', `${t.sourcesOk}/${t.sources}`, 'feeds healthy', '--acc']]
     .map(([l, v, s, c]) => `<div class="kpi" style="--c:var(${c})"><span>${l}</span><b>${typeof v === 'number' ? fmt(v) : esc(v)}</b><small>${esc(s)}</small></div>`).join('');
   dailyChart();
   hbars('#chartGroups', GROUPS.slice(0, 10).map(g => [g.name, g.reportCount, (FLAGS[g.country] || '') + ' ']), r => openGroup(r[0]));
@@ -80,6 +90,8 @@ function buildOverview() {
   hbars('#chartIoc', Object.entries(META.iocTypes).sort((a, b) => b[1] - a[1]).map(([k, n]) => [k, n]), r => { $('#it').value = r[0]; show('iocs'); renderIocs(true); }, 'linear-gradient(90deg,#ffb020,#ff4d6d)');
   $('#chartTags').innerHTML = Object.entries(META.tags).sort((a, b) => b[1] - a[1]).slice(0, 16).map(([k, n]) => `<span data-tag="${esc(k)}" style="font-size:${11 + Math.min(8, n / 12)}px">${esc(k)} <b>${n}</b></span>`).join('');
   $('#chartTags').onclick = e => { const s = e.target.closest('span'); if (s) { $('#rtag').value = s.dataset.tag; $('#rrange').value = '9999'; show('reports'); renderReports(true); } };
+  $('#latestReports').innerHTML = REPORTS.slice(0, 8).map(repHtml).join('');
+  $('#latestReports').onclick = repClick;
   $('#topReports').innerHTML = [...REPORTS].filter(r => Date.now() - new Date(r.published) < 30 * 864e5).sort((a, b) => b.score - a.score).slice(0, 7).map(repHtml).join('');
   $('#topCves').innerHTML = META.topCves.slice(0, 14).map(c => `<div class="hbar" style="grid-template-columns:140px 1fr 30px"><a class="lbl" target="_blank" rel="noopener" href="https://nvd.nist.gov/vuln/detail/${esc(c.cve)}" style="font-family:var(--mono)">${esc(c.cve)}</a><span class="track"><span class="fill" style="display:block;width:${c.n / META.topCves[0].n * 100}%;background:linear-gradient(90deg,#ff4d6d,#ffb020)"></span></span><span class="n">${c.n}</span></div>${c.kev ? '' : ''}`).join('');
   $('#q').oninput = lookup;
@@ -112,7 +124,7 @@ function repHtml(r) {
   const ic = Object.entries(r.iocCounts || {}).map(([k, v]) => `${v} ${k}`).join(' · ');
   return `<article class="rep" data-id="${esc(r.id)}"><div class="score" style="--p:${r.score};--c:${scoreColor(r.score)}" data-s="${r.score}" title="Threat score"></div><div>
   <h4><a href="${safeUrl(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a></h4>
-  <div class="meta"><span>${esc(r.source)}</span><span>${esc(r.published.slice(0, 10))} · ${ago(r.published)}</span>${r.sourceType === 'gov' ? '<span class="flag">GOV</span>' : ''}${r.deep ? '' : '<span title="Only the feed teaser was analysed">teaser</span>'}</div>
+  <div class="meta"><span>${esc(r.source)}</span><span class="dt" title="Published ${esc(fmtDT(r.published))} (date taken from the ${r.dateSrc === 'page' ? 'article page' : 'feed'}). First collected ${esc(r.firstSeen || r.collected || '')}">🕒 ${esc(fmtDT(r.published))} · ${ago(r.published)}</span>${isNew(r.published) ? '<span class="new">NEW</span>' : ''}${r.sourceType === 'gov' ? '<span class="flag">GOV</span>' : ''}${r.sourceType === 'vendor' ? '<span class="flag">VENDOR</span>' : ''}${r.deep ? '' : '<span title="Only the feed teaser was analysed">teaser</span>'}</div>
   ${r.summary ? `<p class="sum">${esc(r.summary.slice(0, 230))}…</p>` : ''}
   <div class="chips">${r.groups.map(g => `<span class="chip g" data-g="${esc(g.name)}">${FLAGS[g.country] || ''} ${esc(g.name)}</span>`).join('')}${r.countries.slice(0, 4).map(c => `<span class="chip k" data-c="${esc(c)}" title="Reports mentioning ${esc(cname(c))}">${esc(cname(c))}</span>`).join('')}${r.iocTotal ? `<span class="chip i" data-ioc="${esc(r.id)}" title="${esc(ic)}">⚑ ${r.iocTotal} IoCs</span>` : ''}${r.cves.slice(0, 4).map(c => `<span class="chip c">${esc(c)}</span>`).join('')}${r.cves.length > 4 ? `<span class="chip">+${r.cves.length - 4} CVEs</span>` : ''}${r.tags.slice(0, 4).map(t => `<span class="chip t" data-tag="${esc(t)}">#${esc(t)}</span>`).join('')}</div></div></article>`;
 }
@@ -122,7 +134,7 @@ function buildReports() {
   $('#rtag').innerHTML += Object.keys(META.tags).sort().map(s => `<option>${esc(s)}</option>`).join('');
   const cnt = {}; REPORTS.forEach(r => r.countries.forEach(c => { cnt[c] = (cnt[c] || 0) + 1; }));
   $('#rcountry').innerHTML += Object.entries(cnt).sort((a, b) => b[1] - a[1]).map(([c, n]) => `<option value="${esc(c)}">${esc(cname(c))} (${n})</option>`).join('');
-  ['#rq', '#rsrc', '#rtype', '#rtag', '#rcountry', '#rrange', '#rapt', '#rioc'].forEach(s => $(s).addEventListener('input', () => renderReports(true)));
+  ['#rq', '#rsrc', '#rtype', '#rtag', '#rcountry', '#rrange', '#rsort', '#rapt', '#rioc'].forEach(s => $(s).addEventListener('input', () => renderReports(true)));
   $('#rmore').onclick = () => renderReports(false); $('#rlist').onclick = repClick; $('#topReports').onclick = repClick;
   renderReports(true);
 }
@@ -138,9 +150,10 @@ function renderReports(reset) {
     const qCodes = countryCodesFor(q);   // "armenia" / "армения" / "arm" -> reports tagged with that country
     rFiltered = REPORTS.filter(r => new Date(r.published) >= cut && (!$('#rsrc').value || r.source === $('#rsrc').value) && (!$('#rtype').value || r.sourceType === $('#rtype').value) && (!$('#rtag').value || r.tags.includes($('#rtag').value)) && (!cc || r.countries.includes(cc)) && (!$('#rapt').checked || r.groups.length) && (!$('#rioc').checked || r.iocTotal) &&
       (!q || nrm(r.title + ' ' + r.summary + ' ' + r.source + ' ' + r.groups.map(g => g.name).join(' ') + ' ' + r.cves.join(' ') + ' ' + r.countries.map(cname).join(' ')).includes(q) || r.countries.some(c => qCodes.has(c))));
+    if ($('#rsort').value === 'score') rFiltered.sort((a, b) => b.score - a.score || (a.published < b.published ? 1 : -1));
     // when searching by country, reports where that country is the main subject come first
     const want = cc ? new Set([cc]) : qCodes;
-    if (want.size) { const rank = r => { let m = 50; r.countries.forEach((c, i) => { if (want.has(c) && i < m) m = i; }); return m; }; rFiltered.sort((a, b) => rank(a) - rank(b) || (a.published < b.published ? 1 : -1)); }
+    if (want.size && $('#rsort').value !== 'score') { const rank = r => { let m = 50; r.countries.forEach((c, i) => { if (want.has(c) && i < m) m = i; }); return m; }; rFiltered.sort((a, b) => rank(a) - rank(b) || (a.published < b.published ? 1 : -1)); }
     rShown = 0; $('#rlist').innerHTML = ''; $('#rcount').textContent = `${fmt(rFiltered.length)} reports`;
   }
   $('#rlist').insertAdjacentHTML('beforeend', rFiltered.slice(rShown, rShown + 25).map(repHtml).join('')); rShown += 25;
@@ -205,7 +218,7 @@ function renderIocs(reset) {
     iShown = 0; $('#itable tbody').innerHTML = ''; $('#icount').textContent = `${fmt(iFiltered.length)} indicators`;
   }
   const d = $('#idf').checked;
-  $('#itable tbody').insertAdjacentHTML('beforeend', iFiltered.slice(iShown, iShown + 100).map(i => `<tr><td><span class="ty ${esc(i.t)}">${esc(i.t)}</span></td><td class="v">${esc(d ? defang(i.v, i.t) : i.v)}</td><td>${esc(i.g.slice(0, 2).join(', ')) || '<span class="muted">—</span>'}</td><td>${esc(i.last.slice(0, 10))}</td><td><a href="#iocs" data-r="${esc(i.r[0])}" title="${esc(repById.get(i.r[0])?.title || '')}">${i.r.length}</a></td><td><button class="cp" data-v="${esc(i.v)}" title="Copy (refanged)">⧉</button></td></tr>`).join('')); iShown += 100;
+  $('#itable tbody').insertAdjacentHTML('beforeend', iFiltered.slice(iShown, iShown + 100).map(i => `<tr><td><span class="ty ${esc(i.t)}">${esc(i.t)}</span></td><td class="v">${esc(d ? defang(i.v, i.t) : i.v)}</td><td>${esc(i.g.slice(0, 2).join(', ')) || '<span class="muted">—</span>'}</td><td title="first seen ${esc(i.first.slice(0, 10))}">${esc(i.last.slice(0, 10))}</td><td>${i.r.length ? `<a href="#iocs" data-r="${esc(i.r[0])}" title="${esc(repById.get(i.r[0])?.title || '')}">${i.r.length}</a>` : ''}${(i.s || []).slice(0, 1).map(f => `<span class="chip i" title="${esc(f)}">feed: ${esc(f.split(' ')[0])}</span>`).join('')}</td><td><button class="cp" data-v="${esc(i.v)}" title="Copy (refanged)">⧉</button></td></tr>`).join('')); iShown += 100;
   $('#imore').style.display = iShown < iFiltered.length ? '' : 'none';
 }
 const toCsv = a => 'type,value,first_seen,last_seen,groups\n' + a.map(i => [i.t, i.v, i.first.slice(0, 10), i.last.slice(0, 10), i.g.join('|')].map(x => `"${String(x).replace(/"/g, '""')}"`).join(',')).join('\n') + '\n';
@@ -223,8 +236,13 @@ function buildKev() {
   $('#kq').oninput = draw; draw();
 }
 function buildSources() {
-  $('#shealth').textContent = `${META.totals.sourcesOk} of ${META.totals.sources} sources responded on the last run (${META.runSeconds}s). Failed feeds are retried every run.`;
-  $('#slist').innerHTML = META.sources.map(s => `<div class="src"><span class="dot ${s.ok ? '' : 'bad'}"></span><div><b>${esc(s.name)}</b><small>${esc(s.type)} · ${s.ok ? s.items + ' items, ' + s.new + ' new' : esc(s.error)}</small></div></div>`).join('');
+  const t = META.totals, bad = META.sources.filter(s => !s.ok).length;
+  $('#shealth').textContent = `${t.sourcesOk} of ${t.sources} sources responded on the last run (${META.runSeconds}s)${bad ? ' - ' + bad + ' failing (retried every run)' : ''}. Each source shows when its newest post was published.`;
+  const card = s => `<div class="src"><span class="dot ${s.ok ? '' : 'bad'}"></span><div><b>${esc(s.name)}</b><small>${esc(s.type)} · ${s.ok ? s.items + ' items, ' + s.new + ' new' + (s.newest ? ' · latest post ' + ago(s.newest) : '') : esc(s.error) + (s.since ? ' · failing since ' + esc(s.since.slice(0, 16).replace('T', ' ')) : '')}</small></div></div>`;
+  const ord = [...META.sources].sort((a, b) => (a.ok - b.ok) || String(b.newest || '').localeCompare(String(a.newest || '')));
+  $('#slist').innerHTML = ord.map(card).join('');
+  const lf = META.iocFeeds || [];
+  $('#ioclist2').innerHTML = lf.map(f => `<div class="src"><span class="dot ${f.ok ? '' : 'bad'}"></span><div><b>${esc(f.name)}</b><small>${esc(f.type)} · ${f.ok ? f.listed + ' listed, ' + f.items + ' kept' : esc(f.error || 'failed')}</small></div></div>`).join('') || '<div class="muted">No direct IoC feeds configured.</div>';
 }
 
 /* ---------- animated background (network nodes) ---------- */

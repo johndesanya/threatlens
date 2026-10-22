@@ -52,6 +52,7 @@
       <div class="card"><h3>Regional focus <small>Caucasus · Eurasia · Middle East · West</small></h3><div id="region" class="region"></div></div>
     </div>
     <div class="grid2">
+      <div class="card"><h3>Latest reports <small>by publication date</small></h3><div id="latestReports"></div></div>
       <div class="card"><h3>Highest-signal reports <small>threat score</small></h3><div id="topReports"></div></div>
       <div class="card"><h3>Most-cited CVEs</h3><div id="topCves"></div></div>
     </div>
@@ -61,10 +62,11 @@
     <div class="bar">
       <input id="rq" placeholder="Search title, summary, actor, CVE…">
       <select id="rsrc"><option value="">All sources</option></select>
-      <select id="rtype"><option value="">All types</option><option value="research">Vendor research</option><option value="gov">Government</option><option value="news">News</option></select>
+      <select id="rtype"><option value="">All types</option><option value="research">Threat research</option><option value="vendor">Vendor blogs</option><option value="gov">Government / CERT</option><option value="news">News</option><option value="regional">Regional news</option></select>
       <select id="rtag"><option value="">All themes</option></select>
       <select id="rcountry"><option value="">All countries</option></select>
-      <select id="rrange"><option value="7">7 days</option><option value="30" selected>30 days</option><option value="90">90 days</option><option value="9999">All</option></select>
+      <select id="rsort"><option value="date">Newest first</option><option value="score">Highest threat score</option></select>
+      <select id="rrange"><option value="1">24 hours</option><option value="3">3 days</option><option value="7">7 days</option><option value="30" selected>30 days</option><option value="90">90 days</option><option value="9999">All</option></select>
       <label class="chk"><input type="checkbox" id="rapt"> APT-attributed</label>
       <label class="chk"><input type="checkbox" id="rioc"> Has IoCs</label>
     </div>
@@ -92,11 +94,11 @@
       <button id="icsv" class="btn">Export CSV</button>
       <button id="itxt" class="btn">Export TXT</button>
     </div>
-    <div class="note">⚠ Indicators are auto-extracted from public reports and may contain false positives. Validate before blocking. Bulk feeds: <a href="iocs/all.csv">all.csv</a> · <a href="iocs/all.json">all.json</a> · <a href="iocs/feeds/ipv4.txt">ipv4</a> · <a href="iocs/feeds/domain.txt">domains</a> · <a href="iocs/feeds/url.txt">urls</a> · <a href="iocs/feeds/sha256.txt">sha256</a> · <a href="iocs/feeds/md5.txt">md5</a></div>
+    <div class="note">⚠ Indicators are auto-extracted from public reports and may contain false positives. Validate before blocking. Types: IPv4/IPv6, domains, URLs, MD5/SHA1/SHA256/SHA512, e-mail, crypto wallets, file names. Bulk feeds: <a href="iocs/all.csv">all.csv</a> · <a href="iocs/all.json">all.json</a> · <a href="iocs/feeds/ipv4.txt">ipv4</a> · <a href="iocs/feeds/domain.txt">domains</a> · <a href="iocs/feeds/url.txt">urls</a> · <a href="iocs/feeds/sha256.txt">sha256</a> · <a href="iocs/feeds/md5.txt">md5</a></div>
     <details class="bulk"><summary>Bulk check — paste a log or list and see which indicators we know</summary>
       <textarea id="bulk" rows="5" placeholder="Paste IPs, domains, hashes…"></textarea><button id="bulkgo" class="btn">Check</button><div id="bulkres"></div></details>
     <div class="count" id="icount"></div>
-    <div class="tablewrap"><table id="itable"><thead><tr><th>Type</th><th>Indicator</th><th>Actor</th><th>Last seen</th><th>Reports</th><th></th></tr></thead><tbody></tbody></table></div>
+    <div class="tablewrap"><table id="itable"><thead><tr><th>Type</th><th>Indicator</th><th>Actor</th><th>Last seen / observed</th><th>Source</th><th></th></tr></thead><tbody></tbody></table></div>
     <button id="imore" class="more">Load more</button>
   </section>
 
@@ -112,6 +114,7 @@
 
   <section id="sources" class="tab">
     <div class="card"><h3>Collection health</h3><p class="muted" id="shealth"></p><div id="slist" class="slist"></div></div>
+    <div class="card" style="margin-top:14px"><h3>Direct IoC feeds <small>C2 trackers &amp; blocklists</small></h3><div id="ioclist2" class="slist"></div></div>
   </section>
 </main>
 
