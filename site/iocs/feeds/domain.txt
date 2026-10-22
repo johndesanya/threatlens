@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-22T17:44:34.275Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-22T18:01:41.016Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 dns.name
 oskeysetup.com
 contoso.add-passkey.com
@@ -239,8 +239,6 @@ ashen-drift-stone.pages.dev
 arrow-berry-gem.pages.dev
 pages.dev
 eseecloud.app
-icanhazip.com
-api.ipify.org
 www.remindmewhere.app
 www.aliexpress.com
 volasim.com
@@ -322,8 +320,13 @@ api.cloudsettle.org
 www.hashicorp.com
 www.akamai.com
 developer.hashicorp.com
+maplequay.net
+employee-handbook.md
+icanhazip.com
+hstspreload.org
 greatfire.org
 supportportal.juniper.net
+api.ipify.org
 open.bigmodel.cn
 ylhgkj.com
 www.c.com

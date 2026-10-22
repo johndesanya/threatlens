@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-22T17:44:34.275Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-22T18:01:41.016Z - source: public vendor reports. Verify before blocking.
 stadia_x32.exe
 nvcontainer.exe
 build_x64.exe
@@ -51,6 +51,24 @@ CCleaner64.exe
 CCleaner.exe
 AnyDesk.exe
 Acronis.exe
+upgrade-now.exe
+rsetup64.exe
+mfc140u.dll
+libRuntimeComponent.dll
+libBlkScrDl.dll
+abe.exe
+WinLpcDl2.dll
+WinLpcDl.dll
+WNTestDll.dll
+RuntimeComponent.dll
+Nitro_Scan2PDFApp.exe
+NitroPromotion.exe
+FamItrfc.exe
+FamItrf2.exe
+Eztwain4.dll
+BlkScrDl.dll
+Backupper.exe
+ABNotify.exe
 msedge.exe
 grok.exe
 copilot_lite.exe
