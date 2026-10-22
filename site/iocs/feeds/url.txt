@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-22T07:15:37.836Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-22T10:00:34.643Z - source: public vendor reports. Verify before blocking.
 https://xcai.pro/v1
 http://www.litellm.dev/healthcheck
 https://www.ksog.org/insert_file/handle.php
@@ -349,6 +349,14 @@ https://stryper.info/aa.js
 http://aa.amazingshield.xyz/33244556546.py
 https://www.marketsandmarkets.com/Market-Reports/ai-agents-market-15761548.html
 https://machinelearningmastery.com/7-agentic-ai-trends-to-watch-in-2026/
+https://www.channelinsider.com/wp-content/uploads/2021/05/CI_RetinaLogo.png
+https://www.channelinsider.com/security/#breadcrumb
+https://www.channelinsider.com/security/
+https://www.channelinsider.com/?s=
+https://www.channelinsider.com/#website
+https://www.channelinsider.com/#organization
+https://www.channelinsider.com/#/schema/logo/image/
+https://www.channelinsider.com/
 https://www.mrtb.gov.ng/apps/attvpn.vip
 https://tisup.camaratunapolis.sc.gov.br/SoftEther.exe
 https://suporte.camaratunapolis.sc.gov.br/ti/attvpn.zip

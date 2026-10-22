@@ -1,6 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-22T07:15:37.836Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-22T10:00:34.643Z - source: public vendor reports. Verify before blocking.
 www.sglacpas.com
 www.archivetj.com
+pan.am
 techora.ru
 srsnodgrass.com
 sync-memory.sh
@@ -1348,6 +1349,8 @@ achievershelf.space
 aa.amazingshield.xyz
 www.marketsandmarkets.com
 machinelearningmastery.com
+www.channelinsider.com
+channelinsider.com
 knowledge.md
 usa.newsinweb.com
 newsinweb.com
