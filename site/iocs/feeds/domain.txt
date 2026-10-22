@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-22T23:03:48.352Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-22T23:49:54.346Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 research.splunk.com
 detectionengineering.net
 motor.net
@@ -423,7 +423,6 @@ pressmedia.am
 pressclub.club
 press24.am
 pravdauk.ru
-past.am
 orer.am
 oragir.live
 newszone.am
@@ -442,6 +441,7 @@ analytic.am
 24info.am
 24.tejlurer.site
 1in.arm24news.ru
+past.am
 trycloudflare.com
 vrf.apexaccs.org
 verify.apexfdn.xyz
@@ -953,6 +953,8 @@ cyrna.top
 byveo.org
 bpdaersa.click
 3322.org
+space.ru
+debunk.org
 www.lantronix.com
 www.baicells.com
 www.anjvision.com
@@ -966,16 +968,29 @@ evil-wikipedia.org
 aws.eu
 www.sans.org
 www.jsdelivr.com
-socket.dev
 blog.gitguardian.com
-arcticwolf.com
+www.verizon.com
+www.mha.gov.in
+www.angelone.in
+theprint.in
 thepaypers.com
-bank.in
-devices.in
+nsearchives.nseindia.com
+docs.apwg.org
+aijourn.com
+muddy-sound-e0cd.nodetectonn.workers.dev
+blessedongrace.duckdns.org
+www.qmsjmfb.com
+damaix9k.com
 evil.attacker.com
 winmanage-me.network
 microsoft-entra.net
+java.io
 enroll.azuredevice.cloud
+whyavc-qwmv6stx.vercel.app
+soyyoo-cwpc5n0e.vercel.app
+rpc-gbz5.vercel.app
+router-wdoi.vercel.app
+node-f1ey.vercel.app
 azurenetfiles.net
 googleads.g.doubleclick.net
 yourbrand.com
@@ -1885,3 +1900,6 @@ tejlurer.online
 arm24news.ru
 siekeltd.com
 escofiringbijou.com
+bank.in
+infostealers.com
+fortune.com

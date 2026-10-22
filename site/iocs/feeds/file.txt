@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-22T23:03:48.352Z - source: public vendor reports. Verify before blocking.
-sample.exe
+# ThreatLens IoC feed - generated 2026-10-22T23:49:54.346Z - source: public vendor reports. Verify before blocking.
 cca616647db9370c88998ae25da6997f.exe
 485055033bcddfde56325c0d2feea4f2.exe
+sample.exe
 stadia_x32.exe
 nvcontainer.exe
 build_x64.exe
@@ -153,6 +153,17 @@ version.Dll
 sys.Dll
 pythonw.Exe
 curl.Exe
+w3wp.Exe
+godmemshell.Dll
+MicrosoftEdgeUpdate.Exe
+javacpl.Exe
+deploy.Dll
+vbc.exe
+SkinChanger.exe
+Roblox.exe
+Ple64.exe
+f_000bc7.exe
+KMSAuto.exe
 hmn_hook.dll
 auto.exe
 78324.exe
