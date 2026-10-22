@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-22T21:32:05.070Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-22T22:16:21.384Z - source: public vendor reports. Verify before blocking.
 sample.exe
 cca616647db9370c88998ae25da6997f.exe
 485055033bcddfde56325c0d2feea4f2.exe
@@ -73,6 +73,7 @@ Eztwain4.dll
 BlkScrDl.dll
 Backupper.exe
 ABNotify.exe
+msedge.exe
 grok.exe
 copilot_lite.exe
 claude-code.exe
@@ -81,7 +82,6 @@ Sora2.apk
 Installer.exe
 GeminiSetup.exe
 Claude_x64-setup.exe
-msedge.exe
 unionfs.sys
 fdwsd.dll
 csc.sys
@@ -106,9 +106,9 @@ apex-audit-windows-x64.exe
 _audit_run.vbs
 _apex_run.vbs
 live700_v1.exe
+dllhost.exe
 DiagTrack.exe
 DC.exe
-dllhost.exe
 151.ps1
 f_003914.exe
 SECOH-QAD.exe
@@ -130,7 +130,11 @@ LenovoBootRepair.sys
 IronChain.hta
 BootRepair.sys
 BdApiUtil.sys
+tmp00055df5.dll
+f_006048.exe
+d4aa3e7010220ad1b458fac17039c274_63_Exe.exe
 chrome.exe
+Firefox.exe
 hmn_hook.dll
 auto.exe
 78324.exe
