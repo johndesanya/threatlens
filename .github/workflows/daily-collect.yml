@@ -1,7 +1,6 @@
 name: Collect threat intel
 on:
   schedule:
-    # exactly every 45 minutes (UTC): 00:07, 00:52, 01:37, 02:22, 03:07, ...
     - cron: "7,52 0-23/3 * * *"
     - cron: "37 1-23/3 * * *"
     - cron: "22 2-23/3 * * *"
@@ -32,7 +31,14 @@ jobs:
         run: |
           git config user.name "threatlens-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add site/data site/iocs
-          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
-          git commit -m "chore: refresh threat intel $(date -u +%F-%H%M)"
-          for i in 1 2 3; do git pull --rebase origin main && git push && break || sleep 5; done
+          for i in 1 2 3; do
+            git add site/data site/iocs
+            if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+            git commit -m "chore: refresh threat intel $(date -u +%F-%H%M)"
+            if git push; then exit 0; fi
+            echo "push rejected - rebuilding on top of the latest commit (attempt $i)"
+            git fetch origin main
+            git reset --hard origin/main
+            node collector/collect.mjs
+          done
+          exit 1
