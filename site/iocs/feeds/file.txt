@@ -1,4 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-22T18:01:41.016Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-22T18:35:48.912Z - source: public vendor reports. Verify before blocking.
+sample.exe
+cca616647db9370c88998ae25da6997f.exe
+485055033bcddfde56325c0d2feea4f2.exe
 stadia_x32.exe
 nvcontainer.exe
 build_x64.exe
@@ -11,6 +14,7 @@ OneDriveStandaloneUpdater.exe
 MicrosoftEdgeUpdate.exe
 GoogleUpdate.exe
 AdobeARM.exe
+sqldiff.exe
 ShareFinder.ps1
 jcef_helper.exe
 googleupdate.exe
@@ -69,7 +73,6 @@ Eztwain4.dll
 BlkScrDl.dll
 Backupper.exe
 ABNotify.exe
-msedge.exe
 grok.exe
 copilot_lite.exe
 claude-code.exe
@@ -78,6 +81,13 @@ Sora2.apk
 Installer.exe
 GeminiSetup.exe
 Claude_x64-setup.exe
+msedge.exe
+unionfs.sys
+fdwsd.dll
+csc.sys
+Spaceport.sys
+HTTP.sys
+rndismp6.sys
 ScreenConnect.exe
 ScreenConnect.ClientSetup.exe
 dllhost.exe

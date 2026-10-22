@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-22T18:01:41.016Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-22T18:35:48.912Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 dns.name
 oskeysetup.com
 contoso.add-passkey.com
@@ -16,6 +16,10 @@ disney.api.edge.bamgrid.com
 battle.net
 techora.ru
 calif.io
+www.kiloview.com
+wrc.intersystems.com
+docs.intersystems.com
+www.siemens.com
 test.test.com
 ghcr.io
 files.pythonhosted.org
@@ -387,6 +391,8 @@ code-desktop.com
 socket.io
 news.am
 hub.ivanti.com
+forums.ivanti.com
+curl.se
 malicious.net
 affecting.net
 www.watchguard-vpn.net
@@ -1406,7 +1412,6 @@ discherniation.com
 code.network
 c2looper.in
 payloads.in
-www.siemens.com
 opera.com
 giacoloredstones.com
 espn.com
