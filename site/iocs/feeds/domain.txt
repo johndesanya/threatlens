@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-21T21:58:00.551Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-22T01:06:58.921Z - source: public vendor reports. Verify before blocking.
 techora.ru
 srsnodgrass.com
 sync-memory.sh
@@ -862,6 +862,7 @@ aes.rs
 213-111-146-132.cprapid.com
 185-66-91-112.cprapid.com
 stopncii.org
+user.name
 tojiktelecomtj.com
 tm.com
 server.com
@@ -885,15 +886,16 @@ pub360.com
 eprofit.com
 difive.com
 centerex.com
-urltheprints.org
-ipinfo.io
+theprints.org
+theprint.in
+officialinfo.org
 ipapi.co
 indiatodays.org
+indiatoday.in
 f005.backblazeb2.com
-codes.network
 clients-easy.s3.us-east-005.backblazeb2.com
+ipinfo.io
 ip-api.com
-machine.network
 httpbin.org
 devtunnels.ms
 malware-traffic-analysis.net
@@ -1136,7 +1138,6 @@ ithomson.direct.quickconnect.to
 domaintools.com
 abr.business.gov.au
 gov12366.com
-user.name
 service.name
 entity.id
 user.email
@@ -1367,6 +1368,7 @@ i.emailanalytics.com.ua
 i.analyticemailmeter.com
 server.in
 message.chat.id
+machine.network
 installation.network
 contacts.ftabnews.com
 upload.rightwidth.dev

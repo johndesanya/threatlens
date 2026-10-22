@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-21T21:58:00.551Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-22T01:06:58.921Z - source: public vendor reports. Verify before blocking.
 https://xcai.pro/v1
 http://www.litellm.dev/healthcheck
 https://www.ksog.org/insert_file/handle.php
@@ -285,11 +285,11 @@ https://icci-sa.com/xgov/
 https://icci-sa.com/xgov
 https://deadhub.org
 http://193.23.118.155
-https://ipinfo.io/jsoncurl
-https://ipapi.co/jsonRetrieve
+https://ipapi.co/json
 https://f005.backblazeb2.com/file/Clients-easy/DriverInstaller.zip
 https://clients-easy.s3.us-east-005.backblazeb2.com/Automata-20.zip
 http://ip-api.com/json
+https://ipinfo.io/json
 https://grove-89.com/api/metrics/run?event=pasted
 https://getmacouscloud.com
 https://ferncore13.com/curl/608e70d1338612686917ee5cd300ff7ed8e318dfd787a50257f92142e99bd688
@@ -326,7 +326,6 @@ https://snowy-block-ae0a.daoahueb.workers.dev/
 https://small-union-7018.daoahueb.workers.dev/
 https://recommendation-letter.secboxes.com/ChromeUpdate.exe
 https://project.secboxes.com/ChromeUpdate.exe
-https://ipinfo.io/json
 https://homepage.brianwilli.com/d/wint.exe
 https://homepage.brianwilli.com/d/calibre-launcher.dll
 https://homepage.brianwilli.com/d/SysPr.prx
