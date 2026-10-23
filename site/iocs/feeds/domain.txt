@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-10-23T21:30:34.558Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-23T22:15:04.494Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+webhook.site
 popcorntimeupd.xyz
 stealer.sa
 www.litellm.dev
@@ -247,7 +248,6 @@ agent.pl
 promotion.storage-data.com
 aomei.storage-data.com
 shinywire.com
-webhook.site
 pub.dev
 watchguard-vpn.net
 watchguard-ssl.online
