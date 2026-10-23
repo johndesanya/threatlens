@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-23T06:38:46.498Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-23T07:33:08.996Z - source: public vendor reports. Verify before blocking.
 test@test.com
 support@orders.staples.com
 audit@trackscope.app
@@ -37,7 +37,9 @@ helpdesk@newsystemmaintenance.onmicrosoft.com
 helpdesk@itprotectiondepartment.onmicrosoft.com
 helpcenter@ithelpcenter365.onmicrosoft.com
 marina.tucker@xgpghqau.com
+security@rust-lang.org
 bounce@chamber-ua.org
+me@jaredwray.com
 zmul1@buildandconsulting.com
 hostingclient@pinmx.net
 garrysmithme@pinmx.net

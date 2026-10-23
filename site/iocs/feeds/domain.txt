@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-10-23T06:38:46.498Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-23T07:33:08.996Z - source: public vendor reports. Verify before blocking.
+sysio.pl
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 bugs.launchpad.net
 kb.isc.org
 reg.ru
@@ -1891,8 +1892,13 @@ service.name
 entity.id
 media.am
 user.email
-californicationdetroit.com
+static.rust-lang.org
+static.crates.io
+index.crates.io
+hwsrv-798836.hostwindsdns.com
+docs.rs
 build.rs
+californicationdetroit.com
 xshaon123.sbs
 xmsae.sbs
 ue886578433.online
@@ -1904,7 +1910,6 @@ t2.kshahnd.sbs
 sh65.io
 pxyedge.com
 proxyforu.com
-ovcloudcontrol.cdn.cardoor.cn
 nmnsny.sbs
 mdsjhd.sbs
 kshahnd.sbs
@@ -1944,8 +1949,16 @@ fewfwfwfwfwf.info
 drive.google.verify-drive.com
 dosportal.app
 chamber-ua.org
+cdnorigin.net
+reeemso.forwardbox.co.uk
+polygon.drpc.org
+gl1nto.spiintforge.ru
+chainlist.org
+steamcommunity.com
+sprinthost.ru
 micronsoftwares.com
 dtm.kijangturbo88.top
+lockwall.xyz
 www.parsrulman.com
 www.lapellelaser.pl
 v-k.com.ua
@@ -1955,12 +1968,22 @@ mectcalcutta.com
 maximumrock.ro
 ksr-racingparts.com
 discherniation.com
-code.network
-c2looper.in
-payloads.in
+politico-24.com
+haaretz24.com
+euronews.us.com
+trustidcard.com
+insertface.com
+subdomain.oast.me
+states.us
 24.arm24news.ru
 1in.tejlurer.online
 indiatoday.in
+rekor.sigstore.dev
+fulcio.sigstore.dev
+npm-cache.com
+go.getblock.io
+eth.llamarpc.com
+eth-mainnet.nodereal.io
 opera.com
 giacoloredstones.com
 espn.com
@@ -2040,7 +2063,6 @@ advanceslibrary.com
 ads-analytic.com
 chocoshell.in
 file.in
-npm-cache.com
 thai2570.com
 jiaoyisuo.thai2570.com
 thread.network
@@ -2135,9 +2157,6 @@ activatepasskeyportal.com
 activatepasskey.com
 activatemypasskey.com
 logs-endpoint.events.network
-go.getblock.io
-eth.llamarpc.com
-eth-mainnet.nodereal.io
 dns.question.name
 awqhnjewqjkl.icu
 datapub.news
@@ -2160,6 +2179,7 @@ cdn.prod.website-files.com
 variants.in
 re102.fastwinnow.com
 proceeding.in
+payloads.in
 zxzaq.com
 xwe.us
 xsza.net
@@ -2229,7 +2249,6 @@ file.rightwidth.dev
 crypto.com
 controller.rightwidth.dev
 1234.sh
-steamcommunity.com
 hurgadatour.shop
 codebasecode.com
 cal.snehamumbai.org
@@ -2283,6 +2302,7 @@ jxnl.co
 healthfullyrecipes.com
 seguranca.versionnova.site
 attacker-db.com
+gizmodo.cc
 www.drs.gov.ua
 www.circoloesteri.it
 ws-feed.exchange.coinbase.com
@@ -2346,6 +2366,7 @@ allegro-stroe.cyou
 allegro-stroe.com
 allegro-stroe.cc
 key.in
+tech-crunch.org
 graph.windows.net
 node-js.prentiva99.info
 link.storjshare.io
@@ -2381,6 +2402,7 @@ marialurdes.site
 harialurdes.site
 donalurdesconfeitos.site
 lojinhadaana.org
+minicursor.com
 bank.in
 infostealers.com
 version.checkeligibitily.workers.dev
@@ -2393,4 +2415,5 @@ mysterylink.xyz
 cheapzone.space
 affordableonline.online
 codecvideowin.online
+ovcloudcontrol.cdn.cardoor.cn
 fortune.com

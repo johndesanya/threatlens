@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-23T06:38:46.498Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-23T07:33:08.996Z - source: public vendor reports. Verify before blocking.
 cca616647db9370c88998ae25da6997f.exe
 485055033bcddfde56325c0d2feea4f2.exe
 sample.exe
@@ -371,8 +371,17 @@ cf25f91c-0a20-4339-834f-02f73e8bc75e.bat
 5744c020-a8d9-4755-abfb-cde6ccd450af.vbs
 wermgr.exe
 BTR.sys
+rust-setup.ps1
+rust-setup-launch.vbs
+mzqnjtaq.sys
+Random.sys
+Ntfs.sys
+MpEngine.dll
 GoogleAppInstaller.exe
 Download_Google_Gemini_For_Windows.exe
+RegisterRC6inPlace.vbs
+wtsapi32.dll
+pld.exe
 socolive.exe
 msconfig.exe
 akira.exe
