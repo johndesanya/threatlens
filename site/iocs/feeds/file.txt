@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-23T05:55:52.026Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-23T06:38:46.498Z - source: public vendor reports. Verify before blocking.
 cca616647db9370c88998ae25da6997f.exe
 485055033bcddfde56325c0d2feea4f2.exe
 sample.exe
@@ -15,6 +15,16 @@ MicrosoftEdgeUpdate.exe
 GoogleUpdate.exe
 AdobeARM.exe
 sqldiff.exe
+windowsdefendersvc.exe
+updater.exe
+svc.exe
+nbtresolver.exe
+krbtman.exe
+ieupdate.exe
+ie.exe
+WindowsDefenderSvc.exe
+OneDriveLiveUpdater.exe
+Act64.exe
 ShareFinder.ps1
 jcef_helper.exe
 googleupdate.exe
@@ -360,6 +370,9 @@ cf25f91c-0a20-4339-834f-02f73e8bc75e.vbs
 cf25f91c-0a20-4339-834f-02f73e8bc75e.bat
 5744c020-a8d9-4755-abfb-cde6ccd450af.vbs
 wermgr.exe
+BTR.sys
+GoogleAppInstaller.exe
+Download_Google_Gemini_For_Windows.exe
 socolive.exe
 msconfig.exe
 akira.exe
