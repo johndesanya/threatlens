@@ -1,8 +1,9 @@
-# ThreatLens IoC feed - generated 2026-10-23T07:33:08.996Z - source: public vendor reports. Verify before blocking.
-sysio.pl
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-23T08:11:50.165Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+jet2.com
+sysio.pl
 bugs.launchpad.net
 kb.isc.org
 reg.ru
@@ -1780,9 +1781,9 @@ bageyi.kernel-lib.com
 api.onlinevrgame.com
 8yiu.kernel-lib.com
 sum.golang.org
-repo1.maven.org
 proxy.golang.org
 api.nuget.org
+repo1.maven.org
 registry.npmjs.org
 www.fullhan.com
 amiraliu.vercel.app
@@ -2030,7 +2031,6 @@ animalrampage3d.io
 90phutyy.io
 6789x.site
 255.com
-windowlight.org
 wesq.me
 webpixel.app
 weatherplllatform.com
@@ -2061,14 +2061,17 @@ blackshelter.org
 blacksaltys.com
 advanceslibrary.com
 ads-analytic.com
-chocoshell.in
-file.in
+vita-activa.org
+temp.sh
+scanner.to
+avcheck.net
+windowlight.org
+registry.yarnpkg.com
+registry-1.docker.io
 thai2570.com
 jiaoyisuo.thai2570.com
-thread.network
-methods.network
-abyssos.in
-1234.network
+log-tool-calls.sh
+awqhnjewqjkl.icu
 volmira.site
 cloaked.gg
 it.to
@@ -2158,7 +2161,6 @@ activatepasskey.com
 activatemypasskey.com
 logs-endpoint.events.network
 dns.question.name
-awqhnjewqjkl.icu
 datapub.news
 zaviro.online
 here.in
