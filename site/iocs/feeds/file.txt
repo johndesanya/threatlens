@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-23T02:57:19.645Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-23T03:33:05.495Z - source: public vendor reports. Verify before blocking.
 cca616647db9370c88998ae25da6997f.exe
 485055033bcddfde56325c0d2feea4f2.exe
 sample.exe
@@ -112,8 +112,8 @@ DC.exe
 151.ps1
 f_003914.exe
 SECOH-QAD.exe
-msgbox.exe
 kernelbase.dll
+msgbox.exe
 monitor.ps1
 cookie_copy_tool.exe
 hello.exe
@@ -293,6 +293,16 @@ VBoxGuest.sys
 SentinelMemoryScanner.exe
 SentinelAgentCore.dll
 Notice.hta
+finger.exe
+wsc.dll
+wmpnetwk.exe
+wint.exe
+mctsetup64.dll
+krita.dll
+calibre-launcher.dll
+GfExperienceService64.exe
+GFExperienceUpdate.dll
+ChromeUpdate.exe
 socolive.exe
 msconfig.exe
 akira.exe
