@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-10-23T11:03:58.617Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-23T11:56:34.231Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+data.services
 zenaware.it
 zenaoffice.it
 object.process.name
@@ -521,10 +522,10 @@ check-account.digital
 binance-idexchange.com
 binance-au.com.cn
 beta.eggywall.cc
-acme.com
 account.check-profile.digital
 account-protection-team.icu
 ab.com
+acme.com
 secrets.name
 carte-avantage.com
 bold-dhawan.45-139-104-115.plesk.page
@@ -2522,18 +2523,31 @@ advertisingeffectively.com
 589669.cc
 3plfast.com
 rentry.co
-codeberg.org
-c.statcounter.com
+payloads.tralalarkefe.com
+gemini.md
+ethereum-rpc.publicnode.com
+www.ohchr.org
+isans.org
+freedomhouse.org
 passkey-check.com
 makepasskey.com
 add-passkey.com
+check.torproject.org
+archive.torproject.org
+testnet.archival.chain.grpc-web.injective.network
+codeberg.org
+c.statcounter.com
+vanilla.pl
 graph.checkeligibitily.workers.dev
 passkeyhelpdesk.com
 passkeyactivation.com
 createmfa.com
+hexhole.injective.network
 www.abuseipdb.com
 pool.hasvault.pro
 passkeyenable.com
+cherryservers.com
+3xktech.cloud
 ww.ssinvestigaciones.com
 ssinvestigaciones.com
 ratonvaquero2026.online
