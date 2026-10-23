@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-23T14:59:59.885Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-23T15:34:42.833Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 serverexpert.dev
 aroshka.cloud
 logging.info
@@ -28,10 +28,14 @@ sysio.pl
 www.asus.com
 bugs.launchpad.net
 kb.isc.org
+swatchrc.in
 access.redhat.com
 www.suse.com
 www.ibm.com
 ubuntu.com
+process.parent.name
+process.name
+host.id
 reg.ru
 research.splunk.com
 detectionengineering.net
@@ -164,8 +168,6 @@ xcai.pro
 kubernetes.io
 container.id
 api.deepseek.com
-process.parent.name
-process.name
 host.name
 gzoozl.com
 gxoosl.com
@@ -1372,7 +1374,6 @@ process.parent.user.id
 process.parent.group.id
 www.ilias.de
 m.group
-host.id
 user.id
 valid.mldsa44.dnstest.dev
 dnstest.dev
