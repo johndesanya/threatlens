@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-23T17:52:23.686Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-23T18:34:28.816Z - source: public vendor reports. Verify before blocking.
 address@host.name
 test@test.com
 support@orders.staples.com
