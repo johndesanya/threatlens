@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-10-23T08:59:08.704Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-23T09:35:57.484Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+object.process.name
 litellm.dev
 jet2.com
 sysio.pl
@@ -2136,8 +2137,39 @@ about.blsouqs.com
 ssl.blsouqs.com
 contacts.ftabnews.com
 cert.hypersnet.com
+storage.eu-north1.nebius.cloud
 myssopasskey.com
+fullnode.mainnet.aptoslabs.com
+bsc-rpc.publicnode.com
+bsc-dataseed.binance.org
+api.trongrid.io
 osv.dev
+yerevantimes.am
+yerevanpress.am
+velvetnews.co.uk
+reportarmenia.am
+privacyprotect.org
+newsyerevan.am
+jsc.idealmedia.io
+infofrancaisedujour.fr
+hayreniknews.am
+euleaks.eu
+erebusintel.io
+enquetedujour.fr
+dailymail.uk.net
+dailyarmenia.am
+courrierfrance24.fr
+cgtnturk.com
+cdn2.bildirt.com
+armword.am
+armreporter.am
+armenianway.am
+armenianjournal.am
+armenianinsider.am
+armenianews24.am
+armeniadaily.am
+armdailynews.com
+arevmedia.am
 weserv.nl
 tdndns.com
 slack-imgs.com
@@ -2446,6 +2478,8 @@ marialurdes.site
 harialurdes.site
 www.yahoo-cdn.it.com
 donalurdesconfeitos.site
+haypressinfo.com
+armbreaking.com
 lojinhadaana.org
 minicursor.com
 bank.in
@@ -2464,3 +2498,6 @@ codecvideowin.online
 cdns3.51quickfox.cn
 ovcloudcontrol.cdn.cardoor.cn
 fortune.com
+ulusal.com.tr
+odatv.com
+aydinlik.com.tr
