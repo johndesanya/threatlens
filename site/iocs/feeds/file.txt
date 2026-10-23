@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-23T11:56:34.231Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-23T12:35:58.845Z - source: public vendor reports. Verify before blocking.
 cca616647db9370c88998ae25da6997f.exe
 485055033bcddfde56325c0d2feea4f2.exe
 sample.exe
@@ -83,7 +83,6 @@ Eztwain4.dll
 BlkScrDl.dll
 Backupper.exe
 ABNotify.exe
-msedge.exe
 grok.exe
 copilot_lite.exe
 claude-code.exe
@@ -92,6 +91,7 @@ Sora2.apk
 Installer.exe
 GeminiSetup.exe
 Claude_x64-setup.exe
+msedge.exe
 unionfs.sys
 fdwsd.dll
 csc.sys
@@ -498,8 +498,37 @@ ipo6.lnk
 information.lnk
 idx2.lnk
 desk.lnk
+screen2.ps1
+run.vbs
+rotor2.ps1
+rotor1.ps1
+rotor.ps1
+remoto.ps1
+remo.ps1
+mensajeoff.ps1
+mensaje1.ps1
+mensaje.ps1
+key.ps1
+jujuzkt2.ps1
+jujuzkt.ps1
+instaler.ps1
+ini.ps1
+hosts.msi
+edifhjwe.ps1
+cursor2.exe
+correr.ps1
+clip2.ps1
+clip.ps1
+cliente.ps1
+avs.ps1
 cdp.dll
 wire.exe
 upwire.exe
 uphero.exe
 hero.exe
+svehost.exe
+YEPlayer.exe
+YEPlayer.dll
+YEMPlayer.msi
+Pis2rayVPN.msi
+Pis2rayN.dll
