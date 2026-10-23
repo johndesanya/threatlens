@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-10-23T15:34:42.833Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-23T16:22:05.693Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+hunt.io
 serverexpert.dev
 aroshka.cloud
 logging.info
@@ -14,7 +15,6 @@ kkeyyou.cc
 gate.dfwioeiofwr.info
 dobeqnesmot.cc
 dfwioeiofwr.info
-hunt.io
 data.services
 zenaware.it
 zenaoffice.it
