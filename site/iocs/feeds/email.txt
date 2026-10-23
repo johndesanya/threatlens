@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-23T04:20:35.814Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-23T05:06:52.721Z - source: public vendor reports. Verify before blocking.
 test@test.com
 support@orders.staples.com
 audit@trackscope.app
@@ -19,6 +19,23 @@ support@lantronix.com
 information@allsecured.net
 20260913140542.71b0635a54b0e91f@allsecured.net
 support@9527db6e1a.nxcli.io
+support@bilelonellc.onmicrosoft.com
+ithelpdesk@certifiedupdatenetwork.onmicrosoft.com
+ithelp@mandatorynetworkmonitoring.onmicrosoft.com
+ithelp@itprotectiondepartment.onmicrosoft.com
+ithelp@internalsystemsdaily.onmicrosoft.com
+ithelp@certifiednetworksec.onmicrosoft.com
+itassistant@bilelonellc.onmicrosoft.com
+itadmin@mandatorynetworkmonitoring.onmicrosoft.com
+it_assistance@teams0137.onmicrosoft.com
+it@infrastructurefirewall.onmicrosoft.com
+internal@internalusahelpdeskit.onmicrosoft.com
+helpdesk@tbcsschid.onmicrosoft.com
+helpdesk@officesecures.onmicrosoft.com
+helpdesk@officedesk365.onmicrosoft.com
+helpdesk@newsystemmaintenance.onmicrosoft.com
+helpdesk@itprotectiondepartment.onmicrosoft.com
+helpcenter@ithelpcenter365.onmicrosoft.com
 marina.tucker@xgpghqau.com
 bounce@chamber-ua.org
 zmul1@buildandconsulting.com

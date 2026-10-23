@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-23T04:20:35.814Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-23T05:06:52.721Z - source: public vendor reports. Verify before blocking.
 cca616647db9370c88998ae25da6997f.exe
 485055033bcddfde56325c0d2feea4f2.exe
 sample.exe
@@ -312,6 +312,37 @@ Eld0.exe
 Adblock.dll
 10.exe
 cdnver.dll
+wtass.exe
+cplsupport.exe
+socktz_v8.exe
+colorcpl.exe
+SyncAppvPublishingServer.vbs
+slack.exe
+resightloader.exe
+qBittorrent.exe
+WinUpdate60e3a3.exe
+SteelSeriesGG.exe
+SoftManager72fb40.exe
+ProManagerServicedc894.exe
+LockAppHost14a02b.exe
+wsl.exe
+nodew.exe
+launcher.vbs
+IntelDSA.exe
+vssadmin.exe
+ntdsutil.exe
+ComprovantePDF.exe
+libcef.dll
+chrome_elf.dll
+QnwPlayer.exe
+QnWallpeper.exe
+QnWallpaper.exe
+Nedca.exe
+FS_SETUP_HY_173.exe
+FS_SETUP_GG_173.exe
+FS_SETUP_DD_173.exe
+7z.exe
+7z.dll
 socolive.exe
 msconfig.exe
 akira.exe
