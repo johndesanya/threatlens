@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-23T05:06:52.721Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-23T05:55:52.026Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 bugs.launchpad.net
 kb.isc.org
 reg.ru
@@ -1822,9 +1822,15 @@ cache-mcp.com
 cache-cdn.org
 san-sid.com
 onmicrosoft.com
+www.slcyber.io
 redirector.domain.com
 gs.info
 gr.name
+appomni.com
+ugrzyyzfxobsrsxcvmwggaobkatyxff4n.oast.fun
+pool.hashvault.pro
+crazyeltonproxy.top
+1710.rwlp.be
 yakuza.cc
 upwork.com
 thomsonfamily.net.au
@@ -1837,6 +1843,7 @@ ithomson.direct.quickconnect.to
 domaintools.com
 abr.business.gov.au
 gov12366.com
+mocky.io
 www.carhartt.com
 wctest.com
 verizon.net
