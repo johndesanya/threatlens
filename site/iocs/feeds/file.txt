@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-23T08:11:50.165Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-23T08:59:08.704Z - source: public vendor reports. Verify before blocking.
 cca616647db9370c88998ae25da6997f.exe
 485055033bcddfde56325c0d2feea4f2.exe
 sample.exe
@@ -252,7 +252,6 @@ proc_analyzer.exe
 petools.exe
 ollyice.exe
 ollydbg.exe
-node.exe
 myapp.exe
 msedge.dll
 malware.exe
@@ -299,6 +298,7 @@ VBoxMouse.sys
 VBoxGuest.sys
 SentinelMemoryScanner.exe
 SentinelAgentCore.dll
+node.exe
 vmtoolsd.exe
 VBoxTray.exe
 VBoxService.exe
@@ -440,6 +440,29 @@ spice-vdagent.exe
 qemu-ga.exe
 prl_tools.exe
 VBoxControl.exe
+vshost.exe
+telegram.exe
+steam.exe
+idea64.exe
+git.exe
+csmonitor.exe
+browser_host.dll
+biz_render.exe
+SafeW.exe
+QuickFox.exe
+Microsoft.ServiceHosting.Tools.dll
+Hello-GPT.exe
+Exodus.exe
+Code.exe
+Client.dll
+Client.FDMTPFrame.dll
+Binance.exe
+Assist.dll
+xeno.exe
+javaw.exe
+instance.exe
+decompiler.jar
+decompiler.exe
 cdp.dll
 wire.exe
 upwire.exe
