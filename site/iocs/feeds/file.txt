@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-24T09:49:53.302Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-24T10:06:56.993Z - source: public vendor reports. Verify before blocking.
 openssl.exe
 cca616647db9370c88998ae25da6997f.exe
 485055033bcddfde56325c0d2feea4f2.exe
@@ -116,9 +116,9 @@ apex-audit-windows-x64.exe
 _audit_run.vbs
 _apex_run.vbs
 winver.exe
+DC.exe
 live700_v1.exe
 DiagTrack.exe
-DC.exe
 dllhost.exe
 151.ps1
 f_003914.exe
@@ -354,7 +354,6 @@ FS_SETUP_GG_173.exe
 FS_SETUP_DD_173.exe
 7z.exe
 7z.dll
-snc-automation-api.jar
 xMain.dll
 nvdahelperremote.dll
 PackPlugin.VirtualDesktop.dll
