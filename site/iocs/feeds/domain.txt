@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-10-24T10:59:03.594Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-24T11:51:54.567Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.grayback.es
 krakenhire.com
 jsonkeeper.com
 coinbase.talenthiringtool.com
@@ -16,6 +17,24 @@ techora.ru
 hunt.io
 vk.com
 issuer.name
+relay.spamshield.io
+funio.com
+smtp.relay.serverneubox.com.mx
+relay.mailchannels.net
+aspmx5.googlemail.com
+aspmx4.googlemail.com
+aspmx3.googlemail.com
+webnic.cc
+mail.mainplace.com.my
+www.zhservices.com
+www.choicegoodwill.com
+mainplace.com.my
+grupoeuro.com.mx
+dreamscapenetworks.com
+support.gandi.net
+contact.gandi.net
+bereskinparr.com
+securessl.net
 trinitycustom.com
 spf.mtasv.net
 gosecure.net
@@ -44,6 +63,7 @@ sendgrid.net
 morrow-meadows.com
 mimecast.com
 godaddy.com
+secureserver.net
 salesforce.com
 www.whois.com
 softboard.ru
@@ -96,7 +116,6 @@ mx1.larksuite.com
 wahchan.com.my
 spf.kirim.email
 spanlogic.net
-securessl.net
 mail.wahchan.com.my
 enginemailer.org
 wildwestdomains.com
@@ -169,7 +188,6 @@ hofbrauhaus-freising-de.gate.seppmail.cloud
 de.seppmail.cloud
 pan.am
 verveba.com
-bereskinparr.com
 remote.hecker-hsb.de
 hecker-hsb.de
 barrowgrimm.com
@@ -299,11 +317,9 @@ oflaherty-law.com
 novagroupgbc.com
 clinicaromero.com
 wepos-chemie.de
-support.gandi.net
 spf.webapps.net
 mecaprecis.com
 mail-fr.securemail.pro
-contact.gandi.net
 mail.fug-cwit.de
 fug-cwit.de
 connect.cwit-software.de
@@ -524,6 +540,7 @@ e-bus.telecomegypt.com
 er.de
 rta.ch
 konsis.no
+ock.com.my
 cloud.shinewrist.net
 bf.st
 render-internal.com
@@ -631,6 +648,8 @@ api.cloudsettle.org
 www.hashicorp.com
 www.akamai.com
 developer.hashicorp.com
+grupoabg.com
+lcww.com.eg
 www.att.com
 fairfeelegalservices.com
 icanhazip.com
@@ -1035,7 +1054,6 @@ portswigger-labs.net
 karnataka.gov.in
 xerox.com
 tim.it
-secureserver.net
 pec.it
 ovh.net
 one.com
