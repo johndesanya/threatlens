@@ -1,7 +1,14 @@
-# ThreatLens IoC feed - generated 2026-10-24T12:32:50.583Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-24T13:21:02.127Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+hackmd.io
+www.vulncheck.com
+www.bookstackapp.com
+codeberg.org
+marshal.cc
+www.wordfence.com
+plugins.trac.wordpress.org
 www.grayback.es
 krakenhire.com
 jsonkeeper.com
@@ -2837,7 +2844,6 @@ add-passkey.com
 check.torproject.org
 archive.torproject.org
 testnet.archival.chain.grpc-web.injective.network
-codeberg.org
 c.statcounter.com
 vanilla.pl
 graph.checkeligibitily.workers.dev
