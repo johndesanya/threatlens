@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-24T09:28:43.448Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-24T09:49:53.302Z - source: public vendor reports. Verify before blocking.
 openssl.exe
 cca616647db9370c88998ae25da6997f.exe
 485055033bcddfde56325c0d2feea4f2.exe
@@ -12,9 +12,9 @@ SecurityHealthHost.exe
 SearchHost.exe
 RuntimeBroker.exe
 OneDriveStandaloneUpdater.exe
-MicrosoftEdgeUpdate.exe
 GoogleUpdate.exe
 AdobeARM.exe
+MicrosoftEdgeUpdate.exe
 sqldiff.exe
 windowsdefendersvc.exe
 updater.exe
@@ -139,8 +139,8 @@ ProcessMonitorDriver.sys
 LnvMSRIO.sys
 LenovoBootRepair.sys
 IronChain.hta
-BootRepair.sys
 BdApiUtil.sys
+BootRepair.sys
 tmp00055df5.dll
 f_006048.exe
 d4aa3e7010220ad1b458fac17039c274_63_Exe.exe
@@ -384,6 +384,7 @@ RegisterRC6inPlace.vbs
 wtsapi32.dll
 pld.exe
 socolive.exe
+makecab.exe
 vsserv.exe
 sentinelstaticenginescanner.exe
 sentinelstaticengine.exe
@@ -464,6 +465,13 @@ javaw.exe
 instance.exe
 decompiler.jar
 decompiler.exe
+wsftprm.sys
+timeout.exe
+find.exe
+PDFDirect.exe
+PDFCORE8.dll
+EnPortv.sys
+ConvertToPDF.exe
 PSEXESVC.exe
 tcp469A.dll
 shimgen.exe
