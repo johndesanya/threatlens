@@ -218,6 +218,7 @@ function extractIocs(raw, ownHost) {
     try { host = new URL(u).hostname.toLowerCase(); } catch { continue; }
     if (isBenign(host) || (own && regDomain(host) === own)) continue;
     const ipHost = /^\d+\.\d+\.\d+\.\d+$/.test(host);
+    if (!ipHost && (!host.includes('.') || !TLDS.has(host.split('.').pop()))) continue;
     if (ipHost && isPrivateIp(host)) continue;
     urlCands.push({ v: u.slice(0, 300), i: m.index, ipHost });
   }
@@ -297,7 +298,12 @@ const TAGS = [
   ['cloud', /\bAWS\b|\bAzure\b|cloud (?:account|tenant)|Entra|Okta/i], ['mobile', /android|\bios\b|iphone|spyware/i], ['edge-device', /vpn|firewall|fortinet|ivanti|citrix|palo alto|cisco asa|sonicwall|edge device/i],
   ['data-breach', /data breach|leaked data|data leak|exfiltrat/i], ['malvertising', /malvertis|seo poison|fake (?:update|captcha)|clickfix/i], ['ai', /\bLLM\b|artificial intelligence|\bAI[- ]/i],
 ];
-const THREAT_WORDS = /(apt|threat actor|malware|ransomware|campaign|backdoor|phishing|exploit|vulnerabilit|zero-day|botnet|espionage|c2|ioc|attack|breach|advisory|trojan|stealer|ddos)/i;
+// STRONG terms prove a text is about threats on their own; WEAK terms (leak, scam, incident...) need to appear twice or in the title
+const STRONG_RE = /(\bapt ?\d*\b|threat actor|threat group|malware|ransomware|backdoor|phish|exploit|vulnerabilit|zero-?day|botnet|espionage|\bc2\b|\bc&c\b|\bioc|attack|breach|trojan|stealer|ddos|\bhack|cyber|rootkit|spyware|\brce\b|\bcve-\d|wiper|extortion|exfiltrat|vishing|smishing|infostealer|атак|эксплойт|эксплуат|уязвим|вредонос|малвар|бэкдор|руткит|троян|шифроваль|вымогател|фишинг|ботнет|ддос|кибер|хакер|взлом)/i;
+const WEAK_RE = /(campaign|advisory|malicious|compromis|supply[- ]chain|leak|scam|fraud|payload|loader|incident|credential|утечк|угроз|стилер|дроппер)/ig;
+const THREAT_WORDS = STRONG_RE;   // (kept for older call sites)
+// is this text about threats / security incidents at all? (English, Russian, Turkish, Azerbaijani, Persian, Arabic, Hebrew)
+const isThreatText = (t, title = '') => STRONG_RE.test(t) || (t.match(WEAK_RE) || []).length >= 2 || (title && new RegExp(WEAK_RE.source, 'i').test(title)) || CYBER.test(t) || localCyber(t);
 
 function score(r) {
   let s = 0;
@@ -504,6 +510,18 @@ async function main() {
   }
   for (const r of existing.values()) if (!r.dp && /T00:00:00\.000Z$/.test(r.published)) r.dp = 'd';
   for (const r of existing.values()) if (r.sourceType === 'regional' && /news\.google\.com/.test(r.url)) r.countries = detectCountries(r.title, r.summary || '', srcById.get(r.sourceId)?.country);
+  let offTopic = 0;
+  for (const r of [...existing.values()]) {
+    const sr = srcById.get(r.sourceId);
+    if (!sr || sr.core || sr.type === 'gov' || r.sourceId === 'manual') continue;
+    if (!(r.groups.length || r.cves.length || (r.techniques || []).length || isThreatText(r.title + ' ' + (r.summary || ''), r.title))) { existing.delete(r.id); offTopic++; }
+  }
+  if (offTopic) log(`Removed ${offTopic} stored items that are not about threats (marketing, tutorials, general news).`);
+  for (const r of existing.values()) {      // country tags produced by the over-greedy aliases (Georgia = "грузит", India = "индикатор", Morocco = "fast")
+    if (!r.countries || !r.countries.length) continue;
+    if (/[\u0400-\u04FF]/.test(r.title)) { const ok = detectCountries(r.title, r.summary || '', null); r.countries = r.countries.filter(c => ok.includes(c)); }
+    else if (r.countries.includes('MA') && !/morocc|maroc|المغرب/i.test(r.title + ' ' + (r.summary || ''))) r.countries = r.countries.filter(c => c !== 'MA');
+  }
   // drop local-language regional reports stored under the older, looser relevance rule
   let purged = 0;
   for (const r of [...existing.values()]) {
@@ -558,7 +576,7 @@ async function main() {
   // Deep fetch: read the full article (IoC tables, country mentions, exact publish date) where the feed only had a teaser
   candidates.sort((a, b) => ((b.feedDate || 0) - (a.feedDate || 0)));
   const isNews = c => /news\.google\.com/.test(c.e.link);
-  const wantsDeep = c => !isNews(c) && (!c.feedDate || ((c.src.type !== 'news' && c.src.type !== 'vendor') || THREAT_WORDS.test(c.e.title))) && (!c.feedDate || htmlToText(c.e.html).length < 6000);
+  const wantsDeep = c => !isNews(c) && (!c.feedDate || c.src.core || c.src.type === 'gov' || isThreatText(c.e.title + ' ' + htmlToText(c.e.html).slice(0, 300), c.e.title)) && (!c.feedDate || htmlToText(c.e.html).length < 6000);
   const needDeep = candidates.filter(wantsDeep);
   const deepSet = new Set([...needDeep.filter(c => !c.feedDate), ...needDeep.filter(c => c.feedDate)].slice(0, MAX_DEEP_FETCH).map(c => c.id));
   log(`Candidates: ${candidates.length}; fetching ${deepSet.size} full articles...`);
@@ -607,8 +625,9 @@ async function main() {
     if (c.src.type === 'regional' && !CYBER.test(c.e.title + ' ' + feedText.slice(0, 600)) && !localCyber(c.e.title + ' ' + feedText.slice(0, 600))) continue;
     const { rep, iocs, obs, total, grp } = analyze({ id: c.id, src: c.src, title: c.e.title, url: c.e.link, published: when.date.toISOString(), dateSrc: when.src, dp: when.dp, feedText, fullText: c.fullText });
     // news / general vendor blogs without any threat relevance are dropped to keep the feed clean
-    const relevant = grp.length || total || rep.cves.length || THREAT_WORDS.test(c.e.title + ' ' + feedText.slice(0, 400));
-    if ((c.src.type === 'news' || c.src.type === 'vendor') && !relevant) continue;
+    // not about threats (AI product marketing, tutorials, corporate news, sports...): dropped; indicators alone never prove relevance
+    const relevant = grp.length || rep.cves.length || (rep.techniques || []).length || isThreatText(c.e.title + ' ' + feedText.slice(0, 300), c.e.title);
+    if (!c.src.core && c.src.type !== 'gov' && !relevant) continue;
     existing.set(rep.id, rep); added++;
     saveIocs(rep, iocs, total, obs);
   }
