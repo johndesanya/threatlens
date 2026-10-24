@@ -1,4 +1,5 @@
-# ThreatLens IoC feed - generated 2026-10-24T13:58:45.207Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-24T14:50:16.592Z - source: public vendor reports. Verify before blocking.
+googleupdate.exe
 openssl.exe
 cca616647db9370c88998ae25da6997f.exe
 485055033bcddfde56325c0d2feea4f2.exe
@@ -28,7 +29,6 @@ OneDriveLiveUpdater.exe
 Act64.exe
 ShareFinder.ps1
 jcef_helper.exe
-googleupdate.exe
 install.ps1
 fsquirt.exe
 FunnyApp.exe
