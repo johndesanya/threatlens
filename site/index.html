@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="no-referrer">
 <title>ThreatLens — Live Threat Intelligence</title>
 <meta name="description" content="Daily-updated threat intelligence: APT group tracking, vendor reports, extracted IoCs, MITRE ATT&CK and CISA KEV.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%2306121f' stroke='%2300e5a8' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%2300e5a8'/%3E%3C/svg%3E">
@@ -21,6 +23,8 @@
     <button data-tab="vulns">Exploited CVEs</button>
     <button data-tab="sources">Sources</button>
   </nav>
+  <button id="tzbtn" class="pill sm">🕒</button>
+  <button id="newpill" class="pill" hidden></button>
   <div class="upd" id="updated">loading…</div>
 </header>
 
@@ -54,7 +58,7 @@
     <div class="grid2">
       <div class="card"><h3>Latest reports <small>by publication date</small></h3><div id="latestReports"></div></div>
       <div class="card"><h3>Highest-signal reports <small>threat score</small></h3><div id="topReports"></div></div>
-      <div class="card"><h3>Most-cited CVEs</h3><div id="topCves"></div></div>
+      <div class="card"><h3>Trending CVEs <small>CVSS · EPSS · CISA KEV</small></h3><div id="topCves"></div></div>
     </div>
   </section>
 
@@ -69,8 +73,11 @@
       <select id="rrange"><option value="1">24 hours</option><option value="3">3 days</option><option value="7">7 days</option><option value="30" selected>30 days</option><option value="90">90 days</option><option value="9999">All</option></select>
       <label class="chk"><input type="checkbox" id="rapt"> APT-attributed</label>
       <label class="chk"><input type="checkbox" id="rioc"> Has IoCs</label>
+      <label class="chk" title="Merge the same story reported by several outlets into one card"><input type="checkbox" id="rgroup" checked> Group duplicate coverage</label>
+      <label class="chk"><input type="checkbox" id="rnew"> 🔔 New since last visit</label>
+      <button id="rread" class="btn" hidden>Mark all as read</button>
     </div>
-    <div class="hint">Search by country or region in English or Russian: <i>Armenia, Georgia, Azerbaijan, Turkey, Kazakhstan, россия, армения, грузия…</i> — reports that mention the country are found even when the word is not in the title.</div>
+    <div class="hint">Search by country or region in English or Russian: <i>Armenia, Georgia, Azerbaijan, Turkey, Kazakhstan, россия, армения, грузия…</i> — reports that mention the country are found even when the word is not in the title. Turkish, Azerbaijani, Persian and Russian reports keep their original title and carry English keywords (<i>EN: ransomware · phishing …</i>), so you can search them in English.</div>
     <div class="count" id="rcount"></div>
     <div id="rlist"></div>
     <button id="rmore" class="more">Load more</button>

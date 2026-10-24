@@ -94,3 +94,30 @@ footer{text-align:center;color:var(--mut);padding:30px;font-size:12px}
 .dt{color:#a9bbd2}
 #fresh{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:#0f2540;border:1px solid var(--acc);color:var(--txt);padding:10px 16px;border-radius:99px;z-index:60;box-shadow:0 8px 30px #000a}
 #fresh button{margin-left:10px;background:var(--acc);color:#021;border:0;border-radius:99px;padding:5px 12px;font:inherit;font-weight:700;cursor:pointer}
+
+.sev,.epss,.kevb{font:700 10px var(--mono);padding:0 5px;margin-left:6px;border-radius:4px;font-style:normal;text-decoration:none;display:inline-block;line-height:16px}
+.sev.crit{background:#ff4d6d;color:#1b0008}.sev.high{background:#ff8a3d;color:#1d0c00}.sev.med{background:#ffc94d;color:#241a00}.sev.low{background:#5fb4ff;color:#001a2e}
+.epss{background:#13263f;color:#9fb3cc;border:1px solid #2a4468}.epss.mid{color:#ffc65a;border-color:#7a5a1c}.epss.hi{color:#ff7a93;border-color:#8a2a3c}
+.kevb{background:#4a1c2b;color:#ff8da6;border:1px solid #8a2a3c}
+.mono{font-family:var(--mono)}
+.tcve{padding:8px 4px;border-bottom:1px solid #12233a;cursor:pointer}.tcve:hover{background:#ffffff08}.tcve small{display:block;color:var(--mut);margin-top:2px}
+.pill{background:#13263f;border:1px solid var(--acc);color:var(--acc);border-radius:99px;padding:5px 12px;font:600 12px inherit;cursor:pointer}.pill:hover{background:var(--acc);color:#021}
+.rep.unread{border-left:3px solid var(--acc)}.unreadDot{color:var(--acc);font-size:11px}
+.en{margin:0 0 6px;color:#8fd7c3;font-size:12px;font-family:var(--mono)}
+details.also{margin-top:8px;border-top:1px dashed var(--line);padding-top:6px}details.also summary{cursor:pointer;color:var(--acc2);font-size:12px}
+.meta2{display:flex;gap:10px;flex-wrap:wrap;margin:5px 0 0 12px;font-size:12px}.meta2 span{color:var(--mut)}
+
+.pill.sm{font-size:11px;padding:4px 10px;border-color:var(--line);color:var(--mut)}.pill.sm:hover{color:#021}
+/* phones: one-line scrollable menu instead of a tall column, compact sticky header */
+@media(max-width:700px){
+  .top{gap:6px 10px;padding:8px 12px;position:static}
+  .brand{font-size:17px}
+  nav{order:5;flex:1 1 100%;flex-wrap:nowrap;overflow-x:auto;gap:2px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  nav::-webkit-scrollbar{display:none}
+  nav button{white-space:nowrap;padding:7px 11px;flex:none}
+  .upd{order:4;flex:1 1 100%;font-size:11px}
+  .pill{order:3}
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .rep{padding:12px}
+  .hbar{grid-template-columns:96px 1fr 34px}
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# bulk IoC/data files are meant for download, but please do not hammer them
+Crawl-delay: 10
