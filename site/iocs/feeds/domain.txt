@@ -1,7 +1,9 @@
-# ThreatLens IoC feed - generated 2026-10-24T04:15:35.015Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-24T05:02:04.406Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+techora.ru
+hunt.io
 issuer.name
 www.whois.com
 softboard.ru
@@ -16,11 +18,9 @@ litellm.dev
 whitearmor.cc
 php.net
 calif.io
-techora.ru
 condenest.com
 biteblob.com
 www.dlink.com
-hunt.io
 serverexpert.dev
 aroshka.cloud
 logging.info
