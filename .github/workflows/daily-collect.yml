@@ -1,6 +1,7 @@
 name: Collect threat intel
 on:
   schedule:
+    # exactly every 45 minutes (UTC): 00:07, 00:52, 01:37, 02:22, 03:07, ...
     - cron: "7,52 0-23/3 * * *"
     - cron: "37 1-23/3 * * *"
     - cron: "22 2-23/3 * * *"
@@ -10,6 +11,7 @@ on:
         description: "Rebuild everything from scratch (leave empty for a normal run)"
         required: false
         default: ""
+# least privilege: the job may only write repository contents (the refreshed data files)
 permissions:
   contents: write
 concurrency:
@@ -20,17 +22,25 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      # third-party actions are pinned to an exact commit (a moved tag cannot swap in different code)
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683   # v4.2.2
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020  # v4.4.0
         with: { node-version: 20 }
       - name: Collect
         env:
           FULL: ${{ github.event.inputs.full }}
         run: node collector/collect.mjs
+      # integrity gate: bad / truncated / tampered data is never published
+      - name: Integrity gate
+        env:
+          FULL: ${{ github.event.inputs.full }}
+        run: node collector/sanity.mjs
       - name: Commit refreshed data
         run: |
           git config user.name "threatlens-bot"
           git config user.email "bot@users.noreply.github.com"
+          # If someone pushed while the collector was running, do NOT merge generated files:
+          # throw our copy away, start from the latest repo state and collect again (fast, incremental).
           for i in 1 2 3; do
             git add site/data site/iocs
             if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
@@ -39,6 +49,6 @@ jobs:
             echo "push rejected - rebuilding on top of the latest commit (attempt $i)"
             git fetch origin main
             git reset --hard origin/main
-            node collector/collect.mjs
+            node collector/collect.mjs && node collector/sanity.mjs
           done
           exit 1
