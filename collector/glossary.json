@@ -1,0 +1,741 @@
+{
+"_help": "Multilingual keyword glossary. Latin-script (Turkish/Azerbaijani) text is folded to ASCII before matching (i/ı/İ->i, ş->s, ğ->g, ç->c, ö->o, ü->u, ə->e), so write those patterns in ASCII. Persian: ZWNJ is removed from the text, use \\s? between words. Russian: lower-case, ё->е. 'en' = English keyword shown/searchable on the site; 'tag' = theme tag.",
+"latin": [
+{
+"p": "siber\\s*saldiri|kiber\\s*hucum|kiber\\s*hujum",
+"en": "cyberattack",
+"tag": ""
+  },
+{
+"p": "siber\\s*guvenlik|kiber\\s*tehlukesizlik|kibertehlukesizlik",
+"en": "cybersecurity",
+"tag": ""
+  },
+{
+"p": "siber\\s*casusluk|kiber\\s*casusluq",
+"en": "cyber espionage",
+"tag": "espionage"
+  },
+{
+"p": "siber\\s*suc|kiber\\s*cinayet|kibersuc",
+"en": "cybercrime",
+"tag": ""
+  },
+{
+"p": "siber\\s*tehdit|kibertehdid|kiber\\s*tehdid",
+"en": "cyber threat",
+"tag": ""
+  },
+{
+"p": "siber\\s*savas|siber\\s*harekat|kiber\\s*muharibe|kiber\\s*savas",
+"en": "cyber warfare",
+"tag": ""
+  },
+{
+"p": "fidye\\s*yazilim|fidye\\s*virus|fidye\\s*proqram|fidye\\s*zararli",
+"en": "ransomware",
+"tag": "ransomware"
+  },
+{
+"p": "zararli\\s*yazilim|kotu\\s*amacli\\s*yazilim|kotu\\s*niyetli\\s*yazilim|zererli\\s*proqram|zererverici\\s*proqram|zerer\\s*veren\\s*proqram",
+"en": "malware",
+"tag": ""
+  },
+{
+"p": "casus\\s*yazilim|casus\\s*proqram|casus\\s*virus",
+"en": "spyware",
+"tag": "mobile"
+  },
+{
+"p": "veri\\s*sizint|veri\\s*ihlal|veri\\s*hirsiz|verilerin\\s*calin|melumat\\s*sizma|melumat\\s*sizinti|melumatlarin\\s*sizma|melumat\\s*oglu|melumat\\s*bazasi.*sizdi",
+"en": "data breach",
+"tag": "data-breach"
+  },
+{
+"p": "kimlik\\s*avi|oltalama|fisinq|fishing\\s*saldiri",
+"en": "phishing",
+"tag": "phishing"
+  },
+{
+"p": "guvenlik\\s*acig|zeiflik|zeifliyi|zeifliklerin|acik\\s*bulundu",
+"en": "vulnerability",
+"tag": ""
+  },
+{
+"p": "sifirinci\\s*gun|sifir\\s*gun|sifirinci\\s*gun",
+"en": "zero-day",
+"tag": "zero-day"
+  },
+{
+"p": "bot\\s*ag|botnet",
+"en": "botnet",
+"tag": "botnet"
+  },
+{
+"p": "hizmet\\s*reddi|ddos|xidmetden\\s*imtina",
+"en": "DDoS",
+"tag": "botnet"
+  },
+{
+"p": "hacker|haker|bilgisayar\\s*korsan|siber\\s*korsan",
+"en": "hackers",
+"tag": ""
+  },
+{
+"p": "hacklen|hacklend|hack\\s*edil|haker\\s*hucum|hakerler",
+"en": "hacked",
+"tag": ""
+  },
+{
+"p": "dolandiricilik|dolandirici|dolandiricilig|aldatma\\s*sxem",
+"en": "fraud",
+"tag": "",
+"weak": true
+  },
+{
+"p": "kritik\\s*altyapi|kritik\\s*infrastruktur|heyati\\s*vacib",
+"en": "critical infrastructure",
+"tag": "ics-ot",
+"weak": true
+  },
+{
+"p": "devlet\\s*destekli|dovlet\\s*destekli|dovlet\\s*himayeli",
+"en": "state-sponsored",
+"tag": "espionage",
+"weak": true
+  },
+{
+"p": "truva\\s*at|trojan",
+"en": "trojan",
+"tag": "backdoor",
+"weak": true
+  },
+{
+"p": "arka\\s*kapi|bekdor|backdoor",
+"en": "backdoor",
+"tag": "backdoor",
+"weak": true
+  },
+{
+"p": "sahte\\s*(?:site|uygulama|e-?posta|mail)|saxta\\s*(?:sayt|tetbiq|e-?poct)",
+"en": "fake site/app/email",
+"tag": "phishing",
+"weak": true
+  },
+{
+"p": "yapay\\s*zeka|suni\\s*intellekt",
+"en": "AI",
+"tag": "ai",
+"weak": true
+  },
+{
+"p": "virus\\s*saldiri|kompyuter\\s*virus|bilgisayar\\s*virus",
+"en": "virus",
+"tag": "",
+"weak": true
+  },
+{
+"p": "kisisel\\s*veri|kvkk|shexsi\\s*melumat",
+"en": "personal data",
+"tag": "data-breach",
+"weak": true
+  },
+{
+"p": "usom|ulusal\\s*siber\\s*olay|siber\\s*guvenlik\\s*baskanligi",
+"en": "Turkey national CERT (USOM)",
+"tag": ""
+  },
+{
+"p": "dxtmz|dovlet\\s*xususi\\s*rabite|dxti|cert\\.az|elektron\\s*tehlukesizlik",
+"en": "Azerbaijan special communications / CERT",
+"tag": ""
+  },
+{
+"p": "internet\\s*kesinti|internet\\s*baglanti\\s*kesil|internet\\s*qirilm",
+"en": "internet outage",
+"tag": "",
+"weak": true
+  },
+{
+"p": "banka\\s*(?:hesab|dolandirici)|bank\\s*kart\\s*dolandir|bank\\s*hesab.*oglu",
+"en": "banking fraud",
+"tag": "",
+"weak": true
+  },
+{
+"p": "kripto\\s*(?:para|varlik|dolandirici)|kriptovalyuta",
+"en": "crypto",
+"tag": "",
+"weak": true
+  },
+{
+"p": "apt\\s*grubu|apt\\s*qrupu|tehdit\\s*aktoru|tehdid\\s*aktoru",
+"en": "APT group / threat actor",
+"tag": "espionage"
+  },
+{
+"p": "yazilim\\s*guncelle|yamasi\\s*yayin|yamasini|patch\\s*yayin",
+"en": "security patch",
+"tag": "",
+"weak": true
+  },
+{
+"p": "siber\\s*olay|kiber\\s*insident|kiber\\s*hadise",
+"en": "cyber incident",
+"tag": ""
+  },
+{
+"p": "casusluk|casusluq",
+"en": "espionage",
+"tag": "espionage",
+"weak": true
+  },
+{
+"p": "kamu\\s*kurum.*saldiri|dovlet\\s*qurum.*hucum|resmi\\s*(?:sayt|internet\\s*sitesi).*hack|dovlet\\s*sayt.*hack",
+"en": "government sites attacked",
+"tag": ""
+  }
+],
+"fa": [
+{
+"p": "حمل(?:ه|ات)\\s?سایبری",
+"en": "cyberattack",
+"tag": ""
+  },
+{
+"p": "امنیت\\s?سایبری|امنیت\\s?فضای\\s?مجازی",
+"en": "cybersecurity",
+"tag": ""
+  },
+{
+"p": "جاسوسی\\s?سایبری",
+"en": "cyber espionage",
+"tag": "espionage"
+  },
+{
+"p": "جنگ\\s?سایبری|نبرد\\s?سایبری",
+"en": "cyber warfare",
+"tag": ""
+  },
+{
+"p": "جرم\\s?سایبری|جرائم\\s?سایبری|جرایم\\s?سایبری",
+"en": "cybercrime",
+"tag": ""
+  },
+{
+"p": "تهدید\\s?سایبری|تهدیدات\\s?سایبری",
+"en": "cyber threat",
+"tag": ""
+  },
+{
+"p": "باج\\s?افزار",
+"en": "ransomware",
+"tag": "ransomware"
+  },
+{
+"p": "بدافزار|بد\\s?افزار|کد\\s?مخرب|نرم\\s?افزار\\s?مخرب",
+"en": "malware",
+"tag": ""
+  },
+{
+"p": "جاسوس\\s?افزار",
+"en": "spyware",
+"tag": "mobile"
+  },
+{
+"p": "فیشینگ|صفحه\\s?جعلی|سایت\\s?جعلی|پیامک\\s?جعلی",
+"en": "phishing",
+"tag": "phishing"
+  },
+{
+"p": "نشت\\s?(?:اطلاعات|داده)|افشای\\s?(?:اطلاعات|داده)|لو\\s?رفتن\\s?(?:اطلاعات|داده)|سرقت\\s?(?:اطلاعات|داده)",
+"en": "data breach",
+"tag": "data-breach"
+  },
+{
+"p": "آسیب\\s?پذیری",
+"en": "vulnerability",
+"tag": "",
+"weak": true
+  },
+{
+"p": "روز\\s?صفر|زیرو\\s?دی|زیروود",
+"en": "zero-day",
+"tag": "zero-day"
+  },
+{
+"p": "بات\\s?نت",
+"en": "botnet",
+"tag": "botnet"
+  },
+{
+"p": "دیداس|حمله\\s?(?<![a-zA-Z])ddos(?![a-zA-Z])|(?<![a-zA-Z])ddos(?![a-zA-Z])",
+"en": "DDoS",
+"tag": "botnet"
+  },
+{
+"p": "هکر|هکرها|هکری|هک\\s?شد|هک\\s?شده|هک\\s?شدن|هک\\s?کرد|هک\\s?می",
+"en": "hackers",
+"tag": ""
+  },
+{
+"p": "گروه\\s?هکری|گروه\\s?های\\s?هکری",
+"en": "hacker group",
+"tag": ""
+  },
+{
+"p": "گنجشک\\s?درنده|predatory\\s?sparrow",
+"en": "Predatory Sparrow",
+"tag": "espionage"
+  },
+{
+"p": "زیرساخت\\s?(?:های\\s?)?حیاتی",
+"en": "critical infrastructure",
+"tag": "ics-ot",
+"weak": true
+  },
+{
+"p": "تروجان",
+"en": "trojan",
+"tag": "backdoor",
+"weak": true
+  },
+{
+"p": "درب\\s?پشتی|بک\\s?دور",
+"en": "backdoor",
+"tag": "backdoor",
+"weak": true
+  },
+{
+"p": "ویروس",
+"en": "virus",
+"tag": "",
+"weak": true
+  },
+{
+"p": "کلاهبرداری\\s?(?:اینترنتی|سایبری)|کلاه\\s?برداری\\s?(?:اینترنتی|سایبری)",
+"en": "online fraud",
+"tag": ""
+  },
+{
+"p": "هوش\\s?مصنوعی",
+"en": "AI",
+"tag": "ai",
+"weak": true
+  },
+{
+"p": "مرکز\\s?ماهر|مرکز\\s?افتا|(?<!\\p{L})افتا(?!\\p{L})",
+"en": "Iran national CERT (MAHER/AFTA)",
+"tag": ""
+  },
+{
+"p": "سازمان\\s?پدافند\\s?غیرعامل|پدافند\\s?غیرعامل",
+"en": "Iran passive defense organization",
+"tag": "",
+"weak": true
+  },
+{
+"p": "حمله\\s?به\\s?(?:سایت|پمپ|بانک|زیرساخت)",
+"en": "attack on sites/infrastructure",
+"tag": "",
+"weak": true
+  },
+{
+"p": "کریپتو|رمزارز|ارز\\s?دیجیتال",
+"en": "crypto",
+"tag": "",
+"weak": true
+  },
+{
+"p": "قطع\\s?(?:شدن\\s?)?اینترنت|اختلال\\s?(?:در\\s?)?اینترنت",
+"en": "internet outage",
+"tag": "",
+"weak": true
+  },
+{
+"p": "جاسوس",
+"en": "espionage",
+"tag": "espionage",
+"weak": true
+  }
+],
+"ru": [
+{
+"p": "кибератак|кибер-?атак",
+"en": "cyberattack",
+"tag": ""
+  },
+{
+"p": "кибербезопасност|информационн\\S*\\s*безопасност",
+"en": "cybersecurity",
+"tag": ""
+  },
+{
+"p": "кибершпионаж|кибер-?шпионаж",
+"en": "cyber espionage",
+"tag": "espionage"
+  },
+{
+"p": "киберпреступ",
+"en": "cybercrime",
+"tag": ""
+  },
+{
+"p": "вредонос|вирус-?вымогател|шифровальщик|программ\\S*-?вымогател|вымогател",
+"en": "malware / ransomware",
+"tag": "ransomware"
+  },
+{
+"p": "шпионск\\S*\\s*(?:по|програм)|шпионское\\s*по",
+"en": "spyware",
+"tag": "mobile"
+  },
+{
+"p": "фишинг",
+"en": "phishing",
+"tag": "phishing"
+  },
+{
+"p": "утечк\\S*\\s*(?:данных|информации|баз)|слив\\S*\\s*(?:данных|базы)",
+"en": "data breach",
+"tag": "data-breach"
+  },
+{
+"p": "уязвимост",
+"en": "vulnerability",
+"tag": ""
+  },
+{
+"p": "нулевого\\s*дня|(?<![a-zA-Z])zero-?day(?![a-zA-Z])|0-?day",
+"en": "zero-day",
+"tag": "zero-day"
+  },
+{
+"p": "ботнет",
+"en": "botnet",
+"tag": "botnet"
+  },
+{
+"p": "(?<![a-zA-Z])ddos(?![a-zA-Z])|ддос|дидос",
+"en": "DDoS",
+"tag": "botnet"
+  },
+{
+"p": "хакер|взлом",
+"en": "hackers",
+"tag": ""
+  },
+{
+"p": "бэкдор|бекдор",
+"en": "backdoor",
+"tag": "backdoor",
+"weak": true
+  },
+{
+"p": "троян",
+"en": "trojan",
+"tag": "backdoor",
+"weak": true
+  },
+{
+"p": "критическ\\S*\\s*инфраструктур",
+"en": "critical infrastructure",
+"tag": "ics-ot",
+"weak": true
+  },
+{
+"p": "под\\s*контролем\\s*государств|государственн\\S*\\s*хакер|apt-?групп",
+"en": "state-sponsored / APT",
+"tag": "espionage"
+  },
+{
+"p": "искусственн\\S*\\s*интеллект|нейросет",
+"en": "AI",
+"tag": "ai",
+"weak": true
+  },
+{
+"p": "мошеннич|мошенник",
+"en": "fraud",
+"tag": "",
+"weak": true
+  }
+],
+"ar": [
+{
+"p": "هجوم(?:ات)?\\s?(?:سيبراني|الكتروني|إلكتروني)(?:ة)?|هجمات\\s?سيبرانية",
+"en": "cyberattack",
+"tag": ""
+  },
+{
+"p": "الأمن\\s?السيبراني|امن\\s?المعلومات|الأمن\\s?الرقمي|الامن\\s?السيبراني",
+"en": "cybersecurity",
+"tag": ""
+  },
+{
+"p": "تجسس\\s?(?:سيبراني|الكتروني|إلكتروني)",
+"en": "cyber espionage",
+"tag": "espionage"
+  },
+{
+"p": "جريمة\\s?(?:سيبرانية|إلكترونية|الكترونية)|جرائم\\s?(?:سيبرانية|إلكترونية|الكترونية)|الجرائم\\s?المعلوماتية",
+"en": "cybercrime",
+"tag": ""
+  },
+{
+"p": "برمجيات?\\s?(?:خبيثة|ضارة)|برنامج\\s?(?:خبيث|ضار)|البرمجيات\\s?الخبيثة|بدافزار",
+"en": "malware",
+"tag": ""
+  },
+{
+"p": "(?:برمجيات|برامج|فيروس|هجوم)\\s?(?:ال)?فدية|الفدية\\s?الخبيثة|برمجية\\s?فدية",
+"en": "ransomware",
+"tag": "ransomware"
+  },
+{
+"p": "برامج\\s?التجسس|برمجيات\\s?التجسس|برنامج\\s?تجسس|بيغاسوس",
+"en": "spyware",
+"tag": "mobile"
+  },
+{
+"p": "التصيد(?:\\s?الاحتيالي)?|رسائل\\s?تصيد|صفحة\\s?تصيد",
+"en": "phishing",
+"tag": "phishing"
+  },
+{
+"p": "تسريب\\s?(?:بيانات|معلومات)|تسرب\\s?(?:بيانات|معلومات)|اختراق\\s?(?:بيانات|قاعدة\\s?بيانات|قواعد\\s?بيانات)|سرقة\\s?(?:بيانات|معلومات)",
+"en": "data breach",
+"tag": "data-breach"
+  },
+{
+"p": "ثغرات?\\s?(?:امنية|أمنية)|ثغرة\\s?برمجية|الثغرات\\s?الأمنية",
+"en": "vulnerability",
+"tag": ""
+  },
+{
+"p": "ثغرة|ثغرات",
+"en": "vulnerability",
+"tag": "",
+"weak": true
+  },
+{
+"p": "يوم\\s?الصفر|(?<![a-zA-Z])zero-?day(?![a-zA-Z])",
+"en": "zero-day",
+"tag": "zero-day"
+  },
+{
+"p": "هاكر|هاكرز|قراصنة|قرصنة|الهاكرز|مخترق",
+"en": "hackers",
+"tag": ""
+  },
+{
+"p": "تم\\s?اختراق|اختراق\\s?(?:موقع|مواقع|حساب|حسابات|شبكة|نظام|أنظمة|انظمة)|اخترق",
+"en": "hacked",
+"tag": ""
+  },
+{
+"p": "بوت\\s?نت|شبكة\\s?(?:بوت|روبوتات)",
+"en": "botnet",
+"tag": "botnet"
+  },
+{
+"p": "حجب\\s?الخدمة|(?<![a-zA-Z])ddos(?![a-zA-Z])|هجمات?\\s?الحرمان",
+"en": "DDoS",
+"tag": "botnet"
+  },
+{
+"p": "حرب\\s?(?:سيبرانية|إلكترونية|الكترونية)|الحرب\\s?السيبرانية",
+"en": "cyber warfare",
+"tag": ""
+  },
+{
+"p": "حصان\\s?طروادة|تروجان",
+"en": "trojan",
+"tag": "backdoor",
+"weak": true
+  },
+{
+"p": "باب\\s?خلفي",
+"en": "backdoor",
+"tag": "backdoor",
+"weak": true
+  },
+{
+"p": "البنية\\s?التحتية\\s?(?:الحيوية|الحرجة)|بنية\\s?تحتية\\s?حيوية",
+"en": "critical infrastructure",
+"tag": "ics-ot",
+"weak": true
+  },
+{
+"p": "الذكاء\\s?الاصطناعي",
+"en": "AI",
+"tag": "ai",
+"weak": true
+  },
+{
+"p": "احتيال\\s?(?:إلكتروني|الكتروني|سيبراني|عبر\\s?الإنترنت)|نصب\\s?(?:إلكتروني|الكتروني)",
+"en": "online fraud",
+"tag": "",
+"weak": true
+  },
+{
+"p": "(?:الهيئة|المركز|المجلس)\\s?(?:الوطني|الوطنية|الأعلى)\\s?(?:للأمن|لامن)\\s?السيبراني|مركز\\s?الاستجابة\\s?(?:لطوارئ|للطوارئ)",
+"en": "national cybersecurity authority / CERT",
+"tag": ""
+  },
+{
+"p": "العملات\\s?(?:الرقمية|المشفرة)|بيتكوين|الكريبتو",
+"en": "crypto",
+"tag": "",
+"weak": true
+  },
+{
+"p": "مجموعة\\s?(?:قرصنة|هاكرز|تجسس)|(?<![a-zA-Z])apt\\s?\\d*(?![a-zA-Z])|فاعل\\s?تهديد",
+"en": "hacker group / APT",
+"tag": "espionage"
+  },
+{
+"p": "حادث\\s?(?:سيبراني|أمني\\s?رقمي)|الحوادث\\s?السيبرانية",
+"en": "cyber incident",
+"tag": ""
+  },
+{
+"p": "حظر\\s?(?:الإنترنت|الانترنت)|انقطاع\\s?(?:الإنترنت|الانترنت)",
+"en": "internet outage",
+"tag": "",
+"weak": true
+  }
+],
+"he": [
+{
+"p": "מתקפ(?:ת|ות)\\s?סייבר|התקפ(?:ת|ות)\\s?סייבר|תקיפ(?:ת|ות)\\s?סייבר",
+"en": "cyberattack",
+"tag": ""
+  },
+{
+"p": "אבטחת\\s?(?:מידע|סייבר)|הגנת\\s?סייבר|סייבר\\s?הגנתי",
+"en": "cybersecurity",
+"tag": ""
+  },
+{
+"p": "סייבר",
+"en": "cyber",
+"tag": ""
+  },
+{
+"p": "ריגול\\s?(?:סייבר|ממוחשב|מקוון)",
+"en": "cyber espionage",
+"tag": "espionage"
+  },
+{
+"p": "פשיעת\\s?סייבר|פשיעה\\s?מקוונת|עבירות\\s?סייבר",
+"en": "cybercrime",
+"tag": ""
+  },
+{
+"p": "(?:תוכנת|תוכנות)\\s?כופר|כופרה|מתקפת\\s?כופר|כופר\\s?דיגיטלי",
+"en": "ransomware",
+"tag": "ransomware"
+  },
+{
+"p": "(?:תוכנה|תוכנות)\\s?זדונית|נוזקה|נוזקות|תוכנות\\s?זדוניות",
+"en": "malware",
+"tag": ""
+  },
+{
+"p": "רוגלה|רוגלות|תוכנת\\s?ריגול|פגסוס",
+"en": "spyware",
+"tag": "mobile"
+  },
+{
+"p": "פישינג|דיוג\\s?(?:דיגיטלי|מקוון)|הודעות\\s?דיוג",
+"en": "phishing",
+"tag": "phishing"
+  },
+{
+"p": "(?:דליפת|הדלפת|פרצת)\\s?נתונים|פרצת\\s?מידע|דליפת\\s?מאגר|מאגרי\\s?מידע\\s?דלפו",
+"en": "data breach",
+"tag": "data-breach"
+  },
+{
+"p": "פרצ(?:ת|ות)\\s?אבטחה|חולשת\\s?אבטחה|חולשות\\s?אבטחה|פגיעות\\s?אבטחה|פרצה\\s?אבטחתית",
+"en": "vulnerability",
+"tag": ""
+  },
+{
+"p": "יום\\s?אפס|(?<![a-zA-Z])zero-?day(?![a-zA-Z])",
+"en": "zero-day",
+"tag": "zero-day"
+  },
+{
+"p": "האקר|האקרים|האקרית|האקרס|האקרים",
+"en": "hackers",
+"tag": ""
+  },
+{
+"p": "נפרץ|נפרצה|נפרצו|פריצה\\s?(?:לאתר|למערכת|לחשבון|לשרת|לרשת)",
+"en": "hacked",
+"tag": ""
+  },
+{
+"p": "בוטנט|רשת\\s?בוטים",
+"en": "botnet",
+"tag": "botnet"
+  },
+{
+"p": "מניעת\\s?שירות|(?<![a-zA-Z])ddos(?![a-zA-Z])",
+"en": "DDoS",
+"tag": "botnet"
+  },
+{
+"p": "מלחמת\\s?סייבר|לוחמת\\s?סייבר|לוחמה\\s?קיברנטית",
+"en": "cyber warfare",
+"tag": ""
+  },
+{
+"p": "מערך\\s?הסייבר|רשות\\s?הסייבר|(?<![a-zA-Z])INCD(?![a-zA-Z])",
+"en": "Israel National Cyber Directorate (INCD)",
+"tag": ""
+  },
+{
+"p": "תשתיות\\s?קריטיות",
+"en": "critical infrastructure",
+"tag": "ics-ot",
+"weak": true
+  },
+{
+"p": "בינה\\s?מלאכותית",
+"en": "AI",
+"tag": "ai",
+"weak": true
+  },
+{
+"p": "הונאה\\s?(?:מקוונת|דיגיטלית)|הונאות\\s?מקוונות",
+"en": "online fraud",
+"tag": "",
+"weak": true
+  },
+{
+"p": "קבוצת\\s?(?:האקרים|תקיפה|סייבר)|(?<![a-zA-Z])apt\\s?\\d*(?![a-zA-Z])",
+"en": "hacker group / APT",
+"tag": "espionage"
+  },
+{
+"p": "קריפטו|מטבעות\\s?דיגיטליים|ביטקוין",
+"en": "crypto",
+"tag": "",
+"weak": true
+  },
+{
+"p": "אירוע\\s?סייבר",
+"en": "cyber incident",
+"tag": ""
+  },
+{
+"p": "דליפת\\s?מידע|הדלפת\\s?מידע",
+"en": "information leak",
+"tag": "data-breach",
+"weak": true
+  }
+]
+}

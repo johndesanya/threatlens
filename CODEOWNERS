@@ -1,0 +1,6 @@
+# Every change to workflows, the collector and the page needs the owner's review once branch protection requires it.
+* @johndesanya
+/.github/ @johndesanya
+/collector/ @johndesanya
+/site/app.js @johndesanya
+/site/index.html @johndesanya
