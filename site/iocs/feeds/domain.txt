@@ -1,7 +1,10 @@
-# ThreatLens IoC feed - generated 2026-10-24T18:28:48.279Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-24T19:13:42.076Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+aroshka.cloud
+ip-api.com
+ipinfo.io
 vuldb.com
 archivetj.com
 hackmd.io
@@ -227,7 +230,6 @@ choclatey.org
 www.solarwinds.com
 sieprevencion.cl
 crt.sh
-ipinfo.io
 jackalsyn.com
 srsnodgrass.com
 mycompany.com
@@ -586,7 +588,6 @@ gsocket.io
 filebin.net
 beraskencur.site
 bashupload.com
-ip-api.com
 ir.varonis.com
 eseecloud.app
 www.remindmewhere.app
