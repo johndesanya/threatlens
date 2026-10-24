@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-24T16:10:47.759Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-24T16:59:34.076Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 archivetj.com
 hackmd.io
 www.vulncheck.com
@@ -25,6 +25,16 @@ techora.ru
 hunt.io
 vk.com
 issuer.name
+www.vins-viallet.com
+vins-viallet.com
+mx3.mail.ovh.net
+mx2.mail.ovh.net
+mx1.mail.ovh.net
+mx.ovh.com
+www.castlehoward.co.uk
+servers.mcsv.net
+rmscloud.com
+inkyphishfence.com
 spf-westus.emailsignatures365.com
 www.sltn.nl
 relay.spamshield.io
@@ -74,6 +84,7 @@ morrow-meadows.com
 mimecast.com
 godaddy.com
 secureserver.net
+ovh.net
 salesforce.com
 www.whois.com
 softboard.ru
@@ -725,6 +736,7 @@ beta-manus.com
 code-desktop.com
 news.am
 hub.ivanti.com
+saintpierredescorps.fr
 forums.ivanti.com
 curl.se
 malicious.net
@@ -1065,7 +1077,6 @@ karnataka.gov.in
 xerox.com
 tim.it
 pec.it
-ovh.net
 one.com
 infocert.it
 wasabisys.com
