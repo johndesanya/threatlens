@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-25T04:17:47.345Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-25T05:05:05.269Z - source: public vendor reports. Verify before blocking.
 googleupdate.exe
 openssl.exe
 cca616647db9370c88998ae25da6997f.exe
