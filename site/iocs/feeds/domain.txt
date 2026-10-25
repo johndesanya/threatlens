@@ -1,10 +1,20 @@
-# ThreatLens IoC feed - generated 2026-10-25T17:00:01.288Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-25T17:48:30.191Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 vuldb.com
 www.sourcecodester.com
 www.vulncheck.com
+www.hossner-textile.de
+www.whitecase.com
+spfb.whitecase.com
+spfa.whitecase.com
+spf-0016a202.pphosted.com
+mxb-0016a202.gslb.pphosted.com
+mxa-0016a202.gslb.pphosted.com
+d.spf.service-now.com
+c.spf.service-now.com
+b.spf.service-now.com
 www.u9.com.mm
 dentalartsofatlantis.com
 www.ecomgroup.com
@@ -12,6 +22,7 @@ www.etogruppe.com
 united-domains.de
 gabonmeca.com
 retarus.com
+mimecast.com
 godaddy.com
 pig4cloud-sql-injection.md
 unitree-firmware.oss-cn-hangzhou.aliyuncs.com
@@ -96,7 +107,6 @@ us-smtp-inbound-1.mimecast.com
 spf.exclaimer.net
 sendgrid.net
 morrow-meadows.com
-mimecast.com
 secureserver.net
 ovh.net
 salesforce.com
