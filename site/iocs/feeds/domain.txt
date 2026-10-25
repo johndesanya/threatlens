@@ -1,9 +1,10 @@
-# ThreatLens IoC feed - generated 2026-10-25T15:27:03.199Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-25T16:11:17.210Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
-www.vulncheck.com
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 vuldb.com
+www.sourcecodester.com
+www.vulncheck.com
 dentalartsofatlantis.com
 www.ecomgroup.com
 www.etogruppe.com
@@ -214,6 +215,7 @@ haberler.com
 www.sglacpas.com
 www.archivetj.com
 nvidia.custhelp.com
+asiaone.com
 advisory.splunk.com
 hofbrauhaus-freising.de
 hofbrauhaus-freising-de.gate.seppmail.cloud
@@ -287,7 +289,6 @@ download.openeclass.org
 www.keycloak.org
 cookie.name
 0day-rubbish.com
-www.sourcecodester.com
 pwnedhost.com
 ig25s4ulz5432zyjjg8kjeasxj3cr5ht8wwoje73.oastify.com
 5cig25s4ulz5432zyjjg8kjeasxj3cr5ht8wwoje73.oastify.com
