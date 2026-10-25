@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-25T22:55:38.742Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-25T23:44:50.032Z - source: public vendor reports. Verify before blocking.
 googleupdate.exe
 openssl.exe
 cca616647db9370c88998ae25da6997f.exe
@@ -164,6 +164,20 @@ version.Dll
 sys.Dll
 pythonw.Exe
 curl.Exe
+vim64.dll
+nvml.dll
+main.dll
+libcurl.dll
+jli.dll
+encryptbase64.ps1
+dnsapi.dll
+dbghelp.dll
+WinSparkle.dll
+Disk2vhd.dll
+Contoso-Poedit.exe
+7-zip32.dll
+7-zip.dll
+7z.exe
 w3wp.Exe
 godmemshell.Dll
 MicrosoftEdgeUpdate.Exe
@@ -175,6 +189,10 @@ Roblox.exe
 Ple64.exe
 f_000bc7.exe
 KMSAuto.exe
+s5cmd.exe
+rdp.bat
+Cloudflared.exe
+ntdsutil.exe
 hmn_hook.dll
 auto.exe
 78324.exe
@@ -341,7 +359,6 @@ nodew.exe
 launcher.vbs
 IntelDSA.exe
 vssadmin.exe
-ntdsutil.exe
 ComprovantePDF.exe
 libcef.dll
 chrome_elf.dll
@@ -352,7 +369,6 @@ Nedca.exe
 FS_SETUP_HY_173.exe
 FS_SETUP_GG_173.exe
 FS_SETUP_DD_173.exe
-7z.exe
 7z.dll
 xMain.dll
 nvdahelperremote.dll
