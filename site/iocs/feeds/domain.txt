@@ -1,11 +1,13 @@
-# ThreatLens IoC feed - generated 2026-10-25T11:50:19.702Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-25T12:32:01.474Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 vuldb.com
+dentalartsofatlantis.com
 www.ecomgroup.com
 www.etogruppe.com
 united-domains.de
+gabonmeca.com
 retarus.com
 godaddy.com
 pig4cloud-sql-injection.md
@@ -319,7 +321,6 @@ zohomail.com
 mx3.zoho.com
 mx2.zoho.com
 mx.zoho.com
-gabonmeca.com
 amenprivateregistration.com
 amen.fr
 adobebrokers.com
