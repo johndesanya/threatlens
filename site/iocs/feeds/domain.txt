@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-10-25T12:32:01.474Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-25T13:21:05.155Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.vulncheck.com
 vuldb.com
 dentalartsofatlantis.com
 www.ecomgroup.com
@@ -17,7 +18,6 @@ ip-api.com
 ipinfo.io
 archivetj.com
 hackmd.io
-www.vulncheck.com
 www.bookstackapp.com
 codeberg.org
 marshal.cc
