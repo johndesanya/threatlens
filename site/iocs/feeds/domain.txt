@@ -1,11 +1,13 @@
-# ThreatLens IoC feed - generated 2026-10-25T10:11:02.144Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-25T10:59:09.141Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 vuldb.com
+www.ecomgroup.com
 www.etogruppe.com
 united-domains.de
 retarus.com
+godaddy.com
 pig4cloud-sql-injection.md
 unitree-firmware.oss-cn-hangzhou.aliyuncs.com
 aroshka.cloud
@@ -91,7 +93,6 @@ spf.exclaimer.net
 sendgrid.net
 morrow-meadows.com
 mimecast.com
-godaddy.com
 secureserver.net
 ovh.net
 salesforce.com
