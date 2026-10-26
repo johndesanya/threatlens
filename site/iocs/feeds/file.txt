@@ -1,4 +1,9 @@
-# ThreatLens IoC feed - generated 2026-10-26T11:13:46.783Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-26T13:41:07.962Z - source: public vendor reports. Verify before blocking.
+msra.exe
+cleaner.ps1
+QuickAssist.exe
+pythonw.exe
+uip.exe
 googleupdate.exe
 openssl.exe
 cca616647db9370c88998ae25da6997f.exe
@@ -84,6 +89,7 @@ Eztwain4.dll
 BlkScrDl.dll
 Backupper.exe
 ABNotify.exe
+msedge.exe
 grok.exe
 copilot_lite.exe
 claude-code.exe
@@ -92,7 +98,6 @@ Sora2.apk
 Installer.exe
 GeminiSetup.exe
 Claude_x64-setup.exe
-msedge.exe
 unionfs.sys
 fdwsd.dll
 csc.sys
@@ -134,7 +139,6 @@ diag_fixed.exe
 diag_anycpu.exe
 PrintSpoofer64.exe
 GodPotato-NET4.exe
-pythonw.exe
 ProcessMonitorDriver.sys
 LnvMSRIO.sys
 LenovoBootRepair.sys
@@ -461,6 +465,7 @@ vshost.exe
 telegram.exe
 steam.exe
 idea64.exe
+git.exe
 csmonitor.exe
 browser_host.dll
 biz_render.exe
@@ -474,7 +479,6 @@ Client.dll
 Client.FDMTPFrame.dll
 Binance.exe
 Assist.dll
-git.exe
 xeno.exe
 javaw.exe
 instance.exe
@@ -515,38 +519,3 @@ dfscli.dll
 davhlpr.dll
 computerdefault.exe
 WmiPrvSE.exe
-agent_final.ps1
-iphlpapi.dll
-sDll_jj.dll
-ipo6.lnk
-information.lnk
-idx2.lnk
-desk.lnk
-screen2.ps1
-run.vbs
-rotor2.ps1
-rotor1.ps1
-rotor.ps1
-remoto.ps1
-remo.ps1
-mensajeoff.ps1
-mensaje1.ps1
-mensaje.ps1
-key.ps1
-jujuzkt2.ps1
-jujuzkt.ps1
-instaler.ps1
-ini.ps1
-hosts.msi
-edifhjwe.ps1
-cursor2.exe
-correr.ps1
-clip2.ps1
-clip.ps1
-cliente.ps1
-avs.ps1
-cdp.dll
-wire.exe
-upwire.exe
-uphero.exe
-hero.exe
