@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-26T06:43:56.238Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-26T07:37:20.585Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 vuldb.com
 vk.com
 www.ysk.nilim.go.jp
@@ -18,8 +18,10 @@ addnewstudent-stored-xss.md
 store.steampowered.com
 steamdb.info
 steamcommunity.com
+www.insidepassageelectric.org
 mahsing.com.my
 exabytes.my
+godaddy.com
 salesforce.com
 www.sourcecodester.com
 www.vulncheck.com
@@ -41,7 +43,6 @@ united-domains.de
 gabonmeca.com
 retarus.com
 mimecast.com
-godaddy.com
 pig4cloud-sql-injection.md
 unitree-firmware.oss-cn-hangzhou.aliyuncs.com
 aroshka.cloud
