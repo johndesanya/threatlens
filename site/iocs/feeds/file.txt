@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-26T18:45:06.338Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-26T19:28:45.191Z - source: public vendor reports. Verify before blocking.
 Updater.exe
 msra.exe
 cleaner.ps1
@@ -462,26 +462,3 @@ spice-vdagent.exe
 qemu-ga.exe
 prl_tools.exe
 VBoxControl.exe
-vshost.exe
-telegram.exe
-steam.exe
-idea64.exe
-git.exe
-csmonitor.exe
-browser_host.dll
-biz_render.exe
-SafeW.exe
-QuickFox.exe
-Microsoft.ServiceHosting.Tools.dll
-Hello-GPT.exe
-Exodus.exe
-Code.exe
-Client.dll
-Client.FDMTPFrame.dll
-Binance.exe
-Assist.dll
-xeno.exe
-javaw.exe
-instance.exe
-decompiler.jar
-decompiler.exe
