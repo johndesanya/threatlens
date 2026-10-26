@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-26T15:18:37.495Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-26T15:48:58.701Z - source: public vendor reports. Verify before blocking.
 space@n2k.com
 address@host.name
 test@test.com
@@ -46,10 +46,3 @@ t0x@atk.cc
 zmul1@buildandconsulting.com
 hostingclient@pinmx.net
 garrysmithme@pinmx.net
-support@openmail.pro
-user@company.com
-info@valisluureamet.ee
-info@ncsc.govt.nz
-cybersec@sis.md
-ctiteam@aw.gov.pl
-cert-fr@ssi.gouv.fr
