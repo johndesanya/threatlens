@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-26T20:06:26.888Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-26T20:57:53.423Z - source: public vendor reports. Verify before blocking.
 Updater.exe
 msra.exe
 cleaner.ps1
@@ -245,6 +245,7 @@ wireshark.exe
 windbg.exe
 vmtray.dll
 vmtoolshook.dll
+vmtoolsd.exe
 vmrawdsk.sys
 vmmousever.dll
 vmmouse.sys
@@ -318,14 +319,13 @@ Vmwareuser.exe
 Vmwaretrat.exe
 VGAuthService.exe
 VBoxVideo.sys
+VBoxTray.exe
+VBoxService.exe
 VBoxSF.sys
 VBoxMouse.sys
 VBoxGuest.sys
 SentinelMemoryScanner.exe
 SentinelAgentCore.dll
-vmtoolsd.exe
-VBoxTray.exe
-VBoxService.exe
 Notice.hta
 finger.exe
 wsc.dll
@@ -454,11 +454,3 @@ akira.exe
 wsreset.exe
 sdclt.exe
 bun.exe
-xenservice.exe
-vmwareuser.exe
-vmwaretray.exe
-vdservice.exe
-spice-vdagent.exe
-qemu-ga.exe
-prl_tools.exe
-VBoxControl.exe

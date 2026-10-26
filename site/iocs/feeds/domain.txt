@@ -1,11 +1,12 @@
-# ThreatLens IoC feed - generated 2026-10-26T20:06:26.888Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-26T20:57:53.423Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
-www.nlnetlabs.nl
-vuldb.com
-www.esri.com
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 wolfvision.com
+vuldb.com
+osmocom.org
+www.nlnetlabs.nl
+www.esri.com
 popcorntimeupd.xyz
 gstreamer.freedesktop.org
 mod.rs
@@ -446,6 +447,7 @@ w3techs.com
 thenextweb.com
 bugs.launchpad.net
 kb.isc.org
+dorsiacademy.it
 freshfarms.com.mx
 correo.freshfarms.com.mx
 vinsolutions.com
@@ -2694,10 +2696,8 @@ avcheck.net
 windowlight.org
 thai2570.com
 jiaoyisuo.thai2570.com
-log-tool-calls.sh
 awqhnjewqjkl.icu
 volmira.site
-cloaked.gg
 connection.upgradeonline.site
 zaviro.online
 cdn.prod.website-files.com
