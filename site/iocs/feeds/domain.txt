@@ -1,19 +1,26 @@
-# ThreatLens IoC feed - generated 2026-10-26T17:18:08.681Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-26T17:58:26.038Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 popcorntimeupd.xyz
+vuldb.com
+gstreamer.freedesktop.org
+mod.rs
+patchstack.com
+zipfile.rs
+path.rs
+aes.rs
+pyrus.com
+mattermost.com
 agents.md
 techora.ru
 oss.fwgcloud.com
-mattermost.com
 bugzilla.redhat.com
 git.kernel.org
 issues.apache.org
 boneio.eu
 wolfvision.com
 www.vulncheck.com
-vuldb.com
 osv.dev
 cna.erlef.org
 www.beyondtrust.com
@@ -429,8 +436,8 @@ dfwioeiofwr.info
 zenaware.it
 zenaoffice.it
 wpmobile.app
-patchstack.com
 amauri.io
+bankingnews.gr
 sysio.pl
 www.asus.com
 w3techs.com
@@ -1451,15 +1458,14 @@ my-goq6xmbm.pages.dev
 my-6g16qsfe.pages.dev
 my-662ylt3w.pages.dev
 my-3lyt6wcp.pages.dev
-mod.rs
 microsoft-flash.com
 load.rs
 exit.rs
 core.rs
 cmd.rs
+login.microsoftonline.com
 run.rs
 ps.rs
-login.microsoftonline.com
 fk.bubuneeko.workers.dev
 chat.ririmochii.workers.dev
 aware-cr1.com
@@ -1723,7 +1729,6 @@ config.rs
 app.heyhay.online
 api.myip.com
 anesthesiaschool.com
-aes.rs
 213-111-146-132.cprapid.com
 185-66-91-112.cprapid.com
 itorrents.org
