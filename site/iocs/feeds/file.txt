@@ -1,4 +1,5 @@
-# ThreatLens IoC feed - generated 2026-10-26T13:41:07.962Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-26T14:45:29.123Z - source: public vendor reports. Verify before blocking.
+Updater.exe
 msra.exe
 cleaner.ps1
 QuickAssist.exe
@@ -109,6 +110,7 @@ pivot_relay.Ps1
 LocaleMgr.Exe
 ScreenConnect.exe
 ScreenConnect.ClientSetup.exe
+winver.exe
 updater_loader.exe
 loader.exe
 exegis.exe
@@ -120,11 +122,10 @@ apex-windows-x64.exe
 apex-audit-windows-x64.exe
 _audit_run.vbs
 _apex_run.vbs
-winver.exe
 DC.exe
 live700_v1.exe
-DiagTrack.exe
 dllhost.exe
+DiagTrack.exe
 151.ps1
 f_003914.exe
 SECOH-QAD.exe
@@ -321,10 +322,10 @@ VBoxMouse.sys
 VBoxGuest.sys
 SentinelMemoryScanner.exe
 SentinelAgentCore.dll
+node.exe
 vmtoolsd.exe
 VBoxTray.exe
 VBoxService.exe
-node.exe
 Notice.hta
 finger.exe
 wsc.dll
@@ -501,21 +502,3 @@ MSVCR120.dll
 MSVCP120.dll
 GoProAlertService.exe
 AsTaskSched.dll
-printSvc.exe
-hostService.exe
-dhcpSvc.exe
-javassist.jar
-agent_wp9.jar
-agent_wp8.jar
-telepuz.dll
-spoolsv.exe
-secur32.dll
-msdtclog.dll
-msdtc.exe
-f322a5fa.exe
-etwhost.dll
-dsrole.dll
-dfscli.dll
-davhlpr.dll
-computerdefault.exe
-WmiPrvSE.exe

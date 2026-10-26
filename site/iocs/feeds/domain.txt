@@ -1,7 +1,9 @@
-# ThreatLens IoC feed - generated 2026-10-26T13:41:07.962Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-26T14:45:29.123Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+www.beyondtrust.com
+deploy.sh
 verifsec-update.top
 verifcontrol-update.top
 updsysseq.top
@@ -107,6 +109,9 @@ addnewstudent-stored-xss.md
 store.steampowered.com
 steamdb.info
 steamcommunity.com
+d200858b.ess.barracudanetworks.com
+d200858a.ess.barracudanetworks.com
+authsmtp.com
 www.seufertconstruction.com
 usb-smtp-inbound-2.mimecast.com
 usb-smtp-inbound-1.mimecast.com
@@ -239,6 +244,7 @@ aa.com
 www.insidepassageelectric.org
 mahsing.com.my
 exabytes.my
+funio.com
 mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
@@ -319,13 +325,13 @@ marshal.cc
 www.wordfence.com
 plugins.trac.wordpress.org
 www.grayback.es
+obfuscator.io
 krakenhire.com
 jsonkeeper.com
 coinbase.talenthiringtool.com
 api.quickcamfix.online
 api.nvidia-release.org
 api.mocki.io
-obfuscator.io
 socket.io
 report.md
 install.sh
@@ -345,7 +351,6 @@ inkyphishfence.com
 spf-westus.emailsignatures365.com
 www.sltn.nl
 relay.spamshield.io
-funio.com
 smtp.relay.serverneubox.com.mx
 relay.mailchannels.net
 aspmx5.googlemail.com
@@ -1683,6 +1688,7 @@ storage.hubpage.cloud
 shellintegration-bash.sh
 shell.rs
 rssh.rs
+relay.damus.io
 registry.terraform.io
 registry.hashicorp-terraform.io
 registry.hashicorp-aws.io
@@ -1711,7 +1717,6 @@ anesthesiaschool.com
 aes.rs
 213-111-146-132.cprapid.com
 185-66-91-112.cprapid.com
-relay.damus.io
 itorrents.org
 deadhub.org
 api.mainnet.solana.com
@@ -2588,12 +2593,12 @@ insertface.com
 subdomain.oast.me
 indiatoday.in
 rekor.sigstore.dev
+registry.npmjs.org
 npm-cache.com
 go.getblock.io
 fulcio.sigstore.dev
 eth.llamarpc.com
 eth-mainnet.nodereal.io
-registry.npmjs.org
 ecosyste.ms
 xoilacz.com
 xoilacxys.top
@@ -2871,30 +2876,6 @@ ipfs.io
 message.chat.id
 rubygems.org
 git.disroot.org
-deploy.sh
-upload.rightwidth.dev
-rightwidth.dev
-ldb.rightwidth.dev
-file.rightwidth.dev
-crypto.com
-controller.rightwidth.dev
-code.app
-lib.sh
-newremupdate.duckdns.org
-mail.trimnt.com
-mail.teamengineersgroup.com
-mail.taikei-rmc-co.biz
-mail.allportcargoservice.com
-target.name
-router.bittorrent.com
-relay.nostr.com
-dht.transmissionbt.com
-zewaplus.club
-hurgadatour.shop
-codebasecode.com
-cal.snehamumbai.org
-cal.joycedoula.com.br
-freepik.com
 passkey-check.com
 makepasskey.com
 add-passkey.com
@@ -2913,7 +2894,6 @@ healthfullyrecipes.com
 seguranca.versionnova.site
 myaccountsecurity.com
 keysyncos.com
-1234.sh
 passkeyuser.com
 enablepasskey2fa.com
 enablepasskey.com
