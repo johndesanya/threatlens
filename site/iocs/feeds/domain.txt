@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-26T14:45:29.123Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-26T15:18:37.495Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 www.beyondtrust.com
 deploy.sh
 verifsec-update.top
@@ -2733,11 +2733,11 @@ solthere.net
 ce953a0eb08246617b7f849486c4b26a7af37e9d2e8f0e13b3ae1bf0da8a70a.xyz
 passkeymfa.com
 hubpasskey.com
-ftabnews.com
-about.blsouqs.com
 ssl.blsouqs.com
+ftabnews.com
 contacts.ftabnews.com
 cert.hypersnet.com
+about.blsouqs.com
 myssopasskey.com
 fullnode.mainnet.aptoslabs.com
 bsc-rpc.publicnode.com
@@ -2871,11 +2871,6 @@ mypasskeyid.com
 modal.com
 passkey-enable.com
 addyourpasskey.com
-rentry.co
-ipfs.io
-message.chat.id
-rubygems.org
-git.disroot.org
 passkey-check.com
 makepasskey.com
 add-passkey.com

@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-26T14:45:29.123Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-26T15:18:37.495Z - source: public vendor reports. Verify before blocking.
 Updater.exe
 msra.exe
 cleaner.ps1
@@ -494,11 +494,3 @@ EnPortv.sys
 ConvertToPDF.exe
 PSEXESVC.exe
 tcp469A.dll
-shimgen.exe
-pthreadVC2.dll
-dlpprem64.dll
-RegSchdTask.exe
-MSVCR120.dll
-MSVCP120.dll
-GoProAlertService.exe
-AsTaskSched.dll
