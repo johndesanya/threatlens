@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-26T23:05:53.685Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-26T23:51:51.986Z - source: public vendor reports. Verify before blocking.
 Updater.exe
 msra.exe
 cleaner.ps1
@@ -401,5 +401,3 @@ MpEngine.dll
 GoogleAppInstaller.exe
 Download_Google_Gemini_For_Windows.exe
 RegisterRC6inPlace.vbs
-wtsapi32.dll
-pld.exe

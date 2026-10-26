@@ -1,17 +1,18 @@
-# ThreatLens IoC feed - generated 2026-10-26T23:05:53.685Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-26T23:51:51.986Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 rpc-server.cc
 joshua.hu
 www.vulncheck.com
 hackmd.io
+www.totolink.net
+vuldb.com
 hdfdsi84j3h.top
 crypto-insider.top
 c85grt98sd.com
 abovedomains.com
 wolfvision.com
-vuldb.com
 osmocom.org
 kb.cert.org
 www.nlnetlabs.nl
@@ -2613,15 +2614,7 @@ discherniation.com
 pcman.openfoundry.org
 trustidcard.com
 insertface.com
-subdomain.oast.me
 indiatoday.in
-rekor.sigstore.dev
-registry.npmjs.org
-npm-cache.com
-go.getblock.io
-fulcio.sigstore.dev
-eth.llamarpc.com
-eth-mainnet.nodereal.io
 volmira.site
 connection.upgradeonline.site
 zaviro.online
