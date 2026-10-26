@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-25T23:44:50.032Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-26T00:49:21.853Z - source: public vendor reports. Verify before blocking.
 space@n2k.com
 address@host.name
 test@test.com
