@@ -1,9 +1,14 @@
-# ThreatLens IoC feed - generated 2026-10-26T00:49:21.853Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-26T01:31:14.614Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 glueckauf-vermessung.de
+addnewstudent-stored-xss.md
+store.steampowered.com
+steamdb.info
+drbloop.dev
 vuldb.com
+steamcommunity.com
 vk.com
 www.sourcecodester.com
 www.vulncheck.com
@@ -1280,7 +1285,6 @@ thepaypers.com
 nsearchives.nseindia.com
 docs.apwg.org
 aijourn.com
-steamcommunity.com
 muddy-sound-e0cd.nodetectonn.workers.dev
 blessedongrace.duckdns.org
 www.qmsjmfb.com
