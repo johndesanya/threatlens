@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-26T20:57:53.423Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-26T21:33:19.892Z - source: public vendor reports. Verify before blocking.
 Updater.exe
 msra.exe
 cleaner.ps1
@@ -451,6 +451,3 @@ AvLaunch.exe
 AVGSvc.exe
 msconfig.exe
 akira.exe
-wsreset.exe
-sdclt.exe
-bun.exe

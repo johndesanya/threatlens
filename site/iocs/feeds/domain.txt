@@ -1,10 +1,15 @@
-# ThreatLens IoC feed - generated 2026-10-26T20:57:53.423Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-26T21:33:19.892Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+hdfdsi84j3h.top
+crypto-insider.top
+c85grt98sd.com
+abovedomains.com
 wolfvision.com
 vuldb.com
 osmocom.org
+kb.cert.org
 www.nlnetlabs.nl
 www.esri.com
 popcorntimeupd.xyz
@@ -91,7 +96,6 @@ manulfie.click
 lanhd6549tdhse.top
 deepveindrilling.com
 additionalver.com
-abovedomains.com
 xmit.xyz
 bohmid-com.vercel.app
 videoflow.cn
@@ -2694,9 +2698,6 @@ temp.sh
 scanner.to
 avcheck.net
 windowlight.org
-thai2570.com
-jiaoyisuo.thai2570.com
-awqhnjewqjkl.icu
 volmira.site
 connection.upgradeonline.site
 zaviro.online
@@ -2728,6 +2729,7 @@ minicursor.com
 bank.in
 infostealers.com
 version.checkeligibitily.workers.dev
+leqdger.click
 codecaudiog.site
 orange-sun-195a.checkeligibitily.workers.dev
 lojinhadoluiz.online
