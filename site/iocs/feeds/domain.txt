@@ -1,8 +1,12 @@
-# ThreatLens IoC feed - generated 2026-10-26T15:48:58.701Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-26T16:03:26.323Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+techora.ru
 oss.fwgcloud.com
+git.kernel.org
+issues.apache.org
+boneio.eu
 wolfvision.com
 mattermost.com
 www.vulncheck.com
@@ -96,7 +100,6 @@ www.govtrack.us
 id.im
 govtrack.us
 cyberinsider.com
-issues.apache.org
 camel.apache.org
 vk.com
 brightsec.com
@@ -340,7 +343,6 @@ api.mocki.io
 socket.io
 report.md
 install.sh
-techora.ru
 hunt.io
 issuer.name
 www.vins-viallet.com
@@ -463,8 +465,8 @@ www.suse.com
 www.ibm.com
 ubuntu.com
 process.parent.name
-process.name
 host.id
+process.name
 reg.ru
 motor.net
 hackattackkaboom.botlesscucks.st
@@ -481,8 +483,8 @@ docs.intersystems.com
 www.siemens.com
 test.test.com
 ghcr.io
-docker.io
 files.pythonhosted.org
+docker.io
 newsru.co.il
 shutterstock.com
 mezha.net
@@ -948,11 +950,11 @@ grupoabg.com
 lcww.com.eg
 www.att.com
 fairfeelegalservices.com
+ifconfig.me
 icanhazip.com
 hstspreload.org
 supportportal.juniper.net
 api.ipify.org
-ifconfig.me
 open.bigmodel.cn
 ylhgkj.com
 www.c.com
@@ -2795,32 +2797,6 @@ safedata.s3.wasabisys.com
 industrialcyber.co
 fieldeffect.com
 delete.me
-zmailanalytics.com
-zimbrastat.com
-zimbrasoft.com.ua
-zimbra-metadata.com
-synacorzimbra.nl
-mailnalysis.com
-istc-cloud.com
-emailanalytics.com.ua
-analyticemailmeter.com
-wp2shell.com
-standards.ieee.org
-motd.ubuntu.com
-get.gravitational.com
-cdn.teleport.dev
-archive.apache.org
-apt.puppetlabs.com
-uuokhhfsdlk.tylarion867mino.com
-tylarion867mino.com
-ocferda.com
-xtrafftrck.net
-tria.ge
-thessa.trackgrid.net
-screenly.cam
-paysolutions.ink
-aurekh.com
-ahdaratlegalservices.com
 ssopasskey.com
 addssopasskey.com
 secure-passkey.com
