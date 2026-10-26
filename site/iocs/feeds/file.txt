@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-26T16:03:26.323Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-26T17:18:08.681Z - source: public vendor reports. Verify before blocking.
 Updater.exe
 msra.exe
 cleaner.ps1
@@ -19,9 +19,9 @@ SecurityHealthHost.exe
 SearchHost.exe
 RuntimeBroker.exe
 OneDriveStandaloneUpdater.exe
+MicrosoftEdgeUpdate.exe
 GoogleUpdate.exe
 AdobeARM.exe
-MicrosoftEdgeUpdate.exe
 sqldiff.exe
 windowsdefendersvc.exe
 updater.exe
@@ -144,8 +144,8 @@ ProcessMonitorDriver.sys
 LnvMSRIO.sys
 LenovoBootRepair.sys
 IronChain.hta
-BdApiUtil.sys
 BootRepair.sys
+BdApiUtil.sys
 tmp00055df5.dll
 f_006048.exe
 d4aa3e7010220ad1b458fac17039c274_63_Exe.exe
@@ -485,11 +485,3 @@ javaw.exe
 instance.exe
 decompiler.jar
 decompiler.exe
-wsftprm.sys
-timeout.exe
-find.exe
-PDFDirect.exe
-PDFCORE8.dll
-EnPortv.sys
-ConvertToPDF.exe
-PSEXESVC.exe
