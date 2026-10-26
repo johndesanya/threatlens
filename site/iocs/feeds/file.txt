@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-26T19:28:45.191Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-26T20:06:26.888Z - source: public vendor reports. Verify before blocking.
 Updater.exe
 msra.exe
 cleaner.ps1
@@ -276,6 +276,7 @@ proc_analyzer.exe
 petools.exe
 ollyice.exe
 ollydbg.exe
+node.exe
 myapp.exe
 msedge.dll
 malware.exe
@@ -322,7 +323,6 @@ VBoxMouse.sys
 VBoxGuest.sys
 SentinelMemoryScanner.exe
 SentinelAgentCore.dll
-node.exe
 vmtoolsd.exe
 VBoxTray.exe
 VBoxService.exe
