@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-26T17:58:26.038Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-26T18:45:06.338Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 popcorntimeupd.xyz
 vuldb.com
 gstreamer.freedesktop.org
@@ -2747,11 +2747,6 @@ solthere.net
 ce953a0eb08246617b7f849486c4b26a7af37e9d2e8f0e13b3ae1bf0da8a70a.xyz
 passkeymfa.com
 hubpasskey.com
-ssl.blsouqs.com
-ftabnews.com
-contacts.ftabnews.com
-cert.hypersnet.com
-about.blsouqs.com
 myssopasskey.com
 cdn.prod.website-files.com
 createssopasskey.com
