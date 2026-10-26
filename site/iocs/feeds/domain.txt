@@ -1,8 +1,10 @@
-# ThreatLens IoC feed - generated 2026-10-26T02:58:20.675Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-26T03:34:23.343Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+drbloop.dev
 vuldb.com
+jfyuhong.github.io
 wordpress.org
 itsourcecode.com
 leading-to-arbitrary-command-execution.md
@@ -10,7 +12,6 @@ glueckauf-vermessung.de
 addnewstudent-stored-xss.md
 store.steampowered.com
 steamdb.info
-drbloop.dev
 steamcommunity.com
 vk.com
 www.sourcecodester.com
