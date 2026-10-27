@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-27T14:22:29.022Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-27T15:09:46.021Z - source: public vendor reports. Verify before blocking.
 wmiprvse.exe
 bash.exe
 aspnet_compiler.exe
@@ -161,8 +161,8 @@ DiagTrack.exe
 151.ps1
 f_003914.exe
 SECOH-QAD.exe
-kernelbase.dll
 msgbox.exe
+kernelbase.dll
 monitor.ps1
 cookie_copy_tool.exe
 hello.exe
@@ -359,13 +359,3 @@ VBoxGuest.sys
 SentinelMemoryScanner.exe
 SentinelAgentCore.dll
 Notice.hta
-finger.exe
-wsc.dll
-wmpnetwk.exe
-wint.exe
-mctsetup64.dll
-krita.dll
-calibre-launcher.dll
-GfExperienceService64.exe
-GFExperienceUpdate.dll
-ChromeUpdate.exe
