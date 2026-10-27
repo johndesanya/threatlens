@@ -1,8 +1,13 @@
-# ThreatLens IoC feed - generated 2026-10-27T07:34:03.436Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-27T08:16:27.662Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 vk.com
+cve-2026-117471.md
+cve-2026-117472.md
+cve-2026-117468.md
+cve-2026-117469.md
+cve-2026-117470.md
 vuldb.com
 code-projects.org
 www.sourcecodester.com
@@ -498,8 +503,8 @@ www.php.net
 www.ibm.com
 ubuntu.com
 process.parent.name
-host.id
 process.name
+host.id
 reg.ru
 motor.net
 hackattackkaboom.botlesscucks.st
@@ -704,9 +709,9 @@ zcsend.net
 xcai.pro
 kubernetes.io
 container.id
+host.name
 api.deepseek.com
 java.io
-host.name
 gzoozl.com
 gxoosl.com
 gsoosl.xyz
