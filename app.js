@@ -31,7 +31,7 @@ const REMOTE = 'https://raw.githubusercontent.com/johndesanya/threatlens/main/si
 const LOCAL_DEV = ['localhost', '127.0.0.1'].includes(location.hostname);   // when testing locally, use local files only
 async function j(u) {
   for (const base of LOCAL_DEV ? [''] : [REMOTE, '']) {
-    try { const r = await fetch(base + u, { cache: 'no-cache' }); if (r.ok) return await r.json(); } catch { /* try next source */ }
+    try { const r = await fetch(base + u, { cache: 'no-store' }); if (r.ok) return await r.json(); } catch { /* try next source */ }
   }
   throw new Error(u);
 }
