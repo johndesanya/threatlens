@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-27T17:25:46.336Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-27T17:37:16.300Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 shutterstock.com
 agents.md
 integmn.com
@@ -255,6 +255,16 @@ service.aliyun.com
 mx3.qiye.aliyun.com
 mx2.qiye.aliyun.com
 mx1.qiye.aliyun.com
+www.qlc-labeling.com
+www.microsearch.net
+mail.websearchstudio.net
+mail.microsearchcorp.com
+mail.microsearch.net
+mail.iueclocal4.com
+mail.iuec.org
+mail.generousgardeners.com
+mail.eiwpf.org
+mail.bppa.org
 www.moxa.com
 wagyu.xyz
 www.horizonlaservision.com
@@ -306,6 +316,7 @@ relay.mailchannels.net
 mailgun.org
 namecheap.com
 ionos.com
+odoo.com
 web.com
 spf.ess.barracudanetworks.com
 sendgrid.net
@@ -694,7 +705,6 @@ trinitycustom.com
 spf.mtasv.net
 gosecure.net
 ellijay-mx.email-protect.gosecure.net
-odoo.com
 conaxtechnologies.com
 spf.a2hosting.com
 pencoproducts.com
@@ -3190,7 +3200,6 @@ animalrampage3d.io
 90phutyy.io
 6789x.site
 255.com
-windowlight.org
 wesq.me
 webpixel.app
 weatherplllatform.com
@@ -3223,21 +3232,17 @@ advanceslibrary.com
 ads-analytic.com
 system.io
 vita-activa.org
+windowlight.org
 temp.sh
 scanner.to
 avcheck.net
 doi.org
 registry.yarnpkg.com
 registry-1.docker.io
-chocoshell.in
-file.in
 thai2570.com
 jiaoyisuo.thai2570.com
 log-tool-calls.sh
-thread.network
-methods.network
-abyssos.in
-1234.network
+awqhnjewqjkl.icu
 volmira.site
 cloaked.gg
 it.to
@@ -3247,15 +3252,14 @@ lhr.life
 api.trycloudflare.com
 u.name
 joomlacontenteditor.net
+logs-endpoint.events.network
+dns.question.name
 setupsso.com
 publicdomainregistry.com
 pipe.ma
 passkeyms.com
 mysecurepasskey.com
 idokta.com
-logs-endpoint.events.network
-dns.question.name
-awqhnjewqjkl.icu
 uid.fastmail.com
 rule.media
 payload.oastify.com
@@ -3266,6 +3270,8 @@ www.cloudsek.com
 intel.breakglass.tech
 datapub.news
 zaviro.online
+pypi-get.com
+js-mirror.com
 sso.redacted.com
 redacted.meta.com
 redacted.com
@@ -3288,8 +3294,6 @@ account.phones.com
 20secure.streaming.com
 20example.com
 0.cl
-pypi-get.com
-js-mirror.com
 jiejie.net
 cdns3.51quickfox.com
 51quickfox.com
@@ -3762,8 +3766,8 @@ killav.at
 cdn-static.okendo.io
 api.wizzleticks.com
 api.wigetticks.com
-www.wangmeng.xyz
 oskeyconnect.com
+www.wangmeng.xyz
 windowsupdate-cdn.com
 vfsgloball.net
 crefisa.online
@@ -3785,8 +3789,8 @@ claude-code-app.gitlab.io
 chatgpt-codex.gitlab.io
 chatgpt-codex-lm.gitlab.io
 chatgpt-codex-app.gitlab.io
-www.wangmeng66.top
 passkeycreate.com
+www.wangmeng66.top
 mynewpasskey.com
 myconnectkey.com
 assignpasskey.com
@@ -3796,10 +3800,10 @@ models.litellm.cloud
 portalsetuphub.com
 connection.timesmaluku.com
 refreshhealthandwellness.com
-www.wangmengsb.com
 startpasskeysetup.com
 passkey-portal.com
 passkey-connect.com
+www.wangmengsb.com
 passkey-setup.com
 addmypasskey.com
 passkeyregistration.com
@@ -3808,8 +3812,8 @@ passkeysupport.com
 newpasskey.com
 passkeyset.com
 createmypasskey.com
-www.techcheck1.com
 passkeyokta.com
+www.techcheck1.com
 setpasskey.com
 www.google-apis.net
 healthyweightplan.com
