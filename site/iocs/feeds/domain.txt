@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-10-27T19:30:19.155Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-27T20:09:23.031Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+ctfer.io
 ghostynetworks.com
 anonrdp.com
 crbug.com
@@ -18,8 +19,16 @@ entry.link
 cobblestonecafe.us
 chapalasrealtor.com
 adacompliantsigns.online
+x.org
 www.tp-link.com
 security.tanium.com
+jupiter.bonto.io
+exodus.bonto.io
+connect.trezor.io
+coinbase.bonto.io
+bonto.io
+bitget.bonto.io
+claude.md
 shutterstock.com
 vuldb.com
 psirt.watchguard.com
@@ -211,6 +220,7 @@ ipapi.co
 ip-api.com
 login.microsoftonline.com
 obfuscator.io
+dev.ua
 php2shell.com
 p.name
 www.vulncheck.com
@@ -449,7 +459,6 @@ ucreater.com
 telegram-apk.uzyzx.com
 qianxuncc.cn
 hunanzhijing.com
-claude.md
 cert-portal.siemens.com
 app.notion.com
 www.bizerba.com
@@ -944,6 +953,7 @@ javadevhouse.co.kr
 fp-news.co.kr
 cubedesign.co.kr
 cio.com
+phantom.bonto.io
 firewall.sh
 5gmsxuxam52jampd7vc6x0cvcmif681wszgq3gr5.oastify.com
 5c5gmsxuxam52jampd7vc6x0cvcmif681wszgq3gr5.oastify.com
@@ -1222,7 +1232,6 @@ flareru.live
 ransomlook.io
 map.ch
 ptelcom.com
-x.org
 cert.pl
 wibu-bau-bawang.online
 transfer.sh
@@ -3471,8 +3480,8 @@ mypasskeyid.com
 modal.com
 passkey-enable.com
 addyourpasskey.com
-message.chat.id
 ipfs.io
+message.chat.id
 rentry.co
 rubygems.org
 git.disroot.org
@@ -3705,27 +3714,27 @@ advertisingeffectively.com
 5x5web.com
 589669.cc
 3plfast.com
-ethereum-rpc.publicnode.com
 payloads.tralalarkefe.com
 gemini.md
+ethereum-rpc.publicnode.com
 www.ohchr.org
 isans.org
 freedomhouse.org
-c.statcounter.com
 passkey-check.com
 makepasskey.com
 add-passkey.com
-testnet.archival.chain.grpc-web.injective.network
 check.torproject.org
 archive.torproject.org
+testnet.archival.chain.grpc-web.injective.network
+c.statcounter.com
 vanilla.pl
 graph.checkeligibitily.workers.dev
 passkeyhelpdesk.com
 passkeyactivation.com
 createmfa.com
+hexhole.injective.network
 www.abuseipdb.com
 pool.hasvault.pro
-hexhole.injective.network
 passkeyenable.com
 ww.ssinvestigaciones.com
 ssinvestigaciones.com

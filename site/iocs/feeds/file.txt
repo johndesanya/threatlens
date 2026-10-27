@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-27T19:30:19.155Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-27T20:09:23.031Z - source: public vendor reports. Verify before blocking.
 wmiprvse.exe
 bash.exe
 aspnet_compiler.exe
@@ -564,12 +564,12 @@ computerdefault.exe
 WmiPrvSE.exe
 spoolsv.exe
 agent_final.ps1
+iphlpapi.dll
 sDll_jj.dll
 ipo6.lnk
 information.lnk
 idx2.lnk
 desk.lnk
-iphlpapi.dll
 screen2.ps1
 run.vbs
 rotor2.ps1
