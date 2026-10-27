@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-27T20:09:23.031Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-27T20:57:09.923Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 ctfer.io
 ghostynetworks.com
 anonrdp.com
@@ -20,8 +20,9 @@ cobblestonecafe.us
 chapalasrealtor.com
 adacompliantsigns.online
 x.org
-www.tp-link.com
 security.tanium.com
+vuldb.com
+www.tp-link.com
 jupiter.bonto.io
 exodus.bonto.io
 connect.trezor.io
@@ -30,7 +31,6 @@ bonto.io
 bitget.bonto.io
 claude.md
 shutterstock.com
-vuldb.com
 psirt.watchguard.com
 agents.md
 integmn.com
@@ -217,9 +217,9 @@ aachem-za.co
 0ff365access.mooo.com
 0350pvas.acs-wcst.com
 ipapi.co
+obfuscator.io
 ip-api.com
 login.microsoftonline.com
-obfuscator.io
 dev.ua
 php2shell.com
 p.name
@@ -3777,19 +3777,25 @@ neumedicahealthcare.com
 healthful-hub.com
 scan.aquasecurtiy.org
 aquasecurity.com
-website.in
-implementation.in
+visual-media-rights-group.org
+runners-daily-blog.com
+py-lib-repository.dev
+permits.global-transit-authority.org
+market-insight-global.com
+identity-breach-response.org
+edge-compliance-node.org
+digital-asset-mart.org
 debank.com
-content.in
-agents.by
+consensus-protocol-v4.org
+bistro-reserve-now.net
 bun.sh
 faturanova.xyz
 faturanova.duckdns.org
 facture-in.pages.dev
 facture-arsys.duckdns.org
 controlfacturas.site
-linear.app
 addpasskey2fa.com
+linear.app
 yeplayer.store
 yemplayer.site
 www.yeplayer.store
