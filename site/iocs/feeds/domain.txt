@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-27T04:20:42.280Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-27T05:09:08.150Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 vuldb.com
 code-projects.org
 www.sourcecodester.com
@@ -726,9 +726,9 @@ gboogl.com
 domain.com
 readme.md
 cynex.nict.go.jp
+crates.io
 onapsis.com
 my.f5.com
-crates.io
 coderedcomms.com
 wizardexpensive.com
 www.hitachienergy.com
@@ -1877,6 +1877,7 @@ wdm.unguidedfreewill.co
 wantsellonline.com
 verse-18.com
 umapla.com
+trekmesh15.com
 tnt.unguidedfreewill.co
 thepullmanfolkestone.com
 storageprofiler.com
@@ -1936,6 +1937,7 @@ hindustanagency.com
 heroestales.com
 hbubagent.com
 harbor-29.com
+grove-12.com
 gogolfonline.com
 glrack.com
 glowmedaesthetics.com
@@ -1989,6 +1991,7 @@ carlessclapped.com
 canvas-35.com
 camaligsalvatrefoils.com
 broadwalkindia.com
+bright-links.com
 br.hugo-lapp.co
 beaocnagent.com
 basequill9.com
@@ -1997,9 +2000,6 @@ applediag.com
 alfredaps.com
 aidevmaster.com
 aforvm.com
-trekmesh15.com
-grove-12.com
-bright-links.com
 idscan.net
 rubydoc.info
 www.sicoob.com.br
@@ -2008,12 +2008,12 @@ www.creamp1eonlyfans.net
 web.whatsapp.com
 overhands.org
 www.papercut.com
+user.id
 process.parent.user.name
 process.parent.user.id
 process.parent.group.id
 www.ilias.de
 m.group
-user.id
 x-wolverine.servebbs.com
 gexwalltool.com
 85.182.62.50.host.secureserver.net
@@ -2542,22 +2542,6 @@ carhartt.mail.onmicrosoft.com
 carhartt.com
 att.net
 luizestrelhashapr.online
-vine-96.com
-swiftsaverfin.com
-quill-flint.com
-parentpreneurx.com
-grove-satin.com
-atlas-compass.com
-aspencore18.com
-user.email
-service.name
-entity.id
-static.rust-lang.org
-static.crates.io
-index.crates.io
-hwsrv-798836.hostwindsdns.com
-docs.rs
-build.rs
 californicationdetroit.com
 indiatoday.in
 volmira.site
