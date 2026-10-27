@@ -22,7 +22,9 @@ const DATA = path.join(SITE, 'data');
 const IOCS = path.join(SITE, 'iocs');
 
 const MAX_AGE_DAYS = +process.env.MAX_AGE_DAYS || 120;   // ignore feed items older than this
-const RETAIN_DAYS = +process.env.RETAIN_DAYS || 240;     // keep reports this long
+const RETAIN_DAYS = +process.env.RETAIN_DAYS || 365;     // reports attributed to a threat actor are kept this long
+const RETAIN_IOC_DAYS = +process.env.RETAIN_IOC_DAYS || 150; // reports that only carry IoCs / ATT&CK ids
+const MAX_REPORTS = +process.env.MAX_REPORTS || 8000;    // size limit of reports.json; only ordinary items are ever trimmed
 const MAX_DEEP_FETCH = +process.env.MAX_DEEP_FETCH || 450; // article pages fetched per run
 const SCHEMA = 2;
 const MAX_BYTES = 3_000_000;   // never read more than 3 MB of one response
@@ -500,6 +502,13 @@ async function main() {
   const store = FULL ? { reports: [] } : readJson(path.join(DATA, 'reports.json'), { reports: [] });
   const existing = new Map((store.reports || []).map(r => [r.id, r]));
   const srcById = new Map(sources.map(x => [x.id, x]));
+  // site/data/archive.json is a static backup of valuable reports (actor-attributed / IoC / ATT&CK). Anything of it that is
+  // missing from reports.json is put back, so history can never be lost to a bug or a size limit again.
+  let restored = 0;
+  for (const r of readJson(path.join(DATA, 'archive.json'), { reports: [] }).reports || []) {
+    if (r && r.id && !existing.has(r.id) && (srcById.has(r.sourceId) || r.sourceId === 'manual')) { existing.set(r.id, r); restored++; }
+  }
+  if (restored) log(`Restored ${restored} reports from the archive.`);
   let retagged = 0;
   for (const r of existing.values()) if (!r.countries) { r.countries = detectCountries(r.title, r.summary || '', srcById.get(r.sourceId)?.country); retagged++; }
   if (retagged) log(`Re-tagged ${retagged} existing reports with countries.`);
@@ -697,9 +706,22 @@ async function main() {
   });
   if (liveFeeds.length) log(`IoC feeds: ${liveHealth.filter(x => x.ok).length}/${liveFeeds.length} ok, ${liveHealth.reduce((n, x) => n + x.items, 0)} live indicators.`);
 
-  // retention
-  const keepFrom = Date.now() - RETAIN_DAYS * 864e5;
-  const reports = [...existing.values()].filter(r => new Date(r.published).getTime() >= keepFrom).sort((a, b) => (a.published < b.published ? 1 : -1)).slice(0, 6000);
+  // retention. Old APT-attributed reports are the most valuable data: they are never pushed out by the size limit.
+  //   tier 1: attributed to a threat actor  -> kept for RETAIN_DAYS (365)
+  //   tier 2: carries IoCs / ATT&CK ids     -> kept for RETAIN_IOC_DAYS (150)
+  //   tier 3: everything else               -> newest first, fills what is left of MAX_REPORTS
+  const T = d => Date.now() - d * 864e5, ts = r => new Date(r.published).getTime();
+  const newest = (x, y) => (x.published < y.published ? 1 : -1);
+  const tier1 = [], tier2 = [], tier3 = [];
+  for (const r of existing.values()) {
+    if (r.groups && r.groups.length) { if (ts(r) >= T(RETAIN_DAYS)) tier1.push(r); }
+    else if (r.iocTotal > 0 || (r.techniques && r.techniques.length)) { if (ts(r) >= T(RETAIN_IOC_DAYS)) tier2.push(r); }
+    else if (ts(r) >= T(RETAIN_IOC_DAYS)) tier3.push(r);
+  }
+  tier1.sort(newest); tier2.sort(newest); tier3.sort(newest);
+  const room = Math.max(0, MAX_REPORTS - tier1.length);
+  const reports = [...tier1, ...tier2.slice(0, room), ...tier3.slice(0, Math.max(0, room - tier2.length))].sort(newest);
+  log(`Retention: ${tier1.length} actor-attributed (${RETAIN_DAYS} d), ${tier2.length} with IoCs, ${tier3.length} other -> keeping ${reports.length}.`);
   const byId = new Map(reports.map(r => [r.id, r]));
   const storyCount = clusterStories(reports);
   log('Stories (grouped duplicate coverage): ' + storyCount);
@@ -708,7 +730,7 @@ async function main() {
   const agg = new Map();
   const walk = d => fs.existsSync(d) ? fs.readdirSync(d, { withFileTypes: true }).flatMap(f => f.isDirectory() ? walk(path.join(d, f.name)) : f.name.endsWith('.json') ? [path.join(d, f.name)] : []) : [];
   for (const f of walk(path.join(IOCS, 'by-month'))) for (const j of readJson(f, { entries: [] }).entries) {
-    if (!byId.has(j.report.id)) continue;
+    if (!byId.has(j.report.id) && Date.parse(j.report.published) < T(RETAIN_IOC_DAYS)) continue;   // indicators outlive the size-limit of reports.json
     for (const [type, arr] of Object.entries(j.iocs)) for (const v of arr) {
       const k = type + '|' + v; let e = agg.get(k);
       const when = (j.obs && j.obs[k]) ? j.obs[k] + 'T00:00:00.000Z' : j.report.published;
