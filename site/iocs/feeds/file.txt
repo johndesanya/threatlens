@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-27T10:24:36.153Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-27T11:12:43.677Z - source: public vendor reports. Verify before blocking.
 Updater.exe
 msra.exe
 cleaner.ps1
@@ -180,9 +180,9 @@ dbghelp.dll
 WinSparkle.dll
 Disk2vhd.dll
 Contoso-Poedit.exe
+7z.exe
 7-zip32.dll
 7-zip.dll
-7z.exe
 w3wp.Exe
 godmemshell.Dll
 MicrosoftEdgeUpdate.Exe
@@ -196,8 +196,8 @@ f_000bc7.exe
 KMSAuto.exe
 s5cmd.exe
 rdp.bat
-Cloudflared.exe
 ntdsutil.exe
+Cloudflared.exe
 hmn_hook.dll
 auto.exe
 78324.exe
@@ -359,19 +359,3 @@ SteelSeriesGG.exe
 SoftManager72fb40.exe
 ProManagerServicedc894.exe
 LockAppHost14a02b.exe
-wsl.exe
-nodew.exe
-launcher.vbs
-IntelDSA.exe
-vssadmin.exe
-ComprovantePDF.exe
-libcef.dll
-chrome_elf.dll
-QnwPlayer.exe
-QnWallpeper.exe
-QnWallpaper.exe
-Nedca.exe
-FS_SETUP_HY_173.exe
-FS_SETUP_GG_173.exe
-FS_SETUP_DD_173.exe
-7z.dll
