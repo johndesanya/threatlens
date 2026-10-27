@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-10-27T09:38:29.461Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-27T10:24:36.153Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+files.dreamhost.com
 www.wordfence.com
 plugins.trac.wordpress.org
 vk.com
@@ -79,6 +80,7 @@ scapini.com.br
 scan-updseq.top
 saludcentro.gov.co
 programupdate-assis.top
+onmicrosoft.com
 networkadmin916.onmicrosoft.com
 networkadmin797.onmicrosoft.com
 ms-system-check.top
@@ -114,7 +116,6 @@ expertassist.top
 data-sys-seq.top
 corporateitservicellc.onmicrosoft.com
 assis-programupdate.top
-onmicrosoft.com
 newyorkfed.org
 lendio.com
 fred.stlouisfed.org
@@ -2521,8 +2522,6 @@ cache-mcp.com
 cache-cdn.org
 www.linksys.com
 www.cubecart.com
-www.c-mor.com
-san-sid.com
 luizestrelhashapr.online
 californicationdetroit.com
 indiatoday.in
