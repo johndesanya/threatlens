@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-27T05:56:17.311Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-27T06:41:20.588Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 vuldb.com
 code-projects.org
 www.sourcecodester.com
@@ -1653,8 +1653,8 @@ alb-k9ugfht8xgewgi1lrb.us-east-1.alb.aliyuncsslbintl.com
 alb-htjwboeswuvyfbey5r.us-east-1.alb.aliyuncsslbintl.com
 alb-a53d7s5jp0wd9h0iam.us-east-1.alb.aliyuncsslbintl.com
 aff.odyss.club
-download.keyshot.com
 www.foxit.com
+download.keyshot.com
 wirelesswebdevice.com
 fine-work-team.com
 viewdocument.live
