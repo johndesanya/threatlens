@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-27T17:19:37.634Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-27T17:25:46.336Z - source: public vendor reports. Verify before blocking.
 resolution@courtadr.com
 autoproject@autoproject.com
 space@n2k.com
@@ -9,6 +9,7 @@ audit@trackscope.app
 billing-update@account-notif.com
 kfir@volasim.com
 info@rockhoster.com
+ari.vale@maplequay.net
 bbl@anmarinee.it.com
 obsender4snake@exzwzc.com
 kingmethodlogs2026@exzwzc.com
@@ -22,3 +23,37 @@ support@lantronix.com
 information@allsecured.net
 20260913140542.71b0635a54b0e91f@allsecured.net
 support@9527db6e1a.nxcli.io
+support@bilelonellc.onmicrosoft.com
+ithelpdesk@certifiedupdatenetwork.onmicrosoft.com
+ithelp@mandatorynetworkmonitoring.onmicrosoft.com
+ithelp@itprotectiondepartment.onmicrosoft.com
+ithelp@internalsystemsdaily.onmicrosoft.com
+ithelp@certifiednetworksec.onmicrosoft.com
+itassistant@bilelonellc.onmicrosoft.com
+itadmin@mandatorynetworkmonitoring.onmicrosoft.com
+it_assistance@teams0137.onmicrosoft.com
+it@infrastructurefirewall.onmicrosoft.com
+internal@internalusahelpdeskit.onmicrosoft.com
+helpdesk@tbcsschid.onmicrosoft.com
+helpdesk@officesecures.onmicrosoft.com
+helpdesk@officedesk365.onmicrosoft.com
+helpdesk@newsystemmaintenance.onmicrosoft.com
+helpdesk@itprotectiondepartment.onmicrosoft.com
+helpcenter@ithelpcenter365.onmicrosoft.com
+marina.tucker@xgpghqau.com
+security@rust-lang.org
+bounce@chamber-ua.org
+me@jaredwray.com
+mrlapis@exploit.im
+t0x@atk.cc
+zmul1@buildandconsulting.com
+hostingclient@pinmx.net
+garrysmithme@pinmx.net
+nrledhdesi@cheeshomireciple.com
+support@openmail.pro
+user@company.com
+info@valisluureamet.ee
+info@ncsc.govt.nz
+cybersec@sis.md
+ctiteam@aw.gov.pl
+adam.bateman_928@faeththeraputics.email
