@@ -1,8 +1,10 @@
-# ThreatLens IoC feed - generated 2026-10-27T08:16:27.662Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-27T09:04:20.236Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 vk.com
+wiki.qt.io
+codereview.qt-project.org
 cve-2026-117471.md
 cve-2026-117472.md
 cve-2026-117468.md
@@ -2537,15 +2539,6 @@ ithomson.direct.quickconnect.to
 domaintools.com
 abr.business.gov.au
 gov12366.com
-mocky.io
-www.carhartt.com
-wctest.com
-verizon.net
-carharttdonotship.com
-carhartt.onmicrosoft.com
-carhartt.mail.onmicrosoft.com
-carhartt.com
-att.net
 luizestrelhashapr.online
 californicationdetroit.com
 indiatoday.in
