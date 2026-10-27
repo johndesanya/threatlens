@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-27T15:09:46.021Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-27T15:46:05.521Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 advisories.octopus.com
 onmicrosoft.com
 zrs-wooding.com
@@ -189,6 +189,7 @@ ip-api.com
 login.microsoftonline.com
 php2shell.com
 p.name
+www.vulncheck.com
 opus-5-0.github.io
 gpt-6-astra.github.io
 gpt-5-6.github.io
@@ -222,7 +223,6 @@ www.wordfence.com
 plugins.trac.wordpress.org
 www.dell.com
 dubaitechnicalservice.ae
-www.vulncheck.com
 files.dreamhost.com
 changes-2fa-security.en.md
 vk.com
@@ -246,6 +246,8 @@ service.aliyun.com
 mx3.qiye.aliyun.com
 mx2.qiye.aliyun.com
 mx1.qiye.aliyun.com
+www.moxa.com
+wagyu.xyz
 www.horizonlaservision.com
 www.hrm.org
 shops.shopify.com
@@ -614,6 +616,7 @@ americanexpress.com
 adp.com
 mail.ru
 microsoftonline.com
+glow.io
 www.hossner-textile.de
 www.whitecase.com
 spfb.whitecase.com
@@ -2276,24 +2279,6 @@ process.parent.user.id
 process.parent.group.id
 www.ilias.de
 m.group
-x-wolverine.servebbs.com
-gexwalltool.com
-85.182.62.50.host.secureserver.net
-76.180.62.50.host.secureserver.net
-48.178.169.192.host.secureserver.net
-181.202.178.68.host.secureserver.net
-162.201.178.68.host.secureserver.net
-135.201.178.68.host.secureserver.net
-13.189.202.64.host.secureserver.net
-129.202.178.68.host.secureserver.net
-128.200.178.68.host.secureserver.net
-116.181.62.50.host.secureserver.net
-115.201.178.68.host.secureserver.net
-floridalicense.pages.dev
-docusig-document-sign6702.docusign-sign.workers.dev
-admin.rshiahub.com
-markyason.github.io
-log.gitclone.org
 thecovnresation.net
 thecovnresation.com
 paripassuventures.com
