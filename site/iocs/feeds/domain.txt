@@ -1,11 +1,12 @@
-# ThreatLens IoC feed - generated 2026-10-27T17:37:16.300Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-27T18:01:57.609Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 shutterstock.com
+vuldb.com
+psirt.watchguard.com
 agents.md
 integmn.com
-vuldb.com
 www.aidot.com
 advisories.octopus.com
 onmicrosoft.com
@@ -189,8 +190,8 @@ aachem-za.co
 0ff365access.mooo.com
 0350pvas.acs-wcst.com
 ipapi.co
-login.microsoftonline.com
 ip-api.com
+login.microsoftonline.com
 obfuscator.io
 php2shell.com
 p.name
@@ -3299,16 +3300,15 @@ cdns3.51quickfox.com
 51quickfox.com
 51quickfox.cn
 pkg.name
-here.in
-ftabnews.com
-about.blsouqs.com
-ssl.blsouqs.com
-domaincert.hypersnet.com
-cert.hypersnet.com
 solthere.net
 ce953a0eb08246617b7f849486c4b26a7af37e9d2e8f0e13b3ae1bf0da8a70a.xyz
+ftabnews.com
+about.blsouqs.com
 passkeymfa.com
 hubpasskey.com
+ssl.blsouqs.com
+contacts.ftabnews.com
+cert.hypersnet.com
 storage.eu-north1.nebius.cloud
 myssopasskey.com
 fullnode.mainnet.aptoslabs.com
@@ -3452,7 +3452,7 @@ server.in
 message.chat.id
 machine.network
 installation.network
-contacts.ftabnews.com
+domaincert.hypersnet.com
 ipfs.io
 rentry.co
 passkey-enable.com
