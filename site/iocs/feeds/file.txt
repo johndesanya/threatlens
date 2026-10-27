@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-27T18:42:01.021Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-27T19:30:19.155Z - source: public vendor reports. Verify before blocking.
 wmiprvse.exe
 bash.exe
 aspnet_compiler.exe
@@ -539,7 +539,10 @@ wesp.sys
 tcp469A.dll
 shimgen.exe
 pthreadVC2.dll
+dlpprem64.dll
 RegSchdTask.exe
+MSVCR120.dll
+MSVCP120.dll
 GoProAlertService.exe
 AsTaskSched.dll
 printSvc.exe
