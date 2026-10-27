@@ -1,12 +1,27 @@
-# ThreatLens IoC feed - generated 2026-10-27T11:56:37.512Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-27T12:42:59.449Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
-dubaitechnicalservice.ae
-files.dreamhost.com
-changes-2fa-security.en.md
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+onmicrosoft.com
+vec.go.th
+payap.ac.th
+ovec.go.th
+nti.co.th
+marubeni-trans.com
+jp.ricoh.com
+hudsonrock.com
+elumax.com
+dataworkconnect.com
+bangkok.go.th
+www.hudsonrock.com
 www.wordfence.com
 plugins.trac.wordpress.org
+www.dell.com
+dubaitechnicalservice.ae
+www.vulncheck.com
+advisories.octopus.com
+files.dreamhost.com
+changes-2fa-security.en.md
 vk.com
 wiki.qt.io
 codereview.qt-project.org
@@ -25,6 +40,7 @@ service.aliyun.com
 mx3.qiye.aliyun.com
 mx2.qiye.aliyun.com
 mx1.qiye.aliyun.com
+for.net
 www.hlefcu.com
 spf-108010.jangomail.com
 knowbe4.com
@@ -42,7 +58,6 @@ ilovewww.com
 ahcg.com.my
 spf.ess.barracudanetworks.com
 godaddy.com
-www.vulncheck.com
 rpc-server.cc
 joshua.hu
 hackmd.io
@@ -95,7 +110,6 @@ scapini.com.br
 scan-updseq.top
 saludcentro.gov.co
 programupdate-assis.top
-onmicrosoft.com
 networkadmin916.onmicrosoft.com
 networkadmin797.onmicrosoft.com
 ms-system-check.top
@@ -711,6 +725,8 @@ odysee.com
 nu11secur1ty.com
 cxsecurity.com
 0day.today
+kubernetes.io
+container.id
 sync-memory.sh
 sync-cc-users.sh
 sync-all.sh
@@ -723,8 +739,6 @@ cipher-proxy.sh
 run.sh
 zcsend.net
 xcai.pro
-kubernetes.io
-container.id
 host.name
 api.deepseek.com
 java.io
@@ -747,7 +761,6 @@ gboogl.com
 domain.com
 readme.md
 cynex.nict.go.jp
-crates.io
 onapsis.com
 my.f5.com
 coderedcomms.com
@@ -1026,7 +1039,6 @@ rasd-state.ws
 crasadr.com
 certa.website
 jewishchoice.org
-www.hudsonrock.com
 trmlink.info
 use-code.com
 us.com
@@ -1140,6 +1152,7 @@ ab.com
 secrets.name
 carte-avantage.com
 bold-dhawan.45-139-104-115.plesk.page
+crates.io
 oast.fun
 c0cc.cc
 trojan.win32.fugrafa.tc
@@ -2412,20 +2425,8 @@ drivinguber.com
 asia.newsinweb.com
 knowledge.md
 log.gitclone.org
-meet.element.tw
-broker.hivemq.com
-rawpixel.com
 thecovnresation.net
 thecovnresation.com
-resource.name
-orchestrator.resource.name
-orchestrator.cluster.name
-objectref.name
-kubernetes.audit.user.extra.authentication.kubernetes.io
-kubernetes.audit.objectref.name
-container.name
-cluster.name
-authentication.kubernetes.io
 paripassuventures.com
 personclouds.com
 borneobulletins.top
