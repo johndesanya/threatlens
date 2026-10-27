@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-27T11:12:43.677Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-27T11:56:37.512Z - source: public vendor reports. Verify before blocking.
 Updater.exe
 msra.exe
 cleaner.ps1
@@ -348,14 +348,3 @@ Adblock.dll
 cdnver.dll
 wtass.exe
 cplsupport.exe
-socktz_v8.exe
-colorcpl.exe
-SyncAppvPublishingServer.vbs
-slack.exe
-resightloader.exe
-qBittorrent.exe
-WinUpdate60e3a3.exe
-SteelSeriesGG.exe
-SoftManager72fb40.exe
-ProManagerServicedc894.exe
-LockAppHost14a02b.exe
