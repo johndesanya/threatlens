@@ -505,8 +505,10 @@ async function main() {
   // site/data/archive.json is a static backup of valuable reports (actor-attributed / IoC / ATT&CK). Anything of it that is
   // missing from reports.json is put back, so history can never be lost to a bug or a size limit again.
   let restored = 0;
-  for (const r of readJson(path.join(DATA, 'archive.json'), { reports: [] }).reports || []) {
-    if (r && r.id && !existing.has(r.id) && (srcById.has(r.sourceId) || r.sourceId === 'manual')) { existing.set(r.id, r); restored++; }
+  for (const ap of [path.join(DATA, 'archive.json'), path.join(ROOT, 'archive.json')]) {
+    for (const r of readJson(ap, { reports: [] }).reports || []) {
+      if (r && r.id && !existing.has(r.id) && (srcById.has(r.sourceId) || r.sourceId === 'manual')) { existing.set(r.id, r); restored++; }
+    }
   }
   if (restored) log(`Restored ${restored} reports from the archive.`);
   let retagged = 0;
