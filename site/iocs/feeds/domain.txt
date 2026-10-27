@@ -1,7 +1,9 @@
-# ThreatLens IoC feed - generated 2026-10-27T09:04:20.236Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-27T09:38:29.461Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.wordfence.com
+plugins.trac.wordpress.org
 vk.com
 wiki.qt.io
 codereview.qt-project.org
@@ -370,8 +372,6 @@ archivetj.com
 www.bookstackapp.com
 codeberg.org
 marshal.cc
-www.wordfence.com
-plugins.trac.wordpress.org
 www.grayback.es
 obfuscator.io
 krakenhire.com
@@ -2523,22 +2523,6 @@ www.linksys.com
 www.cubecart.com
 www.c-mor.com
 san-sid.com
-ugrzyyzfxobsrsxcvmwggaobkatyxff4n.oast.fun
-pool.hashvault.pro
-crazyeltonproxy.top
-1710.rwlp.be
-yakuza.cc
-upwork.com
-thomsonfamily.net.au
-thomson.org.au
-securecomputing.au
-rubenthomson.com
-kthomson0061.direct.quickconnect.to
-joshuawthomson39.myqnapcloud.com
-ithomson.direct.quickconnect.to
-domaintools.com
-abr.business.gov.au
-gov12366.com
 luizestrelhashapr.online
 californicationdetroit.com
 indiatoday.in
