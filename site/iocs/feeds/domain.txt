@@ -1,13 +1,19 @@
-# ThreatLens IoC feed - generated 2026-10-26T23:51:51.986Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-27T00:39:30.870Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+zhito.com
+spf.qiye.aliyun.com
+service.aliyun.com
+mx3.qiye.aliyun.com
+mx2.qiye.aliyun.com
+mx1.qiye.aliyun.com
+vuldb.com
 rpc-server.cc
 joshua.hu
 www.vulncheck.com
 hackmd.io
 www.totolink.net
-vuldb.com
 hdfdsi84j3h.top
 crypto-insider.top
 c85grt98sd.com
@@ -2611,9 +2617,6 @@ mectcalcutta.com
 maximumrock.ro
 ksr-racingparts.com
 discherniation.com
-pcman.openfoundry.org
-trustidcard.com
-insertface.com
 indiatoday.in
 volmira.site
 connection.upgradeonline.site
@@ -2635,6 +2638,7 @@ aceofspadesmanagement.com
 mens-health-online.com
 cremeb.com
 granderevolucao.store
+wmsopko.com
 find-postman.ddesdokww.workers.dev
 siekeltd.com
 escofiringbijou.com
@@ -2642,7 +2646,6 @@ marialurdes.site
 harialurdes.site
 donalurdesconfeitos.site
 lojinhadaana.org
-minicursor.com
 bank.in
 infostealers.com
 version.checkeligibitily.workers.dev
