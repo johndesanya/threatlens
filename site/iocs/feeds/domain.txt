@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-27T03:34:19.320Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-27T04:20:42.280Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 vuldb.com
 code-projects.org
 www.sourcecodester.com
@@ -12,6 +12,10 @@ service.aliyun.com
 mx3.qiye.aliyun.com
 mx2.qiye.aliyun.com
 mx1.qiye.aliyun.com
+datem.com.ph
+spf.mailsentinel.net
+ilovewww.com
+ahcg.com.my
 www.vulncheck.com
 rpc-server.cc
 joshua.hu
@@ -2555,28 +2559,6 @@ hwsrv-798836.hostwindsdns.com
 docs.rs
 build.rs
 californicationdetroit.com
-xshaon123.sbs
-xmsae.sbs
-ue886578433.online
-ty54fgd435.my
-ty4523.space
-t2.nmnsny.sbs
-t2.mdsjhd.sbs
-t2.kshahnd.sbs
-sh65.io
-pxyedge.com
-proxyforu.com
-nmnsny.sbs
-mdsjhd.sbs
-kshahnd.sbs
-kookjar.com
-ishano456.sbs
-cardoor.cn
-api.kookjar.com
-admin.uipoxy.com
-a2.nmnsny.sbs
-a2.mdsjhd.sbs
-a2.kshahnd.sbs
 indiatoday.in
 volmira.site
 connection.upgradeonline.site
@@ -2621,5 +2603,4 @@ cheapzone.space
 affordableonline.online
 codecvideowin.online
 habeshacement.com
-ovcloudcontrol.cdn.cardoor.cn
 fortune.com
