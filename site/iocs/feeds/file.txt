@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-28T03:42:19.502Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-28T04:25:56.275Z - source: public vendor reports. Verify before blocking.
 wmiprvse.exe
 bash.exe
 aspnet_compiler.exe
