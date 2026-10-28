@@ -1,7 +1,11 @@
-# ThreatLens IoC feed - generated 2026-10-28T07:42:38.284Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-28T08:22:03.827Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+uberip.com
+ntpsync.io
+n0n.to
+n0n-cases.net
 ov-g3c-emudhra.we-have-a-problem.com
 ov-g3c-aaa-emudhra.we-have-a-problem.com
 ov-g3b-emudhra.we-have-a-problem.com
