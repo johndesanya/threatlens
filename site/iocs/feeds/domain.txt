@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-10-28T00:49:41.466Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-28T01:40:52.943Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+vuldb.com
 issues.chromium.org
 pkg.go.dev
 server.rs
@@ -24,7 +25,6 @@ chapalasrealtor.com
 adacompliantsigns.online
 x.org
 security.tanium.com
-vuldb.com
 www.tp-link.com
 jupiter.bonto.io
 exodus.bonto.io
@@ -386,6 +386,18 @@ mattermost.com
 techora.ru
 oss.fwgcloud.com
 bugzilla.redhat.com
+doosvnrobotics.com
+cyclx.top
+cycl.top
+chumchurumun.com
+chumchurumun.cc
+chumchurumum.com
+chumchurumm.xyz
+chumchurumcc.com
+chumchurumc.com
+chumchurum.xyz
+chumchurum.org
+chumchuru.com
 git.kernel.org
 issues.apache.org
 boneio.eu
