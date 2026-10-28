@@ -1,8 +1,13 @@
-# ThreatLens IoC feed - generated 2026-10-28T03:04:48.677Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-28T03:42:19.502Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 vuldb.com
+www.wordfence.com
+plugins.trac.wordpress.org
+jvn.jp
+www.vulncheck.com
+ftp.openbsd.org
 issues.chromium.org
 pkg.go.dev
 server.rs
@@ -226,7 +231,6 @@ login.microsoftonline.com
 dev.ua
 php2shell.com
 p.name
-www.vulncheck.com
 opus-5-0.github.io
 gpt-6-astra.github.io
 gpt-5-6.github.io
@@ -260,8 +264,6 @@ epics-controls.org
 www.mitsubishielectric.com
 iconicsinc.my.site.com
 hub.docker.com
-www.wordfence.com
-plugins.trac.wordpress.org
 www.dell.com
 dubaitechnicalservice.ae
 files.dreamhost.com
@@ -489,7 +491,6 @@ cyberinsider.com
 camel.apache.org
 php.net
 brightsec.com
-jvn.jp
 www.ysk.nilim.go.jp
 mcniyfj5bw9b.feishu.cn
 akosibrylle.me
