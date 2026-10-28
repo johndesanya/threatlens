@@ -1,7 +1,9 @@
-# ThreatLens IoC feed - generated 2026-10-28T08:22:03.827Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-28T09:11:06.450Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+www.wordfence.com
+plugins.trac.wordpress.org
 uberip.com
 ntpsync.io
 n0n.to
@@ -21,8 +23,6 @@ dv-g3b-aaa-noct-emudhra.we-have-a-problem.com
 dv-g3b-aaa-emudhra.we-have-a-problem.com
 dv-g3b-emudhra.we-have-a-problem.com
 onamae.com
-www.wordfence.com
-plugins.trac.wordpress.org
 fr.wordpress.org
 wordpress.org
 modelcontextprotocol.io
@@ -31,6 +31,10 @@ vuldb.com
 jvn.jp
 www.vulncheck.com
 ftp.openbsd.org
+vali.email
+echo.com
+wagyu.xyz
+www.miljaus.com
 issues.chromium.org
 pkg.go.dev
 server.rs
@@ -328,7 +332,6 @@ mail.generousgardeners.com
 mail.eiwpf.org
 mail.bppa.org
 www.moxa.com
-wagyu.xyz
 www.horizonlaservision.com
 www.hrm.org
 shops.shopify.com
@@ -788,7 +791,6 @@ aspmx2.googlemail.com
 merical.com
 d240693b.ess.barracudanetworks.com
 d240693a.ess.barracudanetworks.com
-www.miljaus.com
 us-smtp-inbound-2.mimecast.com
 us-smtp-inbound-1.mimecast.com
 spf.exclaimer.net
