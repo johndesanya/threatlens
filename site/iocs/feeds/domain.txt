@@ -1,11 +1,15 @@
-# ThreatLens IoC feed - generated 2026-10-28T23:10:30.739Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-28T23:56:02.626Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+mattermost.com
+plugins.svn.wordpress.org
+plugins.trac.wordpress.org
+www.vulncheck.com
+wordpress.org
 php.net
 virtualine.org
 grok.com
-www.vulncheck.com
 sso.com
 registermymfa.com
 onetimesso.com
@@ -33,7 +37,6 @@ github.io
 hunt.io
 google.it
 www.wordfence.com
-plugins.trac.wordpress.org
 uberip.com
 ntpsync.io
 n0n.to
@@ -53,7 +56,6 @@ dv-g3b-aaa-noct-emudhra.we-have-a-problem.com
 dv-g3b-aaa-emudhra.we-have-a-problem.com
 dv-g3b-emudhra.we-have-a-problem.com
 fr.wordpress.org
-wordpress.org
 airpress.kz
 modelcontextprotocol.io
 beagle.sh
@@ -445,7 +447,6 @@ zipfile.rs
 path.rs
 aes.rs
 pyrus.com
-mattermost.com
 oss.fwgcloud.com
 doosvnrobotics.com
 cyclx.top
