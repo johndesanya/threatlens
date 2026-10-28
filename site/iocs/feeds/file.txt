@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-28T11:15:43.322Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-28T12:02:51.900Z - source: public vendor reports. Verify before blocking.
 Cursor.exe
 nenc.exe
 wmiprvse.exe

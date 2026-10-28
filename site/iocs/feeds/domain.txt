@@ -1,7 +1,9 @@
-# ThreatLens IoC feed - generated 2026-10-28T11:15:43.322Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-28T12:02:51.900Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+slybee.com
+www.gendigital.com
 adjective-noun-verb-digit.dedyn.io
 github.io
 hunt.io
@@ -29,6 +31,7 @@ dv-g3b-emudhra.we-have-a-problem.com
 onamae.com
 fr.wordpress.org
 wordpress.org
+airpress.kz
 modelcontextprotocol.io
 beagle.sh
 www.hudsonrock.com
@@ -102,7 +105,6 @@ statement.outlookoffice365.microsoftcopilots.calmechc.net
 statement.docdriveoauth.authorized.copilot.syrosconstructlon.com
 solutions00fileptroduct.com
 snk-s.org
-slybee.com
 shared.paymentsclouds.statementsapproved.jetbusinesscapltal.com
 sedocs.docs.payrol2026.common.copilots2026.vatrarnsformer.com
 seatacsmarine.com
