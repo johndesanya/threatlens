@@ -1,7 +1,9 @@
-# ThreatLens IoC feed - generated 2026-10-28T13:42:49.205Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-28T14:25:36.843Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+x.org
+support.hcl-software.com
 monday.com
 onamae.com
 slybee.com
@@ -72,7 +74,6 @@ entry.link
 cobblestonecafe.us
 chapalasrealtor.com
 adacompliantsigns.online
-x.org
 security.tanium.com
 www.tp-link.com
 jupiter.bonto.io

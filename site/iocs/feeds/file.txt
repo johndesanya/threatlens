@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-28T13:42:49.205Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-28T14:25:36.843Z - source: public vendor reports. Verify before blocking.
 Cursor.exe
 nenc.exe
 winmm.dll
