@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-28T21:38:36.974Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-28T22:22:49.635Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 php.net
 virtualine.org
 grok.com
@@ -60,6 +60,7 @@ www.hudsonrock.com
 vuldb.com
 jvn.jp
 ftp.openbsd.org
+cyrious.com
 interspace.net
 aisj.co.il
 enom.com
@@ -72,7 +73,11 @@ eu-esec-02.heimdalsecurity.com
 eu-esec-01.heimdalsecurity.com
 vali.email
 echo.com
+spf.mandrillapp.com
+servers.mcsv.net
+amazonses.com
 www.miljaus.com
+godaddy.com
 issues.chromium.org
 pkg.go.dev
 ctfer.io
@@ -376,7 +381,6 @@ contactprivacy.com
 bassmedicalgroup.com
 www.althus.be
 petroil.com.mx
-spf.mandrillapp.com
 www.commercetwp.com
 www.kingfamilymedical.net
 spf.cloudus.oxcs.net
@@ -409,7 +413,6 @@ datem.com.ph
 spf.mailsentinel.net
 ilovewww.com
 ahcg.com.my
-servers.mcsv.net
 relay.mailchannels.net
 mailgun.org
 namecheap.com
@@ -418,7 +421,6 @@ odoo.com
 web.com
 spf.ess.barracudanetworks.com
 sendgrid.net
-godaddy.com
 salesforce.com
 tucows.com
 rpc-server.cc
@@ -814,7 +816,6 @@ pencoproducts.com
 pencopro.azurewebsites.net
 redoaktech.com
 email-od.com
-amazonses.com
 weld8.org
 aspmx2.googlemail.com
 merical.com
