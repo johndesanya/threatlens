@@ -1,10 +1,12 @@
-# ThreatLens IoC feed - generated 2026-10-28T12:50:07.627Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-28T13:42:49.205Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 monday.com
 onamae.com
 slybee.com
+advisories.orangecyberdefense.com
+git.kernel.org
 www.gendigital.com
 adjective-noun-verb-digit.dedyn.io
 github.io
@@ -40,6 +42,12 @@ vuldb.com
 jvn.jp
 www.vulncheck.com
 ftp.openbsd.org
+spf-esec.heimdalsecurity.com
+mailmailmail.net
+joker.com
+femernlinkcontractors.com
+eu-esec-02.heimdalsecurity.com
+eu-esec-01.heimdalsecurity.com
 vali.email
 echo.com
 wagyu.xyz
@@ -431,7 +439,6 @@ chumchurumc.com
 chumchurum.xyz
 chumchurum.org
 chumchuru.com
-git.kernel.org
 issues.apache.org
 boneio.eu
 cna.erlef.org
