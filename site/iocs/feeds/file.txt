@@ -1,13 +1,13 @@
-# ThreatLens IoC feed - generated 2026-10-28T12:02:51.900Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-28T12:50:07.627Z - source: public vendor reports. Verify before blocking.
 Cursor.exe
 nenc.exe
+winmm.dll
 wmiprvse.exe
 bash.exe
 aspnet_compiler.exe
 EXCEL.EXE
 Cd5KK.exe
 wmpdui.dll
-winmm.dll
 vulkan-1.dll
 vk_swiftshader.dll
 WMPDMC.exe

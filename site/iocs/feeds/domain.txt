@@ -1,7 +1,9 @@
-# ThreatLens IoC feed - generated 2026-10-28T12:02:51.900Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-28T12:50:07.627Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+monday.com
+onamae.com
 slybee.com
 www.gendigital.com
 adjective-noun-verb-digit.dedyn.io
@@ -28,7 +30,6 @@ dv-g3b-noct-emudhra.we-have-a-problem.com
 dv-g3b-aaa-noct-emudhra.we-have-a-problem.com
 dv-g3b-aaa-emudhra.we-have-a-problem.com
 dv-g3b-emudhra.we-have-a-problem.com
-onamae.com
 fr.wordpress.org
 wordpress.org
 airpress.kz

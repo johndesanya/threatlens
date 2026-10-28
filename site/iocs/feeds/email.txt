@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-28T12:02:51.900Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-28T12:50:07.627Z - source: public vendor reports. Verify before blocking.
 notice@n0n-cases.net
 resolution@courtadr.com
 autoproject@autoproject.com
