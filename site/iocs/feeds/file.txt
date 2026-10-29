@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-29T22:24:20.149Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-29T23:12:31.862Z - source: public vendor reports. Verify before blocking.
 KSLDriver.sys
 cca616647db9370c88998ae25da6997f.exe
 sample.exe
@@ -22,6 +22,7 @@ ScriptRunner.exe
 PatchMyPC-ScriptRunner.exe
 Microsoft.HostIntegration.Connectors.dll
 dllhost.exe
+graphics-hook-filter64.dll
 nenc.exe
 winmm.dll
 wmiprvse.exe
