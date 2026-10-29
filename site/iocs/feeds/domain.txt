@@ -1,7 +1,9 @@
-# ThreatLens IoC feed - generated 2026-10-29T18:06:05.360Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-29T18:48:09.802Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+data.debugbear.com
+cdn.debugbear.com
 cve-2026-107055.md
 cve-2026-107056.md
 cve-2026-107057.md
@@ -95,6 +97,8 @@ message.chat.id
 openequella.github.io
 originhq.com
 vuldb.com
+rolly.io
+mail.rolly.io
 zsend.in
 transmail.net.in
 spf.zoho.in
