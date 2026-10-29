@@ -1,4 +1,10 @@
-# ThreatLens IoC feed - generated 2026-10-29T07:46:24.946Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-29T08:24:21.274Z - source: public vendor reports. Verify before blocking.
+esentutl.exe
+ole32.dll
+ScriptRunner.exe
+PatchMyPC-ScriptRunner.exe
+Microsoft.HostIntegration.Connectors.dll
+dllhost.exe
 rs.win32.exe
 WpcMon.exe
 CMS.exe
@@ -161,7 +167,6 @@ winver.exe
 DC.exe
 live700_v1.exe
 DiagTrack.exe
-dllhost.exe
 151.ps1
 f_003914.exe
 SECOH-QAD.exe
