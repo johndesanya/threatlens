@@ -1,11 +1,19 @@
-# ThreatLens IoC feed - generated 2026-10-29T11:17:57.077Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-29T12:03:39.861Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 booking.com
+videowhisper.com
+plugins.trac.wordpress.org
+www.vulncheck.com
+wordpress.org
+security.nozominetworks.com
 subject.process.name
 object.process.parent.id
 object.name
+djava.net
+issues.apache.org
+www.wordfence.com
 www.incibe.es
 bugzilla.redhat.com
 xint.io
@@ -14,7 +22,6 @@ ghidra-server.org
 wpscan.com
 vk.com
 ti.wordfence.io
-www.wordfence.com
 yandex.ru
 mc.yandex.uz
 mc.yandex.tm
@@ -51,9 +58,6 @@ namecheap.com
 www.dlink.com
 mattermost.com
 plugins.svn.wordpress.org
-plugins.trac.wordpress.org
-www.vulncheck.com
-wordpress.org
 php.net
 virtualine.org
 grok.com
@@ -502,7 +506,6 @@ chumchurumc.com
 chumchurum.xyz
 chumchurum.org
 chumchuru.com
-issues.apache.org
 boneio.eu
 cna.erlef.org
 osv.dev
