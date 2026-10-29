@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-10-29T15:16:15.941Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-29T15:52:24.743Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+github.io
 cxxxx.sh
 cnnnnn.sh
 kubernetes.io
@@ -86,6 +87,15 @@ message.chat.id
 openequella.github.io
 originhq.com
 vuldb.com
+zsend.in
+transmail.net.in
+spf.zoho.in
+spf.uae.exclaimer.net
+mail.aubankonline.in
+idrbt.ac.in
+mxb-001b7a02.gslb.pphosted.com
+mxa-001b7a02.gslb.pphosted.com
+au.bank.in
 www.proterial.com
 spf.haihaimail.jp
 brights.jp
@@ -120,12 +130,15 @@ mega.nz
 aspmx.pardot.com
 transmail.net
 spf.zoho.com
+mailgun.org
 docebosaas.com
 namecheap.com
 mx3.zoho.com
 mx2.zoho.com
 mx.zoho.com
 spf.constantcontact.com
+bereskinparr.com
+spf.has.pphosted.com
 wildwestdomains.com
 amazonses.com
 web.com
@@ -134,6 +147,7 @@ zoho.com
 zcsend.net
 godaddy.com
 salesforce.com
+tucows.com
 www.dlink.com
 mattermost.com
 plugins.svn.wordpress.org
@@ -161,7 +175,6 @@ advisories.orangecyberdefense.com
 git.kernel.org
 www.gendigital.com
 adjective-noun-verb-digit.dedyn.io
-github.io
 google.it
 uberip.com
 ntpsync.io
@@ -532,11 +545,9 @@ spf.mailsentinel.net
 ilovewww.com
 ahcg.com.my
 relay.mailchannels.net
-mailgun.org
 ionos.com
 odoo.com
 spf.ess.barracudanetworks.com
-tucows.com
 rpc-server.cc
 joshua.hu
 hackmd.io
@@ -913,7 +924,6 @@ grupoeuro.com.mx
 dreamscapenetworks.com
 support.gandi.net
 contact.gandi.net
-bereskinparr.com
 securessl.net
 trinitycustom.com
 spf.mtasv.net
@@ -982,7 +992,6 @@ dorsiacademy.it
 freshfarms.com.mx
 correo.freshfarms.com.mx
 vinsolutions.com
-spf.has.pphosted.com
 mxb-0028a403.gslb.pphosted.com
 mlh.com.lb
 www.trevi.cc

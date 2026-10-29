@@ -1,4 +1,5 @@
-# ThreatLens IoC feed - generated 2026-10-29T15:16:15.941Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-29T15:52:24.743Z - source: public vendor reports. Verify before blocking.
+Cursor.exe
 sfc.exe
 fly.exe
 cscm.exe
@@ -16,7 +17,6 @@ dllhost.exe
 rs.win32.exe
 WpcMon.exe
 CMS.exe
-Cursor.exe
 nenc.exe
 winmm.dll
 wmiprvse.exe
