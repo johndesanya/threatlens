@@ -1,4 +1,9 @@
-# ThreatLens IoC feed - generated 2026-10-29T15:52:24.743Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-29T16:38:02.201Z - source: public vendor reports. Verify before blocking.
+samcli.dll
+IPHLPAPI.DLL
+rs.win32.exe
+WpcMon.exe
+CMS.exe
 Cursor.exe
 sfc.exe
 fly.exe
@@ -14,9 +19,6 @@ ScriptRunner.exe
 PatchMyPC-ScriptRunner.exe
 Microsoft.HostIntegration.Connectors.dll
 dllhost.exe
-rs.win32.exe
-WpcMon.exe
-CMS.exe
 nenc.exe
 winmm.dll
 wmiprvse.exe
