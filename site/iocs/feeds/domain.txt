@@ -1,7 +1,11 @@
-# ThreatLens IoC feed - generated 2026-10-29T10:30:56.064Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-29T11:17:57.077Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+booking.com
+subject.process.name
+object.process.parent.id
+object.name
 www.incibe.es
 bugzilla.redhat.com
 xint.io
@@ -950,7 +954,6 @@ thunder.godofthunder.st
 dns.name
 oskeysetup.com
 contoso.add-passkey.com
-booking.com
 stadiadev.cc
 www.web.com
 www.apps.disneyplus.com
