@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-29T00:49:44.783Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-29T01:42:32.644Z - source: public vendor reports. Verify before blocking.
 rs.win32.exe
 WpcMon.exe
 CMS.exe
