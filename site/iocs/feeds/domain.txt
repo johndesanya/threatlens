@@ -1,7 +1,9 @@
-# ThreatLens IoC feed - generated 2026-10-29T06:03:19.086Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-29T06:50:46.052Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+ghidra-server.org
+vk.com
 yandex.ru
 mc.yandex.uz
 mc.yandex.tm
@@ -368,7 +370,6 @@ www.dell.com
 dubaitechnicalservice.ae
 files.dreamhost.com
 changes-2fa-security.en.md
-vk.com
 wiki.qt.io
 codereview.qt-project.org
 cve-2026-117471.md
