@@ -1,10 +1,12 @@
-# ThreatLens IoC feed - generated 2026-10-29T20:16:41.591Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-29T21:05:52.772Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+icepi.cx
+support.servicenow.com
+community.ui.com
 data.debugbear.com
 cdn.debugbear.com
-community.ui.com
 discuss.hashicorp.com
 vtk.org
 cve-2026-107055.md
@@ -100,6 +102,13 @@ message.chat.id
 openequella.github.io
 originhq.com
 vuldb.com
+inmotionhosting.com
+g.com
+corp-smart.com
+www.antwerphousedentistry.co.uk
+spf.hosts.co.uk
+hermes.hosts.co.uk
+athena.hosts.co.uk
 rolly.io
 mail.rolly.io
 zsend.in
@@ -163,6 +172,7 @@ zcsend.net
 godaddy.com
 salesforce.com
 tucows.com
+s.com
 www.dlink.com
 mattermost.com
 plugins.svn.wordpress.org
@@ -3473,6 +3483,7 @@ volmira.site
 cloaked.gg
 it.to
 infrastructure.by
+entirely.to
 connection.upgradeonline.site
 lhr.life
 api.trycloudflare.com
@@ -4137,7 +4148,6 @@ shop.jrsjrsx.shop
 shop.fjjfxxz.shop
 sheinnotice.com
 sheinemail.com
-s.com
 rewardpillar.cc
 qiqiyg.com
 offerpilot.cc
