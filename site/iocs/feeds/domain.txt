@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-29T04:29:15.351Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-29T05:18:25.532Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 yandex.ru
 mc.yandex.uz
 mc.yandex.tm
@@ -3895,6 +3895,7 @@ faturanova.duckdns.org
 facture-in.pages.dev
 facture-arsys.duckdns.org
 controlfacturas.site
+vietnam.vn
 addpasskey2fa.com
 linear.app
 yeplayer.store
