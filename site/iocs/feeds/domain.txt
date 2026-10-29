@@ -1,9 +1,11 @@
-# ThreatLens IoC feed - generated 2026-10-29T06:50:46.052Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-29T07:46:24.946Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 ghidra-server.org
 vk.com
+ti.wordfence.io
+www.wordfence.com
 yandex.ru
 mc.yandex.uz
 mc.yandex.tm
@@ -71,7 +73,6 @@ adjective-noun-verb-digit.dedyn.io
 github.io
 hunt.io
 google.it
-www.wordfence.com
 uberip.com
 ntpsync.io
 n0n.to
