@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-29T09:13:35.077Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-29T09:50:10.761Z - source: public vendor reports. Verify before blocking.
 esentutl.exe
 ole32.dll
 ScriptRunner.exe
