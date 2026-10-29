@@ -1,10 +1,39 @@
-# ThreatLens IoC feed - generated 2026-10-29T03:45:31.002Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-29T04:29:15.351Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+yandex.ru
+mc.yandex.uz
+mc.yandex.tm
+mc.yandex.tj
+mc.yandex.ru
+mc.yandex.md
+mc.yandex.lv
+mc.yandex.lt
+mc.yandex.kz
+mc.yandex.kg
+mc.yandex.fr
+mc.yandex.ee
+mc.yandex.com.tr
+mc.yandex.com.ge
+mc.yandex.com.am
+mc.yandex.com
+mc.yandex.co.il
+mc.yandex.by
+mc.yandex.az
+nginx.org
+message.chat.id
 openequella.github.io
 originhq.com
 vuldb.com
+spf.turbo-smtp.com
+registrygate.com
+mail.susannecerda.com
+domain-contact.org
+xspringcapital.com
+susannecerda.com
+cloudflare-verify.xspringcapital.com
+namecheap.com
 www.dlink.com
 mattermost.com
 plugins.svn.wordpress.org
@@ -421,7 +450,6 @@ ilovewww.com
 ahcg.com.my
 relay.mailchannels.net
 mailgun.org
-namecheap.com
 ionos.com
 odoo.com
 web.com
@@ -870,6 +898,8 @@ w3techs.com
 thenextweb.com
 bugs.launchpad.net
 kb.isc.org
+zelsior.es
+lidoway.com
 dorsiacademy.it
 freshfarms.com.mx
 correo.freshfarms.com.mx
@@ -1160,7 +1190,6 @@ justin.sh
 hexane.cc
 gov.uk
 iphones.ru
-nginx.org
 myenb.ch
 fh-hwz.ch
 bw-officeworld.de
@@ -3554,7 +3583,6 @@ modal.com
 passkey-enable.com
 addyourpasskey.com
 ipfs.io
-message.chat.id
 rentry.co
 rubygems.org
 git.disroot.org
