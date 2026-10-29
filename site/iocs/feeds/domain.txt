@@ -1,10 +1,12 @@
-# ThreatLens IoC feed - generated 2026-10-29T13:45:28.174Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-29T14:27:22.237Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+virtualine.net
 www.goto.com
 office.com-access-sharepoint.com
 goo.gle-access-eventregister.icu
+advisory.md
 xxtg1.eu.cc
 www2.disp.cc
 vrgrt4t33.com
@@ -25,7 +27,10 @@ a111.life
 66wc.eu.cc
 3x3br.eu.cc
 grok.com
+bugzilla.redhat.com
 www.vulncheck.com
+www.hitachienergy.com
+www.siemens.com
 themes.trac.wordpress.org
 www.wordfence.com
 plugins.trac.wordpress.org
@@ -39,7 +44,6 @@ object.name
 djava.net
 issues.apache.org
 www.incibe.es
-bugzilla.redhat.com
 xint.io
 openaigpt4v.com
 ghidra-server.org
@@ -72,6 +76,7 @@ message.chat.id
 openequella.github.io
 originhq.com
 vuldb.com
+www.viehhauser-kfz.at
 www.tpcg.org
 d243581b.ess.barracudanetworks.com
 d243581a.ess.barracudanetworks.com
@@ -448,7 +453,6 @@ service.aliyun.com
 mx3.qiye.aliyun.com
 mx2.qiye.aliyun.com
 mx1.qiye.aliyun.com
-virtualine.net
 www.moneyconcepts.com
 www.hygiena.com
 block.cloudaccess.net
@@ -1009,7 +1013,6 @@ battle.net
 www.kiloview.com
 wrc.intersystems.com
 docs.intersystems.com
-www.siemens.com
 test.test.com
 ghcr.io
 docker.io
@@ -1227,7 +1230,6 @@ my.f5.com
 github.dev
 coderedcomms.com
 wizardexpensive.com
-www.hitachienergy.com
 trulitesupport.com
 system-strategy.org
 stackpathcloud.com
@@ -2408,6 +2410,7 @@ deadhub.org
 api.mainnet.solana.com
 latitude.sh
 e83cedb076.nxcli.io
+rottner-tresor.at
 expresspros.com
 vanta.com
 v-a-n-t-a.com
@@ -3055,6 +3058,7 @@ www.marketsandmarkets.com
 machinelearningmastery.com
 www.channelinsider.com
 channelinsider.com
+reichenau.at
 knowledge.md
 usa.newsinweb.com
 newsinweb.com
