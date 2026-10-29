@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-29T12:50:42.764Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-29T13:45:28.174Z - source: public vendor reports. Verify before blocking.
 simvol.exe
 lock_start.bat
 fodhelper.exe
