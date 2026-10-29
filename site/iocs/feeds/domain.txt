@@ -1,16 +1,19 @@
-# ThreatLens IoC feed - generated 2026-10-29T21:40:32.355Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-29T22:24:20.149Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
-discuss.hashicorp.com
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+maxwintodaybtc.com
+developer-update.app
+vk.com
+data.debugbear.com
+cdn.debugbear.com
 cloud.getdbt.com
+discuss.hashicorp.com
 icepi.cx
 bugzilla.redhat.com
 www.idrive.com
 support.servicenow.com
 community.ui.com
-data.debugbear.com
-cdn.debugbear.com
 vtk.org
 cve-2026-107055.md
 cve-2026-107056.md
@@ -76,7 +79,6 @@ xint.io
 openaigpt4v.com
 ghidra-server.org
 wpscan.com
-vk.com
 ti.wordfence.io
 zpr.io
 us968web-zoom.us
@@ -104,6 +106,11 @@ message.chat.id
 openequella.github.io
 originhq.com
 vuldb.com
+tdstelecom.com
+spfhost.messageprovider.com
+rnmk.com
+qualtrics.com
+dc8.sapsf.com
 inmotionhosting.com
 g.com
 corp-smart.com
