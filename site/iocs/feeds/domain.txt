@@ -1,7 +1,17 @@
-# ThreatLens IoC feed - generated 2026-10-29T14:27:22.237Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-29T15:16:15.941Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+cxxxx.sh
+cnnnnn.sh
+kubernetes.io
+hunt.io
+phantom.bonto.io
+jupiter.bonto.io
+exodus.bonto.io
+coinbase.bonto.io
+bonto.io
+bitget.bonto.io
 virtualine.net
 www.goto.com
 office.com-access-sharepoint.com
@@ -76,6 +86,14 @@ message.chat.id
 openequella.github.io
 originhq.com
 vuldb.com
+www.proterial.com
+spf.haihaimail.jp
+brights.jp
+23991352.spf05.hubspotemail.net
+1api.net
+www.w-interactive.com
+www.udima.es
+cef.es
 www.viehhauser-kfz.at
 www.tpcg.org
 d243581b.ess.barracudanetworks.com
@@ -104,9 +122,16 @@ transmail.net
 spf.zoho.com
 docebosaas.com
 namecheap.com
+mx3.zoho.com
+mx2.zoho.com
+mx.zoho.com
 spf.constantcontact.com
+wildwestdomains.com
+amazonses.com
 web.com
 sendgrid.net
+zoho.com
+zcsend.net
 godaddy.com
 salesforce.com
 www.dlink.com
@@ -137,7 +162,6 @@ git.kernel.org
 www.gendigital.com
 adjective-noun-verb-digit.dedyn.io
 github.io
-hunt.io
 google.it
 uberip.com
 ntpsync.io
@@ -178,7 +202,6 @@ eu-esec-01.heimdalsecurity.com
 vali.email
 echo.com
 servers.mcsv.net
-amazonses.com
 www.miljaus.com
 issues.chromium.org
 pkg.go.dev
@@ -201,12 +224,7 @@ chapalasrealtor.com
 adacompliantsigns.online
 security.tanium.com
 www.tp-link.com
-jupiter.bonto.io
-exodus.bonto.io
 connect.trezor.io
-coinbase.bonto.io
-bonto.io
-bitget.bonto.io
 claude.md
 shutterstock.com
 psirt.watchguard.com
@@ -977,7 +995,6 @@ spf.kirim.email
 spanlogic.net
 mail.wahchan.com.my
 enginemailer.org
-wildwestdomains.com
 mickeybody.com
 f.inkyphishfence.com
 deda440.mivamerchant.net
@@ -1112,7 +1129,6 @@ javadevhouse.co.kr
 fp-news.co.kr
 cubedesign.co.kr
 cio.com
-phantom.bonto.io
 firewall.sh
 5gmsxuxam52jampd7vc6x0cvcmif681wszgq3gr5.oastify.com
 5c5gmsxuxam52jampd7vc6x0cvcmif681wszgq3gr5.oastify.com
@@ -1147,9 +1163,6 @@ eforward2.registrar-servers.com
 eforward1.registrar-servers.com
 dangvuongcac.com
 zohomail.com
-mx3.zoho.com
-mx2.zoho.com
-mx.zoho.com
 amenprivateregistration.com
 amen.fr
 adobebrokers.com
@@ -1199,9 +1212,7 @@ analyzer.md
 advisories.stormshield.eu
 cipher-proxy.sh
 run.sh
-zcsend.net
 xcai.pro
-kubernetes.io
 container.id
 api.deepseek.com
 java.io
@@ -1355,7 +1366,6 @@ aruba.it
 watchguard-vpn.net
 watchguard-ssl.online
 redact.io
-zoho.com
 mlsend.com
 trinitycyber.com
 mckenneys.com
