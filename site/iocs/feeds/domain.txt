@@ -1,7 +1,15 @@
-# ThreatLens IoC feed - generated 2026-10-30T12:50:43.911Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-30T13:46:45.937Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+virtualine.net
+xs.com
+www.dell.com
+abraxaslabs.tech
+www.vulncheck.com
+plugins.inc
+ntpd.inc
+socket.io
 csirt.divd.nl
 security.md
 www.cnvd.org.cn
@@ -22,6 +30,19 @@ www.imaginationtech.com
 dreamgroup.com
 calif.io
 issues.chromium.org
+www.innoeasesores.com
+perfora.net
+one.zoho.eu
+mx4.spatiul.ro
+mx3.spatiul.ro
+mx2.spatiul.ro
+mx1.spatiul.ro
+ifink.ro
+www.ciosa.com
+neubox.net
+grupocrater.com
+emailsrvr.com
+www.farmaciasimas.com
 spf1.emailsecurity.app
 mx2-us.emailsecurity.app
 mx1-us.emailsecurity.app
@@ -32,8 +53,14 @@ www.lyserp.com
 net-chinese.com.tw
 mail.lyserp.com
 lyserp.com
+wagyu.xyz
+spf.mandrillapp.com
 bluehost.com
+servers.mcsv.net
+ionos.com
 web.com
+sendgrid.net
+ovh.net
 delinea.com
 www.veeam.com
 maxwintodaybtc.com
@@ -66,7 +93,6 @@ exodus.bonto.io
 coinbase.bonto.io
 bonto.io
 bitget.bonto.io
-virtualine.net
 www.goto.com
 office.com-access-sharepoint.com
 goo.gle-access-eventregister.icu
@@ -91,7 +117,6 @@ a111.life
 66wc.eu.cc
 3x3br.eu.cc
 grok.com
-www.vulncheck.com
 www.hitachienergy.com
 www.siemens.com
 themes.trac.wordpress.org
@@ -190,7 +215,6 @@ domain-contact.org
 xspringcapital.com
 susannecerda.com
 cloudflare-verify.xspringcapital.com
-spf.mandrillapp.com
 mega.nz
 aspmx.pardot.com
 transmail.net
@@ -206,7 +230,6 @@ bereskinparr.com
 spf.has.pphosted.com
 wildwestdomains.com
 amazonses.com
-sendgrid.net
 zoho.com
 zcsend.net
 godaddy.com
@@ -224,7 +247,6 @@ onetimesso.com
 internal.com
 shattered.io
 server.rs
-wagyu.xyz
 metacpan.org
 grafana.com
 techora.ru
@@ -279,7 +301,6 @@ eu-esec-02.heimdalsecurity.com
 eu-esec-01.heimdalsecurity.com
 vali.email
 echo.com
-servers.mcsv.net
 www.miljaus.com
 pkg.go.dev
 ctfer.io
@@ -526,7 +547,6 @@ epics-controls.org
 www.mitsubishielectric.com
 iconicsinc.my.site.com
 hub.docker.com
-www.dell.com
 dubaitechnicalservice.ae
 files.dreamhost.com
 changes-2fa-security.en.md
@@ -609,7 +629,6 @@ spf.mailsentinel.net
 ilovewww.com
 ahcg.com.my
 relay.mailchannels.net
-ionos.com
 odoo.com
 spf.ess.barracudanetworks.com
 rpc-server.cc
@@ -957,7 +976,6 @@ coinbase.talenthiringtool.com
 api.quickcamfix.online
 api.nvidia-release.org
 api.mocki.io
-socket.io
 host.name
 report.md
 install.sh
@@ -1008,7 +1026,6 @@ us-smtp-inbound-1.mimecast.com
 spf.exclaimer.net
 morrow-meadows.com
 secureserver.net
-ovh.net
 www.whois.com
 softboard.ru
 ramp4u.io
@@ -1661,6 +1678,7 @@ software.watchguard.com
 cdn.watchguard.com
 snort.org
 golang.org
+key.accountby.id
 agentbaseline.org
 updateopswatsdk.pl
 ws.sh
@@ -2025,6 +2043,7 @@ pec.it
 one.com
 infocert.it
 wasabisys.com
+sqlite.org
 spam.suwaccqi.com
 mx1.wwstifsteel.com
 mx.zxopfds.com
@@ -3574,6 +3593,7 @@ cdns3.51quickfox.com
 pkg.name
 solthere.net
 ce953a0eb08246617b7f849486c4b26a7af37e9d2e8f0e13b3ae1bf0da8a70a.xyz
+sms-sme.com
 ftabnews.com
 about.blsouqs.com
 passkeymfa.com
