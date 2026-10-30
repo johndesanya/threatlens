@@ -1,4 +1,5 @@
-# ThreatLens IoC feed - generated 2026-10-30T09:14:02.885Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-30T09:50:31.198Z - source: public vendor reports. Verify before blocking.
+remediate-windows.ps1
 KSLDriver.sys
 cca616647db9370c88998ae25da6997f.exe
 sample.exe

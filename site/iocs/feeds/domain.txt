@@ -1,7 +1,11 @@
-# ThreatLens IoC feed - generated 2026-10-30T09:14:02.885Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-30T09:50:31.198Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+remediate-macos.sh
+api.ipify.org
+ifconfig.me
+vietnam.vn
 ecomagent.in
 www.wordfence.com
 plugins.trac.wordpress.org
@@ -1430,7 +1434,6 @@ e-bus.telecomegypt.com
 er.de
 rta.ch
 konsis.no
-ifconfig.me
 tinylittleoffice.com
 ock.com.my
 owenewans.org
@@ -1570,7 +1573,6 @@ icanhazip.com
 hstspreload.org
 greatfire.org
 supportportal.juniper.net
-api.ipify.org
 open.bigmodel.cn
 ylhgkj.com
 www.c.com
@@ -4014,7 +4016,6 @@ faturanova.duckdns.org
 facture-in.pages.dev
 facture-arsys.duckdns.org
 controlfacturas.site
-vietnam.vn
 addpasskey2fa.com
 linear.app
 yeplayer.store
