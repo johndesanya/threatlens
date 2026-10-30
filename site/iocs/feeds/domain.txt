@@ -1,7 +1,11 @@
-# ThreatLens IoC feed - generated 2026-10-30T23:08:20.500Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-30T23:55:53.248Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+xingjiabiapi.org
+llm-routing.com
+direct.465415.xyz
+artex.nhhh.de
 reproduce.sh
 advisory.md
 bombadil.systems
@@ -2880,6 +2884,7 @@ floridalicense.pages.dev
 docusig-document-sign6702.docusign-sign.workers.dev
 admin.rshiahub.com
 markyason.github.io
+s3.xingjiabiapi.org
 stro7121.blob.core.windows.net
 skipraid.com
 linked4x.com
