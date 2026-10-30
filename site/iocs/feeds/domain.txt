@@ -1,7 +1,20 @@
-# ThreatLens IoC feed - generated 2026-10-30T21:01:01.329Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-30T21:36:43.616Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+getstockprice.com
+bybit-assessment.com
+tdtqy-oyaaa-aaaae-af2dq-cai.raw.icp0.io
+plug-tab-protective-relay.trycloudflare.com
+transaction.id
+scan.aquasecurtiy.org
+models.litellm.cloud
+tasks.rs
+database.rs
+updatecheck.sh
+www.maxthon.com
+www.vulncheck.com
+gravity.sh
 osac.openshift.io
 router.cc
 claude.md
@@ -14,7 +27,6 @@ www.wordfence.com
 plugins.trac.wordpress.org
 changelog.com
 hackmd.io
-www.vulncheck.com
 www.axigen.com
 vuldb.com
 www.jetbrains.com
@@ -61,6 +73,15 @@ www.imaginationtech.com
 dreamgroup.com
 calif.io
 issues.chromium.org
+www.honghwa.com.tw
+spammail.honghwa.com.tw
+hibox.hinet.net
+trauco.xelos-project.net
+trauco.de
+spf.cluster.4hr.de
+mailgate02.omg.de
+mailgate01.omg.de
+fallback01.omg.de
 rrcokc.com
 www.sistemasvisuales360.com.mx
 spf.antispamcloud.com
@@ -97,7 +118,9 @@ spf.mandrillapp.com
 bluehost.com
 servers.mcsv.net
 relay.mailchannels.net
+mailgun.org
 ionos.com
+amazonses.com
 web.com
 us-smtp-inbound-1.mimecast.com
 sendgrid.net
@@ -263,7 +286,6 @@ mega.nz
 aspmx.pardot.com
 transmail.net
 spf.zoho.com
-mailgun.org
 docebosaas.com
 namecheap.com
 mx3.zoho.com
@@ -273,7 +295,6 @@ spf.constantcontact.com
 bereskinparr.com
 spf.has.pphosted.com
 wildwestdomains.com
-amazonses.com
 zoho.com
 zcsend.net
 salesforce.com
@@ -2069,7 +2090,6 @@ gdpr-info.eu
 linkeders.net
 wget.sh
 natureforce.com
-transaction.id
 pfizer.com
 mail.tm
 frontier.com
@@ -4070,7 +4090,6 @@ teleport.sh
 optimumhealthcredit.com
 neumedicahealthcare.com
 healthful-hub.com
-scan.aquasecurtiy.org
 aquasecurity.com
 visual-media-rights-group.org
 runners-daily-blog.com
@@ -4319,7 +4338,6 @@ myconnectkey.com
 assignpasskey.com
 activatepasskeyportal.com
 scanning.in
-models.litellm.cloud
 portalsetuphub.com
 connection.timesmaluku.com
 refreshhealthandwellness.com
