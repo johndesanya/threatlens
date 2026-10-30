@@ -1,7 +1,11 @@
-# ThreatLens IoC feed - generated 2026-10-30T11:13:37.544Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-30T12:02:39.980Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+csirt.divd.nl
+security.md
+www.cnvd.org.cn
+ddosecrets.org
 lightning.news
 remediate-macos.sh
 api.ipify.org
@@ -18,10 +22,18 @@ www.imaginationtech.com
 dreamgroup.com
 calif.io
 issues.chromium.org
+spf1.emailsecurity.app
+mx2-us.emailsecurity.app
+mx1-us.emailsecurity.app
+mail.fivestarjewelers.com
+fivestarjewelers.com
+biznettechnology.com
 www.lyserp.com
 net-chinese.com.tw
 mail.lyserp.com
 lyserp.com
+bluehost.com
+web.com
 delinea.com
 www.veeam.com
 maxwintodaybtc.com
@@ -194,7 +206,6 @@ bereskinparr.com
 spf.has.pphosted.com
 wildwestdomains.com
 amazonses.com
-web.com
 sendgrid.net
 zoho.com
 zcsend.net
@@ -745,7 +756,6 @@ usb-smtp-inbound-1.mimecast.com
 netorg6194492.onmicrosoft.com
 www.mstlaw.com
 hostgatorprivatename.com
-bluehost.com
 www.taubensee.com
 us.ppe-hosted.com
 spf.hosting.americaneagle.com
