@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-10-30T14:28:38.145Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-30T15:14:51.741Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+vk.com
 www.samsungcheckout.com
 window.cnn.contentmodel.site
 t.style.top
@@ -37,13 +38,14 @@ ecomagent.in
 www.wordfence.com
 plugins.trac.wordpress.org
 bugzilla.redhat.com
-vk.com
 wpscan.com
 www.drupal.org
 www.imaginationtech.com
 dreamgroup.com
 calif.io
 issues.chromium.org
+www.lrmc.ph
+www.phillipsnizer.com
 www.innoeasesores.com
 perfora.net
 one.zoho.eu
@@ -73,7 +75,9 @@ bluehost.com
 servers.mcsv.net
 ionos.com
 web.com
+us-smtp-inbound-1.mimecast.com
 sendgrid.net
+mimecast.com
 ovh.net
 delinea.com
 www.veeam.com
@@ -918,7 +922,6 @@ mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
 networksolutionsprivateregistration.com
-mimecast.com
 disney.com
 cbre.com
 harman.com
@@ -1036,7 +1039,6 @@ merical.com
 d240693b.ess.barracudanetworks.com
 d240693a.ess.barracudanetworks.com
 us-smtp-inbound-2.mimecast.com
-us-smtp-inbound-1.mimecast.com
 spf.exclaimer.net
 morrow-meadows.com
 secureserver.net
@@ -3174,6 +3176,7 @@ www.marketsandmarkets.com
 machinelearningmastery.com
 www.channelinsider.com
 channelinsider.com
+cenmar-manila.com
 reichenau.at
 knowledge.md
 usa.newsinweb.com
