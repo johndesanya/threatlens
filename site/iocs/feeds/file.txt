@@ -1,4 +1,8 @@
-# ThreatLens IoC feed - generated 2026-10-30T15:50:21.021Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-30T16:33:19.850Z - source: public vendor reports. Verify before blocking.
+java.exe
+SearchApp.exe
+javaw.exe
+bun.exe
 remediate-windows.ps1
 KSLDriver.sys
 cca616647db9370c88998ae25da6997f.exe
@@ -515,7 +519,6 @@ msconfig.exe
 akira.exe
 wsreset.exe
 sdclt.exe
-bun.exe
 xenservice.exe
 vmwareuser.exe
 vmwaretray.exe
@@ -546,7 +549,6 @@ Binance.exe
 Assist.dll
 git.exe
 xeno.exe
-javaw.exe
 instance.exe
 decompiler.jar
 decompiler.exe

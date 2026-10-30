@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-10-30T15:50:21.021Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-30T16:33:19.850Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+onmicrosoft.com
 www.vulncheck.com
 vk.com
 www.samsungcheckout.com
@@ -80,6 +81,9 @@ web.com
 us-smtp-inbound-1.mimecast.com
 sendgrid.net
 mimecast.com
+access.redhat.com
+www.suse.com
+www.ibm.com
 ovh.net
 delinea.com
 www.veeam.com
@@ -350,7 +354,6 @@ agents.md
 integmn.com
 www.aidot.com
 advisories.octopus.com
-onmicrosoft.com
 zrs-wooding.com
 wwriwashingtonenergy.com
 wsochares.authpayments.common.paid2026.bullochdirtwroks.com
@@ -1109,10 +1112,7 @@ spf.eu.exclaimer.net
 mx-in02.eu.retarus.com
 mx-in01.eu.retarus.com
 swatchrc.in
-access.redhat.com
-www.suse.com
 www.php.net
-www.ibm.com
 ubuntu.com
 host.id
 process.parent.name
