@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-10-30T15:14:51.741Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-30T15:50:21.021Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.vulncheck.com
 vk.com
 www.samsungcheckout.com
 window.cnn.contentmodel.site
@@ -19,9 +20,9 @@ g.co
 d.uk
 virtualine.net
 xs.com
+ua.news
 www.dell.com
 abraxaslabs.tech
-www.vulncheck.com
 plugins.inc
 ntpd.inc
 socket.io
@@ -44,6 +45,7 @@ www.imaginationtech.com
 dreamgroup.com
 calif.io
 issues.chromium.org
+www.palletline.co.uk
 www.lrmc.ph
 www.phillipsnizer.com
 www.innoeasesores.com
@@ -1637,7 +1639,6 @@ bcuxktpfkz.kumamoto-city.jp
 9aiolnhtdi.kumamoto-city.jp
 1dwsd1dedf.kumamoto-city.jp
 chromereleases.googleblog.com
-ua.news
 anitab.org
 asp.net
 rasd-state.ws
