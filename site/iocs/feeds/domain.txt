@@ -1,8 +1,9 @@
-# ThreatLens IoC feed - generated 2026-10-30T16:33:19.850Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-30T17:16:46.383Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 onmicrosoft.com
+requesttracker.com
 www.vulncheck.com
 vk.com
 www.samsungcheckout.com
@@ -46,6 +47,10 @@ www.imaginationtech.com
 dreamgroup.com
 calif.io
 issues.chromium.org
+www.sistemasvisuales360.com.mx
+spf.antispamcloud.com
+mx15b.anti-spam-premium.com
+mx15a.anti-spam-premium.com
 www.palletline.co.uk
 www.lrmc.ph
 www.phillipsnizer.com
@@ -76,6 +81,7 @@ wagyu.xyz
 spf.mandrillapp.com
 bluehost.com
 servers.mcsv.net
+relay.mailchannels.net
 ionos.com
 web.com
 us-smtp-inbound-1.mimecast.com
@@ -273,6 +279,7 @@ shattered.io
 server.rs
 metacpan.org
 grafana.com
+emudhra.we-have-a-problem.com
 techora.ru
 cf-id.com
 onamae.com
@@ -651,7 +658,6 @@ datem.com.ph
 spf.mailsentinel.net
 ilovewww.com
 ahcg.com.my
-relay.mailchannels.net
 odoo.com
 spf.ess.barracudanetworks.com
 rpc-server.cc
@@ -1500,6 +1506,7 @@ flareru.live
 ransomlook.io
 map.ch
 ptelcom.com
+www.libreoffice.org
 cert.pl
 wibu-bau-bawang.online
 transfer.sh
@@ -4367,6 +4374,7 @@ marialurdes.site
 harialurdes.site
 www.yahoo-cdn.it.com
 donalurdesconfeitos.site
+sevci.org
 haypressinfo.com
 armbreaking.com
 lojinhadaana.org
@@ -4388,6 +4396,7 @@ cheapzone.space
 affordableonline.online
 codecvideowin.online
 cdns3.51quickfox.cn
+snedai.com
 habeshacement.com
 ovcloudcontrol.cdn.cardoor.cn
 fortune.com
