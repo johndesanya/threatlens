@@ -1,7 +1,10 @@
-# ThreatLens IoC feed - generated 2026-10-30T21:36:43.616Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-30T22:20:47.199Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+dedyn.io
+aber.ir
+github.io
 getstockprice.com
 bybit-assessment.com
 tdtqy-oyaaa-aaaae-af2dq-cai.raw.icp0.io
@@ -73,6 +76,24 @@ www.imaginationtech.com
 dreamgroup.com
 calif.io
 issues.chromium.org
+eas-eng.com
+d206564b.ess.barracudanetworks.com
+d206564a.ess.barracudanetworks.com
+bluehostprivatename.com
+proxy.dreamhost.com
+mail.aliquot.com
+dreamhost.com
+aliquot.com
+la-crane.com
+shop.shopify.com
+psychometrics.com
+d264836b.ess.barracudanetworks.com
+iwirc.biz
+d255841b.ess.barracudanetworks.com
+d255841a.ess.barracudanetworks.com
+factsnfiguresinc.com
+gilliamcpapc.com
+acclaimcompanies.com
 www.honghwa.com.tw
 spammail.honghwa.com.tw
 hibox.hinet.net
@@ -113,22 +134,28 @@ www.lyserp.com
 net-chinese.com.tw
 mail.lyserp.com
 lyserp.com
+messagegears.net
+autotask.net
 wagyu.xyz
 spf.mandrillapp.com
 bluehost.com
 servers.mcsv.net
 relay.mailchannels.net
 mailgun.org
+withheldforprivacy.com
 ionos.com
 amazonses.com
 web.com
+spf.ess.barracudanetworks.com
 us-smtp-inbound-1.mimecast.com
 sendgrid.net
 mimecast.com
 www.suse.com
+gofile.io
 www.ibm.com
 godaddy.com
 ovh.net
+name.com
 delinea.com
 www.veeam.com
 maxwintodaybtc.com
@@ -150,7 +177,6 @@ f-droid.org
 cve-2026-107060.md
 cve-2026-107052.md
 docs.microfocus.com
-github.io
 cxxxx.sh
 cnnnnn.sh
 kubernetes.io
@@ -271,7 +297,6 @@ www.programsforparents.org
 www.csba.org
 spf.emailsignatures365.com
 saashr.com
-messagegears.net
 www.nacm.org
 www.lifefone.com
 trustpilotservice.com
@@ -583,9 +608,7 @@ opus-5-0.github.io
 gpt-6-astra.github.io
 gpt-5-6.github.io
 digit.dedyn.io
-dedyn.io
 calm-piano-floats-313.dedyn.io
-aber.ir
 readme.md
 php-rce.cloudflare.app
 thispc.net
@@ -634,7 +657,6 @@ mx1.qiye.aliyun.com
 www.moneyconcepts.com
 www.hygiena.com
 block.cloudaccess.net
-autotask.net
 act-on.net
 43649565.spf07.hubspotemail.net
 www.qlc-labeling.com
@@ -692,7 +714,6 @@ spf.mailsentinel.net
 ilovewww.com
 ahcg.com.my
 odoo.com
-spf.ess.barracudanetworks.com
 rpc-server.cc
 joshua.hu
 www.totolink.net
@@ -1296,7 +1317,6 @@ md02.com
 comlaude.com
 anonymised.email
 registry.gov.in
-withheldforprivacy.com
 spf.efwd.registrar-servers.com
 eforward5.registrar-servers.com
 eforward4.registrar-servers.com
@@ -1434,7 +1454,6 @@ www.gravesfireplaces.com
 markethardware.com
 centralrogers.com
 pathfinding.cloud
-gofile.io
 file.io
 dc.cathaypacifice.com
 ably.net
@@ -2330,6 +2349,7 @@ corp.tripswithengine.com
 www.sans.org
 www.jsdelivr.com
 blog.gitguardian.com
+fedelmundo.com.ph
 eagroep.com
 unibo.it
 postecert.it
@@ -3826,7 +3846,6 @@ freepik.com
 www.okta.com
 trustname.com
 onrender.com
-name.com
 mrd0x.com
 adidas-hiring.com
 cloudrun02-abc.europe-west3.run.app

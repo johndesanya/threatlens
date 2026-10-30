@@ -1,4 +1,9 @@
-# ThreatLens IoC feed - generated 2026-10-30T21:36:43.616Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-30T22:20:47.199Z - source: public vendor reports. Verify before blocking.
+stepsecurity-dev-machine-guard.exe
+wmpdui.dll
+winmm.dll
+WMPDMC.exe
+Cursor.exe
 java.exe
 SearchApp.exe
 javaw.exe
@@ -14,7 +19,6 @@ WpcMon.exe
 CMS.exe
 sys.dll
 curl.exe
-Cursor.exe
 sfc.exe
 fly.exe
 cscm.exe
@@ -31,16 +35,13 @@ Microsoft.HostIntegration.Connectors.dll
 dllhost.exe
 graphics-hook-filter64.dll
 nenc.exe
-winmm.dll
 wmiprvse.exe
 bash.exe
 aspnet_compiler.exe
 EXCEL.EXE
 Cd5KK.exe
-wmpdui.dll
 vulkan-1.dll
 vk_swiftshader.dll
-WMPDMC.exe
 D3dx9_41.dll
 10_rand_char.ps1
 10_rand_char.exe
