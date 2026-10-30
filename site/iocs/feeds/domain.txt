@@ -1,13 +1,20 @@
-# ThreatLens IoC feed - generated 2026-10-30T17:59:15.499Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-30T18:44:07.319Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.wordfence.com
+plugins.trac.wordpress.org
+changelog.com
+hackmd.io
+www.vulncheck.com
+www.axigen.com
+vuldb.com
+www.jetbrains.com
+vk.com
 ca2.cloudflarecaptcha.com
 ca1.cloudflarecaptcha.com
 onmicrosoft.com
 requesttracker.com
-www.vulncheck.com
-vk.com
 www.samsungcheckout.com
 window.cnn.contentmodel.site
 t.style.top
@@ -40,8 +47,6 @@ api.ipify.org
 ifconfig.me
 vietnam.vn
 ecomagent.in
-www.wordfence.com
-plugins.trac.wordpress.org
 bugzilla.redhat.com
 wpscan.com
 www.drupal.org
@@ -194,7 +199,6 @@ nginx.org
 message.chat.id
 openequella.github.io
 originhq.com
-vuldb.com
 tdstelecom.com
 spfhost.messageprovider.com
 rnmk.com
@@ -664,7 +668,6 @@ odoo.com
 spf.ess.barracudanetworks.com
 rpc-server.cc
 joshua.hu
-hackmd.io
 www.totolink.net
 hdfdsi84j3h.top
 crypto-insider.top
