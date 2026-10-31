@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-31T18:40:20.163Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-31T19:25:48.108Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 gitee.com
 www.vulncheck.com
 skills.rs
@@ -28,6 +28,10 @@ aspmx3.googlemail.com
 verveba.com
 bereskinparr.com
 godaddy.com
+www.jhamf.com
+jhamf.com.customers.whoisprivacycorp.com
+dongee.com
+systemsoft.info
 www.cmcfc.org
 d312761b.ess.barracudanetworks.com
 d312761a.ess.barracudanetworks.com
@@ -182,6 +186,7 @@ psm.knowbe4.com
 easydmarc.pro
 us.ppe-hosted.com
 spf.sendinblue.com
+mx.serviciodecorreo.es
 d.spf.service-now.com
 c.spf.service-now.com
 b.spf.service-now.com
@@ -1059,7 +1064,6 @@ www.appl.de
 fortimailcloud.com
 appl-de-1.fortimailcloud.com
 www.teletronic.es
-mx.serviciodecorreo.es
 www.bangorwholesalelaminates.com
 www.deltaepa.com
 mail.deltaepa.com
