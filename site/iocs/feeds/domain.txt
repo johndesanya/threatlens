@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-10-31T12:45:14.548Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-31T13:33:17.308Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+techora.ru
 rolimons.com
 hide.me
 battle.net
@@ -523,7 +524,6 @@ server.rs
 metacpan.org
 grafana.com
 emudhra.we-have-a-problem.com
-techora.ru
 cf-id.com
 onamae.com
 x.org
@@ -1459,6 +1459,7 @@ javadevhouse.co.kr
 fp-news.co.kr
 cubedesign.co.kr
 cio.com
+rpms.remirepo.net
 firewall.sh
 5gmsxuxam52jampd7vc6x0cvcmif681wszgq3gr5.oastify.com
 5c5gmsxuxam52jampd7vc6x0cvcmif681wszgq3gr5.oastify.com
