@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-31T08:18:07.286Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-31T09:01:11.416Z - source: public vendor reports. Verify before blocking.
 stepsecurity-dev-machine-guard.exe
 wmpdui.dll
 winmm.dll

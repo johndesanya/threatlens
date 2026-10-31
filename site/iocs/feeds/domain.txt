@@ -1,10 +1,11 @@
-# ThreatLens IoC feed - generated 2026-10-31T08:18:07.286Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-31T09:01:11.416Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 www.wordfence.com
 plugins.trac.wordpress.org
 wordpress.org
+downloads.wordpress.org
 core.trac.wordpress.org
 advisories.softiron.cloud
 credtheft.ms
@@ -3518,7 +3519,6 @@ cmgovernadorluizrocha.ma.gov.br
 attvpn.vip
 easyappointments.org
 plugins.wordpress.org
-downloads.wordpress.org
 getgrav.org
 payloadcms.com
 cursor.click
