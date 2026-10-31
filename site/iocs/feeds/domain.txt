@@ -1,7 +1,14 @@
-# ThreatLens IoC feed - generated 2026-10-30T23:55:53.248Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-31T00:55:19.798Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.herodevs.com
+d7es.tag1.com
+chicagolawyer.com
+aspmx3.googlemail.com
+verveba.com
+bereskinparr.com
+godaddy.com
 xingjiabiapi.org
 llm-routing.com
 direct.465415.xyz
@@ -160,7 +167,6 @@ mimecast.com
 www.suse.com
 gofile.io
 www.ibm.com
-godaddy.com
 ovh.net
 name.com
 delinea.com
@@ -323,7 +329,6 @@ mx3.zoho.com
 mx2.zoho.com
 mx.zoho.com
 spf.constantcontact.com
-bereskinparr.com
 spf.has.pphosted.com
 wildwestdomains.com
 zoho.com
@@ -1080,7 +1085,6 @@ relay.spamshield.io
 smtp.relay.serverneubox.com.mx
 aspmx5.googlemail.com
 aspmx4.googlemail.com
-aspmx3.googlemail.com
 webnic.cc
 mail.mainplace.com.my
 www.zhservices.com
@@ -1242,7 +1246,6 @@ hofbrauhaus-freising.de
 hofbrauhaus-freising-de.gate.seppmail.cloud
 de.seppmail.cloud
 pan.am
-verveba.com
 remote.hecker-hsb.de
 hecker-hsb.de
 barrowgrimm.com
