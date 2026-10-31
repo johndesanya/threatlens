@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-31T17:08:53.052Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-31T17:53:47.099Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 techora.ru
 rolimons.com
 hide.me
@@ -25,6 +25,9 @@ aspmx3.googlemail.com
 verveba.com
 bereskinparr.com
 godaddy.com
+www.cmcfc.org
+d312761b.ess.barracudanetworks.com
+d312761a.ess.barracudanetworks.com
 perabet.com
 gamdom.com
 unitedrolls.com
@@ -172,6 +175,7 @@ domain-contact.org
 enom.com
 vali.email
 wagyu.xyz
+psm.knowbe4.com
 easydmarc.pro
 us.ppe-hosted.com
 spf.sendinblue.com
@@ -871,7 +875,6 @@ mx002.netsol.xion.oxcs.net
 mx001.netsol.xion.oxcs.net
 www.mybigspring.com
 spf.mailroute.net
-psm.knowbe4.com
 mail.mailroute.net
 www.asc-psd.com
 u2887961.wl212.sendgrid.net
