@@ -1,7 +1,10 @@
-# ThreatLens IoC feed - generated 2026-10-31T11:56:16.390Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-31T12:45:14.548Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+rolimons.com
+hide.me
+battle.net
 bugzilla.redhat.com
 www.wordfence.com
 plugins.trac.wordpress.org
@@ -1355,7 +1358,6 @@ www.apps.disneyplus.com
 login.disney.com
 fegrs.adidasabc.com
 disney.api.edge.bamgrid.com
-battle.net
 www.kiloview.com
 wrc.intersystems.com
 docs.intersystems.com
