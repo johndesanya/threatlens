@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-31T10:20:57.842Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-31T11:06:08.498Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 research.cleantalk.org
 plugins.svn.wordpress.org
 bugzilla.redhat.com
@@ -19,6 +19,8 @@ aspmx3.googlemail.com
 verveba.com
 bereskinparr.com
 godaddy.com
+perabet.com
+gamdom.com
 unitedrolls.com
 plma.se
 pac.se
@@ -163,6 +165,7 @@ custmx.cscdns.net
 domain-contact.org
 enom.com
 vali.email
+wagyu.xyz
 easydmarc.pro
 us.ppe-hosted.com
 spf.sendinblue.com
@@ -332,7 +335,6 @@ mail.lyserp.com
 lyserp.com
 messagegears.net
 autotask.net
-wagyu.xyz
 spf.mandrillapp.com
 bluehost.com
 servers.mcsv.net
