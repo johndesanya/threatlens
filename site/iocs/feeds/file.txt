@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-10-31T07:39:01.360Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-10-31T08:18:07.286Z - source: public vendor reports. Verify before blocking.
 stepsecurity-dev-machine-guard.exe
 wmpdui.dll
 winmm.dll
@@ -34,6 +34,7 @@ PatchMyPC-ScriptRunner.exe
 Microsoft.HostIntegration.Connectors.dll
 dllhost.exe
 graphics-hook-filter64.dll
+w3wp.exe
 nenc.exe
 wmiprvse.exe
 bash.exe
