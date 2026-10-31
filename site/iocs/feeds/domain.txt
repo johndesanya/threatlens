@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-10-31T00:55:19.798Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-10-31T02:22:05.691Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 www.herodevs.com
 d7es.tag1.com
 chicagolawyer.com
@@ -9,6 +9,8 @@ aspmx3.googlemail.com
 verveba.com
 bereskinparr.com
 godaddy.com
+evil.com
+attacker.com
 xingjiabiapi.org
 llm-routing.com
 direct.465415.xyz
@@ -3666,7 +3668,6 @@ clothes.shop
 cdn.doomscroll.com
 carmanufacturer.com
 backend.internal.com
-attacker.com
 atk.cc
 accounts.shop.com
 account.phones.com
