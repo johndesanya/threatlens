@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-01T20:06:09.639Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-01T20:58:12.508Z - source: public vendor reports. Verify before blocking.
 yLP9m5J3i2Aw.exe
 9BY0tjwOc3ut.exe
 stepsecurity-dev-machine-guard.exe
