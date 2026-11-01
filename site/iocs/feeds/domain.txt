@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-01T13:34:35.777Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-01T14:14:28.440Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 deepveindrilling.com
 vuldb.com
 app.notion.com
@@ -15,6 +15,8 @@ www.danserinc.com
 server2.raptoremailsecurity.com
 raptor.pccc.com
 enom.com
+godaddy.okta.com
+getsession.org
 zb82775283.zmverify.zoho.in
 one.zoho.in
 logix.in
@@ -39,6 +41,7 @@ portal2.kiwoweb.de
 www.cmd-natur.de
 www.thecondopros.com
 gkg.net
+wagyu.xyz
 servers.mcsv.net
 aspmx3.googlemail.com
 gabonmeca.com
@@ -225,7 +228,6 @@ spencers.com
 custmx.cscdns.net
 domain-contact.org
 vali.email
-wagyu.xyz
 psm.knowbe4.com
 easydmarc.pro
 us.ppe-hosted.com
