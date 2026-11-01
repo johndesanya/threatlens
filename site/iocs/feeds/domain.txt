@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-01T12:46:10.637Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-01T13:34:35.777Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+deepveindrilling.com
 vuldb.com
 app.notion.com
 blog.gitea.com
@@ -14,6 +15,18 @@ www.danserinc.com
 server2.raptoremailsecurity.com
 raptor.pccc.com
 enom.com
+zb82775283.zmverify.zoho.in
+one.zoho.in
+logix.in
+hostmx02.logix.in
+hostmx01.logix.in
+hitechindia.net
+hitechindia.co.in
+hitechgroup.com
+hitechconnector.com
+hitech.in
+bigrock.com
+mycloudgrocer.com
 www.forum-zt.at
 www.vjsz.hu
 spf.smtp1.ri.hu
@@ -26,9 +39,15 @@ portal2.kiwoweb.de
 www.cmd-natur.de
 www.thecondopros.com
 gkg.net
+servers.mcsv.net
+aspmx3.googlemail.com
+gabonmeca.com
 mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
+aspmx2.googlemail.com
+sendgrid.net
+godaddy.com
 vk.com
 gitee.com
 skills.rs
@@ -51,10 +70,8 @@ credtheft.ms
 www.herodevs.com
 d7es.tag1.com
 chicagolawyer.com
-aspmx3.googlemail.com
 verveba.com
 bereskinparr.com
-godaddy.com
 www.openwall.com
 www.jhamf.com
 jhamf.com.customers.whoisprivacycorp.com
@@ -228,12 +245,10 @@ spf.constantcontact.com
 spf.webapps.net
 ionos.com
 wildwestdomains.com
-aspmx2.googlemail.com
 web.com
 spf.ess.barracudanetworks.com
 www.miljaus.com
 us-smtp-inbound-1.mimecast.com
-sendgrid.net
 register.it
 secureserver.net
 name.com
@@ -374,7 +389,6 @@ messagegears.net
 autotask.net
 spf.mandrillapp.com
 bluehost.com
-servers.mcsv.net
 relay.mailchannels.net
 amazonses.com
 mimecast.com
@@ -1020,7 +1034,6 @@ fred.stlouisfed.org
 neswnsssn.click
 manulfie.click
 lanhd6549tdhse.top
-deepveindrilling.com
 additionalver.com
 xmit.xyz
 bohmid-com.vercel.app
@@ -1238,7 +1251,6 @@ dentalartsofatlantis.com
 www.ecomgroup.com
 www.etogruppe.com
 united-domains.de
-gabonmeca.com
 retarus.com
 pig4cloud-sql-injection.md
 unitree-firmware.oss-cn-hangzhou.aliyuncs.com
