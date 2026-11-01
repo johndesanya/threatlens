@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-01T19:25:51.649Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-01T20:06:09.639Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 vuldb.com
 gcloud-auth.pl
 20router.md
@@ -18,6 +18,7 @@ www.danserinc.com
 server2.raptoremailsecurity.com
 raptor.pccc.com
 enom.com
+synergy.co.id
 tema-hwt.de
 mx1.sitehub.io
 www.fzmb.de
@@ -407,6 +408,7 @@ www.suse.com
 gofile.io
 www.ibm.com
 ovh.net
+webhook.site
 delinea.com
 www.veeam.com
 maxwintodaybtc.com
@@ -1329,7 +1331,6 @@ ramp4u.io
 duty-free.to
 exploit.in
 news.net
-webhook.site
 stealer.sa
 www.litellm.dev
 litellm.dev
