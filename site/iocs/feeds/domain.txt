@@ -1,8 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-01T17:09:09.672Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-01T17:54:02.091Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 vuldb.com
+gcloud-auth.pl
 20router.md
 deepveindrilling.com
 20wn701ae.md
@@ -17,6 +18,9 @@ www.danserinc.com
 server2.raptoremailsecurity.com
 raptor.pccc.com
 enom.com
+www.fzmb.de
+strato.com
+smtpin.rzone.de
 globalholding-inc.com
 godaddy.okta.com
 getsession.org
