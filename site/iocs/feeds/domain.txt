@@ -1,9 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-01T11:54:44.142Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-01T12:46:10.637Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
-app.notion.com
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 vuldb.com
+app.notion.com
 blog.gitea.com
 virtualine.net
 wl-wn530hg4b.md
@@ -14,11 +14,21 @@ www.danserinc.com
 server2.raptoremailsecurity.com
 raptor.pccc.com
 enom.com
+www.forum-zt.at
+www.vjsz.hu
+spf.smtp1.ri.hu
+relay2.ri.hu
+relay1.ri.hu
+www.meshbesher.com
+www.shibata.co.jp
 www.qc-consult.de
 portal2.kiwoweb.de
 www.cmd-natur.de
 www.thecondopros.com
 gkg.net
+mx2-us1.ppe-hosted.com
+mx1-us1.ppe-hosted.com
+dispatch-us.ppe-hosted.com
 vk.com
 gitee.com
 skills.rs
@@ -212,9 +222,6 @@ spf.mailjet.com
 mailgun.org
 withheldforprivacy.com
 namecheap.com
-mx2-us1.ppe-hosted.com
-mx1-us1.ppe-hosted.com
-dispatch-us.ppe-hosted.com
 edgepilot.com
 spfa.cpmails.com
 spf.constantcontact.com
