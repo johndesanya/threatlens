@@ -1,7 +1,17 @@
-# ThreatLens IoC feed - generated 2026-11-02T15:58:35.005Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-02T17:26:44.547Z - source: public vendor reports. Verify before blocking.
+agent.id
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+polymarket.com
+x.azurecr.io.attacker.com
+azurecr.us
+azurecr.io
+azurecr.de
+azurecr.cn
+trigger.dev
+cal.com
+git.kernel.org
 www.rfc-editor.org
 www.wftpserver.com
 www.vulncheck.com
@@ -30,6 +40,11 @@ details-plaintext-disclosure.md
 session-cookie-logout.md
 hub.ivanti.com
 www.linksys.com
+newapi.pro
+jet-night.com
+t.com
+www.harrys.com.sg
+getz.com
 www.astino.com.my
 zrawsomble.com
 zorapslwsnic.com
@@ -197,6 +212,7 @@ delta.com
 ajg.com
 exabytes.my
 gabonmeca.com
+amazonses.com
 wp.pl
 secop.gov.co
 santander.com.br
@@ -643,7 +659,6 @@ autotask.net
 spf.mandrillapp.com
 bluehost.com
 relay.mailchannels.net
-amazonses.com
 mimecast.com
 www.suse.com
 gofile.io
@@ -831,7 +846,6 @@ support.hcl-software.com
 monday.com
 slybee.com
 advisories.orangecyberdefense.com
-git.kernel.org
 www.gendigital.com
 adjective-noun-verb-digit.dedyn.io
 google.it
