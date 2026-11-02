@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-02T10:01:04.603Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-02T11:25:42.826Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 dnslog.cn
 consumer.huawei.com
 vk.com
@@ -13,6 +13,11 @@ details-plaintext-disclosure.md
 session-cookie-logout.md
 hub.ivanti.com
 www.linksys.com
+neimanandco.com
+mail2.atessan.com.tr
+mail1.atessan.com.tr
+mail.atessan.com.tr
+atessan.com.tr
 visteon.com
 usaa.com
 hostgator.com
@@ -24,6 +29,7 @@ accenture.com
 newmont.com
 delta.com
 ajg.com
+gabonmeca.com
 wp.pl
 secop.gov.co
 santander.com.br
@@ -32,6 +38,7 @@ cbre.com
 pnb.bank.in
 harman.com
 abbott.com
+godaddy.com
 westernunion.com
 pnbibanking.in
 mail.gov.in
@@ -120,13 +127,11 @@ gkg.net
 wagyu.xyz
 servers.mcsv.net
 aspmx3.googlemail.com
-gabonmeca.com
 mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
 aspmx2.googlemail.com
 sendgrid.net
-godaddy.com
 skills.rs
 techora.ru
 rolimons.com
@@ -1493,6 +1498,8 @@ hofbrauhaus-freising.de
 hofbrauhaus-freising-de.gate.seppmail.cloud
 de.seppmail.cloud
 pan.am
+www.kubermatic.com
+www.gartner.com
 remote.hecker-hsb.de
 hecker-hsb.de
 barrowgrimm.com
@@ -1509,6 +1516,7 @@ choclatey.org
 www.solarwinds.com
 sieprevencion.cl
 crt.sh
+www.csa.gov.sg
 jackalsyn.com
 srsnodgrass.com
 mycompany.com
@@ -1978,6 +1986,7 @@ beta-manus.com
 code-desktop.com
 yeniavaz.com
 news.am
+ipify.com
 japantimes.co.jp
 saintpierredescorps.fr
 forums.ivanti.com
@@ -2638,7 +2647,6 @@ docsend.appstore.com.mx
 calculator.app
 threatlocker.com
 gwi.digital
-www.csa.gov.sg
 crusher.dev
 entry.sh
 auto-persist-host.sh

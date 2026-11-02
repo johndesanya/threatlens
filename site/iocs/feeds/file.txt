@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-02T10:01:04.603Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-02T11:25:42.826Z - source: public vendor reports. Verify before blocking.
 sqlservr.exe
 p1.ps1
 comsvcs.dll
@@ -167,6 +167,9 @@ Sora2.apk
 Installer.exe
 GeminiSetup.exe
 Claude_x64-setup.exe
+Proposition_Projet_Personnalisable.docx.lnk
+computerdefaults.exe
+dbghelp.dll
 unionfs.sys
 fdwsd.dll
 csc.sys
@@ -183,7 +186,6 @@ loader.exe
 exegis.exe
 enc_loader.exe
 drop.ps1
-computerdefaults.exe
 bludness.exe
 apex-windows-x64.exe
 apex-audit-windows-x64.exe
@@ -242,7 +244,6 @@ libcurl.dll
 jli.dll
 encryptbase64.ps1
 dnsapi.dll
-dbghelp.dll
 WinSparkle.dll
 Disk2vhd.dll
 Contoso-Poedit.exe
