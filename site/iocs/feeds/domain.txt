@@ -1,8 +1,13 @@
-# ThreatLens IoC feed - generated 2026-11-02T22:26:27.831Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-02T23:16:05.469Z - source: public vendor reports. Verify before blocking.
 agent.id
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+www.wordfence.com
+plugins.trac.wordpress.org
+bugzilla.redhat.com
+go.temporal.io
+www.infinittna.com
 vuldb.com
 sourceforge.net
 www.asus.com
@@ -52,6 +57,9 @@ details-plaintext-disclosure.md
 session-cookie-logout.md
 hub.ivanti.com
 www.linksys.com
+recursosyenergia.com.ar
+mx2.refsatel.com.ar
+mx1.refsatel.com.ar
 www.consalud.cl
 mta2p.consalud.cl
 mta1p.consalud.cl
@@ -348,9 +356,6 @@ techora.ru
 rolimons.com
 hide.me
 battle.net
-bugzilla.redhat.com
-www.wordfence.com
-plugins.trac.wordpress.org
 access.redhat.com
 gitlab.gnome.org
 wordpress.org
