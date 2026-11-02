@@ -1,4 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-02T07:19:08.643Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-02T08:42:25.006Z - source: public vendor reports. Verify before blocking.
+sqlservr.exe
+p1.ps1
+comsvcs.dll
 yLP9m5J3i2Aw.exe
 9BY0tjwOc3ut.exe
 stepsecurity-dev-machine-guard.exe
@@ -214,7 +217,6 @@ tmp00055df5.dll
 f_006048.exe
 d4aa3e7010220ad1b458fac17039c274_63_Exe.exe
 chrome.exe
-comsvcs.dll
 Firefox.exe
 sckit.exe
 CagService.Exe
