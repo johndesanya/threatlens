@@ -1,14 +1,20 @@
-# ThreatLens IoC feed - generated 2026-11-02T23:16:05.469Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-02T23:55:18.771Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 www.wordfence.com
 plugins.trac.wordpress.org
 bugzilla.redhat.com
 go.temporal.io
 www.infinittna.com
 vuldb.com
+transfer.onlypsk.abrdns.com
+transfer.chinow.abrdns.com
+onlypsk.abrdns.com
+ntp.timesync.to
+chinow.abrdns.com
+0f851bdc9d.ddns.1433.eu.org
 sourceforge.net
 www.asus.com
 www.dell.com
