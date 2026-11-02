@@ -1,8 +1,14 @@
-# ThreatLens IoC feed - generated 2026-11-02T18:13:15.166Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-02T18:54:41.594Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+vk.com
+videostrong.cn
+mqtt.anyevonline.com
+file.anyevonline.com
+mqtt.szbboys.com
+anyevonline.com
 yourdomain.com
 polymarket.com
 x.azurecr.io.attacker.com
@@ -29,7 +35,6 @@ netmansrvdns.com
 goodnfortunes.com
 gomescareerplans.com
 felixfuturenext.com
-vk.com
 www.dell.com
 dnslog.cn
 consumer.huawei.com
@@ -41,6 +46,14 @@ details-plaintext-disclosure.md
 session-cookie-logout.md
 hub.ivanti.com
 www.linksys.com
+spf.rpost.net
+mx02b.pp-tp.com
+mx02a.pp-tp.com
+mx01b.pp-tp.com
+mx01a.pp-tp.com
+mackinengineering.com
+kingdomtitle.net
+insurancehouse.com
 newapi.pro
 jet-night.com
 t.com
@@ -109,7 +122,6 @@ ott.szbboys.com
 opostra.com
 nepiral.com
 mudponger.com
-mqtt.szbboys.com
 mopith.com
 mfiny.com
 mcstb.anyevonline.com
@@ -189,7 +201,6 @@ beezlepongmad.com
 beepityping.com
 bd-devmetrics.net
 auqee.com
-anyevonline.com
 analysis.shixunsuda.com
 amhib.com
 alptk.com
@@ -208,6 +219,7 @@ csc.com
 bankofbaroda.bank.in
 aflac.com
 accenture.com
+psm.knowbe4.com
 newmont.com
 delta.com
 ajg.com
@@ -497,7 +509,6 @@ spencers.com
 custmx.cscdns.net
 domain-contact.org
 vali.email
-psm.knowbe4.com
 easydmarc.pro
 us.ppe-hosted.com
 spf.sendinblue.com
