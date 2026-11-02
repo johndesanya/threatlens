@@ -1,8 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-02T20:18:35.330Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-02T21:03:55.514Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 openkruise-pprof-2026.md
 vk.com
 www.badcast.dev
@@ -50,6 +50,9 @@ details-plaintext-disclosure.md
 session-cookie-logout.md
 hub.ivanti.com
 www.linksys.com
+www.consalud.cl
+mta2p.consalud.cl
+mta1p.consalud.cl
 spf.rpost.net
 mx02b.pp-tp.com
 mx02a.pp-tp.com
@@ -2553,6 +2556,7 @@ gdpr-info.eu
 linkeders.net
 wget.sh
 natureforce.com
+anwo.cl
 pfizer.com
 mail.tm
 frontier.com
