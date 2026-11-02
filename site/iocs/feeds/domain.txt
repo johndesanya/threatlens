@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-02T02:26:47.421Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-02T03:12:29.057Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+hub.ivanti.com
 vuldb.com
 www.linksys.com
 mcniyfj5bw9b.feishu.cn
@@ -1961,7 +1962,6 @@ beta-manus.com
 code-desktop.com
 yeniavaz.com
 news.am
-hub.ivanti.com
 japantimes.co.jp
 saintpierredescorps.fr
 forums.ivanti.com
