@@ -1,8 +1,12 @@
-# ThreatLens IoC feed - generated 2026-11-02T15:16:50.791Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-02T15:58:35.005Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 www.rfc-editor.org
+www.wftpserver.com
+www.vulncheck.com
+shares.info
+documents.info
 www.regularlabs.com
 www.joomshaper.com
 www.rivingtonclarks.com
@@ -26,6 +30,7 @@ details-plaintext-disclosure.md
 session-cookie-logout.md
 hub.ivanti.com
 www.linksys.com
+www.astino.com.my
 zrawsomble.com
 zorapslwsnic.com
 zoraipinex.com
@@ -190,6 +195,7 @@ accenture.com
 newmont.com
 delta.com
 ajg.com
+exabytes.my
 gabonmeca.com
 wp.pl
 secop.gov.co
@@ -252,7 +258,6 @@ app.notion.com
 blog.gitea.com
 virtualine.net
 wl-wn530hg4b.md
-www.vulncheck.com
 report.md
 www.dlink.com
 www.danserinc.com
@@ -1440,7 +1445,6 @@ abbvie.com
 aa.com
 www.insidepassageelectric.org
 mahsing.com.my
-exabytes.my
 funio.com
 networksolutionsprivateregistration.com
 southwest.com
