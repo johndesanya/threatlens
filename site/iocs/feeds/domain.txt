@@ -1,15 +1,20 @@
-# ThreatLens IoC feed - generated 2026-11-02T18:54:41.594Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-02T20:18:35.330Z - source: public vendor reports. Verify before blocking.
 agent.id
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+openkruise-pprof-2026.md
 vk.com
+www.badcast.dev
+docs.crewai.com
+vuldb.com
 videostrong.cn
 mqtt.anyevonline.com
 file.anyevonline.com
 mqtt.szbboys.com
 anyevonline.com
 yourdomain.com
+www.ethernut.de
 polymarket.com
 x.azurecr.io.attacker.com
 azurecr.us
@@ -38,7 +43,6 @@ felixfuturenext.com
 www.dell.com
 dnslog.cn
 consumer.huawei.com
-vuldb.com
 ixbt.com
 manageassessment2-stored-xss.md
 updatedetailsfromfaculty-stored-xss.md
