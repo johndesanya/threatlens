@@ -1,8 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-02T21:41:11.975Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-02T22:26:27.831Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+vuldb.com
 sourceforge.net
 www.asus.com
 www.dell.com
@@ -10,7 +11,6 @@ openkruise-pprof-2026.md
 vk.com
 www.badcast.dev
 docs.crewai.com
-vuldb.com
 videostrong.cn
 mqtt.anyevonline.com
 file.anyevonline.com
