@@ -1,4 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-02T13:01:03.772Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-02T14:34:27.869Z - source: public vendor reports. Verify before blocking.
+vnces.exe
+bruzsvc.exe
+Visa_Details.msi
+Imp_Details.msi
+ftp.exe
 sqlservr.exe
 p1.ps1
 comsvcs.dll
@@ -642,7 +647,6 @@ ssh.exe
 sftp.exe
 nslookup.exe
 msbuild.exe
-ftp.exe
 websocket-sharp.dll
 viewer.exe
 styles.dat.exe
