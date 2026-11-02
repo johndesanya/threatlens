@@ -1,11 +1,13 @@
-# ThreatLens IoC feed - generated 2026-11-02T00:58:41.922Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-02T02:26:47.421Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+vuldb.com
+www.linksys.com
+mcniyfj5bw9b.feishu.cn
 vk.com
 window.name
 gitee.com
-vuldb.com
 gcloud-auth.pl
 20router.md
 deepveindrilling.com
@@ -1070,7 +1072,6 @@ cyberinsider.com
 camel.apache.org
 brightsec.com
 www.ysk.nilim.go.jp
-mcniyfj5bw9b.feishu.cn
 akosibrylle.me
 drbloop.dev
 jfyuhong.github.io
@@ -3585,7 +3586,6 @@ meeting.tencent.com
 mcp-source.online
 cache-mcp.com
 cache-cdn.org
-www.linksys.com
 www.cubecart.com
 www.c-mor.com
 san-sid.com
