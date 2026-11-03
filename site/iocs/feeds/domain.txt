@@ -1,8 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-03T14:31:08.549Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-03T15:10:54.789Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 pwn.sh
 logger.info
 app.name
