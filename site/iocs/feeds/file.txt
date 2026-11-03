@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-03T22:25:59.929Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-03T23:17:55.179Z - source: public vendor reports. Verify before blocking.
 wrapper_2022110901_windows_x86_64.exe
 watchdog.ps1
 sdk-agent.updater.exe

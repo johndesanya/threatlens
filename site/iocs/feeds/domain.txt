@@ -1,8 +1,10 @@
-# ThreatLens IoC feed - generated 2026-11-03T22:25:59.929Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-03T23:17:55.179Z - source: public vendor reports. Verify before blocking.
 agent.id
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+techora.ru
+www.irfanview.com
 vuldb.com
 issues.chromium.org
 session-fixation.md
@@ -91,6 +93,18 @@ d.uk
 cve.naver.com
 asiaone.com
 www.suse.com
+medinahospital.net
+sent-via.netsuite.com
+pardot.com
+bullhornmail.com
+spf.zohomail360.com
+spf.tipalti.com
+medinahealthcare.net
+2572949.spf04.hubspotemail.net
+roundglass.com
+innovativedriven.com
+fidepartners.com
+bliss1041.com
 spf.icontroller.eu
 4378822.spf05.hubspotemail.net
 spf.spamhero.com
@@ -146,19 +160,26 @@ n.co.kr
 t.or.kr
 mail.zendesk.com
 hover.com
+spf.mandrillapp.com
+psm.knowbe4.com
 easydmarc.pro
 aspmx3.googlemail.com
 webnic.cc
 namecheap.com
+spf-us.emailsignatures365.com
 bereskinparr.com
+ionos.com
 amazonses.com
 aspmx2.googlemail.com
 web.com
 spf.ess.barracudanetworks.com
 networksolutionsprivateregistration.com
+us-smtp-inbound-2.mimecast.com
+us-smtp-inbound-1.mimecast.com
 mimecast.com
 godaddy.com
 ovh.net
+salesforce.com
 tucows.com
 www.wordfence.com
 plugins.trac.wordpress.org
@@ -393,7 +414,6 @@ ajg.com
 aflac.com
 accenture.com
 www.openwall.com
-psm.knowbe4.com
 exabytes.my
 gabonmeca.com
 wp.pl
@@ -436,7 +456,6 @@ buenosaires.gob.ar
 bobibanking.com
 aruba.it
 163.com
-salesforce.com
 microsoftonline.com
 xshaon123.sbs
 xmsae.sbs
@@ -502,7 +521,6 @@ mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
 sendgrid.net
 skills.rs
-techora.ru
 rolimons.com
 hide.me
 battle.net
@@ -683,10 +701,8 @@ edgepilot.com
 spfa.cpmails.com
 spf.constantcontact.com
 spf.webapps.net
-ionos.com
 wildwestdomains.com
 www.miljaus.com
-us-smtp-inbound-1.mimecast.com
 register.it
 secureserver.net
 name.com
@@ -806,7 +822,6 @@ mail.lyserp.com
 lyserp.com
 messagegears.net
 autotask.net
-spf.mandrillapp.com
 bluehost.com
 relay.mailchannels.net
 gofile.io
@@ -1595,7 +1610,6 @@ weld8.org
 merical.com
 d240693b.ess.barracudanetworks.com
 d240693a.ess.barracudanetworks.com
-us-smtp-inbound-2.mimecast.com
 spf.exclaimer.net
 morrow-meadows.com
 www.whois.com
@@ -1831,7 +1845,6 @@ clinicaromero.com.1.0001.arsmtp.com
 clinicaromero-com.spf.smtp25.com
 d367126b.ess.barracudanetworks.com
 d367126a.ess.barracudanetworks.com
-spf-us.emailsignatures365.com
 sodali.com
 prosomnus.com
 oflaherty-law.com
