@@ -1,8 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-03T18:06:44.684Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-03T18:49:22.961Z - source: public vendor reports. Verify before blocking.
 agent.id
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+uploader.sh
 willowbox.xyz
 inkact.xyz
 friendsanchor.xyz
@@ -11,6 +12,9 @@ companyharbor.xyz
 beliefdesk.xyz
 iphones.ru
 vuldb.com
+gstreamer.freedesktop.org
+bugzilla.redhat.com
+access.redhat.com
 wiki.securepoint.de
 vk.com
 hub.ivanti.com
@@ -59,9 +63,6 @@ shutterstock.com
 gitlab.eclipse.org
 typo3.org
 gitlab.freedesktop.org
-gstreamer.freedesktop.org
-bugzilla.redhat.com
-access.redhat.com
 ott.szbboys.com
 www.manageengine.com
 metacpan.org
