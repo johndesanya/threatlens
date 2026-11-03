@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-02T23:55:18.771Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-03T00:56:37.857Z - source: public vendor reports. Verify before blocking.
 vnces.exe
 bruzsvc.exe
 Visa_Details.msi
