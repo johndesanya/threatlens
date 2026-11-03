@@ -1,8 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-03T12:06:31.393Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-03T12:58:10.218Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+dnslog.cn
 window.rs
 shutterstock.com
 vk.com
@@ -31,6 +32,20 @@ g.co
 d.uk
 cve.naver.com
 www.suse.com
+www.drouin.fr
+orange.fr
+nordnet.com
+www.cityofedgewater.org
+easydns.com
+d237548b.ess.barracudanetworks.com
+d237548a.ess.barracudanetworks.com
+www.vetstoria.com
+stspg-customer.com
+email.chargebee.com
+4928860.spf06.hubspotemail.net
+www.boardmanpark.com
+d180790b.ess.barracudanetworks.com
+d180790a.ess.barracudanetworks.com
 usclaims.com
 intacct.com
 printers.rs
@@ -49,9 +64,16 @@ mail.detronics.com.sg
 al.co.kr
 n.co.kr
 t.or.kr
+mail.zendesk.com
+easydmarc.pro
+aspmx3.googlemail.com
 webnic.cc
 namecheap.com
+amazonses.com
+aspmx2.googlemail.com
+spf.ess.barracudanetworks.com
 godaddy.com
+ovh.net
 www.wordfence.com
 plugins.trac.wordpress.org
 go.temporal.io
@@ -101,7 +123,6 @@ netmansrvdns.com
 goodnfortunes.com
 gomescareerplans.com
 felixfuturenext.com
-dnslog.cn
 consumer.huawei.com
 ixbt.com
 manageassessment2-stored-xss.md
@@ -295,7 +316,6 @@ www.openwall.com
 psm.knowbe4.com
 exabytes.my
 gabonmeca.com
-amazonses.com
 wp.pl
 secop.gov.co
 santander.com.br
@@ -397,11 +417,9 @@ www.thecondopros.com
 gkg.net
 wagyu.xyz
 servers.mcsv.net
-aspmx3.googlemail.com
 mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
-aspmx2.googlemail.com
 sendgrid.net
 skills.rs
 techora.ru
@@ -482,7 +500,6 @@ skcapitalpartners.com
 maskeddetails.com
 svedala.se
 spf.mailanyone.net
-mail.zendesk.com
 mail.nordicpeak.com
 mail.miljodata.se
 axiell.com
@@ -573,7 +590,6 @@ spencers.com
 custmx.cscdns.net
 domain-contact.org
 vali.email
-easydmarc.pro
 us.ppe-hosted.com
 spf.sendinblue.com
 mx.serviciodecorreo.es
@@ -591,7 +607,6 @@ spf.webapps.net
 ionos.com
 wildwestdomains.com
 web.com
-spf.ess.barracudanetworks.com
 www.miljaus.com
 us-smtp-inbound-1.mimecast.com
 register.it
@@ -721,7 +736,6 @@ relay.mailchannels.net
 mimecast.com
 gofile.io
 www.ibm.com
-ovh.net
 webhook.site
 delinea.com
 www.veeam.com
