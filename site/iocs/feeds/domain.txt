@@ -1,8 +1,15 @@
-# ThreatLens IoC feed - generated 2026-11-03T09:55:45.966Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-03T11:26:18.105Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+gitlab.eclipse.org
+typo3.org
+gitlab.freedesktop.org
+gstreamer.freedesktop.org
+bugzilla.redhat.com
+access.redhat.com
+ott.szbboys.com
 vk.com
 www.manageengine.com
 metacpan.org
@@ -21,8 +28,9 @@ i.us
 g.co
 d.uk
 cve.naver.com
-access.redhat.com
 www.suse.com
+usclaims.com
+intacct.com
 printers.rs
 www.kianho.com.sg
 usse.mschosting.com
@@ -44,7 +52,6 @@ namecheap.com
 godaddy.com
 www.wordfence.com
 plugins.trac.wordpress.org
-bugzilla.redhat.com
 go.temporal.io
 www.infinittna.com
 vuldb.com
@@ -179,7 +186,6 @@ prataw.com
 ploponix.com
 pikaroodle.com
 pibberflop.com
-ott.szbboys.com
 opostra.com
 nepiral.com
 mudponger.com
@@ -283,6 +289,7 @@ bankofbaroda.bank.in
 ajg.com
 aflac.com
 accenture.com
+www.openwall.com
 psm.knowbe4.com
 exabytes.my
 gabonmeca.com
@@ -412,7 +419,6 @@ d7es.tag1.com
 chicagolawyer.com
 verveba.com
 bereskinparr.com
-www.openwall.com
 www.jhamf.com
 jhamf.com.customers.whoisprivacycorp.com
 dongee.com
@@ -617,8 +623,6 @@ osac.openshift.io
 router.cc
 claude.md
 patchstack.com
-gitlab.freedesktop.org
-gstreamer.freedesktop.org
 changelog.com
 hackmd.io
 www.axigen.com
