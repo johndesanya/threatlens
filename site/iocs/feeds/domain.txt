@@ -1,10 +1,11 @@
-# ThreatLens IoC feed - generated 2026-11-03T21:09:16.210Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-03T21:43:05.005Z - source: public vendor reports. Verify before blocking.
 agent.id
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
 societegeneral-securedaccount.fr
-session-fixation.md
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 vuldb.com
+issues.chromium.org
+session-fixation.md
 newapi.pro
 jet-night.com
 www.mongodb.com
@@ -733,7 +734,6 @@ www.drupal.org
 www.imaginationtech.com
 dreamgroup.com
 calif.io
-issues.chromium.org
 eas-eng.com
 d206564b.ess.barracudanetworks.com
 d206564a.ess.barracudanetworks.com
