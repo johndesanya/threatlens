@@ -1,8 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-03T21:43:05.005Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-03T22:25:59.929Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 vuldb.com
 issues.chromium.org
 session-fixation.md
@@ -91,6 +91,15 @@ d.uk
 cve.naver.com
 asiaone.com
 www.suse.com
+spf.icontroller.eu
+4378822.spf05.hubspotemail.net
+spf.spamhero.com
+hillandbeyer.com
+hillandbeyer-com.p40.spamhero.net
+hillandbeyer-com.p30.spamhero.net
+hillandbeyer-com.p20.spamhero.net
+hillandbeyer-com.p10.spamhero.com
+darrequipment.com
 www.aikido.dev
 ellio.tech
 safewebservices.com
@@ -136,17 +145,21 @@ al.co.kr
 n.co.kr
 t.or.kr
 mail.zendesk.com
+hover.com
 easydmarc.pro
 aspmx3.googlemail.com
 webnic.cc
 namecheap.com
+bereskinparr.com
 amazonses.com
 aspmx2.googlemail.com
 web.com
 spf.ess.barracudanetworks.com
 networksolutionsprivateregistration.com
+mimecast.com
 godaddy.com
 ovh.net
+tucows.com
 www.wordfence.com
 plugins.trac.wordpress.org
 go.temporal.io
@@ -505,7 +518,6 @@ www.herodevs.com
 d7es.tag1.com
 chicagolawyer.com
 verveba.com
-bereskinparr.com
 www.jhamf.com
 jhamf.com.customers.whoisprivacycorp.com
 dongee.com
@@ -797,7 +809,6 @@ autotask.net
 spf.mandrillapp.com
 bluehost.com
 relay.mailchannels.net
-mimecast.com
 gofile.io
 www.ibm.com
 webhook.site
@@ -958,7 +969,6 @@ mx.zoho.com
 spf.has.pphosted.com
 zoho.com
 zcsend.net
-tucows.com
 s.com
 mattermost.com
 php.net
@@ -1301,7 +1311,6 @@ shops.shopify.com
 www.bassmedicalgroup.com
 paubox.com
 mx.paubox.com
-hover.com
 contactprivacy.com
 bassmedicalgroup.com
 www.althus.be
