@@ -1,8 +1,15 @@
-# ThreatLens IoC feed - generated 2026-11-03T18:49:22.961Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-03T19:37:37.279Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+session-fixation.md
+vuldb.com
+newapi.pro
+jet-night.com
+www.mongodb.com
+jira.mongodb.org
+elo-lang.org
 uploader.sh
 willowbox.xyz
 inkact.xyz
@@ -11,7 +18,6 @@ foldlodge.xyz
 companyharbor.xyz
 beliefdesk.xyz
 iphones.ru
-vuldb.com
 gstreamer.freedesktop.org
 bugzilla.redhat.com
 access.redhat.com
@@ -205,8 +211,6 @@ mx01a.pp-tp.com
 mackinengineering.com
 kingdomtitle.net
 insurancehouse.com
-newapi.pro
-jet-night.com
 t.com
 www.harrys.com.sg
 getz.com
@@ -1463,7 +1467,6 @@ pepsico.com
 jpmorganchase.com
 digimail.in
 att.com
-jira.mongodb.org
 d200858b.ess.barracudanetworks.com
 d200858a.ess.barracudanetworks.com
 authsmtp.com
