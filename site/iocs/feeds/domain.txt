@@ -1,8 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-03T16:37:26.154Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-03T17:26:58.892Z - source: public vendor reports. Verify before blocking.
 agent.id
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+wiki.securepoint.de
 vk.com
 hub.ivanti.com
 www.vulncheck.com
@@ -72,7 +73,10 @@ i.us
 g.co
 d.uk
 cve.naver.com
+asiaone.com
 www.suse.com
+safewebservices.com
+marlo-inc.com
 www.arthurchapman.com
 e2ma.net
 gov.il
@@ -120,7 +124,9 @@ webnic.cc
 namecheap.com
 amazonses.com
 aspmx2.googlemail.com
+web.com
 spf.ess.barracudanetworks.com
+networksolutionsprivateregistration.com
 godaddy.com
 ovh.net
 www.wordfence.com
@@ -652,7 +658,6 @@ spf.constantcontact.com
 spf.webapps.net
 ionos.com
 wildwestdomains.com
-web.com
 www.miljaus.com
 us-smtp-inbound-1.mimecast.com
 register.it
@@ -1488,7 +1493,6 @@ racetrakka.com.au
 www.insidepassageelectric.org
 mahsing.com.my
 funio.com
-networksolutionsprivateregistration.com
 mail.tm
 xerox.com
 twitch.tv
@@ -1694,7 +1698,6 @@ haberler.com
 www.sglacpas.com
 www.archivetj.com
 nvidia.custhelp.com
-asiaone.com
 urlquery.net
 advisory.splunk.com
 hofbrauhaus-freising.de

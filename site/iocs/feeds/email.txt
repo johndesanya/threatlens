@@ -1,4 +1,5 @@
-# ThreatLens IoC feed - generated 2026-11-03T16:37:26.154Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-03T17:26:58.892Z - source: public vendor reports. Verify before blocking.
+support@subnet.com
 customercare@gotowebinar.com
 ross.kelly@futurenet.com
 notice@n0n-cases.net
