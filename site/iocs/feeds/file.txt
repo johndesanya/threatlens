@@ -1,4 +1,26 @@
-# ThreatLens IoC feed - generated 2026-11-03T17:26:58.892Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-03T18:06:44.684Z - source: public vendor reports. Verify before blocking.
+wrapper_2022110901_windows_x86_64.exe
+watchdog.ps1
+sdk-agent.updater.exe
+sdk-agent.exe
+eld5.exe
+eld4.exe
+eld3.exe
+charityengine.exe
+ce_7.14.2_windows_x86_64.exe
+ce11.exe
+ce-installer_7.14.2_vbox-7.2.8.exe
+boinctray.exe
+boincscr.exe
+boinc.scr
+boinc.exe
+VirtualBox-7.2.8-r173730.msi
+Johan.msi
+Client.exe
+AdvancedWindowsManager.exe
+Updater.exe
+eld1.exe
+eld0.exe
 MoUsoCoreWorker.exe
 document.exe
 wg.exe
@@ -82,7 +104,6 @@ Etx.exe
 Edge.exe
 Court_Order_for_ADR.iso
 msedge.exe
-Updater.exe
 msra.exe
 cleaner.ps1
 QuickAssist.exe
@@ -418,8 +439,6 @@ ChromeUpdate.exe
 wscl.exe
 windirstat.exe
 eld2.exe
-eld1.exe
-eld0.exe
 Eld0.exe
 Adblock.dll
 10.exe

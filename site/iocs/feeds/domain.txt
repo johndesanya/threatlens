@@ -1,8 +1,16 @@
-# ThreatLens IoC feed - generated 2026-11-03T17:26:58.892Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-03T18:06:44.684Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+willowbox.xyz
+inkact.xyz
+friendsanchor.xyz
+foldlodge.xyz
+companyharbor.xyz
+beliefdesk.xyz
+iphones.ru
+vuldb.com
 wiki.securepoint.de
 vk.com
 hub.ivanti.com
@@ -133,7 +141,6 @@ www.wordfence.com
 plugins.trac.wordpress.org
 go.temporal.io
 www.infinittna.com
-vuldb.com
 transfer.onlypsk.abrdns.com
 transfer.chinow.abrdns.com
 onlypsk.abrdns.com
@@ -1883,7 +1890,6 @@ api.iquickline.com
 justin.sh
 hexane.cc
 gov.uk
-iphones.ru
 myenb.ch
 fh-hwz.ch
 bw-officeworld.de
