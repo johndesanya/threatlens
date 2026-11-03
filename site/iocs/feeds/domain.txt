@@ -1,11 +1,14 @@
-# ThreatLens IoC feed - generated 2026-11-03T06:15:32.849Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-03T07:02:17.382Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 vk.com
 access.redhat.com
 www.suse.com
+al.co.kr
+n.co.kr
+t.or.kr
 www.wordfence.com
 plugins.trac.wordpress.org
 bugzilla.redhat.com
