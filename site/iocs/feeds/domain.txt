@@ -1,8 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-04T18:11:30.715Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-04T18:55:27.948Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 insightjs.org
 insightjs.com
 handlers.rs
@@ -51,6 +51,14 @@ www.linksys.com
 www.asus.com
 www.totolink.net
 metacpan.org
+relay.powerdnn.com
+relay.mxout.managed.com
+hmail2.jitbit.com
+hmail.jitbit.com
+enchanthq.net
+spearcenter.com
+myronl.com
+megastarfinancial.com
 zb08252323.zmverify.zoho.eu
 us.kontron.com
 recruiter.net
@@ -78,17 +86,22 @@ gworks.com
 7808826.spf05.hubspotemail.net
 sigsauer.com
 san.ve
+safewebservices.com
 mailing.eqs.com
+spf.emailsignatures365.com
 mattermost.com
+spfa.cpmails.com
 amazonses.com
 web.com
 networksolutionsprivateregistration.com
 us-smtp-inbound-2.mimecast.com
+us-smtp-inbound-1.mimecast.com
 mimecast.com
 www.solarwinds.com
 zoho.com
 godaddy.com
 ovh.net
+salesforce.com
 20example.com
 jvn.jp
 techora.ru
@@ -204,7 +217,6 @@ hillandbeyer-com.p10.spamhero.com
 darrequipment.com
 www.aikido.dev
 ellio.tech
-safewebservices.com
 marlo-inc.com
 www.arthurchapman.com
 e2ma.net
@@ -259,8 +271,6 @@ bereskinparr.com
 ionos.com
 aspmx2.googlemail.com
 spf.ess.barracudanetworks.com
-us-smtp-inbound-1.mimecast.com
-salesforce.com
 tucows.com
 go.temporal.io
 www.infinittna.com
@@ -772,7 +782,6 @@ spf.mailjet.com
 mailgun.org
 withheldforprivacy.com
 edgepilot.com
-spfa.cpmails.com
 spf.constantcontact.com
 spf.webapps.net
 wildwestdomains.com
@@ -1035,7 +1044,6 @@ www.circlevillepolice.com
 etichscvpdis01.circlevillepolice.com
 www.programsforparents.org
 www.csba.org
-spf.emailsignatures365.com
 saashr.com
 www.nacm.org
 www.lifefone.com
