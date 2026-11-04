@@ -1,10 +1,18 @@
-# ThreatLens IoC feed - generated 2026-11-04T15:55:16.488Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-04T17:26:49.796Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
-haberkocaeli.com
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+insightjs.org
+insightjs.com
+handlers.rs
+auth.rs
+correlator.rs
+mod.rs
+www.spip.net
+blog.spip.net
 www.vulncheck.com
+haberkocaeli.com
 wordpress.org
 plugins.trac.wordpress.org
 shutterstock.com
@@ -49,8 +57,10 @@ gworks.com
 7808826.spf05.hubspotemail.net
 sigsauer.com
 san.ve
+mattermost.com
 us-smtp-inbound-2.mimecast.com
 mimecast.com
+www.solarwinds.com
 zoho.com
 godaddy.com
 20example.com
@@ -1025,7 +1035,6 @@ mx.zoho.com
 spf.has.pphosted.com
 zcsend.net
 s.com
-mattermost.com
 php.net
 virtualine.org
 sso.com
@@ -1412,7 +1421,6 @@ kb.cert.org
 www.nlnetlabs.nl
 www.esri.com
 popcorntimeupd.xyz
-mod.rs
 zipfile.rs
 path.rs
 aes.rs
@@ -1793,7 +1801,6 @@ datamons.org
 community.choclatey.org
 chocolatey.org
 choclatey.org
-www.solarwinds.com
 sieprevencion.cl
 www.csa.gov.sg
 jackalsyn.com
