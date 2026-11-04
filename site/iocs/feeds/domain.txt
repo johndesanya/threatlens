@@ -1,12 +1,12 @@
-# ThreatLens IoC feed - generated 2026-11-04T15:13:52.072Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-04T15:55:16.488Z - source: public vendor reports. Verify before blocking.
 agent.id
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 haberkocaeli.com
-plugins.trac.wordpress.org
 www.vulncheck.com
 wordpress.org
+plugins.trac.wordpress.org
 shutterstock.com
 hackmd.io
 trigger.dev
@@ -43,6 +43,7 @@ www.linksys.com
 www.asus.com
 www.totolink.net
 metacpan.org
+20collaborator.net
 palmvascular.com
 gworks.com
 7808826.spf05.hubspotemail.net
@@ -52,6 +53,7 @@ us-smtp-inbound-2.mimecast.com
 mimecast.com
 zoho.com
 godaddy.com
+20example.com
 jvn.jp
 techora.ru
 06-arcreel-provider-test-ssrf.md
@@ -4174,7 +4176,6 @@ atk.cc
 accounts.shop.com
 account.phones.com
 20secure.streaming.com
-20example.com
 0.cl
 jiejie.net
 cdns3.51quickfox.com
