@@ -1,8 +1,10 @@
-# ThreatLens IoC feed - generated 2026-11-04T21:49:07.050Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-04T22:32:34.968Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+theowo.club
+america250.org
 gate.rs
 www.vulncheck.com
 www.ibm.com
@@ -57,6 +59,20 @@ www.twcert.org.tw
 www.asus.com
 www.totolink.net
 metacpan.org
+spf.ca.exclaimer.net
+nucleus.com
+hamiltonhealthcenter.com
+19545932.spf10.hubspotemail.net
+jobmongers.com
+vinitgloves.com
+us.sendclean.net
+spf1.masivapp.com
+registrocolombia.co
+mail.sealmail.co
+dian.gov.co
+www.tfglondon.com
+eu-smtp-inbound-2.mimecast.com
+eu-smtp-inbound-1.mimecast.com
 www.avir.com
 d401547.b.ess.ca.barracudanetworks.com
 d401547.a.ess.ca.barracudanetworks.com
@@ -132,12 +148,16 @@ spf.emailsignatures365.com
 enom.com
 shops.shopify.com
 paubox.com
+spf.mandrillapp.com
+psm.knowbe4.com
 mattermost.com
 bluehost.com
 us.ppe-hosted.com
+markmonitor.com
 mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 spfa.cpmails.com
+spf.mtasv.net
 amazonses.com
 web.com
 networksolutionsprivateregistration.com
@@ -150,6 +170,8 @@ zoho.com
 godaddy.com
 ovh.net
 salesforce.com
+tucows.com
+publicdomainregistry.com
 20example.com
 jvn.jp
 techora.ru
@@ -306,8 +328,6 @@ al.co.kr
 n.co.kr
 t.or.kr
 hover.com
-spf.mandrillapp.com
-psm.knowbe4.com
 easydmarc.pro
 aspmx3.googlemail.com
 webnic.cc
@@ -317,7 +337,6 @@ bereskinparr.com
 ionos.com
 aspmx2.googlemail.com
 spf.ess.barracudanetworks.com
-tucows.com
 go.temporal.io
 www.infinittna.com
 transfer.onlypsk.abrdns.com
@@ -1706,7 +1725,6 @@ support.gandi.net
 contact.gandi.net
 securessl.net
 trinitycustom.com
-spf.mtasv.net
 gosecure.net
 ellijay-mx.email-protect.gosecure.net
 conaxtechnologies.com
@@ -1924,7 +1942,6 @@ mxb-00176a04.gslb.pphosted.com
 mxa-00176a04.gslb.pphosted.com
 mx0b-00176a04.pphosted.com
 mx0a-00176a04.pphosted.com
-markmonitor.com
 zb31427255.zmverify.zoho.com
 md02.com
 comlaude.com
@@ -4210,7 +4227,6 @@ joomlacontenteditor.net
 logs-endpoint.events.network
 dns.question.name
 setupsso.com
-publicdomainregistry.com
 pipe.ma
 passkeyms.com
 mysecurepasskey.com
