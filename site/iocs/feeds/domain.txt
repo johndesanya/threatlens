@@ -1,8 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-04T08:33:47.726Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-04T09:19:09.573Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 patchstack.com
 www.twcert.org.tw
 vuldb.com
@@ -10,7 +10,10 @@ www.linksys.com
 www.asus.com
 www.totolink.net
 metacpan.org
+sigsauer.com
 san.ve
+us-smtp-inbound-2.mimecast.com
+mimecast.com
 www.vulncheck.com
 jvn.jp
 techora.ru
@@ -185,9 +188,7 @@ aspmx2.googlemail.com
 web.com
 spf.ess.barracudanetworks.com
 networksolutionsprivateregistration.com
-us-smtp-inbound-2.mimecast.com
 us-smtp-inbound-1.mimecast.com
-mimecast.com
 godaddy.com
 ovh.net
 salesforce.com
