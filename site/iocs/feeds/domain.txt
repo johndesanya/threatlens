@@ -1,8 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-04T20:22:36.709Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-04T21:13:43.395Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 zulip.readthedocs.io
 files.dreamhost.com
 vk.com
@@ -54,6 +54,14 @@ www.twcert.org.tw
 www.asus.com
 www.totolink.net
 metacpan.org
+spf.dynect.net
+bmesend.com
+www.simplehuman.com
+email.rechargeapps.com
+www.fbcenla.org
+www.homesteadcreameryinc.com
+websitewelcome.com
+hhjcpa.com
 mailchimpapp.net
 ftmail.onlinereportinginc.com
 fleminghall.com
@@ -100,11 +108,15 @@ gworks.com
 sigsauer.com
 san.ve
 safewebservices.com
+mail.zendesk.com
 mailing.eqs.com
+bluehostprivatename.com
 spf.emailsignatures365.com
 enom.com
+shops.shopify.com
 paubox.com
 mattermost.com
+bluehost.com
 us.ppe-hosted.com
 mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
@@ -114,6 +126,7 @@ web.com
 networksolutionsprivateregistration.com
 us-smtp-inbound-2.mimecast.com
 us-smtp-inbound-1.mimecast.com
+sendgrid.net
 mimecast.com
 www.solarwinds.com
 zoho.com
@@ -275,7 +288,6 @@ mail.detronics.com.sg
 al.co.kr
 n.co.kr
 t.or.kr
-mail.zendesk.com
 hover.com
 spf.mandrillapp.com
 psm.knowbe4.com
@@ -619,7 +631,6 @@ gkg.net
 wagyu.xyz
 servers.mcsv.net
 dispatch-us.ppe-hosted.com
-sendgrid.net
 skills.rs
 rolimons.com
 hide.me
@@ -859,7 +870,6 @@ calif.io
 eas-eng.com
 d206564b.ess.barracudanetworks.com
 d206564a.ess.barracudanetworks.com
-bluehostprivatename.com
 proxy.dreamhost.com
 mail.aliquot.com
 dreamhost.com
@@ -916,7 +926,6 @@ mail.lyserp.com
 lyserp.com
 messagegears.net
 autotask.net
-bluehost.com
 relay.mailchannels.net
 gofile.io
 www.ibm.com
@@ -1411,7 +1420,6 @@ mail.bppa.org
 www.moxa.com
 www.horizonlaservision.com
 www.hrm.org
-shops.shopify.com
 www.bassmedicalgroup.com
 mx.paubox.com
 contactprivacy.com
