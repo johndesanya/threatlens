@@ -1,14 +1,17 @@
-# ThreatLens IoC feed - generated 2026-11-04T12:58:40.118Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-04T14:36:09.537Z - source: public vendor reports. Verify before blocking.
 agent.id
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 shutterstock.com
+hackmd.io
+www.vulncheck.com
 trigger.dev
-xenbits.xenproject.org
-www.canon-europe.com
 www.wordfence.com
 plugins.trac.wordpress.org
+docs.snowflake.com
+xenbits.xenproject.org
+www.canon-europe.com
 xxtt.me
 vvbin.me
 utn.edu.ar
@@ -47,7 +50,6 @@ us-smtp-inbound-2.mimecast.com
 mimecast.com
 zoho.com
 godaddy.com
-www.vulncheck.com
 jvn.jp
 techora.ru
 06-arcreel-provider-test-ssrf.md
@@ -771,7 +773,6 @@ gravity.sh
 osac.openshift.io
 router.cc
 changelog.com
-hackmd.io
 www.axigen.com
 www.jetbrains.com
 ca2.cloudflarecaptcha.com
@@ -2818,7 +2819,6 @@ actor.email
 www.apn-portal.com
 icons8.com
 frichetten.com
-docs.snowflake.com
 help.salesforce.com
 developer.salesforce.com
 group.name
