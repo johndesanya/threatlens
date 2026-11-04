@@ -1,8 +1,13 @@
-# ThreatLens IoC feed - generated 2026-11-04T18:55:27.948Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-04T20:22:36.709Z - source: public vendor reports. Verify before blocking.
 agent.id
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+zulip.readthedocs.io
+files.dreamhost.com
+vk.com
+vuldb.com
+www.linksys.com
 insightjs.org
 insightjs.com
 handlers.rs
@@ -46,11 +51,19 @@ downloads.php.net
 docs.seppmail.com
 patchstack.com
 www.twcert.org.tw
-vuldb.com
-www.linksys.com
 www.asus.com
 www.totolink.net
 metacpan.org
+mailchimpapp.net
+ftmail.onlinereportinginc.com
+fleminghall.com
+spf.smtp2go.com
+22717544.spf08.hubspotemail.net
+tritonclaims.com
+prairieridge.net
+parkell.com
+ciscocems.com
+cadorath.com
 relay.powerdnn.com
 relay.mxout.managed.com
 hmail2.jitbit.com
@@ -89,7 +102,12 @@ san.ve
 safewebservices.com
 mailing.eqs.com
 spf.emailsignatures365.com
+enom.com
+paubox.com
 mattermost.com
+us.ppe-hosted.com
+mx2-us1.ppe-hosted.com
+mx1-us1.ppe-hosted.com
 spfa.cpmails.com
 amazonses.com
 web.com
@@ -128,7 +146,6 @@ gstreamer.freedesktop.org
 bugzilla.redhat.com
 access.redhat.com
 wiki.securepoint.de
-vk.com
 hub.ivanti.com
 pwn.sh
 logger.info
@@ -566,7 +583,6 @@ www.dlink.com
 www.danserinc.com
 server2.raptoremailsecurity.com
 raptor.pccc.com
-enom.com
 synergy.co.id
 tema-hwt.de
 mx1.sitehub.io
@@ -602,8 +618,6 @@ www.thecondopros.com
 gkg.net
 wagyu.xyz
 servers.mcsv.net
-mx2-us1.ppe-hosted.com
-mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
 sendgrid.net
 skills.rs
@@ -771,7 +785,6 @@ spencers.com
 custmx.cscdns.net
 domain-contact.org
 vali.email
-us.ppe-hosted.com
 spf.sendinblue.com
 mx.serviciodecorreo.es
 d.spf.service-now.com
@@ -1361,7 +1374,6 @@ www.mitsubishielectric.com
 iconicsinc.my.site.com
 hub.docker.com
 dubaitechnicalservice.ae
-files.dreamhost.com
 changes-2fa-security.en.md
 wiki.qt.io
 codereview.qt-project.org
@@ -1401,7 +1413,6 @@ www.horizonlaservision.com
 www.hrm.org
 shops.shopify.com
 www.bassmedicalgroup.com
-paubox.com
 mx.paubox.com
 contactprivacy.com
 bassmedicalgroup.com
