@@ -1,13 +1,15 @@
-# ThreatLens IoC feed - generated 2026-11-04T00:58:30.502Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-04T02:22:30.821Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+vuldb.com
+www.totolink.net
+metacpan.org
 www.vulncheck.com
 jvn.jp
 techora.ru
 06-arcreel-provider-test-ssrf.md
-vuldb.com
 security.netapp.com
 03-umami-enforced-2fa-not-applied.md
 www.irfanview.com
@@ -78,7 +80,6 @@ typo3.org
 gitlab.freedesktop.org
 ott.szbboys.com
 www.manageengine.com
-metacpan.org
 open.kg
 www.samsungcheckout.com
 window.cnn.contentmodel.site
@@ -1366,7 +1367,6 @@ ahcg.com.my
 odoo.com
 rpc-server.cc
 joshua.hu
-www.totolink.net
 hdfdsi84j3h.top
 crypto-insider.top
 c85grt98sd.com
