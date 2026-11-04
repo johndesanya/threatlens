@@ -1,15 +1,17 @@
-# ThreatLens IoC feed - generated 2026-11-04T23:17:25.269Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-04T23:59:45.798Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.campcodes.com
+tracexlabs.com
+vuldb.com
 vk.com
 theowo.club
 america250.org
 gate.rs
 www.vulncheck.com
 www.ibm.com
-vuldb.com
 draw.io
 zulip.readthedocs.io
 files.dreamhost.com
@@ -59,6 +61,8 @@ www.twcert.org.tw
 www.asus.com
 www.totolink.net
 metacpan.org
+exabytes.co.id
+centratamagroup.com
 spf.ca.exclaimer.net
 nucleus.com
 hamiltonhealthcenter.com
