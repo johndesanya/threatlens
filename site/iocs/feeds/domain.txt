@@ -1,8 +1,30 @@
-# ThreatLens IoC feed - generated 2026-11-04T09:19:09.573Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-04T10:00:57.931Z - source: public vendor reports. Verify before blocking.
 agent.id
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+xxtt.me
+vvbin.me
+utn.edu.ar
+tavily.astrdark.cyou
+snap.senhai.store
+senhai.store
+quake.360.net
+pentagi.senhai.store
+new74.osxwrong.us.com
+mail2.bfvdoor.com
+koyeb.app
+fly.io
+fl0.com
+deta.space
+astrdark.cyou
+agent.xxtt.me
+crt.sh
+crates.io
+skill.md
+vercel.app
+downloads.php.net
+docs.seppmail.com
 patchstack.com
 www.twcert.org.tw
 vuldb.com
@@ -10,10 +32,15 @@ www.linksys.com
 www.asus.com
 www.totolink.net
 metacpan.org
+palmvascular.com
+gworks.com
+7808826.spf05.hubspotemail.net
 sigsauer.com
 san.ve
 us-smtp-inbound-2.mimecast.com
 mimecast.com
+zoho.com
+godaddy.com
 www.vulncheck.com
 jvn.jp
 techora.ru
@@ -189,7 +216,6 @@ web.com
 spf.ess.barracudanetworks.com
 networksolutionsprivateregistration.com
 us-smtp-inbound-1.mimecast.com
-godaddy.com
 ovh.net
 salesforce.com
 tucows.com
@@ -991,7 +1017,6 @@ mx3.zoho.com
 mx2.zoho.com
 mx.zoho.com
 spf.has.pphosted.com
-zoho.com
 zcsend.net
 s.com
 mattermost.com
@@ -1764,7 +1789,6 @@ chocolatey.org
 choclatey.org
 www.solarwinds.com
 sieprevencion.cl
-crt.sh
 www.csa.gov.sg
 jackalsyn.com
 srsnodgrass.com
@@ -1793,7 +1817,6 @@ onlyflies.buzz
 config-verify.helpdesk-api.com
 soul.md
 memory.md
-skill.md
 legal-records.us
 www.fortiguard.com
 www.ksog.org
@@ -1905,7 +1928,6 @@ gbrokl.space
 gboogl.com
 domain.com
 cynex.nict.go.jp
-crates.io
 cert.lv
 onapsis.com
 my.f5.com
@@ -2907,7 +2929,6 @@ windows.net
 msftconnecttest.com
 msftauth.net
 msauth.net
-vercel.app
 x.euono.com
 ua.forward-tv.net
 tuonew.oss-me-east-1.aliyuncs.com
@@ -4309,6 +4330,8 @@ ipfs.io
 rentry.co
 rubygems.org
 git.disroot.org
+sajuai.xyz
+hosting.kr
 upload.rightwidth.dev
 rightwidth.dev
 ldb.rightwidth.dev
@@ -4907,6 +4930,8 @@ escofiringbijou.com
 courtadr.com
 marialurdes.site
 harialurdes.site
+web.712019.xyz
+spaceship.com
 www.yahoo-cdn.it.com
 donalurdesconfeitos.site
 sevci.org
