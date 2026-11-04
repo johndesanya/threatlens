@@ -1,12 +1,16 @@
-# ThreatLens IoC feed - generated 2026-11-04T21:13:43.395Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-04T21:49:07.050Z - source: public vendor reports. Verify before blocking.
 agent.id
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+gate.rs
+www.vulncheck.com
+www.ibm.com
+vuldb.com
+draw.io
 zulip.readthedocs.io
 files.dreamhost.com
 vk.com
-vuldb.com
 www.linksys.com
 insightjs.org
 insightjs.com
@@ -16,7 +20,6 @@ correlator.rs
 mod.rs
 www.spip.net
 blog.spip.net
-www.vulncheck.com
 haberkocaeli.com
 wordpress.org
 plugins.trac.wordpress.org
@@ -54,6 +57,19 @@ www.twcert.org.tw
 www.asus.com
 www.totolink.net
 metacpan.org
+www.avir.com
+d401547.b.ess.ca.barracudanetworks.com
+d401547.a.ess.ca.barracudanetworks.com
+barracudanetworks.com
+www.standardsand.com
+standardsand.com.2.arsmtp.com
+standardsand.com.1.arsmtp.com
+www.strucsure.com
+47128378.spf05.hubspotemail.net
+www.aripack.com
+d57880b.ess.barracudanetworks.com
+d57880a.ess.barracudanetworks.com
+d57880.o.ess.barracudanetworks.com
 spf.dynect.net
 bmesend.com
 www.simplehuman.com
@@ -108,6 +124,7 @@ gworks.com
 sigsauer.com
 san.ve
 safewebservices.com
+spf.rpost.net
 mail.zendesk.com
 mailing.eqs.com
 bluehostprivatename.com
@@ -355,7 +372,6 @@ mx1.refsatel.com.ar
 www.consalud.cl
 mta2p.consalud.cl
 mta1p.consalud.cl
-spf.rpost.net
 mx02b.pp-tp.com
 mx02a.pp-tp.com
 mx01b.pp-tp.com
@@ -928,7 +944,6 @@ messagegears.net
 autotask.net
 relay.mailchannels.net
 gofile.io
-www.ibm.com
 webhook.site
 delinea.com
 www.veeam.com
