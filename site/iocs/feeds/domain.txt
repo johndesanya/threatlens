@@ -1,14 +1,16 @@
-# ThreatLens IoC feed - generated 2026-11-04T14:36:09.537Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-04T15:13:52.072Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+haberkocaeli.com
+plugins.trac.wordpress.org
+www.vulncheck.com
+wordpress.org
 shutterstock.com
 hackmd.io
-www.vulncheck.com
 trigger.dev
 www.wordfence.com
-plugins.trac.wordpress.org
 docs.snowflake.com
 xenbits.xenproject.org
 www.canon-europe.com
@@ -565,7 +567,6 @@ rolimons.com
 hide.me
 battle.net
 gitlab.gnome.org
-wordpress.org
 research.cleantalk.org
 plugins.svn.wordpress.org
 downloads.wordpress.org
