@@ -1,8 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-03T23:57:48.036Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-04T00:58:30.502Z - source: public vendor reports. Verify before blocking.
 agent.id
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 www.vulncheck.com
 jvn.jp
 techora.ru
@@ -4908,6 +4908,7 @@ donalurdesconfeitos.site
 sevci.org
 haypressinfo.com
 armbreaking.com
+acroni.si
 lojinhadaana.org
 minicursor.com
 bank.in
