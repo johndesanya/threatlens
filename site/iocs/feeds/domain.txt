@@ -1,8 +1,10 @@
-# ThreatLens IoC feed - generated 2026-11-04T12:10:30.848Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-04T12:58:40.118Z - source: public vendor reports. Verify before blocking.
 agent.id
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+shutterstock.com
+trigger.dev
 xenbits.xenproject.org
 www.canon-europe.com
 www.wordfence.com
@@ -113,7 +115,6 @@ dnslog.cn
 www.incibe.es
 git.kernel.org
 window.rs
-shutterstock.com
 gitlab.eclipse.org
 typo3.org
 gitlab.freedesktop.org
@@ -249,7 +250,6 @@ azurecr.us
 azurecr.io
 azurecr.de
 azurecr.cn
-trigger.dev
 cal.com
 www.rfc-editor.org
 www.wftpserver.com
