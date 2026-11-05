@@ -1,7 +1,19 @@
-# ThreatLens IoC feed - generated 2026-11-05T09:59:47.514Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-05T11:28:24.317Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+cyberasia.io
+check-host.net
+america250.org
+trigger.dev
+static.flux-telemetry.com
+a.plerdy.com
+theowo.club
+ysoserial.net
+vdfccjpnedujhrzscjtq.supabase.co
+auth.qgtxtebl.workers.dev
+asp.net
+access.redhat.com
 www.ddduuuppp.com
 sqlserver-sqlite.com
 nginxmysql.com
@@ -21,6 +33,11 @@ default.md
 csrf-pico-save-upload.md
 www.campcodes.com
 tracexlabs.com
+amx01.admiral.ne.jp
+7plus.co.jp
+peopleanswers.com
+hosepower.com
+enterpriseregistration.windows.net
 h.com
 zohomail360.com.au
 www.calvary.qld.edu.au
@@ -95,6 +112,8 @@ hermes.hosts.co.uk
 athena.hosts.co.uk
 enom.com
 autotask.net
+hover.com
+contactprivacy.com
 easydmarc.pro
 authsmtp.com
 mx.serviciodecorreo.es
@@ -112,14 +131,13 @@ spf.mtasv.net
 aspmx2.googlemail.com
 web.com
 networksolutionsprivateregistration.com
+sendgrid.net
 mimecast.com
 godaddy.com
 secureserver.net
 tucows.com
 www.vulncheck.com
 vk.com
-theowo.club
-america250.org
 gate.rs
 www.ibm.com
 draw.io
@@ -142,7 +160,6 @@ haberkocaeli.com
 wordpress.org
 shutterstock.com
 hackmd.io
-trigger.dev
 docs.snowflake.com
 xenbits.xenproject.org
 www.canon-europe.com
@@ -280,7 +297,6 @@ spfa.cpmails.com
 amazonses.com
 us-smtp-inbound-2.mimecast.com
 us-smtp-inbound-1.mimecast.com
-sendgrid.net
 www.solarwinds.com
 zoho.com
 ovh.net
@@ -310,7 +326,6 @@ beliefdesk.xyz
 iphones.ru
 gstreamer.freedesktop.org
 bugzilla.redhat.com
-access.redhat.com
 wiki.securepoint.de
 hub.ivanti.com
 pwn.sh
@@ -441,7 +456,6 @@ mail.detronics.com.sg
 al.co.kr
 n.co.kr
 t.or.kr
-hover.com
 aspmx3.googlemail.com
 webnic.cc
 namecheap.com
@@ -1551,7 +1565,6 @@ www.horizonlaservision.com
 www.hrm.org
 www.bassmedicalgroup.com
 mx.paubox.com
-contactprivacy.com
 bassmedicalgroup.com
 www.althus.be
 petroil.com.mx
@@ -2389,7 +2402,6 @@ bcuxktpfkz.kumamoto-city.jp
 1dwsd1dedf.kumamoto-city.jp
 chromereleases.googleblog.com
 anitab.org
-asp.net
 rasd-state.ws
 crasadr.com
 certa.website

@@ -1,4 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-05T09:59:47.514Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-05T11:28:24.317Z - source: public vendor reports. Verify before blocking.
+samlib.dll
+rsndispot.sys
+Rpcrt4.dll
+w3wp.exe
+7z.exe
 graphics-hook-filter64.dll
 Utilities.Sync.dll
 libcef.dll
@@ -75,7 +80,6 @@ ScriptRunner.exe
 PatchMyPC-ScriptRunner.exe
 Microsoft.HostIntegration.Connectors.dll
 dllhost.exe
-w3wp.exe
 nenc.exe
 wmiprvse.exe
 bash.exe
@@ -284,7 +288,6 @@ Disk2vhd.dll
 Contoso-Poedit.exe
 7-zip32.dll
 7-zip.dll
-7z.exe
 w3wp.Exe
 godmemshell.Dll
 MicrosoftEdgeUpdate.Exe
