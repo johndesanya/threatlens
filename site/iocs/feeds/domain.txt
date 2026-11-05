@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-05T12:15:38.432Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-05T13:03:52.037Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+trigger.dev
 deb.debian.org
 azure.archive.ubuntu.com
 mygta6.icu
@@ -10,7 +11,6 @@ cyberleek.click
 cyberasia.io
 check-host.net
 america250.org
-trigger.dev
 static.flux-telemetry.com
 a.plerdy.com
 theowo.club
@@ -26,8 +26,11 @@ xcai.pro
 webhook.site
 axeghost.offprint.app
 codeberg.org
-iterm2.com
+xint.io
 www.wordfence.com
+labs.watchtowr.com
+www.slcyber.io
+iterm2.com
 plugins.trac.wordpress.org
 plugins.svn.wordpress.org
 vuldb.com
@@ -1151,7 +1154,6 @@ object.process.parent.id
 object.name
 djava.net
 issues.apache.org
-xint.io
 openaigpt4v.com
 ghidra-server.org
 ti.wordfence.io
@@ -2524,7 +2526,6 @@ arena.apexfdn.xyz
 arena.apexaccs.org
 apexaccs.org
 0auth-chromium.com
-labs.watchtowr.com
 loader.sh
 taspenlife.com
 licindia.in
@@ -4085,7 +4086,6 @@ cache-cdn.org
 www.cubecart.com
 www.c-mor.com
 san-sid.com
-www.slcyber.io
 redirector.domain.com
 gs.info
 gr.name
