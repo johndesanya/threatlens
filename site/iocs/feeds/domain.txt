@@ -1,16 +1,19 @@
-# ThreatLens IoC feed - generated 2026-11-05T14:33:28.221Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-05T15:21:10.727Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+files.dreamhost.com
 evilwebsite.com
+bugzilla.redhat.com
 trigger.dev
+mcp-stdio-workspace-unauthenticated-process-execution.md
+vuldb.com
+gitlab.eclipse.org
 www.igorslab.de
 cybernews.com
 dbgpt-skill-template-jinja2-ssti-rce.md
-vuldb.com
 lists.apache.org
 dbgpt-hf-model-trust-remote-code-default-remote-code-execution.md
-gitlab.eclipse.org
 deb.debian.org
 azure.archive.ubuntu.com
 mygta6.icu
@@ -18,6 +21,7 @@ gta6cyberleek.com
 cyberleek.click
 cyberasia.io
 check-host.net
+u.today
 america250.org
 static.flux-telemetry.com
 a.plerdy.com
@@ -162,7 +166,6 @@ www.ibm.com
 draw.io
 www.gazeteburdur.com.tr
 zulip.readthedocs.io
-files.dreamhost.com
 www.linksys.com
 insightjs.org
 insightjs.com
@@ -344,7 +347,6 @@ companyharbor.xyz
 beliefdesk.xyz
 iphones.ru
 gstreamer.freedesktop.org
-bugzilla.redhat.com
 wiki.securepoint.de
 hub.ivanti.com
 pwn.sh
