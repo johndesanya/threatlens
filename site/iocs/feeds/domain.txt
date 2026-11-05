@@ -1,10 +1,16 @@
-# ThreatLens IoC feed - generated 2026-11-05T18:04:02.138Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-05T18:52:50.271Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 lists.mindrot.org
 users.email
 bugzilla.redhat.com
+socket.io
+www.openssh.org
+sshhole.com
+news.ycombinator.com
+marc.info
+hachyderm.io
 airpress.kz
 pchocasi.com.tr
 regex.cc
@@ -69,6 +75,7 @@ default.md
 csrf-pico-save-upload.md
 www.campcodes.com
 tracexlabs.com
+alpinelinux.org
 zoomconnect.workportalsso.com
 zoomconnect.ssomeetingportal.com
 workportalsso.com
@@ -1079,7 +1086,6 @@ ua.news
 abraxaslabs.tech
 plugins.inc
 ntpd.inc
-socket.io
 csirt.divd.nl
 security.md
 www.cnvd.org.cn
