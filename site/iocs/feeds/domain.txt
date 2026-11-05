@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-05T09:24:35.399Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-05T09:59:47.514Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 www.ddduuuppp.com
 sqlserver-sqlite.com
 nginxmysql.com
@@ -135,6 +135,9 @@ correlator.rs
 mod.rs
 www.spip.net
 blog.spip.net
+www.koreatimes.co.kr
+www.hk01.com
+cloudsecurityalliance.org
 haberkocaeli.com
 wordpress.org
 shutterstock.com
