@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-05T05:31:41.522Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-05T06:21:49.598Z - source: public vendor reports. Verify before blocking.
 Utilities.Sync.dll
 libcef.dll
 wrapper_2022110901_windows_x86_64.exe
