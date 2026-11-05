@@ -1,7 +1,10 @@
-# ThreatLens IoC feed - generated 2026-11-05T18:52:50.271Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-05T19:40:49.122Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.vulncheck.com
+dify-sandbox-hardcoded-default-api-key.md
+vuldb.com
 lists.mindrot.org
 users.email
 bugzilla.redhat.com
@@ -24,7 +27,6 @@ siberguvenlik.gov.tr
 agentscope-bash-tool-tee-misclassification-arbitrary-file-write.md
 agentscope-agent-service-x-user-id-missing-authentication.md
 itsourcecode.com
-vuldb.com
 evilwebsite.com
 trigger.dev
 mcp-stdio-workspace-unauthenticated-process-execution.md
@@ -221,7 +223,6 @@ register.rsvpconnect-events.com
 godaddy.com
 secureserver.net
 tucows.com
-www.vulncheck.com
 vk.com
 gate.rs
 www.ibm.com
