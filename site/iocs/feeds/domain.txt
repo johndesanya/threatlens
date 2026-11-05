@@ -1,7 +1,10 @@
-# ThreatLens IoC feed - generated 2026-11-05T17:34:34.955Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-05T18:04:02.138Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+lists.mindrot.org
+users.email
+bugzilla.redhat.com
 airpress.kz
 pchocasi.com.tr
 regex.cc
@@ -17,7 +20,6 @@ agentscope-agent-service-x-user-id-missing-authentication.md
 itsourcecode.com
 vuldb.com
 evilwebsite.com
-bugzilla.redhat.com
 trigger.dev
 mcp-stdio-workspace-unauthenticated-process-execution.md
 gitlab.eclipse.org
@@ -3281,6 +3283,7 @@ samltool.io
 instance-udppxf-relay.screenconnect.com
 icci-sa.com
 allsecured.net
+carloxmextos.org
 winandoffice.com
 web-hosting.com
 southwest.com
@@ -4254,6 +4257,8 @@ polygon.drpc.org
 gl1nto.spiintforge.ru
 chainlist.org
 sprinthost.ru
+wekash.net
+splace.co.za
 micronsoftwares.com
 dtm.kijangturbo88.top
 lockwall.xyz
