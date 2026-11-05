@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-05T06:21:49.598Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-05T07:12:50.740Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+iterm2.com
 www.wordfence.com
 plugins.trac.wordpress.org
 plugins.svn.wordpress.org
@@ -13,6 +14,8 @@ default.md
 csrf-pico-save-upload.md
 www.campcodes.com
 tracexlabs.com
+www.custombakehouse.com
+custombakehouse.com
 mkg-kirchrode.de
 spf.afas.online
 customssupport.com
