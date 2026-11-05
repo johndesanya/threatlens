@@ -1,4 +1,5 @@
-# ThreatLens IoC feed - generated 2026-11-05T08:37:32.612Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-05T09:24:35.399Z - source: public vendor reports. Verify before blocking.
+graphics-hook-filter64.dll
 Utilities.Sync.dll
 libcef.dll
 wrapper_2022110901_windows_x86_64.exe
@@ -74,7 +75,6 @@ ScriptRunner.exe
 PatchMyPC-ScriptRunner.exe
 Microsoft.HostIntegration.Connectors.dll
 dllhost.exe
-graphics-hook-filter64.dll
 w3wp.exe
 nenc.exe
 wmiprvse.exe

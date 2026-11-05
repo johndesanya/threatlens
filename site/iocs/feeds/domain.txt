@@ -1,7 +1,14 @@
-# ThreatLens IoC feed - generated 2026-11-05T08:37:32.612Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-05T09:24:35.399Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+www.ddduuuppp.com
+sqlserver-sqlite.com
+nginxmysql.com
+xcai.pro
+webhook.site
+axeghost.offprint.app
+codeberg.org
 iterm2.com
 www.wordfence.com
 plugins.trac.wordpress.org
@@ -14,6 +21,11 @@ default.md
 csrf-pico-save-upload.md
 www.campcodes.com
 tracexlabs.com
+h.com
+zohomail360.com.au
+www.calvary.qld.edu.au
+spf.schoolbox.cloud
+spf-au.emailsignatures365.com
 www.custombakehouse.com
 custombakehouse.com
 mkg-kirchrode.de
@@ -90,6 +102,7 @@ aspmx5.googlemail.com
 mx01.ionos.de
 mx00.ionos.de
 eu.ionos.com
+mailgun.org
 mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
@@ -930,7 +943,6 @@ c.spf.service-now.com
 b.spf.service-now.com
 aspmx.pardot.com
 spf.mailjet.com
-mailgun.org
 withheldforprivacy.com
 edgepilot.com
 spf.webapps.net
@@ -1052,7 +1064,6 @@ lyserp.com
 messagegears.net
 relay.mailchannels.net
 gofile.io
-webhook.site
 delinea.com
 www.veeam.com
 maxwintodaybtc.com
@@ -1122,9 +1133,6 @@ xint.io
 openaigpt4v.com
 ghidra-server.org
 ti.wordfence.io
-www.ddduuuppp.com
-sqlserver-sqlite.com
-nginxmysql.com
 zpr.io
 us968web-zoom.us
 yandex.ru
@@ -1771,7 +1779,6 @@ aroshka.cloud
 ipinfo.io
 archivetj.com
 www.bookstackapp.com
-codeberg.org
 marshal.cc
 www.grayback.es
 krakenhire.com
@@ -2080,7 +2087,6 @@ analyzer.md
 advisories.stormshield.eu
 cipher-proxy.sh
 run.sh
-xcai.pro
 container.id
 api.deepseek.com
 java.io
