@@ -1,18 +1,26 @@
-# ThreatLens IoC feed - generated 2026-11-05T15:21:10.727Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-05T15:58:03.567Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+pchocasi.com.tr
+www.rootevidence.com
+schemas.xmlsoap.org
+support.trellix.com
 files.dreamhost.com
+lists.apache.org
+siberguvenlik.gov.tr
+agentscope-bash-tool-tee-misclassification-arbitrary-file-write.md
+agentscope-agent-service-x-user-id-missing-authentication.md
+itsourcecode.com
+vuldb.com
 evilwebsite.com
 bugzilla.redhat.com
 trigger.dev
 mcp-stdio-workspace-unauthenticated-process-execution.md
-vuldb.com
 gitlab.eclipse.org
 www.igorslab.de
 cybernews.com
 dbgpt-skill-template-jinja2-ssti-rce.md
-lists.apache.org
 dbgpt-hf-model-trust-remote-code-default-remote-code-execution.md
 deb.debian.org
 azure.archive.ubuntu.com
@@ -1737,7 +1745,6 @@ www.ysk.nilim.go.jp
 akosibrylle.me
 drbloop.dev
 jfyuhong.github.io
-itsourcecode.com
 leading-to-arbitrary-command-execution.md
 glueckauf-vermessung.de
 addnewstudent-stored-xss.md
