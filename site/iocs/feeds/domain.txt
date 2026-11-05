@@ -1,8 +1,16 @@
-# ThreatLens IoC feed - generated 2026-11-05T13:03:52.037Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-05T14:33:28.221Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+evilwebsite.com
 trigger.dev
+www.igorslab.de
+cybernews.com
+dbgpt-skill-template-jinja2-ssti-rce.md
+vuldb.com
+lists.apache.org
+dbgpt-hf-model-trust-remote-code-default-remote-code-execution.md
+gitlab.eclipse.org
 deb.debian.org
 azure.archive.ubuntu.com
 mygta6.icu
@@ -33,8 +41,11 @@ www.slcyber.io
 iterm2.com
 plugins.trac.wordpress.org
 plugins.svn.wordpress.org
-vuldb.com
 www.sourcecodester.com
+muckduck.duckdns.org
+muckdeveloper.com
+muckcoding.com
+muckanthropic.com
 podrobno.uz
 www.tp-link.com
 default.md
@@ -376,7 +387,6 @@ dnslog.cn
 www.incibe.es
 git.kernel.org
 window.rs
-gitlab.eclipse.org
 typo3.org
 gitlab.freedesktop.org
 ott.szbboys.com
