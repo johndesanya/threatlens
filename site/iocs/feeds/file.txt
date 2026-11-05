@@ -1,4 +1,6 @@
-# ThreatLens IoC feed - generated 2026-11-05T02:32:02.939Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-05T03:12:57.215Z - source: public vendor reports. Verify before blocking.
+Utilities.Sync.dll
+libcef.dll
 wrapper_2022110901_windows_x86_64.exe
 watchdog.ps1
 sdk-agent.updater.exe
@@ -462,7 +464,6 @@ launcher.vbs
 IntelDSA.exe
 vssadmin.exe
 ComprovantePDF.exe
-libcef.dll
 chrome_elf.dll
 QnwPlayer.exe
 QnWallpeper.exe

@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-05T02:32:02.939Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-05T03:12:57.215Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+www.tp-link.com
 default.md
 vuldb.com
 csrf-pico-save-upload.md
@@ -37,6 +38,14 @@ www.wordfence.com
 docs.snowflake.com
 xenbits.xenproject.org
 www.canon-europe.com
+tawk.to
+sogou-cdn.com
+oxy.net
+n.top
+n.com
+gfun.top
+g-cdn.com
+config.pinyin.sogou.com
 xxtt.me
 vvbin.me
 utn.edu.ar
@@ -1203,7 +1212,6 @@ cobblestonecafe.us
 chapalasrealtor.com
 adacompliantsigns.online
 security.tanium.com
-www.tp-link.com
 connect.trezor.io
 psirt.watchguard.com
 agents.md
