@@ -1,11 +1,12 @@
-# ThreatLens IoC feed - generated 2026-11-06T20:17:55.813Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-06T21:05:41.360Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.tp-link.com
+psirt.global.sonicwall.com
 xss.today
 xss.mx
 exploit.in
-psirt.global.sonicwall.com
 trigger.dev
 docs.snowflake.com
 www.jetbrains.com
@@ -42,6 +43,12 @@ gstreamer.freedesktop.org
 www.foxit.com
 rooms-home93914.space
 www.ibm.com
+titan.cfm.com.mx
+mail.cfm.com.mx
+cfm.com.mx
+insationtech.com
+xinosconstructioncorp.com
+mail.xinoscorp.com
 mx104.everycloudtech.us
 mx103.everycloudtech.us
 mx102.everycloudtech.us
@@ -150,7 +157,6 @@ muckdeveloper.com
 muckcoding.com
 muckanthropic.com
 podrobno.uz
-www.tp-link.com
 default.md
 csrf-pico-save-upload.md
 www.campcodes.com
@@ -2864,6 +2870,8 @@ asianstudies.secboxes.com
 asianstudies.org
 iseekaigogo.com
 gh-token-monitor.sh
+simplexengg.in
+dipecarr.com.br
 kibana.alert.rule.name
 supportaru.serveftp.com
 stage-fashion365.vercel.app
