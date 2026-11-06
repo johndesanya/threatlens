@@ -1,7 +1,10 @@
-# ThreatLens IoC feed - generated 2026-11-06T13:00:05.504Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-06T14:32:30.314Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+trigger.dev
+deepseek-reasonix-agents-md-prompt-injection-command-execution.md
+vuldb.com
 dolat.ir
 www.jetbrains.com
 git-scm.com
@@ -23,7 +26,8 @@ gstreamer.freedesktop.org
 www.foxit.com
 rooms-home93914.space
 www.ibm.com
-vuldb.com
+adaglobal.com
+6117378.spf02.hubspotemail.net
 al.com
 univalley.top
 pur.st
@@ -37,11 +41,14 @@ www.rotstein-shiffman.com
 rotstein-shiffman.com.2.0001.arsmtp.com
 rotstein-shiffman.com.1.0001.arsmtp.com
 appriver.com
+mktomail.com
+www.suse.com
 workerstats.net
 supertrap.net
 niceer.net
 datamons.org
 godaddy.com
+ubuntu.com
 api.ipify.org
 ip-api.com
 ipinfo.io
@@ -75,7 +82,6 @@ agentscope-bash-tool-tee-misclassification-arbitrary-file-write.md
 agentscope-agent-service-x-user-id-missing-authentication.md
 itsourcecode.com
 evilwebsite.com
-trigger.dev
 mcp-stdio-workspace-unauthenticated-process-execution.md
 gitlab.eclipse.org
 www.igorslab.de
@@ -512,7 +518,6 @@ g.co
 d.uk
 cve.naver.com
 asiaone.com
-www.suse.com
 medinahospital.net
 sent-via.netsuite.com
 pardot.com
@@ -1054,7 +1059,6 @@ server-alpha.newpatient.link
 sanirent.com.mx
 spf-00129a01.pphosted.com
 softwareone.com
-mktomail.com
 corehub.net
 transmail.net.au
 syrahost.com
@@ -2016,7 +2020,6 @@ mx-in02.eu.retarus.com
 mx-in01.eu.retarus.com
 swatchrc.in
 www.php.net
-ubuntu.com
 host.id
 process.parent.name
 process.name
