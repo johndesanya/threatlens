@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-06T21:05:41.360Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-06T21:40:27.816Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 www.tp-link.com
 psirt.global.sonicwall.com
 xss.today
@@ -43,6 +43,9 @@ gstreamer.freedesktop.org
 www.foxit.com
 rooms-home93914.space
 www.ibm.com
+spf-inm.eqs-service.com
+mutares.com
+mail.provantis.de
 titan.cfm.com.mx
 mail.cfm.com.mx
 cfm.com.mx
@@ -74,11 +77,15 @@ rotstein-shiffman.com.2.0001.arsmtp.com
 rotstein-shiffman.com.1.0001.arsmtp.com
 appriver.com
 mktomail.com
+mailing.eqs.com
+servers.mcsv.net
 relay.mailchannels.net
 mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
+ionos.com
 wildwestdomains.com
+sendgrid.net
 www.suse.com
 workerstats.net
 supertrap.net
@@ -299,7 +306,6 @@ spf.mtasv.net
 aspmx2.googlemail.com
 web.com
 networksolutionsprivateregistration.com
-sendgrid.net
 mimecast.com
 ydgjgdbhoa.shifts.icu
 register.rsvpconnect-events.com
@@ -447,7 +453,6 @@ san.ve
 safewebservices.com
 spf.rpost.net
 mail.zendesk.com
-mailing.eqs.com
 bluehostprivatename.com
 spf.emailsignatures365.com
 shops.shopify.com
@@ -616,7 +621,6 @@ webnic.cc
 namecheap.com
 spf-us.emailsignatures365.com
 bereskinparr.com
-ionos.com
 spf.ess.barracudanetworks.com
 go.temporal.io
 www.infinittna.com
@@ -944,7 +948,6 @@ www.cmd-natur.de
 www.thecondopros.com
 gkg.net
 wagyu.xyz
-servers.mcsv.net
 skills.rs
 rolimons.com
 hide.me
