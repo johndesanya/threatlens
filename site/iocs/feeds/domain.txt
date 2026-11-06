@@ -1,7 +1,12 @@
-# ThreatLens IoC feed - generated 2026-11-06T22:25:40.659Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-06T23:14:35.987Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+check.sh
+sshhole.com
+bugzilla.redhat.com
+vuldb.com
+www.ugcs.com
 www.tp-link.com
 psirt.global.sonicwall.com
 xss.today
@@ -17,7 +22,6 @@ claude.md
 rubygems.org
 www.mansjumis.lv
 menu.cc
-vuldb.com
 www.vulncheck.com
 vagon.online
 socket.io
@@ -37,10 +41,12 @@ astanatimes.com
 vk.com
 f.pylrk.cc
 gitlab.freedesktop.org
-bugzilla.redhat.com
 access.redhat.com
 gstreamer.freedesktop.org
+niteshsurana.com
 docs.originlab.com
+www.libreoffice.org
+gitlab.gnome.org
 www.foxit.com
 rooms-home93914.space
 www.ibm.com
@@ -108,7 +114,6 @@ dify-sandbox-hardcoded-default-api-key.md
 lists.mindrot.org
 users.email
 www.openssh.org
-sshhole.com
 news.ycombinator.com
 marc.info
 hachyderm.io
@@ -953,7 +958,6 @@ skills.rs
 rolimons.com
 hide.me
 battle.net
-gitlab.gnome.org
 research.cleantalk.org
 downloads.wordpress.org
 core.trac.wordpress.org
@@ -2396,7 +2400,6 @@ flareru.live
 ransomlook.io
 map.ch
 ptelcom.com
-www.libreoffice.org
 cert.pl
 wibu-bau-bawang.online
 transfer.sh
