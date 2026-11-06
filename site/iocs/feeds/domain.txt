@@ -1,12 +1,13 @@
-# ThreatLens IoC feed - generated 2026-11-06T16:34:12.435Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-06T17:24:44.408Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 www.mansjumis.lv
 menu.cc
 vuldb.com
 www.vulncheck.com
 vagon.online
+socket.io
 edm.kamsoft.pl
 trigger.dev
 deepseek-reasonix-agents-md-prompt-injection-command-execution.md
@@ -31,6 +32,15 @@ gstreamer.freedesktop.org
 www.foxit.com
 rooms-home93914.space
 www.ibm.com
+mx104.everycloudtech.us
+mx103.everycloudtech.us
+mx102.everycloudtech.us
+mx101.everycloudtech.us
+spf.windsurfercrs.com
+relay.kinstamailservice.com
+metalloidcorp.com
+lakelawnresort.com
+ar500armor.com
 adaglobal.com
 6117378.spf02.hubspotemail.net
 al.com
@@ -47,11 +57,17 @@ rotstein-shiffman.com.2.0001.arsmtp.com
 rotstein-shiffman.com.1.0001.arsmtp.com
 appriver.com
 mktomail.com
+relay.mailchannels.net
+mx2-us1.ppe-hosted.com
+mx1-us1.ppe-hosted.com
+dispatch-us.ppe-hosted.com
+wildwestdomains.com
 www.suse.com
 workerstats.net
 supertrap.net
 niceer.net
 datamons.org
+zoho.com
 godaddy.com
 ubuntu.com
 api.ipify.org
@@ -66,7 +82,6 @@ remark42.com
 dify-sandbox-hardcoded-default-api-key.md
 lists.mindrot.org
 users.email
-socket.io
 www.openssh.org
 sshhole.com
 news.ycombinator.com
@@ -262,9 +277,6 @@ mx01.ionos.de
 mx00.ionos.de
 eu.ionos.com
 mailgun.org
-mx2-us1.ppe-hosted.com
-mx1-us1.ppe-hosted.com
-dispatch-us.ppe-hosted.com
 spf.constantcontact.com
 spf.eu.exclaimer.net
 spf.mtasv.net
@@ -436,7 +448,6 @@ amazonses.com
 us-smtp-inbound-2.mimecast.com
 us-smtp-inbound-1.mimecast.com
 www.solarwinds.com
-zoho.com
 ovh.net
 salesforce.com
 publicdomainregistry.com
@@ -1091,7 +1102,6 @@ spf.mailjet.com
 withheldforprivacy.com
 edgepilot.com
 spf.webapps.net
-wildwestdomains.com
 www.miljaus.com
 register.it
 name.com
@@ -1204,7 +1214,6 @@ net-chinese.com.tw
 mail.lyserp.com
 lyserp.com
 messagegears.net
-relay.mailchannels.net
 gofile.io
 delinea.com
 www.veeam.com
