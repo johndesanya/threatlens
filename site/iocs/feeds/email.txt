@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-06T04:44:00.417Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-06T05:30:01.412Z - source: public vendor reports. Verify before blocking.
 smtp@wekash.net
 contacto06@carloxmextos.org
 incident@cert-in.org.in
