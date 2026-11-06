@@ -1,8 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-06T12:09:13.696Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-06T13:00:05.504Z - source: public vendor reports. Verify before blocking.
 webservices.dll
 vsdebugeng.dll
 vsdbg.exe
 vsdbg.dll
+chromelevator_x64.exe
 xmrig.exe
 WinRing0x64.sys
 d4aa3e7010220ad1b458fac17039c274_62_Exe.exe
