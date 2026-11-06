@@ -1,11 +1,12 @@
-# ThreatLens IoC feed - generated 2026-11-06T10:00:08.628Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-06T11:26:23.167Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 git-scm.com
 containers.dev
 code.visualstudio.com
 changelog.md
+checkmk.com
 www.wordfence.com
 plugins.trac.wordpress.org
 titatitato.net
@@ -3200,6 +3201,7 @@ streamyard.appstore.com.mx
 slack.apple03cloudstore.com
 installer.sh
 docsend.appstore.com.mx
+efada.sa
 calculator.app
 threatlocker.com
 gwi.digital
