@@ -1,9 +1,15 @@
-# ThreatLens IoC feed - generated 2026-11-06T18:05:33.216Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-06T18:50:40.847Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+trigger.dev
 docs.snowflake.com
 www.jetbrains.com
+paleasbest.top
+aiarmor.website
+agents.md
+claude.md
+rubygems.org
 www.mansjumis.lv
 menu.cc
 vuldb.com
@@ -11,7 +17,6 @@ www.vulncheck.com
 vagon.online
 socket.io
 edm.kamsoft.pl
-trigger.dev
 deepseek-reasonix-agents-md-prompt-injection-command-execution.md
 dolat.ir
 git-scm.com
@@ -507,7 +512,6 @@ zz.aiapi2025.top
 04-skill-routing.md
 03-protected-site.md
 00-identity.md
-claude.md
 dnslog.cn
 www.incibe.es
 git.kernel.org
@@ -1437,7 +1441,6 @@ adacompliantsigns.online
 security.tanium.com
 connect.trezor.io
 psirt.watchguard.com
-agents.md
 integmn.com
 www.aidot.com
 advisories.octopus.com
@@ -4637,7 +4640,6 @@ passkey-enable.com
 addyourpasskey.com
 ipfs.io
 rentry.co
-rubygems.org
 git.disroot.org
 sajuai.xyz
 hosting.kr
