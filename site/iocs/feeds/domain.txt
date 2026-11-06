@@ -1,7 +1,16 @@
-# ThreatLens IoC feed - generated 2026-11-06T07:10:44.409Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-06T08:32:04.193Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+titatitato.net
+kaspi.kz
+astanatimes.com
+vk.com
+f.pylrk.cc
+gitlab.freedesktop.org
+bugzilla.redhat.com
+access.redhat.com
+gstreamer.freedesktop.org
 www.foxit.com
 rooms-home93914.space
 www.ibm.com
@@ -16,7 +25,6 @@ remark42.com
 dify-sandbox-hardcoded-default-api-key.md
 lists.mindrot.org
 users.email
-bugzilla.redhat.com
 socket.io
 www.openssh.org
 sshhole.com
@@ -60,7 +68,6 @@ ysoserial.net
 vdfccjpnedujhrzscjtq.supabase.co
 auth.qgtxtebl.workers.dev
 asp.net
-access.redhat.com
 www.ddduuuppp.com
 sqlserver-sqlite.com
 nginxmysql.com
@@ -233,7 +240,6 @@ register.rsvpconnect-events.com
 godaddy.com
 secureserver.net
 tucows.com
-vk.com
 gate.rs
 draw.io
 www.gazeteburdur.com.tr
@@ -416,7 +422,6 @@ friendsanchor.xyz
 foldlodge.xyz
 companyharbor.xyz
 beliefdesk.xyz
-gstreamer.freedesktop.org
 wiki.securepoint.de
 hub.ivanti.com
 pwn.sh
@@ -460,7 +465,6 @@ www.incibe.es
 git.kernel.org
 window.rs
 typo3.org
-gitlab.freedesktop.org
 ott.szbboys.com
 psw.agent.ma
 www.manageengine.com
