@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-06T19:40:09.985Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-06T20:17:55.813Z - source: public vendor reports. Verify before blocking.
 support@chainalysis.com
 smtp@wekash.net
 contacto06@carloxmextos.org
