@@ -1,7 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-06T17:24:44.408Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-06T18:05:33.216Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+docs.snowflake.com
+www.jetbrains.com
 www.mansjumis.lv
 menu.cc
 vuldb.com
@@ -12,7 +14,6 @@ edm.kamsoft.pl
 trigger.dev
 deepseek-reasonix-agents-md-prompt-injection-command-execution.md
 dolat.ir
-www.jetbrains.com
 git-scm.com
 containers.dev
 code.visualstudio.com
@@ -309,7 +310,6 @@ haberkocaeli.com
 wordpress.org
 shutterstock.com
 hackmd.io
-docs.snowflake.com
 xenbits.xenproject.org
 www.canon-europe.com
 tawk.to
