@@ -1,7 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-06T11:26:23.167Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-06T12:09:13.696Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+dolat.ir
+www.jetbrains.com
 git-scm.com
 containers.dev
 code.visualstudio.com
@@ -22,11 +24,26 @@ www.foxit.com
 rooms-home93914.space
 www.ibm.com
 vuldb.com
+univalley.top
+pur.st
+plaineagle.xyz
+icedout.top
+icedhatch.xyz
+icedhatch.top
+blueteamcoolteam.pages.dev
+icborgosangiuseppe.edu.it
 www.rotstein-shiffman.com
 rotstein-shiffman.com.2.0001.arsmtp.com
 rotstein-shiffman.com.1.0001.arsmtp.com
 appriver.com
+workerstats.net
+supertrap.net
+niceer.net
+datamons.org
 godaddy.com
+api.ipify.org
+ip-api.com
+ipinfo.io
 community.flexera.com
 www.sec4check.pl
 www.binance.com
@@ -842,7 +859,6 @@ ue886578433.online
 ty54fgd435.my
 ty4523.space
 ishano456.sbs
-ip-api.com
 mcniyfj5bw9b.feishu.cn
 window.name
 gitee.com
@@ -1098,7 +1114,6 @@ osac.openshift.io
 router.cc
 changelog.com
 www.axigen.com
-www.jetbrains.com
 ca2.cloudflarecaptcha.com
 ca1.cloudflarecaptcha.com
 onmicrosoft.com
@@ -1114,7 +1129,6 @@ www.cnvd.org.cn
 ddosecrets.org
 lightning.news
 remediate-macos.sh
-api.ipify.org
 ifconfig.me
 vietnam.vn
 ecomagent.in
@@ -1887,7 +1901,6 @@ retarus.com
 pig4cloud-sql-injection.md
 unitree-firmware.oss-cn-hangzhou.aliyuncs.com
 aroshka.cloud
-ipinfo.io
 archivetj.com
 www.bookstackapp.com
 marshal.cc
@@ -2073,11 +2086,7 @@ hecker-hsb.de
 barrowgrimm.com
 www.amsam.net
 istanbultrading.com
-workerstats.net
-supertrap.net
-niceer.net
 massgravel.net
-datamons.org
 community.choclatey.org
 chocolatey.org
 choclatey.org
