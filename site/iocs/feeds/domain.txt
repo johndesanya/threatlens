@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-06T08:32:04.193Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-06T09:18:27.677Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 titatitato.net
 kaspi.kz
 astanatimes.com
@@ -15,6 +15,11 @@ www.foxit.com
 rooms-home93914.space
 www.ibm.com
 vuldb.com
+www.rotstein-shiffman.com
+rotstein-shiffman.com.2.0001.arsmtp.com
+rotstein-shiffman.com.1.0001.arsmtp.com
+appriver.com
+godaddy.com
 community.flexera.com
 www.sec4check.pl
 www.binance.com
@@ -237,7 +242,6 @@ sendgrid.net
 mimecast.com
 ydgjgdbhoa.shifts.icu
 register.rsvpconnect-events.com
-godaddy.com
 secureserver.net
 tucows.com
 gate.rs
