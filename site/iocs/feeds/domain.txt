@@ -1,11 +1,14 @@
-# ThreatLens IoC feed - generated 2026-11-06T15:08:51.503Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-06T15:48:46.315Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+www.mansjumis.lv
+menu.cc
+vuldb.com
+www.vulncheck.com
 vagon.online
 trigger.dev
 deepseek-reasonix-agents-md-prompt-injection-command-execution.md
-vuldb.com
 dolat.ir
 www.jetbrains.com
 git-scm.com
@@ -57,7 +60,6 @@ community.flexera.com
 www.sec4check.pl
 www.binance.com
 blog.btcpayserver.org
-www.vulncheck.com
 xcai.pro
 remark42.com
 dify-sandbox-hardcoded-default-api-key.md
