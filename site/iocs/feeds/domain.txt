@@ -1,7 +1,12 @@
-# ThreatLens IoC feed - generated 2026-11-07T03:10:20.987Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-07T03:47:59.892Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.wordfence.com
+plugins.trac.wordpress.org
+wordpress.org
+downloads.wordpress.org
+plugins.svn.wordpress.org
 mail.acondistec.de
 mail.acondistec.com
 kundenserver.de
@@ -40,8 +45,6 @@ containers.dev
 code.visualstudio.com
 changelog.md
 checkmk.com
-www.wordfence.com
-plugins.trac.wordpress.org
 titatitato.net
 kaspi.kz
 astanatimes.com
@@ -170,7 +173,6 @@ xint.io
 labs.watchtowr.com
 www.slcyber.io
 iterm2.com
-plugins.svn.wordpress.org
 www.sourcecodester.com
 muckduck.duckdns.org
 muckdeveloper.com
@@ -341,7 +343,6 @@ www.koreatimes.co.kr
 www.hk01.com
 cloudsecurityalliance.org
 haberkocaeli.com
-wordpress.org
 shutterstock.com
 hackmd.io
 xenbits.xenproject.org
@@ -966,7 +967,6 @@ rolimons.com
 hide.me
 battle.net
 research.cleantalk.org
-downloads.wordpress.org
 core.trac.wordpress.org
 advisories.softiron.cloud
 credtheft.ms
