@@ -1,7 +1,10 @@
-# ThreatLens IoC feed - generated 2026-11-07T20:09:15.949Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-07T20:59:24.809Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+xcai.pro
+api.deepseek.com
+hunt.io
 lavender-bicycle-a5a.notion.site
 www.totolink.net
 vuldb.com
@@ -164,7 +167,6 @@ community.flexera.com
 www.sec4check.pl
 www.binance.com
 blog.btcpayserver.org
-xcai.pro
 remark42.com
 dify-sandbox-hardcoded-default-api-key.md
 lists.mindrot.org
@@ -1302,7 +1304,6 @@ docs.microfocus.com
 cxxxx.sh
 cnnnnn.sh
 kubernetes.io
-hunt.io
 phantom.bonto.io
 jupiter.bonto.io
 exodus.bonto.io
@@ -2283,7 +2284,6 @@ advisories.stormshield.eu
 cipher-proxy.sh
 run.sh
 container.id
-api.deepseek.com
 java.io
 gzoozl.com
 gxoosl.com
