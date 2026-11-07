@@ -1,20 +1,23 @@
-# ThreatLens IoC feed - generated 2026-11-07T12:47:20.059Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-07T13:38:04.901Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+vuldb.com
+plugins.svn.wordpress.org
+www.wordfence.com
+plugins.trac.wordpress.org
+www.wpdownloadmanager.com
 videowhisper.com
 lavender-bicycle-a5a.notion.site
 www.totolink.net
-vuldb.com
 patchstack.com
-www.wordfence.com
-plugins.trac.wordpress.org
 bugzilla.redhat.com
 downloads.wordpress.org
-plugins.svn.wordpress.org
 wordpress.org
 wpscan.com
 www.ibm.com
+stops.de
+vw-arnold.de
 spfa.pekininsurance.com
 pekininsurance.com
 a5.com
