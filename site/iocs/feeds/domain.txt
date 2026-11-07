@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-07T11:58:43.120Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-07T12:47:20.059Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+videowhisper.com
 lavender-bicycle-a5a.notion.site
 www.totolink.net
 vuldb.com
@@ -1314,7 +1315,6 @@ www.hitachienergy.com
 www.siemens.com
 themes.trac.wordpress.org
 booking.com
-videowhisper.com
 security.nozominetworks.com
 subject.process.name
 object.process.parent.id
