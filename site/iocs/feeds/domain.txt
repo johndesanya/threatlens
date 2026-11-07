@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-07T17:54:49.708Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-07T18:41:46.570Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 vuldb.com
 plugins.svn.wordpress.org
 www.wordfence.com
@@ -16,6 +16,14 @@ downloads.wordpress.org
 wordpress.org
 wpscan.com
 www.ibm.com
+www.roxfarma.com
+virtualorbis.com
+www.simplyuk.co
+mail.jjlouro.pt
+jjlouro.pt
+www.bosh.sg
+bosh-sg.mail.sg.greenradar.com
+bosh-sg.mail.dr.greenradar.com
 axe-experts.com
 www.amberman.co.uk
 mxrelay.keyfort.net
@@ -44,6 +52,7 @@ eu.zeptomail.net
 acondistec.de
 gkg.net
 perfora.net
+ionos.com
 aspmx2.googlemail.com
 web.com
 us-smtp-inbound-2.mimecast.com
@@ -51,6 +60,7 @@ us-smtp-inbound-1.mimecast.com
 mimecast.com
 godaddy.com
 ovh.net
+publicdomainregistry.com
 mndt-2026-0017.md
 check.sh
 sshhole.com
@@ -135,7 +145,6 @@ relay.mailchannels.net
 mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
-ionos.com
 wildwestdomains.com
 sendgrid.net
 www.suse.com
@@ -510,7 +519,6 @@ spfa.cpmails.com
 amazonses.com
 www.solarwinds.com
 salesforce.com
-publicdomainregistry.com
 20example.com
 jvn.jp
 techora.ru
