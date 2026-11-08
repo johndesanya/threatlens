@@ -1,12 +1,24 @@
-# ThreatLens IoC feed - generated 2026-11-08T14:59:09.386Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-08T18:08:19.263Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+www.ibm.com
+hackmd.io
+www.vulncheck.com
 glacier-tarsal-711.notion.site
 vuldb.com
 trigger.dev
 www.unrealircd.org
-www.vulncheck.com
+mail.kadickintegrated.com
+kadickintegrated.com
+www.chonlatee.com
+dotarai.co.th
+aspmx.l.google.com.chonlatee.com
+alt3.aspmx.l.google.com.chonlatee.com
+alt1.aspmx.l.google.com.chonlatee.com
+sg-smtp-inbound-2.mimecast.com
+sg-smtp-inbound-1.mimecast.com
+globalair.com.sg
 netblocks.dreamhost.com
 mx2.mailchannels.net
 mx1.mailchannels.net
@@ -17,8 +29,17 @@ q-technicians.be
 mx.mailprotect.be
 mx.backup.mailprotect.be
 bpcm.com
+websitewelcome.com
+maskeddetails.com
 relay.mailchannels.net
+trinitycustom.com
+spf.mtasv.net
+gosecure.net
+ellijay-mx.email-protect.gosecure.net
+web.com
+mimecast.com
 godaddy.com
+publicdomainregistry.com
 xcai.pro
 api.deepseek.com
 hunt.io
@@ -30,12 +51,12 @@ www.wordfence.com
 plugins.trac.wordpress.org
 www.wpdownloadmanager.com
 videowhisper.com
+monde.fr
 patchstack.com
 bugzilla.redhat.com
 downloads.wordpress.org
 wordpress.org
 wpscan.com
-www.ibm.com
 xknet.mx
 by.zivor.co.il
 www.roxfarma.com
@@ -76,12 +97,9 @@ gkg.net
 perfora.net
 ionos.com
 aspmx2.googlemail.com
-web.com
 us-smtp-inbound-2.mimecast.com
 us-smtp-inbound-1.mimecast.com
-mimecast.com
 ovh.net
-publicdomainregistry.com
 mndt-2026-0017.md
 check.sh
 sshhole.com
@@ -377,7 +395,6 @@ eu.ionos.com
 mailgun.org
 spf.constantcontact.com
 spf.eu.exclaimer.net
-spf.mtasv.net
 networksolutionsprivateregistration.com
 ydgjgdbhoa.shifts.icu
 register.rsvpconnect-events.com
@@ -401,7 +418,6 @@ www.hk01.com
 cloudsecurityalliance.org
 haberkocaeli.com
 shutterstock.com
-hackmd.io
 xenbits.xenproject.org
 www.canon-europe.com
 tawk.to
@@ -473,7 +489,6 @@ www.simplehuman.com
 email.rechargeapps.com
 www.fbcenla.org
 www.homesteadcreameryinc.com
-websitewelcome.com
 hhjcpa.com
 mailchimpapp.net
 ftmail.onlinereportinginc.com
@@ -1082,7 +1097,6 @@ mxa-00320101.gslb.pphosted.com
 cbh.com
 45189792.spf03.hubspotemail.net
 skcapitalpartners.com
-maskeddetails.com
 svedala.se
 spf.mailanyone.net
 mail.nordicpeak.com
@@ -2030,9 +2044,6 @@ dreamscapenetworks.com
 support.gandi.net
 contact.gandi.net
 securessl.net
-trinitycustom.com
-gosecure.net
-ellijay-mx.email-protect.gosecure.net
 conaxtechnologies.com
 spf.a2hosting.com
 pencoproducts.com
