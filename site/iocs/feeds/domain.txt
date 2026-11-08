@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-07T23:55:09.848Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-08T00:58:53.475Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 xcai.pro
 api.deepseek.com
 hunt.io
@@ -3259,12 +3259,12 @@ evil.attacker.com
 winmanage-me.network
 microsoft-entra.net
 enroll.azuredevice.cloud
+azurenetfiles.net
 whyavc-qwmv6stx.vercel.app
 soyyoo-cwpc5n0e.vercel.app
 rpc-gbz5.vercel.app
 router-wdoi.vercel.app
 node-f1ey.vercel.app
-azurenetfiles.net
 googleads.g.doubleclick.net
 yourbrand.com
 mail.ru

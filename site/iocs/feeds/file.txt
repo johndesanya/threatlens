@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-07T23:55:09.848Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-08T00:58:53.475Z - source: public vendor reports. Verify before blocking.
 webservices.dll
 vsdebugeng.dll
 vsdbg.exe
@@ -779,6 +779,3 @@ SXIn64.dll
 PrcsServer.dll
 ApphostRagistreationVerifier.exe
 AppHostRegistrationVerifier.exe
-meshagent64-v2.exe
-meshagent64-azure-ops.exe
-meshagent32-azure-ops.exe
