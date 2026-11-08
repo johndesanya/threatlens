@@ -1,8 +1,21 @@
-# ThreatLens IoC feed - generated 2026-11-08T03:52:00.011Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-08T04:39:29.877Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.unrealircd.org
 www.vulncheck.com
+netblocks.dreamhost.com
+mx2.mailchannels.net
+mx1.mailchannels.net
+launchmetrics.com
+www.bogard.com.mx
+relay.mailprotect.be
+q-technicians.be
+mx.mailprotect.be
+mx.backup.mailprotect.be
+bpcm.com
+relay.mailchannels.net
+godaddy.com
 xcai.pro
 api.deepseek.com
 hunt.io
@@ -65,7 +78,6 @@ web.com
 us-smtp-inbound-2.mimecast.com
 us-smtp-inbound-1.mimecast.com
 mimecast.com
-godaddy.com
 ovh.net
 publicdomainregistry.com
 mndt-2026-0017.md
@@ -147,7 +159,6 @@ appriver.com
 mktomail.com
 mailing.eqs.com
 servers.mcsv.net
-relay.mailchannels.net
 mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
