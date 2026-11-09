@@ -1,9 +1,11 @@
-# ThreatLens IoC feed - generated 2026-11-09T01:55:07.786Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-09T02:46:50.337Z - source: public vendor reports. Verify before blocking.
+www.veeam.com
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 frameworkmetrics.xyz
 api.frameworkmetrics.xyz
+vuldb.com
 system.dawid.pl
 nolimit.grupa-abs.pl
 nolimit-dev.grupa-abs.pl
@@ -15,7 +17,6 @@ abspos-shop.grupa-abs.pl
 absit.grupa-abs.pl
 www.ie-e.com
 ionos.com
-vuldb.com
 www.ibm.com
 hackmd.io
 www.vulncheck.com
@@ -1332,7 +1333,6 @@ lyserp.com
 messagegears.net
 gofile.io
 delinea.com
-www.veeam.com
 maxwintodaybtc.com
 developer-update.app
 data.debugbear.com
