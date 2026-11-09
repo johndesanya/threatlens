@@ -1,11 +1,14 @@
-# ThreatLens IoC feed - generated 2026-11-09T02:46:50.337Z - source: public vendor reports. Verify before blocking.
-www.veeam.com
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-09T06:00:57.006Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+vuldb.com
+www.dlink.com
+openam-jp.github.io
+www.veeam.com
+psirt.global.sonicwall.com
 frameworkmetrics.xyz
 api.frameworkmetrics.xyz
-vuldb.com
 system.dawid.pl
 nolimit.grupa-abs.pl
 nolimit-dev.grupa-abs.pl
@@ -131,7 +134,6 @@ check.sh
 sshhole.com
 www.ugcs.com
 www.tp-link.com
-psirt.global.sonicwall.com
 xss.today
 xss.mx
 exploit.in
@@ -1016,7 +1018,6 @@ blog.gitea.com
 virtualine.net
 wl-wn530hg4b.md
 report.md
-www.dlink.com
 www.danserinc.com
 server2.raptoremailsecurity.com
 raptor.pccc.com
