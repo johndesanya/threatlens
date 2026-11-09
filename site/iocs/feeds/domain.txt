@@ -1,7 +1,12 @@
-# ThreatLens IoC feed - generated 2026-11-09T16:00:51.201Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-09T23:08:56.552Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+all.net
+hosting.com
+vk.com
+360.cn
+tac.vpnla.org
 prestashop.com
 vuldb.com
 siberguvenlik.gov.tr
@@ -28,7 +33,7 @@ gitlab.freedesktop.org
 gstreamer.freedesktop.org
 bugzilla.redhat.com
 access.redhat.com
-vk.com
+asp.net
 solaric.com.ph
 exploit.in
 iphones.ru
@@ -48,6 +53,22 @@ abspos-shop.grupa-abs.pl
 absit.grupa-abs.pl
 www.ie-e.com
 ionos.com
+zeofast.cn
+yecaoyun.com
+gov.cn
+edu.cn
+www.laalaalkuwait.com
+mailflow.laalaalkuwait.com
+kuwaitnet.net
+kuwaitnet.com
+heartlandhonda.com
+www.ornico.co
+spf.host-ww.net
+ornico.co
+namesilo.com
+mail.livingwordschools.org
+livingwordschools.org
+www.albion-online-data.com
 downloads.apache.org
 carrollins.com
 zoho.in
@@ -101,13 +122,17 @@ ajg.com
 accenture.com
 jpmorganchase.com
 digimail.in
+spf.antispamcloud.com
+enom.com
 aspmx.pardot.com
 mailgun.org
 docebosaas.com
+namecheap.com
 web.com
 networksolutionsprivateregistration.com
 us-smtp-inbound-2.mimecast.com
 us-smtp-inbound-1.mimecast.com
+sendgrid.net
 mimecast.com
 sts.net.pk
 santander.com.br
@@ -142,6 +167,8 @@ adp.com
 salesforce.com
 microsoftonline.com
 publicdomainregistry.com
+acme.com
+privacyprotect.org
 www.ibm.com
 hackmd.io
 www.vulncheck.com
@@ -181,7 +208,6 @@ mx.backup.mailprotect.be
 bpcm.com
 websitewelcome.com
 maskeddetails.com
-enom.com
 relay.mailchannels.net
 trinitycustom.com
 spf.mtasv.net
@@ -317,7 +343,6 @@ mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
 wildwestdomains.com
-sendgrid.net
 www.suse.com
 workerstats.net
 supertrap.net
@@ -374,7 +399,6 @@ theowo.club
 ysoserial.net
 vdfccjpnedujhrzscjtq.supabase.co
 auth.qgtxtebl.workers.dev
-asp.net
 www.ddduuuppp.com
 sqlserver-sqlite.com
 nginxmysql.com
@@ -825,7 +849,6 @@ n.co.kr
 t.or.kr
 aspmx3.googlemail.com
 webnic.cc
-namecheap.com
 spf-us.emailsignatures365.com
 bereskinparr.com
 spf.ess.barracudanetworks.com
@@ -1371,7 +1394,6 @@ mailgate01.omg.de
 fallback01.omg.de
 rrcokc.com
 www.sistemasvisuales360.com.mx
-spf.antispamcloud.com
 mx15b.anti-spam-premium.com
 mx15a.anti-spam-premium.com
 www.palletline.co.uk
@@ -2839,7 +2861,6 @@ beta.eggywall.cc
 account.check-profile.digital
 account-protection-team.icu
 ab.com
-acme.com
 secrets.name
 carte-avantage.com
 bold-dhawan.45-139-104-115.plesk.page
@@ -4679,7 +4700,6 @@ yerevantimes.am
 yerevanpress.am
 velvetnews.co.uk
 reportarmenia.am
-privacyprotect.org
 newsyerevan.am
 jsc.idealmedia.io
 infofrancaisedujour.fr
@@ -5405,6 +5425,7 @@ mspasskey.com
 setupssopasskey.com
 mypasskeysso.com
 myoktasso.com
+ssskwt.com
 siekeltd.com
 escofiringbijou.com
 courtadr.com
