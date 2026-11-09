@@ -1,8 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-09T13:17:18.216Z - source: public vendor reports. Verify before blocking.
-login.microsoftonline.com
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-09T14:05:50.268Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+login.microsoftonline.com
 trigger.dev
 www.cgm.com
 www.acn.gov.it
