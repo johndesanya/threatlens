@@ -1,14 +1,37 @@
-# ThreatLens IoC feed - generated 2026-11-08T21:59:35.072Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-09T01:55:07.786Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+frameworkmetrics.xyz
+api.frameworkmetrics.xyz
+system.dawid.pl
+nolimit.grupa-abs.pl
+nolimit-dev.grupa-abs.pl
+kochamtodbam.afamobile.pl
+ikea.grupa-abs.pl
+dev-poservice.grupa-abs.pl
+dev-kamper.grupa-abs.pl
+abspos-shop.grupa-abs.pl
+absit.grupa-abs.pl
+www.ie-e.com
+ionos.com
+vuldb.com
 www.ibm.com
 hackmd.io
 www.vulncheck.com
 glacier-tarsal-711.notion.site
-vuldb.com
 trigger.dev
 www.unrealircd.org
+squarespace.com
+amadeus.com
+thnic.co.th
+starmark.co.th
+mx1.inetmail.cloud
+mx1.bizmail.one.th
+inetmail.cloud
+grupotelles.com
+yatra.com
+sunclinicallaboratories.com
 home.nosetea.com
 www.fidex.com.mx
 mail.kadickintegrated.com
@@ -33,6 +56,7 @@ mx.backup.mailprotect.be
 bpcm.com
 websitewelcome.com
 maskeddetails.com
+enom.com
 relay.mailchannels.net
 trinitycustom.com
 spf.mtasv.net
@@ -97,7 +121,6 @@ eu.zeptomail.net
 acondistec.de
 gkg.net
 perfora.net
-ionos.com
 aspmx2.googlemail.com
 us-smtp-inbound-2.mimecast.com
 us-smtp-inbound-1.mimecast.com
@@ -382,7 +405,6 @@ zpr.io
 us968web-zoom.us
 office.com-access-sharepoint.com
 goo.gle-access-eventregister.icu
-enom.com
 autotask.net
 hover.com
 contactprivacy.com
@@ -1217,9 +1239,9 @@ getstockprice.com
 bybit-assessment.com
 tdtqy-oyaaa-aaaae-af2dq-cai.raw.icp0.io
 plug-tab-protective-relay.trycloudflare.com
+models.litellm.cloud
 transaction.id
 scan.aquasecurtiy.org
-models.litellm.cloud
 tasks.rs
 database.rs
 updatecheck.sh
@@ -2579,6 +2601,7 @@ api.cloudsettle.org
 www.hashicorp.com
 www.akamai.com
 developer.hashicorp.com
+nowaszkola.com
 grupoabg.com
 lcww.com.eg
 www.att.com
@@ -3245,6 +3268,7 @@ viidure.app
 www.toptech.com
 mikrotik.com
 www.vivotek.com
+intense.pl
 carolinaasthma.com
 advantech.com
 mempool.space
@@ -5264,7 +5288,6 @@ mynewpasskey.com
 myconnectkey.com
 assignpasskey.com
 activatepasskeyportal.com
-scanning.in
 portalsetuphub.com
 connection.timesmaluku.com
 refreshhealthandwellness.com
