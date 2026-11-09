@@ -1,7 +1,25 @@
-# ThreatLens IoC feed - generated 2026-11-09T14:05:50.268Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-09T16:00:51.201Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+prestashop.com
+vuldb.com
+siberguvenlik.gov.tr
+bugzilla.suse.com
+update.electronjs.org
+rpc.ankr.com
+cloudflare-eth.com
+api.frameworkmetrics.xyz
+changelog.md
+webhook.site
+danfoss.com
+arethefridgesok.org
+vantaralabs.online
+nexorolabs.store
+engine.io
+socket.io
+crates.io
+shutterstock.com
 login.microsoftonline.com
 trigger.dev
 www.cgm.com
@@ -10,7 +28,6 @@ gitlab.freedesktop.org
 gstreamer.freedesktop.org
 bugzilla.redhat.com
 access.redhat.com
-vuldb.com
 vk.com
 solaric.com.ph
 exploit.in
@@ -20,7 +37,6 @@ openam-jp.github.io
 www.veeam.com
 psirt.global.sonicwall.com
 frameworkmetrics.xyz
-api.frameworkmetrics.xyz
 system.dawid.pl
 nolimit.grupa-abs.pl
 nolimit-dev.grupa-abs.pl
@@ -32,6 +48,8 @@ abspos-shop.grupa-abs.pl
 absit.grupa-abs.pl
 www.ie-e.com
 ionos.com
+downloads.apache.org
+carrollins.com
 zoho.in
 unionbankonline.bank.in
 onlinesbi.com
@@ -84,6 +102,7 @@ accenture.com
 jpmorganchase.com
 digimail.in
 aspmx.pardot.com
+mailgun.org
 docebosaas.com
 web.com
 networksolutionsprivateregistration.com
@@ -241,14 +260,12 @@ rubygems.org
 www.mansjumis.lv
 menu.cc
 vagon.online
-socket.io
 edm.kamsoft.pl
 deepseek-reasonix-agents-md-prompt-injection-command-execution.md
 dolat.ir
 git-scm.com
 containers.dev
 code.visualstudio.com
-changelog.md
 checkmk.com
 titatitato.net
 kaspi.kz
@@ -332,7 +349,6 @@ schemas.xmlsoap.org
 support.trellix.com
 files.dreamhost.com
 lists.apache.org
-siberguvenlik.gov.tr
 agentscope-bash-tool-tee-misclassification-arbitrary-file-write.md
 agentscope-agent-service-x-user-id-missing-authentication.md
 itsourcecode.com
@@ -362,7 +378,6 @@ asp.net
 www.ddduuuppp.com
 sqlserver-sqlite.com
 nginxmysql.com
-webhook.site
 axeghost.offprint.app
 codeberg.org
 xint.io
@@ -509,7 +524,6 @@ aspmx5.googlemail.com
 mx01.ionos.de
 mx00.ionos.de
 eu.ionos.com
-mailgun.org
 spf.constantcontact.com
 spf.eu.exclaimer.net
 ydgjgdbhoa.shifts.icu
@@ -533,7 +547,6 @@ www.koreatimes.co.kr
 www.hk01.com
 cloudsecurityalliance.org
 haberkocaeli.com
-shutterstock.com
 xenbits.xenproject.org
 www.canon-europe.com
 tawk.to
@@ -562,7 +575,6 @@ deta.space
 astrdark.cyou
 agent.xxtt.me
 crt.sh
-crates.io
 skill.md
 vercel.app
 downloads.php.net

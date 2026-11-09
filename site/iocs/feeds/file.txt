@@ -1,4 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-09T14:05:50.268Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-09T16:00:51.201Z - source: public vendor reports. Verify before blocking.
+sso_agent.iso
+mmc.exe
+invoke.ps1
+app.msi
+Swarm.Desktop-0.56.2.Setup.exe
 winload.exe
 Winload.exe
 MicrosoftEgde.exe
