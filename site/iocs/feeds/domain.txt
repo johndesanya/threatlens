@@ -1,8 +1,10 @@
-# ThreatLens IoC feed - generated 2026-11-10T18:10:29.568Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-10T18:44:37.537Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+shiftdelete.net
 crt.sh
+gitlab.eclipse.org
 x.org
 all.net
 vk.com
@@ -45,6 +47,8 @@ www.wordfence.com
 plugins.trac.wordpress.org
 downloads.wordpress.org
 www.axis.com
+tcadarwin.com.au.spf.auto.dnssmarthost.net
+tcadarwin.com.au
 download.schneider-electric.com
 local.sh
 auto-backup.sh
@@ -152,6 +156,7 @@ spf.mailjet.com
 mailgun.org
 withheldforprivacy.com
 namecheap.com
+gabonmeca.com
 mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
@@ -161,6 +166,7 @@ web.com
 spf.ess.barracudanetworks.com
 networksolutionsprivateregistration.com
 sendgrid.net
+mlsend.com
 godaddy.com
 secureserver.net
 ovh.net
@@ -520,7 +526,6 @@ agentscope-agent-service-x-user-id-missing-authentication.md
 itsourcecode.com
 evilwebsite.com
 mcp-stdio-workspace-unauthenticated-process-execution.md
-gitlab.eclipse.org
 www.igorslab.de
 cybernews.com
 dbgpt-skill-template-jinja2-ssti-rce.md
@@ -1201,7 +1206,6 @@ csc.com
 aflac.com
 www.openwall.com
 exabytes.my
-gabonmeca.com
 wp.pl
 secop.gov.co
 disney.com
@@ -2658,7 +2662,6 @@ gm.com
 watchguard-vpn.net
 watchguard-ssl.online
 redact.io
-mlsend.com
 trinitycyber.com
 www.marvinpac.com
 passavant-ee.com

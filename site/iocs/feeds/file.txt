@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-10T18:10:29.568Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-10T18:44:37.537Z - source: public vendor reports. Verify before blocking.
 zCrashReport64.exe
 zCrashReport64.dll
 winfsp.dll
