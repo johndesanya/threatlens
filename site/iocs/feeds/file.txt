@@ -1,4 +1,14 @@
-# ThreatLens IoC feed - generated 2026-11-11T01:12:35.182Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-11T08:16:39.454Z - source: public vendor reports. Verify before blocking.
+xmllite.dll
+userenv.dll
+quser.exe
+dxgi.dll
+VGAuthCLI.exe
+VGAuth.dll
+SenseSampleUploader.exe
+MigAutoPlay.exe
+wtsapi32.dll
+ExchangeTransport.exe
 unionfs.sys
 ncobjapi.dll
 Microsoft.Exchange.Search.Mdb.ni.dll
@@ -73,6 +83,14 @@ cca616647db9370c88998ae25da6997f.exe
 sample.exe
 Lincoln.ps1
 21.09.2026.xml.exe
+zlib.dll
+rsaenh.dll
+QtCore4.dll
+IPHLPAPI_.DLL
+samcli.dll
+IPHLPAPI.DLL
+rs.win32.exe
+WpcMon.exe
 samlib.dll
 rsndispot.sys
 Rpcrt4.dll
@@ -134,10 +152,6 @@ javaw.exe
 bun.exe
 remediate-windows.ps1
 KSLDriver.sys
-samcli.dll
-IPHLPAPI.DLL
-rs.win32.exe
-WpcMon.exe
 CMS.exe
 sys.dll
 curl.exe
@@ -561,7 +575,6 @@ PackPlugin.BrowserMgr.dll
 cf25f91c-0a20-4339-834f-02f73e8bc75e.vbs
 cf25f91c-0a20-4339-834f-02f73e8bc75e.bat
 5744c020-a8d9-4755-abfb-cde6ccd450af.vbs
-wtsapi32.dll
 wermgr.exe
 BTR.sys
 rust-setup.ps1
