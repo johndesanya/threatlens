@@ -1,4 +1,19 @@
-# ThreatLens IoC feed - generated 2026-11-11T09:38:16.420Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-11T10:42:37.086Z - source: public vendor reports. Verify before blocking.
+webex.exe
+steal_tgs.ps1
+sabycenter.exe
+rpchost.exe
+mst.exe
+jhost.exe
+fscan.exe
+build_64.exe
+agent.exe
+KasperskyGPO_Deploy_64_FIXED.exe
+KasperskyGPO_Deploy_64.exe
+KasperskyAgentInstaller.exe
+KasperskyAgent.exe
+Deploy-KasperskyGPO.ps1
+2341.exe
 xmllite.dll
 userenv.dll
 quser.exe

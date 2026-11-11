@@ -1,7 +1,13 @@
-# ThreatLens IoC feed - generated 2026-11-11T09:38:16.420Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-11T10:42:37.086Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+bugzilla.redhat.com
+www.incibe.es
+vk.com
+yastatic.net
+mirror.yandex.ru
+2ip.io
 www.certvde.com
 www.group-ib.com
 telespazio-careers.com
@@ -23,7 +29,6 @@ sunnierhomes.com
 mail.sunnierhomes.com
 enom.com
 mlsend.com
-bugzilla.redhat.com
 access.redhat.com
 developer.konghq.com
 me.n-able.com
@@ -35,7 +40,6 @@ crt.sh
 gitlab.eclipse.org
 x.org
 all.net
-vk.com
 virtual.cisoforum.com
 windowsupdates.us
 windowsdefender.it.com
@@ -932,7 +936,6 @@ zz.aiapi2025.top
 03-protected-site.md
 00-identity.md
 dnslog.cn
-www.incibe.es
 git.kernel.org
 window.rs
 typo3.org
