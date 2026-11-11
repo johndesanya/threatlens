@@ -1,7 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-11T18:02:45.903Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-11T18:47:39.651Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+justpaste.it
+gosuslugi.ru
 grok.me
 bugzilla.redhat.com
 chromereleases.googleblog.com
@@ -40,6 +42,13 @@ theluckyturkey.com
 snort.org
 brightarrow.com
 www.jnattorney.com
+timberrattlers.com
+spf.tickets.com
+email.mtpsoftware.com
+clientspf.tickets.com
+energreen.it
+antispam.energreen.it
+146513329.spf02.hubspotemail.net
 brightspace.com
 cspbypass.com
 robot.avbliud.com
@@ -83,6 +92,7 @@ sunnierhomes.com
 mail.sunnierhomes.com
 spf.dynect.net
 spf.zohomail360.com
+mail.zendesk.com
 mktomail.com
 evil.com
 enom.com
@@ -929,7 +939,6 @@ sigsauer.com
 san.ve
 safewebservices.com
 spf.rpost.net
-mail.zendesk.com
 bluehostprivatename.com
 spf.emailsignatures365.com
 shops.shopify.com
