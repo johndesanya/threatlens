@@ -1,4 +1,12 @@
-# ThreatLens IoC feed - generated 2026-11-11T10:42:37.086Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-11T18:02:45.903Z - source: public vendor reports. Verify before blocking.
+23c061f4e804a51badd5f85227e65185651253b5
+daf245bba7fe1304b9491403fe56f91153299781
+7e5cff58e8cbed87793141ceeca0a8a343c67c44
+1c605331de7fd6fa997641bc01390dcda1a962cc
+7b67b07bb3fc5ede8675345b45d5db385d1f30e6
+5a56581475570c4cbcfd2865c8ce528a669c5d65
+16f97b6e7d5f3f23343cd153b382bce9e7d79073
+da5923f6f56c739581b18d190401fee7d2d72649
 ef96ceec64f71eaef82629f38d018ea87666791b
 69aff80d115bbb9d1e82fd6c6f2fd3ddeafb958b
 3b1f2627538dc597cd973530c08514a26c2b0282
