@@ -1,5 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-10T19:39:13.536Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-11T00:14:39.427Z - source: public vendor reports. Verify before blocking.
 unionfs.sys
+ncobjapi.dll
+Microsoft.Exchange.Search.Mdb.ni.dll
+EdgeTransport.exe
 vhdmp.sys
 usbaudio.sys
 srvnet.sys
@@ -48,9 +51,6 @@ GHOST.dll
 aspnet_compiler.exe
 UKuFuXj.lNk
 wbemcomn.dll
-ncobjapi.dll
-Microsoft.Exchange.Search.Mdb.ni.dll
-EdgeTransport.exe
 sso_agent.iso
 mmc.exe
 invoke.ps1

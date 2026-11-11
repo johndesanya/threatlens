@@ -1,7 +1,11 @@
-# ThreatLens IoC feed - generated 2026-11-10T19:39:13.536Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-11T00:14:39.427Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+bugzilla.redhat.com
+access.redhat.com
+developer.konghq.com
+me.n-able.com
 asp.net
 support.blackberry.com
 shiftdelete.net
@@ -40,7 +44,6 @@ trojan-dropper.androidos.mamont.am
 trojan-banker.androidos.agent.ws
 backdoor.androidos.triada.ag
 backdoor.androidos.triada.ae
-bugzilla.redhat.com
 tttttt.me
 picoctf.org
 cyberdefenders.org
@@ -50,6 +53,21 @@ www.wordfence.com
 plugins.trac.wordpress.org
 downloads.wordpress.org
 www.axis.com
+www.signworx.net
+www.broexp.com
+www.nysnacks.com
+outgoing.vircom.com
+nysnacks.com
+www.bvchd.com
+spamtitan.com
+mail.bvchd.com
+bvchd-mx1.titanhq.com
+mtm-o.com
+mailfw1.mtm-o.com
+zimpel.de
+spf.nl2go.com
+mx.awo.org
+awo.org
 tcadarwin.com.au.spf.auto.dnssmarthost.net
 tcadarwin.com.au
 download.schneider-electric.com
@@ -134,6 +152,7 @@ mvsd11.org
 customfloorsunlimited.com
 netorg4320750.onmicrosoft.com
 madisonhonda.com
+squarespace.com
 dotarai.co.th
 customerspf.schoolmessenger.com
 usg1.ppe-hosted.com
@@ -144,9 +163,11 @@ websitewelcome.com
 easydns.com
 intacct.com
 mail.hostinger.com
+corehub.net
 spf.haihaimail.jp
 enom.com
 psm.knowbe4.com
+spf.sendinblue.com
 spf.zixsmbhosted.com
 mx3.mail.ovh.net
 mx.ovh.com
@@ -204,7 +225,6 @@ www.cgm.com
 www.acn.gov.it
 gitlab.freedesktop.org
 gstreamer.freedesktop.org
-access.redhat.com
 solaric.com.ph
 exploit.in
 iphones.ru
@@ -336,7 +356,6 @@ hackmd.io
 www.vulncheck.com
 glacier-tarsal-711.notion.site
 www.unrealircd.org
-squarespace.com
 amadeus.com
 thnic.co.th
 starmark.co.th
@@ -1417,7 +1436,6 @@ server-alpha.newpatient.link
 sanirent.com.mx
 spf-00129a01.pphosted.com
 softwareone.com
-corehub.net
 transmail.net.au
 syrahost.com
 epichealth.com.au
@@ -1436,7 +1454,6 @@ spencers.com
 custmx.cscdns.net
 domain-contact.org
 vali.email
-spf.sendinblue.com
 d.spf.service-now.com
 c.spf.service-now.com
 b.spf.service-now.com
