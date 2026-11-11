@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-11T08:16:39.454Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-11T09:38:16.420Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.certvde.com
 www.group-ib.com
 telespazio-careers.com
 teledyneflir.com.de
@@ -58,7 +59,6 @@ supportxml.org
 cloudpostmail.net
 vuldb.com
 shutterstock.com
-www.certvde.com
 trojan.androidos.fakeapp.in
 trojan-dropper.androidos.mamont.am
 trojan-banker.androidos.agent.ws
