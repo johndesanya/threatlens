@@ -1,9 +1,65 @@
-# ThreatLens IoC feed - generated 2026-11-12T02:14:21.147Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-12T09:58:55.364Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+wfx-audit.md
+update.sh
+ci-umshcm.sh
+ci-cdvnwh.sh
+ci-a4oytg.sh
+ci-7arkno.sh
+11-10.md
+fly.io
+docs.azul.com
+bugzilla.redhat.com
+www.certvde.com
+teams-livemeeting.com
+teams-cloud.live
+wpscan.com
 vuldb.com
+ubuntu.com
 smashingsecurity.com
+spf.york-prod.catalyst-ca.net
+save.ilendingcarloanrefinancing.com
+smp.ne.jp
+mail-spf.ferret-one.com
+eicoh.com
+amg.eicoh-oa.co.jp
+activegate-ss.jp
+vinsonprocess.com
+spf.us.signature365.net
+smtp.vinsonprocess.com
+prinsel.com.mx
+mx0.technopian.com.mx
+re4m.net
+solarium.com.br
+mx.jk.locaweb.com.br
+mx.b.locaweb.com.br
+mx.a.locaweb.com.br
+locaweb.com.br
+bllcpas.com
+alanmokengineering.com.2.0001.arsmtp.com
+alanmokengineering.com.1.0001.arsmtp.com
+alanmokengineering.com
+triad.co.ke
+hostafrica.com
+ninv.com
+imas.es
+sielke.com
+domainsite.com
+spf.host-ww.net
+outboundmail.convio.net
+spf.antispamcloud.com
+spf.uae.exclaimer.net
+spf.haihaimail.jp
+psm.knowbe4.com
+aspmx3.googlemail.com
+aspmx.pardot.com
+aspmx2.googlemail.com
+sendgrid.net
+godaddy.com
+salesforce.com
+name.com
 issues.chromium.org
 soxnewwork.homedns.org
 sc.payproofkit.com
@@ -24,7 +80,6 @@ gosuslugi.ru
 iknow.lenovo.com.cn
 support.lenovo.com
 grok.me
-bugzilla.redhat.com
 chromereleases.googleblog.com
 extreme-networks.my.site.com
 xcritical.com
@@ -38,6 +93,7 @@ maximarkets.cn
 light-trading.goldflame.io
 goldflame.io
 goldflame.com
+hosting2.ro.hostsailor.com
 mcp.socradar.com
 mcp-mssp.socradar.com
 vk.com
@@ -45,7 +101,6 @@ www.incibe.es
 yastatic.net
 mirror.yandex.ru
 2ip.io
-www.certvde.com
 www.group-ib.com
 telespazio-careers.com
 teledyneflir.com.de
@@ -119,7 +174,6 @@ evil.com
 enom.com
 autotask.net
 servers.mcsv.net
-aspmx.pardot.com
 spf.elluciancloud.com
 dispatch-us.ppe-hosted.com
 spf.myconnectwise.net
@@ -133,8 +187,6 @@ us-smtp-inbound-1.mimecast.com
 mimecast.com
 oastify.com
 mlsend.com
-godaddy.com
-salesforce.com
 wps-cn.com
 microsoft-flash.com
 access.redhat.com
@@ -294,8 +346,6 @@ easydns.com
 intacct.com
 mail.hostinger.com
 corehub.net
-spf.haihaimail.jp
-psm.knowbe4.com
 spf.sendinblue.com
 spf.zixsmbhosted.com
 mx3.mail.ovh.net
@@ -303,7 +353,6 @@ mx.ovh.com
 relay.mailchannels.net
 aspmx5.googlemail.com
 aspmx4.googlemail.com
-aspmx3.googlemail.com
 spf.mailjet.com
 mailgun.org
 withheldforprivacy.com
@@ -311,8 +360,6 @@ namecheap.com
 gabonmeca.com
 mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
-aspmx2.googlemail.com
-sendgrid.net
 secureserver.net
 ovh.net
 tucows.com
@@ -375,7 +422,6 @@ kuwaitnet.net
 kuwaitnet.com
 heartlandhonda.com
 www.ornico.co
-spf.host-ww.net
 ornico.co
 namesilo.com
 mail.livingwordschools.org
@@ -434,7 +480,6 @@ ajg.com
 accenture.com
 jpmorganchase.com
 digimail.in
-spf.antispamcloud.com
 docebosaas.com
 sts.net.pk
 santander.com.br
@@ -518,7 +563,6 @@ www.wpdownloadmanager.com
 videowhisper.com
 monde.fr
 patchstack.com
-wpscan.com
 xknet.mx
 by.zivor.co.il
 www.roxfarma.com
@@ -632,7 +676,6 @@ supertrap.net
 niceer.net
 datamons.org
 zoho.com
-ubuntu.com
 api.ipify.org
 ip-api.com
 ipinfo.io
@@ -760,7 +803,6 @@ european-motorcars-com.inbound.emailservice.io
 european-motorcars-com.inbound.emailservice.co
 european-motorcars-com.inbound.emailservice.cc
 itsubishi-motors.com.ua
-outboundmail.convio.net
 outboundmail.blackbaud.net
 ashrosary.org
 swiftreach.com
@@ -865,7 +907,6 @@ pentagi.senhai.store
 new74.osxwrong.us.com
 mail2.bfvdoor.com
 koyeb.app
-fly.io
 fl0.com
 deta.space
 astrdark.cyou
@@ -1568,7 +1609,6 @@ edgepilot.com
 spf.webapps.net
 www.miljaus.com
 register.it
-name.com
 attacker.com
 xingjiabiapi.org
 llm-routing.com
@@ -1774,7 +1814,6 @@ mail.rolly.io
 zsend.in
 transmail.net.in
 spf.zoho.in
-spf.uae.exclaimer.net
 mail.aubankonline.in
 idrbt.ac.in
 mxb-001b7a02.gslb.pphosted.com
@@ -3368,6 +3407,7 @@ portswigger-labs.net
 one.com
 infocert.it
 wasabisys.com
+teams-online.com
 sqlite.org
 spam.suwaccqi.com
 mx1.wwstifsteel.com
@@ -4092,6 +4132,7 @@ www.sicoob.com.br
 www.hltv.org
 www.creamp1eonlyfans.net
 web.whatsapp.com
+www.eac-airports.com
 overhands.org
 www.papercut.com
 steamgurus.org
@@ -5636,6 +5677,7 @@ passkeyregister.com
 passkeyadd.com
 cremeb.com
 createpasskey.com
+bomuhospital.org
 granderevolucao.store
 registerpasskey.com
 wmsopko.com

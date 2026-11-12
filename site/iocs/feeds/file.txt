@@ -1,4 +1,12 @@
-# ThreatLens IoC feed - generated 2026-11-12T02:14:21.147Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-12T09:58:55.364Z - source: public vendor reports. Verify before blocking.
+netprogmprox.dll
+netprofmprox.dll
+netprofm.dll
+netcfgprox.dll
+eToken.dll
+IKEYUI64.dll
+HenMapCaCon.dll
+DLPReel.dll
 ToolboxRelayUploader.exe
 SSA-2026-STATEMENT-15518787.bat
 Run-Lateral-Full.bat
