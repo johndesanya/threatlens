@@ -1,4 +1,5 @@
-# ThreatLens IoC feed - generated 2026-11-12T10:54:19.136Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-12T13:09:57.776Z - source: public vendor reports. Verify before blocking.
+notice@n0n-cases.net
 mmnew@millimed.world
 admin@mantum.se
 info@gatorworks.com
@@ -18,7 +19,6 @@ incident@cert-in.org.in
 support@subnet.com
 customercare@gotowebinar.com
 ross.kelly@futurenet.com
-notice@n0n-cases.net
 resolution@courtadr.com
 autoproject@autoproject.com
 address@host.name

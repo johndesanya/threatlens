@@ -1,4 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-12T10:54:19.136Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-12T13:09:57.776Z - source: public vendor reports. Verify before blocking.
+finenc3-5.ps1
+denc.ps1
+datasweep.ps1
 netprogmprox.dll
 netprofmprox.dll
 netprofm.dll

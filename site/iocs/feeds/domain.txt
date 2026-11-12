@@ -1,7 +1,13 @@
-# ThreatLens IoC feed - generated 2026-11-12T10:54:19.136Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-12T13:09:57.776Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+discordzapretik.sbs
+n0n.to
+bugzilla.redhat.com
+access.redhat.com
+www.qt.io
+codereview.qt-project.org
 analytics.insightjs.com
 insightjs.com
 chicagohistory.org
@@ -44,6 +50,7 @@ panaxetec.co.kr
 panaxenergy.co.kr
 efasco.co.kr
 vk.com
+justsendtext.xyz
 wfx-audit.md
 update.sh
 ci-umshcm.sh
@@ -53,7 +60,6 @@ ci-7arkno.sh
 11-10.md
 fly.io
 docs.azul.com
-bugzilla.redhat.com
 www.certvde.com
 teams-livemeeting.com
 teams-cloud.live
@@ -61,6 +67,8 @@ wpscan.com
 vuldb.com
 ubuntu.com
 smashingsecurity.com
+promantra.us
+mail.promantra.us
 www.groupe-alternance.com
 groupe-alternance.com
 gruposancristobal.com.mx
@@ -327,7 +335,6 @@ oastify.com
 mlsend.com
 wps-cn.com
 microsoft-flash.com
-access.redhat.com
 developer.konghq.com
 me.n-able.com
 asp.net
@@ -1989,7 +1996,6 @@ adjective-noun-verb-digit.dedyn.io
 google.it
 uberip.com
 ntpsync.io
-n0n.to
 n0n-cases.net
 ov-g3c-emudhra.we-have-a-problem.com
 ov-g3c-aaa-emudhra.we-have-a-problem.com
@@ -2258,7 +2264,6 @@ hub.docker.com
 dubaitechnicalservice.ae
 changes-2fa-security.en.md
 wiki.qt.io
-codereview.qt-project.org
 cve-2026-117471.md
 cve-2026-117472.md
 cve-2026-117468.md
