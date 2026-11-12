@@ -1,4 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-12T09:58:55.364Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-12T10:54:19.136Z - source: public vendor reports. Verify before blocking.
+mmnew@millimed.world
+admin@mantum.se
+info@gatorworks.com
+hr@gatorworks.com
 f0523219@cloud.dyu.edu.tw
 rjun123321@mail.ru
 mail-30a@mail.ru
