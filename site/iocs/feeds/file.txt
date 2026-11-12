@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-12T01:57:48.574Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-12T02:14:21.147Z - source: public vendor reports. Verify before blocking.
 ToolboxRelayUploader.exe
 SSA-2026-STATEMENT-15518787.bat
 Run-Lateral-Full.bat

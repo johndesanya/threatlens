@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-12T01:57:48.574Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-12T02:14:21.147Z - source: public vendor reports. Verify before blocking.
 rjun123321@mail.ru
 mail-30a@mail.ru
 aleksey1990yakov@mail.ru
