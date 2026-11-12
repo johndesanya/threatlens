@@ -1,4 +1,18 @@
-# ThreatLens IoC feed - generated 2026-11-12T13:09:57.776Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-12T19:01:13.772Z - source: public vendor reports. Verify before blocking.
+sqlcmd.exe
+payload.exe
+out.bat
+google.exe
+go.vbs
+go.bat
+down.exe
+Secs.exe
+360tray.exe
+dwm.exe
+avp.exe
+MsMpEng.exe
+dllhost.exe
+MicrosoftEdgeUpdate.exe
 finenc3-5.ps1
 denc.ps1
 datasweep.ps1
@@ -10,6 +24,7 @@ eToken.dll
 IKEYUI64.dll
 HenMapCaCon.dll
 DLPReel.dll
+dwn.exe
 ToolboxRelayUploader.exe
 SSA-2026-STATEMENT-15518787.bat
 Run-Lateral-Full.bat
@@ -140,7 +155,6 @@ Rpcrt4.dll
 graphics-hook-filter64.dll
 regasm.exe
 dwwin.exe
-dwm.exe
 WUDFHost.exe
 RegAsm.exe
 Microsoft.exe
@@ -210,7 +224,6 @@ ole32.dll
 ScriptRunner.exe
 PatchMyPC-ScriptRunner.exe
 Microsoft.HostIntegration.Connectors.dll
-dllhost.exe
 nenc.exe
 bash.exe
 EXCEL.EXE
@@ -257,7 +270,6 @@ RuntimeBroker.exe
 OneDriveStandaloneUpdater.exe
 GoogleUpdate.exe
 AdobeARM.exe
-MicrosoftEdgeUpdate.exe
 sqldiff.exe
 windowsdefendersvc.exe
 updater.exe
@@ -274,7 +286,6 @@ jcef_helper.exe
 install.ps1
 fsquirt.exe
 FunnyApp.exe
-MsMpEng.exe
 printfilterpipelinesvc.exe
 ntoskrnl.exe
 mscoree.dll
@@ -658,7 +669,6 @@ cb.exe
 browserexploitdetection.exe
 bdservicehost.exe
 bdagent.exe
-avp.exe
 avgui.exe
 avgcsrva.exe
 aswidsagent.exe

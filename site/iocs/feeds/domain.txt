@@ -1,13 +1,37 @@
-# ThreatLens IoC feed - generated 2026-11-12T13:09:57.776Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-12T19:01:13.772Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+agents.md
+web.threats.name
+host.services.threats.name
+claude.md
+gemini.md
+bugzilla.redhat.com
+asp.net
+support.plesk.com
+jira.mongodb.org
+test.tigerpark.top
+vk.com
+xmr-ru.kryptex.network
+www.swordaa.com
+site.vietnam852.com
+site.jiancai008.com
+site.hfgjjkrewjk.com
+server.vietnam852.com
+ftp.vietnam852.com
+7cxmr-ru.kryptex.network
+sidecar.istio.io
+fly.io
 discordzapretik.sbs
 n0n.to
-bugzilla.redhat.com
+www.siemens.com
 access.redhat.com
 www.qt.io
 codereview.qt-project.org
+icanhazip.com
+api.ipify.org
+ifconfig.me
 analytics.insightjs.com
 insightjs.com
 chicagohistory.org
@@ -49,7 +73,6 @@ panaxholdings.co.kr
 panaxetec.co.kr
 panaxenergy.co.kr
 efasco.co.kr
-vk.com
 justsendtext.xyz
 wfx-audit.md
 update.sh
@@ -58,7 +81,6 @@ ci-cdvnwh.sh
 ci-a4oytg.sh
 ci-7arkno.sh
 11-10.md
-fly.io
 docs.azul.com
 www.certvde.com
 teams-livemeeting.com
@@ -67,6 +89,11 @@ wpscan.com
 vuldb.com
 ubuntu.com
 smashingsecurity.com
+www.intel.com
+xenbits.xen.org
+www.ivanti.com
+cey-tech.com
+authorization.md
 promantra.us
 mail.promantra.us
 www.groupe-alternance.com
@@ -169,7 +196,9 @@ ninv.com
 imas.es
 sielke.com
 domainsite.com
+www.axis.com
 spf.host-ww.net
+downloads.apache.org
 squarespace.com
 thnic.co.th
 outboundmail.convio.net
@@ -209,6 +238,7 @@ spf.ess.barracudanetworks.com
 networksolutionsprivateregistration.com
 sendgrid.net
 mimecast.com
+forums.ivanti.com
 godaddy.com
 ovh.net
 salesforce.com
@@ -337,7 +367,6 @@ wps-cn.com
 microsoft-flash.com
 developer.konghq.com
 me.n-able.com
-asp.net
 support.blackberry.com
 shiftdelete.net
 hackerone.com
@@ -380,7 +409,6 @@ blueteamlabs.online
 www.wordfence.com
 plugins.trac.wordpress.org
 downloads.wordpress.org
-www.axis.com
 www.signworx.net
 www.broexp.com
 www.nysnacks.com
@@ -566,7 +594,6 @@ namesilo.com
 mail.livingwordschools.org
 livingwordschools.org
 www.albion-online-data.com
-downloads.apache.org
 carrollins.com
 zoho.in
 unionbankonline.bank.in
@@ -750,8 +777,6 @@ docs.snowflake.com
 www.jetbrains.com
 paleasbest.top
 aiarmor.website
-agents.md
-claude.md
 rubygems.org
 www.mansjumis.lv
 menu.cc
@@ -814,7 +839,6 @@ supertrap.net
 niceer.net
 datamons.org
 zoho.com
-api.ipify.org
 ip-api.com
 ipinfo.io
 community.flexera.com
@@ -996,7 +1020,6 @@ office.com-access-sharepoint.com
 goo.gle-access-eventregister.icu
 hover.com
 easydmarc.pro
-jira.mongodb.org
 authsmtp.com
 mx.serviciodecorreo.es
 mx01.ionos.de
@@ -1775,7 +1798,6 @@ www.cnvd.org.cn
 ddosecrets.org
 lightning.news
 remediate-macos.sh
-ifconfig.me
 vietnam.vn
 ecomagent.in
 www.drupal.org
@@ -1891,7 +1913,6 @@ a111.life
 3x3br.eu.cc
 grok.com
 www.hitachienergy.com
-www.siemens.com
 themes.trac.wordpress.org
 booking.com
 security.nozominetworks.com
@@ -3086,7 +3107,6 @@ www.att.com
 fairfeelegalservices.com
 maplequay.net
 employee-handbook.md
-icanhazip.com
 hstspreload.org
 greatfire.org
 supportportal.juniper.net
@@ -3155,7 +3175,6 @@ news.am
 ipify.com
 japantimes.co.jp
 saintpierredescorps.fr
-forums.ivanti.com
 curl.se
 malicious.net
 affecting.net
@@ -4021,9 +4040,7 @@ indiatodays.org
 f005.backblazeb2.com
 clients-easy.s3.us-east-005.backblazeb2.com
 amys.website
-web.threats.name
 telemetry-update.services
-host.services.threats.name
 host.secureserver.net
 zzyud.com
 zenplay77-x.space
@@ -5451,7 +5468,6 @@ advertisingeffectively.com
 589669.cc
 3plfast.com
 payloads.tralalarkefe.com
-gemini.md
 ethereum-rpc.publicnode.com
 www.ohchr.org
 isans.org
