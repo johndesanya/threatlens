@@ -1,4 +1,6 @@
-# ThreatLens IoC feed - generated 2026-11-12T19:01:13.772Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-12T19:50:57.086Z - source: public vendor reports. Verify before blocking.
+cca616647db9370c88998ae25da6997f.exe
+485055033bcddfde56325c0d2feea4f2.exe
 sqlcmd.exe
 payload.exe
 out.bat
@@ -137,7 +139,6 @@ chromelevator_x64.exe
 xmrig.exe
 WinRing0x64.sys
 d4aa3e7010220ad1b458fac17039c274_62_Exe.exe
-cca616647db9370c88998ae25da6997f.exe
 sample.exe
 Lincoln.ps1
 21.09.2026.xml.exe
@@ -258,7 +259,6 @@ pythonw.exe
 uip.exe
 googleupdate.exe
 openssl.exe
-485055033bcddfde56325c0d2feea4f2.exe
 stadia_x32.exe
 nvcontainer.exe
 build_x64.exe

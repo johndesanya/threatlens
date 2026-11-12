@@ -1,16 +1,19 @@
-# ThreatLens IoC feed - generated 2026-11-12T19:01:13.772Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-12T19:50:57.086Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+bugzilla.redhat.com
+jira.mongodb.org
+www.acymailing.com
+www.jdownloads.com
+jdownloads.com
 agents.md
 web.threats.name
 host.services.threats.name
 claude.md
 gemini.md
-bugzilla.redhat.com
 asp.net
 support.plesk.com
-jira.mongodb.org
 test.tigerpark.top
 vk.com
 xmr-ru.kryptex.network
@@ -89,6 +92,16 @@ wpscan.com
 vuldb.com
 ubuntu.com
 smashingsecurity.com
+7931115.spf06.hubspotemail.net
+mailchannels.net
+eu.mailgun.org
+turnkeyweb.net
+networksolutions.com
+www.eastwoodhomes.com
+pacificoutdoorliving.com
+mftautomation.com
+intmarkserv.com
+bristol-companies.com
 www.intel.com
 xenbits.xen.org
 www.ivanti.com
@@ -216,12 +229,14 @@ spf.antispamcloud.com
 qualtrics.com
 spf.uae.exclaimer.net
 spf.haihaimail.jp
+spf.emailsignatures365.com
 enom.com
 contactprivacy.com
 spf.cloudus.oxcs.net
 psm.knowbe4.com
 bluehost.com
 mx.ovh.com
+relay.mailchannels.net
 aspmx3.googlemail.com
 aspmx.pardot.com
 spf.mailjet.com
@@ -231,6 +246,9 @@ zohomail.com
 mx3.zoho.com
 mx2.zoho.com
 mx.zoho.com
+mx2-us1.ppe-hosted.com
+mx1-us1.ppe-hosted.com
+dispatch-us.ppe-hosted.com
 spf.has.pphosted.com
 amazonses.com
 aspmx2.googlemail.com
@@ -356,7 +374,6 @@ evil.com
 autotask.net
 servers.mcsv.net
 spf.elluciancloud.com
-dispatch-us.ppe-hosted.com
 spf.myconnectwise.net
 spf-us.emailsignatures365.com
 us-smtp-inbound-2.mimecast.com
@@ -521,14 +538,11 @@ corehub.net
 spf.sendinblue.com
 spf.zixsmbhosted.com
 mx3.mail.ovh.net
-relay.mailchannels.net
 aspmx5.googlemail.com
 aspmx4.googlemail.com
 withheldforprivacy.com
 namecheap.com
 gabonmeca.com
-mx2-us1.ppe-hosted.com
-mx1-us1.ppe-hosted.com
 secureserver.net
 publicdomainregistry.com
 privacyprotect.org
@@ -1155,7 +1169,6 @@ gworks.com
 sigsauer.com
 safewebservices.com
 bluehostprivatename.com
-spf.emailsignatures365.com
 shops.shopify.com
 paubox.com
 spf.mandrillapp.com
