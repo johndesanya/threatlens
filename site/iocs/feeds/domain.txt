@@ -1,7 +1,24 @@
-# ThreatLens IoC feed - generated 2026-11-11T19:31:46.936Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-12T01:40:06.151Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+vuldb.com
+smashingsecurity.com
+issues.chromium.org
+soxnewwork.homedns.org
+sc.payproofkit.com
+ns.mo7sen.dev
+newnewnew.gotdns.org
+digitaldownloads.com
+cyberrexdesign.screenconnect.com
+cdn007-digitaldownloads.com
+amexsafekeyupdate.com
+ultimatewindowssecurity.com
+sansec.io
+gsgg.b-cdn.net
+cdn.gsocket.io
+gsocket.io
+install.sh
 justpaste.it
 gosuslugi.ru
 iknow.lenovo.com.cn
@@ -44,6 +61,7 @@ theluckyturkey.com
 snort.org
 brightarrow.com
 www.jnattorney.com
+www.milb.com
 timberrattlers.com
 spf.tickets.com
 email.mtpsoftware.com
@@ -92,6 +110,7 @@ auth.msgapp.com
 sunnierhomes.servidoresdedicados.com
 sunnierhomes.com
 mail.sunnierhomes.com
+gcd.com
 spf.dynect.net
 spf.zohomail360.com
 mail.zendesk.com
@@ -150,7 +169,6 @@ www.hlushkova.top
 obfuscator.io
 supportxml.org
 cloudpostmail.net
-vuldb.com
 shutterstock.com
 trojan.androidos.fakeapp.in
 trojan-dropper.androidos.mamont.am
@@ -255,7 +273,6 @@ elmcrest.org
 d296172b.ess.barracudanetworks.com
 d296172a.ess.barracudanetworks.com
 mxa-0053a501.gslb.pphosted.com
-gcd.com
 assiniboinedentalgroup.com
 jeromeschools.org
 iasd.cc
@@ -959,7 +976,6 @@ techora.ru
 security.netapp.com
 03-umami-enforced-2fa-not-applied.md
 www.irfanview.com
-issues.chromium.org
 session-fixation.md
 newapi.pro
 jet-night.com
@@ -2359,7 +2375,6 @@ api.quickcamfix.online
 api.nvidia-release.org
 api.mocki.io
 host.name
-install.sh
 issuer.name
 www.vins-viallet.com
 vins-viallet.com
@@ -2802,7 +2817,6 @@ wibu-bau-bawang.online
 transfer.sh
 solidmonpe.com
 magento.ink
-gsocket.io
 filebin.net
 beraskencur.site
 bashupload.com
@@ -3828,7 +3842,6 @@ e83cedb076.nxcli.io
 rottner-tresor.at
 expresspros.com
 v-a-n-t-a.com
-smashingsecurity.com
 intruder.io
 scienteco.com
 realmo.com
