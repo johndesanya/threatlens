@@ -1,7 +1,33 @@
-# ThreatLens IoC feed - generated 2026-11-13T10:51:09.445Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-13T12:34:19.113Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+jup.sh
+x.org
+sync-node-serv.com
+securedoc.mesuttgulerr573.workers.dev
+securedoc.makeneg458.workers.dev
+noav-beacon-test.md
+nnn-task-name.md
+linkrot.fypahedupal2-0maz.workers.dev
+kfkwrfdd.xyz
+downloads.level.io
+dns.timesyncserver-312453.com
+dns.cdn-syncnode-server.com
+cdn-assets-api.makeneg458.workers.dev
+cdn-assets-api.kessler-m88.workers.dev
+cdn-assets-api.cfchk902834.workers.dev
+cdn-assets-api.busykifukek2-8psk.workers.dev
+cdn-analytics-p53.makeneg458.workers.dev
+cdn-analytics-3f4033.rosamariaeadeshtvfud.workers.dev
+bestutyresdomaonupder2324.com
+bestutyresdomaonupder.top
+bestutyresdomaonupder.com
+arch.md
+a8f2aac37385.xyz
+544504d7fe1e.xyz
+478a4d17d280.xyz
+workers.dev
 shutterstock.com
 www.cudy.com
 www.vulncheck.com
@@ -18,6 +44,7 @@ cashewminaret.org
 linksys.md
 www.linksys.com
 jira.mongodb.org
+www.openwall.com
 discuss.hashicorp.com
 www.kb.cert.org
 www.acymailing.com
@@ -423,7 +450,6 @@ shiftdelete.net
 hackerone.com
 crt.sh
 gitlab.eclipse.org
-x.org
 all.net
 virtual.cisoforum.com
 windowsupdates.us
@@ -1565,7 +1591,6 @@ hostgator.com
 delta.com
 csc.com
 aflac.com
-www.openwall.com
 exabytes.my
 wp.pl
 secop.gov.co
@@ -2781,7 +2806,6 @@ amazonyt.com
 orders.staples.com
 order.dell.com
 cloud.ru
-workers.dev
 zkorman.com
 validate.sh
 text-proc.io

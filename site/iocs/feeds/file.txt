@@ -1,4 +1,13 @@
-# ThreatLens IoC feed - generated 2026-11-13T10:51:09.445Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-13T12:34:19.113Z - source: public vendor reports. Verify before blocking.
+vcruntime140_1.dll
+vcruntime140.dll
+python311.dll
+python3.dll
+python.exe
+GUP.exe
+fodhelper.exe
+pythonw.exe
+libcurl.dll
 svhost.exe
 lock.exe
 cca616647db9370c88998ae25da6997f.exe
@@ -220,7 +229,6 @@ cscm.exe
 PsExec.exe
 simvol.exe
 lock_start.bat
-fodhelper.exe
 System.Management.Automation.dll
 esentutl.exe
 ole32.dll
@@ -257,7 +265,6 @@ Court_Order_for_ADR.iso
 msra.exe
 cleaner.ps1
 QuickAssist.exe
-pythonw.exe
 uip.exe
 googleupdate.exe
 openssl.exe
@@ -415,7 +422,6 @@ curl.Exe
 vim64.dll
 nvml.dll
 main.dll
-libcurl.dll
 jli.dll
 encryptbase64.ps1
 dnsapi.dll
