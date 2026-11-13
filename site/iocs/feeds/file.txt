@@ -1,4 +1,6 @@
-# ThreatLens IoC feed - generated 2026-11-13T02:53:44.316Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-13T09:46:31.646Z - source: public vendor reports. Verify before blocking.
+svhost.exe
+lock.exe
 cca616647db9370c88998ae25da6997f.exe
 485055033bcddfde56325c0d2feea4f2.exe
 sqlcmd.exe
