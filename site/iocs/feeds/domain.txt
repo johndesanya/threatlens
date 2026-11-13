@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-13T19:33:48.254Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-13T20:39:20.402Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 www.bbraun.com
 bugzilla.redhat.com
 www.vulncheck.com
@@ -46,6 +46,8 @@ www.cudy.com
 api.cloudvflare.com
 www.edito.pl
 uu01webzoom.us
+invent.kde.org
+docs.netgate.com
 quill-kraee-um2gf.pro
 cve-ferry-jwt-auth-bypass.md
 vuldb.com
@@ -55,6 +57,11 @@ cashewminaret.org
 linksys.md
 www.linksys.com
 jira.mongodb.org
+u1871607.wl.sendgrid.net
+www.arrbgroup.net
+www.frey-properties.com
+sportsmansguide.com
+frey-properties.com
 www.telerik.com
 security.opera.com
 www.worldwidefittings.com
@@ -62,6 +69,7 @@ worldwidefittings.com
 www.ccmcnet.com
 lovelywines.co.th
 www.openwall.com
+spf.messagelabs.com
 spf.hosting.americaneagle.com
 web.com
 networksolutionsprivateregistration.com
@@ -70,6 +78,7 @@ us-smtp-inbound-1.mimecast.com
 access.redhat.com
 www.suse.com
 www.ibm.com
+godaddy.com
 ubuntu.com
 discuss.hashicorp.com
 www.kb.cert.org
@@ -336,7 +345,6 @@ spf.ess.barracudanetworks.com
 sendgrid.net
 mimecast.com
 forums.ivanti.com
-godaddy.com
 ovh.net
 salesforce.com
 tucows.com
@@ -1095,7 +1103,6 @@ kabs.com
 eu-smtp-inbound-1.mimecast.com
 www.mongodb.com
 agent.id
-spf.messagelabs.com
 spf.hosts.co.uk
 hermes.hosts.co.uk
 athena.hosts.co.uk
