@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-13T18:37:27.338Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-13T19:33:48.254Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+www.bbraun.com
 bugzilla.redhat.com
 www.vulncheck.com
 eth.blockscout.com
@@ -59,6 +60,7 @@ security.opera.com
 www.worldwidefittings.com
 worldwidefittings.com
 www.ccmcnet.com
+lovelywines.co.th
 www.openwall.com
 spf.hosting.americaneagle.com
 web.com
@@ -241,7 +243,6 @@ namesrs.com
 waterlibrary.com
 retailinmotion.com
 mx10.chaiyohosting.com
-lovelywines.co.th
 hongbaorestaurant.com
 notagroep.nl
 avoltaworld.com
