@@ -1,9 +1,17 @@
-# ThreatLens IoC feed - generated 2026-11-12T21:03:56.891Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-13T01:14:35.527Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
-bugzilla.redhat.com
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.netresec.com
+orchardandbarite.com
+cashewminaret.org
+linksys.md
+vuldb.com
+www.linksys.com
+discuss.hashicorp.com
+www.kb.cert.org
 jira.mongodb.org
+bugzilla.redhat.com
 www.acymailing.com
 www.jdownloads.com
 jdownloads.com
@@ -89,9 +97,23 @@ www.certvde.com
 teams-livemeeting.com
 teams-cloud.live
 wpscan.com
-vuldb.com
 ubuntu.com
 smashingsecurity.com
+webhostbox.net
+spf.ess.in.barracudanetworks.com
+d302327.b.ess.in.barracudanetworks.com
+d302327.a.ess.in.barracudanetworks.com
+caterpillar.com
+airbus.com
+toyokiki-thailand.com
+sarpstechnologies.com
+axiscades.com
+upperweb.com.br
+spf.innserver12.net
+www.osiiminppal.com
+mail.osiiminppal.com
+cosmotown.com
+franc-oiloffshore.com.ng
 benchmarkseniorliving.com
 7931115.spf06.hubspotemail.net
 mailchannels.net
@@ -262,7 +284,9 @@ godaddy.com
 ovh.net
 salesforce.com
 tucows.com
+publicdomainregistry.com
 name.com
+privacyprotect.org
 issues.chromium.org
 soxnewwork.homedns.org
 sc.payproofkit.com
@@ -545,8 +569,6 @@ withheldforprivacy.com
 namecheap.com
 gabonmeca.com
 secureserver.net
-publicdomainregistry.com
-privacyprotect.org
 secnews.gr
 hosting.com
 360.cn
@@ -1048,7 +1070,6 @@ gate.rs
 draw.io
 www.gazeteburdur.com.tr
 zulip.readthedocs.io
-www.linksys.com
 insightjs.org
 handlers.rs
 auth.rs
@@ -1882,7 +1903,6 @@ developer-update.app
 data.debugbear.com
 cdn.debugbear.com
 cloud.getdbt.com
-discuss.hashicorp.com
 icepi.cx
 www.idrive.com
 support.servicenow.com
