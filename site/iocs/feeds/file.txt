@@ -1,4 +1,12 @@
-# ThreatLens IoC feed - generated 2026-11-13T12:34:19.113Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-13T18:37:27.338Z - source: public vendor reports. Verify before blocking.
+setup-full-windows.ps1
+CameraDriverUpdate.msi
+systray.exe
+kvckiller.sys
+WebCamServer.exe
+GeoStartupAgentService.exe
+ApplyUpdate.exe
+wsftprm.sys
 vcruntime140_1.dll
 vcruntime140.dll
 python311.dll
@@ -733,7 +741,6 @@ xeno.exe
 instance.exe
 decompiler.jar
 decompiler.exe
-wsftprm.sys
 timeout.exe
 find.exe
 PDFDirect.exe

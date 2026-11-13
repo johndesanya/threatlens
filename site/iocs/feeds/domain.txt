@@ -1,7 +1,19 @@
-# ThreatLens IoC feed - generated 2026-11-13T12:34:19.113Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-13T18:37:27.338Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+bugzilla.redhat.com
+www.vulncheck.com
+eth.blockscout.com
+accurasofthire.com
+update.pentagi.com
+norforge.com
+www.team-cymru.com
+rust-lang.org
+evil.com
+docs.rs
+crates.io
+cctv-update.top
 jup.sh
 x.org
 sync-node-serv.com
@@ -30,8 +42,6 @@ a8f2aac37385.xyz
 workers.dev
 shutterstock.com
 www.cudy.com
-www.vulncheck.com
-bugzilla.redhat.com
 api.cloudvflare.com
 www.edito.pl
 uu01webzoom.us
@@ -44,7 +54,21 @@ cashewminaret.org
 linksys.md
 www.linksys.com
 jira.mongodb.org
+www.telerik.com
+security.opera.com
+www.worldwidefittings.com
+worldwidefittings.com
+www.ccmcnet.com
 www.openwall.com
+spf.hosting.americaneagle.com
+web.com
+networksolutionsprivateregistration.com
+us-smtp-inbound-2.mimecast.com
+us-smtp-inbound-1.mimecast.com
+access.redhat.com
+www.suse.com
+www.ibm.com
+ubuntu.com
 discuss.hashicorp.com
 www.kb.cert.org
 www.acymailing.com
@@ -72,7 +96,6 @@ fly.io
 discordzapretik.sbs
 n0n.to
 www.siemens.com
-access.redhat.com
 www.qt.io
 codereview.qt-project.org
 icanhazip.com
@@ -106,7 +129,6 @@ smithlawfirmfl.com
 gatorworks.com
 beauchampedwardscpa.com
 atlantic.net
-web.com
 vpn.swhyhk.com
 swshkg.com.hk
 int.swshkg.com.hk
@@ -132,7 +154,6 @@ www.certvde.com
 teams-livemeeting.com
 teams-cloud.live
 wpscan.com
-ubuntu.com
 smashingsecurity.com
 webhostbox.net
 spf.ess.in.barracudanetworks.com
@@ -311,7 +332,6 @@ spf.has.pphosted.com
 amazonses.com
 aspmx2.googlemail.com
 spf.ess.barracudanetworks.com
-networksolutionsprivateregistration.com
 sendgrid.net
 mimecast.com
 forums.ivanti.com
@@ -431,14 +451,11 @@ gcd.com
 spf.dynect.net
 spf.zohomail360.com
 mktomail.com
-evil.com
 autotask.net
 servers.mcsv.net
 spf.elluciancloud.com
 spf.myconnectwise.net
 spf-us.emailsignatures365.com
-us-smtp-inbound-2.mimecast.com
-us-smtp-inbound-1.mimecast.com
 oastify.com
 mlsend.com
 wps-cn.com
@@ -623,7 +640,6 @@ vantaralabs.online
 nexorolabs.store
 engine.io
 socket.io
-crates.io
 login.microsoftonline.com
 trigger.dev
 www.cgm.com
@@ -749,7 +765,6 @@ bobibanking.com
 adp.com
 microsoftonline.com
 acme.com
-www.ibm.com
 hackmd.io
 glacier-tarsal-711.notion.site
 www.unrealircd.org
@@ -903,7 +918,6 @@ rotstein-shiffman.com.1.0001.arsmtp.com
 appriver.com
 mailing.eqs.com
 wildwestdomains.com
-www.suse.com
 workerstats.net
 supertrap.net
 niceer.net
@@ -2555,7 +2569,6 @@ netorg6194492.onmicrosoft.com
 www.mstlaw.com
 hostgatorprivatename.com
 www.taubensee.com
-spf.hosting.americaneagle.com
 fsspfus.freshemail.io
 www.mountainrheumatology.com
 www.powerfundingltd.com
@@ -4923,7 +4936,6 @@ static.rust-lang.org
 static.crates.io
 index.crates.io
 hwsrv-798836.hostwindsdns.com
-docs.rs
 build.rs
 californicationdetroit.com
 t2.nmnsny.sbs
