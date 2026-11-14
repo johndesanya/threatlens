@@ -1,8 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-14T17:56:38.505Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-14T18:51:14.261Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 vuldb.com
+codeberg.org
 www.wordfence.com
 plugins.trac.wordpress.org
 wordpress.org
@@ -14,7 +15,16 @@ iphones.ru
 w.anadnet.com
 anadnet.com
 wpscan.com
+web.fittleworth.com
+fittleworth.com
 abc4.com
+eu-smtp-inbound-2.mimecast.com
+eu-smtp-inbound-1.mimecast.com
+mail.zendesk.com
+psm.knowbe4.com
+safenames.net
+sendgrid.net
+mimecast.com
 www.vulncheck.com
 seclists.org
 postecert.poste.it
@@ -341,7 +351,6 @@ spf.icontroller.eu
 darrequipment.com
 e2ma.net
 spf.rpost.net
-mail.zendesk.com
 support.aws.com
 spf.antispamcloud.com
 qualtrics.com
@@ -350,7 +359,6 @@ spf.haihaimail.jp
 spf.emailsignatures365.com
 enom.com
 spf.cloudus.oxcs.net
-psm.knowbe4.com
 bluehost.com
 mx.ovh.com
 relay.mailchannels.net
@@ -370,8 +378,6 @@ spf.has.pphosted.com
 amazonses.com
 aspmx2.googlemail.com
 spf.ess.barracudanetworks.com
-sendgrid.net
-mimecast.com
 forums.ivanti.com
 ovh.net
 salesforce.com
@@ -999,7 +1005,6 @@ www.ddduuuppp.com
 sqlserver-sqlite.com
 nginxmysql.com
 axeghost.offprint.app
-codeberg.org
 xint.io
 labs.watchtowr.com
 www.slcyber.io
@@ -1116,7 +1121,6 @@ solutis.azurewebsites.net
 50135458.spf01.hubspotemail.net
 mail.kabs.com
 kabs.com
-eu-smtp-inbound-1.mimecast.com
 www.mongodb.com
 agent.id
 spf.hosts.co.uk
@@ -1197,7 +1201,6 @@ registrocolombia.co
 mail.sealmail.co
 dian.gov.co
 www.tfglondon.com
-eu-smtp-inbound-2.mimecast.com
 www.avir.com
 d401547.b.ess.ca.barracudanetworks.com
 d401547.a.ess.ca.barracudanetworks.com
@@ -2981,7 +2984,6 @@ fallbackmx.spamexperts.eu
 espf.agari.com
 ec.spf-protect.agari.com
 aveva.com
-safenames.net
 opentext.com
 mxb-00102601.gslb.pphosted.com
 mxa-00102601.gslb.pphosted.com
