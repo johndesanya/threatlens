@@ -1,8 +1,14 @@
-# ThreatLens IoC feed - generated 2026-11-14T02:40:00.002Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-14T09:07:59.838Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 vuldb.com
+w.anadnet.com
+anadnet.com
+wpscan.com
+wordpress.org
+www.wordfence.com
+plugins.trac.wordpress.org
 www.vulncheck.com
 seclists.org
 postecert.poste.it
@@ -185,7 +191,6 @@ docs.azul.com
 www.certvde.com
 teams-livemeeting.com
 teams-cloud.live
-wpscan.com
 smashingsecurity.com
 webhostbox.net
 spf.ess.in.barracudanetworks.com
@@ -413,7 +418,6 @@ engineeringrssfeed.azurewebsites.net
 blogvolleyballstatus.azurewebsites.net
 azurewebsites.net
 advisories.octopus.com
-wordpress.org
 theluckyturkey.com
 snort.org
 brightarrow.com
@@ -519,8 +523,6 @@ picoctf.org
 cyberdefenders.org
 crackmes.one
 blueteamlabs.online
-www.wordfence.com
-plugins.trac.wordpress.org
 downloads.wordpress.org
 www.signworx.net
 www.broexp.com

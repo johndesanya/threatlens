@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-14T02:40:00.002Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-14T09:07:59.838Z - source: public vendor reports. Verify before blocking.
 sqlite3.exe
 sc.msi
 TrapWatch.ps1
@@ -30,6 +30,11 @@ GUP.exe
 fodhelper.exe
 pythonw.exe
 libcurl.dll
+gta6_installer_cyberleek.exe
+access.exe
+Leaks.exe
+GTA6.apk
+CyberLeek-GTAVI-GTA6-PreBuild.torrent.exe
 svhost.exe
 lock.exe
 cca616647db9370c88998ae25da6997f.exe
