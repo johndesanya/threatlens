@@ -1,15 +1,20 @@
-# ThreatLens IoC feed - generated 2026-11-14T11:43:17.102Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-14T17:14:28.686Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
-iphones.ru
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 vuldb.com
+www.wordfence.com
+plugins.trac.wordpress.org
+wordpress.org
+www.tenda.com.cn
+readme.md
+lavender-bicycle-a5a.notion.site
+www.grayback.es
+iphones.ru
 w.anadnet.com
 anadnet.com
 wpscan.com
-wordpress.org
-www.wordfence.com
-plugins.trac.wordpress.org
+abc4.com
 www.vulncheck.com
 seclists.org
 postecert.poste.it
@@ -826,7 +831,6 @@ ellijay-mx.email-protect.gosecure.net
 xcai.pro
 api.deepseek.com
 hunt.io
-lavender-bicycle-a5a.notion.site
 www.totolink.net
 pluginus.net
 plugins.svn.wordpress.org
@@ -2356,7 +2360,6 @@ gpt-6-astra.github.io
 gpt-5-6.github.io
 digit.dedyn.io
 calm-piano-floats-313.dedyn.io
-readme.md
 php-rce.cloudflare.app
 thispc.net
 support.courtadr.com
@@ -2641,7 +2644,6 @@ aroshka.cloud
 archivetj.com
 www.bookstackapp.com
 marshal.cc
-www.grayback.es
 krakenhire.com
 jsonkeeper.com
 coinbase.talenthiringtool.com
@@ -4035,6 +4037,7 @@ samltool.io
 instance-udppxf-relay.screenconnect.com
 icci-sa.com
 allsecured.net
+gomomentum.com
 carloxmextos.org
 winandoffice.com
 web-hosting.com
