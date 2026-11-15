@@ -1,13 +1,18 @@
-# ThreatLens IoC feed - generated 2026-11-15T02:51:28.407Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-15T06:10:40.613Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.surveymonkey.com
+n2k.com
+02-xss-poc.sh
+www.linuxfoundation.org
+vuldb.com
+01-rbac-poc.sh
 zr.admin.net
 vul.yulun.ac.cn
 www.vulncheck.com
 d-link-dir-600l-hnap-soapaction.md
 server.rs
-vuldb.com
 www.dlink.com
 d-link-dir-600l-authentication-cgi.md
 vk.com
@@ -23,13 +28,16 @@ iphones.ru
 w.anadnet.com
 anadnet.com
 wpscan.com
+www.kayaku.com.my
 web.fittleworth.com
 fittleworth.com
 abc4.com
 eu-smtp-inbound-2.mimecast.com
 eu-smtp-inbound-1.mimecast.com
 mail.zendesk.com
+spf.turbo-smtp.com
 psm.knowbe4.com
+ilovewww.com
 safenames.net
 sendgrid.net
 mimecast.com
@@ -2094,7 +2102,6 @@ www.nacm.org
 www.lifefone.com
 trustpilotservice.com
 mega.nz
-spf.turbo-smtp.com
 registrygate.com
 mail.susannecerda.com
 xspringcapital.com
@@ -2458,7 +2465,6 @@ spf.accesssoftek.com
 jhahosted.com
 datem.com.ph
 spf.mailsentinel.net
-ilovewww.com
 ahcg.com.my
 odoo.com
 rpc-server.cc
