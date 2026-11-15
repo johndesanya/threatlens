@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-15T14:22:31.718Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-15T17:24:06.813Z - source: public vendor reports. Verify before blocking.
 sqlite3.exe
 sc.msi
 TrapWatch.ps1
