@@ -1,9 +1,16 @@
-# ThreatLens IoC feed - generated 2026-11-14T23:19:38.529Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-15T02:51:28.407Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
-vk.com
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+zr.admin.net
+vul.yulun.ac.cn
+www.vulncheck.com
+d-link-dir-600l-hnap-soapaction.md
+server.rs
 vuldb.com
+www.dlink.com
+d-link-dir-600l-authentication-cgi.md
+vk.com
 codeberg.org
 www.wordfence.com
 plugins.trac.wordpress.org
@@ -26,7 +33,6 @@ psm.knowbe4.com
 safenames.net
 sendgrid.net
 mimecast.com
-www.vulncheck.com
 seclists.org
 postecert.poste.it
 www.ibm.com
@@ -681,7 +687,6 @@ gitlab.freedesktop.org
 gstreamer.freedesktop.org
 solaric.com.ph
 exploit.in
-www.dlink.com
 openam-jp.github.io
 www.veeam.com
 psirt.global.sonicwall.com
@@ -2106,7 +2111,6 @@ registermymfa.com
 onetimesso.com
 internal.com
 shattered.io
-server.rs
 grafana.com
 emudhra.we-have-a-problem.com
 cf-id.com
@@ -5843,9 +5847,6 @@ graph.windows.net
 cloud.service.name
 killav.de
 killav.at
-cdn-static.okendo.io
-api.wizzleticks.com
-api.wigetticks.com
 oskeyconnect.com
 www.wangmeng.xyz
 passkeycreate.com
