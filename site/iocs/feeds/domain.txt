@@ -1,8 +1,10 @@
-# ThreatLens IoC feed - generated 2026-11-15T20:18:46.196Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-15T23:31:05.874Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+blog.gitea.com
 uber.com
+vk.com
 www.vulncheck.com
 fw.draytek.com.tw
 vuldb.com
@@ -25,6 +27,18 @@ vul.yulun.ac.cn
 d-link-dir-600l-hnap-soapaction.md
 server.rs
 d-link-dir-600l-authentication-cgi.md
+www.apexspace.com
+spf.protection.office365.us
+proxy-ssl.webflow.com
+apexspace-com.mail.protection.office365.us
+www.aeis.com
+theheartlandconstructiongroup.com
+mail.theheartlandconstructiongroup.com
+zb04618963.zmverify.zoho.in
+nlsmtp.com
+plasmagen.co.in
+godrej.com
+connectwell.com
 zb87453146.zmverify.zoho.com
 pah.com.my
 www.kesslerdcp.com
@@ -43,16 +57,22 @@ mailprotection.fiber.net.id
 mail.fiber.net.id
 hensun.com
 fiber.net.id
+squarespace.com
+bigrock.com
+maskeddetails.com
 enom.com
 service.aliyun.com
 webnic.cc
+aspmx.pardot.com
 mailgun.org
 namecheap.com
+amazonses.com
 web.com
+sendgrid.net
 godaddy.com
+salesforce.com
 publicdomainregistry.com
 privacyprotect.org
-vk.com
 codeberg.org
 www.wordfence.com
 plugins.trac.wordpress.org
@@ -77,7 +97,6 @@ spf.turbo-smtp.com
 psm.knowbe4.com
 ilovewww.com
 safenames.net
-sendgrid.net
 mimecast.com
 seclists.org
 postecert.poste.it
@@ -387,7 +406,6 @@ domainsite.com
 www.axis.com
 spf.host-ww.net
 downloads.apache.org
-squarespace.com
 thnic.co.th
 outboundmail.convio.net
 47128378.spf05.hubspotemail.net
@@ -409,7 +427,6 @@ bluehost.com
 mx.ovh.com
 relay.mailchannels.net
 aspmx3.googlemail.com
-aspmx.pardot.com
 spf.mailjet.com
 markmonitor.com
 zohomail.com
@@ -420,12 +437,10 @@ mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
 spf.has.pphosted.com
-amazonses.com
 aspmx2.googlemail.com
 spf.ess.barracudanetworks.com
 forums.ivanti.com
 ovh.net
-salesforce.com
 name.com
 issues.chromium.org
 digitaldownloads.com
@@ -870,7 +885,6 @@ q-technicians.be
 mx.mailprotect.be
 mx.backup.mailprotect.be
 bpcm.com
-maskeddetails.com
 trinitycustom.com
 spf.mtasv.net
 gosecure.net
@@ -1699,7 +1713,6 @@ gcloud-auth.pl
 deepveindrilling.com
 20wn701ae.md
 app.notion.com
-blog.gitea.com
 virtualine.net
 wl-wn530hg4b.md
 report.md
@@ -1725,7 +1738,6 @@ hitechindia.co.in
 hitechgroup.com
 hitechconnector.com
 hitech.in
-bigrock.com
 mycloudgrocer.com
 www.forum-zt.at
 www.vjsz.hu
