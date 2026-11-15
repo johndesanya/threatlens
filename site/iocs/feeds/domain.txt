@@ -1,20 +1,43 @@
-# ThreatLens IoC feed - generated 2026-11-15T08:23:39.261Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-15T12:53:11.279Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+vuldb.com
+www.dlink.com
+redacted-telematics.com.au
+openidm.redacted-identity.com.au
+login.redacted-identity.com.au
+api.redacted-telematics.com.au
+x.org
+asp.net
+itsourcecode.com
 www.surveymonkey.com
 n2k.com
 02-xss-poc.sh
 www.linuxfoundation.org
-vuldb.com
 01-rbac-poc.sh
 zr.admin.net
 vul.yulun.ac.cn
 www.vulncheck.com
 d-link-dir-600l-hnap-soapaction.md
 server.rs
-www.dlink.com
 d-link-dir-600l-authentication-cgi.md
+spf.mail.qq.com
+mxbiz2.qq.com
+mxbiz1.qq.com
+yandex.net
+missouriweldinginstitute.com
+www.ibeam.hk
+tdstech.com.vn
+spicorp-invest.com
+mailprotection.fiber.net.id
+mail.fiber.net.id
+hensun.com
+fiber.net.id
+service.aliyun.com
+godaddy.com
+publicdomainregistry.com
+privacyprotect.org
 vk.com
 codeberg.org
 www.wordfence.com
@@ -34,6 +57,7 @@ fittleworth.com
 abc4.com
 eu-smtp-inbound-2.mimecast.com
 eu-smtp-inbound-1.mimecast.com
+www.openwall.com
 mail.zendesk.com
 spf.turbo-smtp.com
 psm.knowbe4.com
@@ -63,7 +87,6 @@ docs.rs
 crates.io
 cctv-update.top
 jup.sh
-x.org
 sync-node-serv.com
 securedoc.mesuttgulerr573.workers.dev
 securedoc.makeneg458.workers.dev
@@ -125,7 +148,6 @@ alpha1usa.com
 spf.brevo.com
 fly.io
 t.com
-www.openwall.com
 spf.messagelabs.com
 hover.com
 contactprivacy.com
@@ -136,7 +158,6 @@ us-smtp-inbound-2.mimecast.com
 us-smtp-inbound-1.mimecast.com
 access.redhat.com
 www.suse.com
-godaddy.com
 ubuntu.com
 tucows.com
 discuss.hashicorp.com
@@ -149,7 +170,6 @@ web.threats.name
 host.services.threats.name
 claude.md
 gemini.md
-asp.net
 support.plesk.com
 test.tigerpark.top
 xmr-ru.kryptex.network
@@ -395,9 +415,7 @@ spf.ess.barracudanetworks.com
 forums.ivanti.com
 ovh.net
 salesforce.com
-publicdomainregistry.com
 name.com
-privacyprotect.org
 issues.chromium.org
 digitaldownloads.com
 cyberrexdesign.screenconnect.com
@@ -992,7 +1010,6 @@ files.dreamhost.com
 lists.apache.org
 agentscope-bash-tool-tee-misclassification-arbitrary-file-write.md
 agentscope-agent-service-x-user-id-missing-authentication.md
-itsourcecode.com
 evilwebsite.com
 mcp-stdio-workspace-unauthenticated-process-execution.md
 www.igorslab.de
@@ -2411,7 +2428,6 @@ mm-lasertechnik.lastingonlineexperiences.de
 code-projects.org
 zhito.com
 spf.qiye.aliyun.com
-service.aliyun.com
 mx3.qiye.aliyun.com
 mx2.qiye.aliyun.com
 mx1.qiye.aliyun.com
