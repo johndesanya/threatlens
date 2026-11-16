@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-16T20:40:30.026Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-16T21:08:27.052Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 qbee.io
 cctv-update.top
 www.enterprisedb.com
@@ -83,6 +83,12 @@ stratosbody.com
 mebel-saransk.ru
 flyspecialline.com
 vul.yulun.ac.cn
+cust-spf.exacttarget.com
+spf.us.exclaimer.net
+radienzliving.com
+d236862b.ess.barracudanetworks.com
+d236862a.ess.barracudanetworks.com
+amarok.com
 reinhartpm.com
 lexsynergy.com
 fdspfeuc.freshemail.io
@@ -190,6 +196,7 @@ unionbankonline.bank.in
 onlinesbi.com
 ecp.gov.pk
 register.com
+spf.icontroller.eu
 www.mongodb.com
 jpmorganchase.com
 att.com
@@ -206,6 +213,7 @@ markmonitor.com
 transmail.net
 mailgun.org
 spf.constantcontact.com
+amazonses.com
 aspmx2.googlemail.com
 web.com
 spf.ess.barracudanetworks.com
@@ -317,7 +325,6 @@ service.aliyun.com
 webnic.cc
 aspmx.pardot.com
 namecheap.com
-amazonses.com
 publicdomainregistry.com
 privacyprotect.org
 codeberg.org
@@ -649,7 +656,6 @@ outboundmail.convio.net
 47128378.spf05.hubspotemail.net
 bmesend.com
 san.ve
-spf.icontroller.eu
 4378822.spf05.hubspotemail.net
 darrequipment.com
 e2ma.net
