@@ -1,7 +1,15 @@
-# ThreatLens IoC feed - generated 2026-11-16T09:56:57.641Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-16T10:58:33.160Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+rusfindlove.ru
+penzadogshelter.site
+moscowsubwaymap.site
+lukoili.ru
+item-5343.digital
+internist.sbs
+test.joindns4.eu
+one.one.one.one
 wccftech.com
 www.qt.io
 codereview.qt-project.org
