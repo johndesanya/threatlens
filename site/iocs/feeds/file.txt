@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-15T23:31:05.874Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-16T00:04:10.608Z - source: public vendor reports. Verify before blocking.
 sqlite3.exe
 sc.msi
 TrapWatch.ps1
@@ -872,11 +872,6 @@ Patch.exe
 07.exe
 lambsys.elf
 native_host.bat
-node-v24.15.0-x64-86.exe
-mpr.dll
-apimonitor-x64.exe
-BATPackageBulderSetup.bat
-BATPackageBuilderSetup.bat
 vgk.sys
 stpm_old.sys
 stpm_new.sys

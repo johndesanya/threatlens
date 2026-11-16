@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-15T23:31:05.874Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-16T00:04:10.608Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 blog.gitea.com
 uber.com
 vk.com
@@ -5883,11 +5883,6 @@ tech-crunch.org
 venelectronics.com
 oskeysync.com
 passkeycreator.com
-node-js.prentiva99.info
-link.storjshare.io
-app.miloyannopoulos.com
-graph.windows.net
-cloud.service.name
 killav.de
 killav.at
 oskeyconnect.com
