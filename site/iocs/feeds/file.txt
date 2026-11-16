@@ -1,4 +1,11 @@
-# ThreatLens IoC feed - generated 2026-11-16T00:56:18.871Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-16T08:33:03.412Z - source: public vendor reports. Verify before blocking.
+b79faace.dll
+WerFault.exe
+OpenWith.exe
+AtBroker.exe
+7z.dll
+dllhost.exe
+find.exe
 sqlite3.exe
 sc.msi
 TrapWatch.ps1
@@ -51,7 +58,6 @@ Secs.exe
 dwm.exe
 avp.exe
 MsMpEng.exe
-dllhost.exe
 MicrosoftEdgeUpdate.exe
 finenc3-5.ps1
 denc.ps1
@@ -639,7 +645,6 @@ Nedca.exe
 FS_SETUP_HY_173.exe
 FS_SETUP_GG_173.exe
 FS_SETUP_DD_173.exe
-7z.dll
 snc-automation-api.jar
 xMain.dll
 nvdahelperremote.dll
@@ -757,7 +762,6 @@ instance.exe
 decompiler.jar
 decompiler.exe
 timeout.exe
-find.exe
 PDFDirect.exe
 PDFCORE8.dll
 EnPortv.sys
