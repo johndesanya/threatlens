@@ -1,4 +1,5 @@
-# ThreatLens IoC feed - generated 2026-11-16T10:58:33.160Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-16T20:40:30.026Z - source: public vendor reports. Verify before blocking.
+WebCamServer.exe
 control.exe
 systray.exe
 b79faace.dll
@@ -25,7 +26,6 @@ curl.exe
 setup-full-windows.ps1
 CameraDriverUpdate.msi
 kvckiller.sys
-WebCamServer.exe
 GeoStartupAgentService.exe
 ApplyUpdate.exe
 wsftprm.sys
