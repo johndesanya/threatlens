@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-16T21:08:27.052Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-16T21:56:53.270Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 qbee.io
 cctv-update.top
 www.enterprisedb.com
@@ -83,6 +83,10 @@ stratosbody.com
 mebel-saransk.ru
 flyspecialline.com
 vul.yulun.ac.cn
+www.ncip.gov.ph
+www.ashlandwatergroup.com
+www.strategicproperties.com
+risingpharma.com
 cust-spf.exacttarget.com
 spf.us.exclaimer.net
 radienzliving.com
@@ -206,12 +210,16 @@ enom.com
 contactprivacy.com
 jira.mongodb.org
 bluehost.com
+us.ppe-hosted.com
 servers.mcsv.net
 inkyphishfence.com
 relay.mailchannels.net
+aspmx3.googlemail.com
 markmonitor.com
 transmail.net
 mailgun.org
+mx2-us1.ppe-hosted.com
+mx1-us1.ppe-hosted.com
 spf.constantcontact.com
 amazonses.com
 aspmx2.googlemail.com
@@ -668,14 +676,11 @@ spf.haihaimail.jp
 spf.emailsignatures365.com
 spf.cloudus.oxcs.net
 mx.ovh.com
-aspmx3.googlemail.com
 spf.mailjet.com
 zohomail.com
 mx3.zoho.com
 mx2.zoho.com
 mx.zoho.com
-mx2-us1.ppe-hosted.com
-mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
 spf.has.pphosted.com
 forums.ivanti.com
@@ -1523,7 +1528,6 @@ shops.shopify.com
 paubox.com
 spf.mandrillapp.com
 mattermost.com
-us.ppe-hosted.com
 spfa.cpmails.com
 www.solarwinds.com
 20example.com
