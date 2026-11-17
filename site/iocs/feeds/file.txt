@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-17T17:02:19.419Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-17T18:26:16.540Z - source: public vendor reports. Verify before blocking.
 terms_and_conditions.pdf.lnk
 terms_and_conditions.exe
 higeleveltask_x64.exe
@@ -6,6 +6,7 @@ davclnt.dll
 SysmonDrivers.exe
 ComputerDefaults.exe
 fodhelper.exe
+update.bat
 version.dll
 sqlite.dll
 snmpapi.dll

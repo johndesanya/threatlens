@@ -1,7 +1,16 @@
-# ThreatLens IoC feed - generated 2026-11-17T17:02:19.419Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-17T18:26:16.540Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+zoom.com
+vidaxl.co.uk
+unibas.ch
+stamps.com
+faz.net
+1688360.cc
+eu.cc
+salesforce.com
+cdn.optimizely.com
 t.us
 t.name
 p.us
@@ -21,6 +30,8 @@ i.us
 g.co
 ncsc.ch
 codevispera.com
+icrtouch.com
+mattermost.com
 malala-tour-indonesia.github.io
 agents.md
 claude.md
@@ -78,10 +89,8 @@ je4ft3gn8vxudum.icu
 ios-hack.icu
 gm38duxoihbmy5o.icu
 eil786npto9u5bq.icu
-cdn.optimizely.com
 5vobauua3ojpklx.icu
 1y69gy2mdzaltz1.icu
-1688360.cc
 mail.versio.nl
 domain.site
 bus.nl
@@ -93,7 +102,6 @@ managebuilding.com
 login.optimizely.com
 loftliving.com
 cdn.cookielaw.org
-stamps.com
 foxnews.com
 twnic.top
 ms.twnic.top
@@ -124,7 +132,6 @@ storifyme.xyz
 securitybank.com
 i.kissmetrics.com
 foxsports.com
-faz.net
 apv-static.minute-ly.com
 hackerone.com
 www.wordfence.com
@@ -229,6 +236,8 @@ spf.sendinblue.com
 mx.ovh.com
 aspmx3.googlemail.com
 verio-inc.com
+mx01.ionos.de
+mx00.ionos.de
 spf.mailjet.com
 markmonitor.com
 mailgun.org
@@ -244,7 +253,6 @@ web.com
 sendgrid.net
 supportportal.juniper.net
 ovh.net
-salesforce.com
 api.ipify.org
 www.zoom.com
 www.virginmediao2.co.uk
@@ -330,7 +338,6 @@ stratosbody.com
 mebel-saransk.ru
 flyspecialline.com
 vul.yulun.ac.cn
-zoom.com
 mutualofomaha.com
 sparkpostmail.com
 icims.com
@@ -550,7 +557,6 @@ documentserver-generate-allfonts.sh
 documentserver-flush-cache.sh
 socket.io
 d-link-dir-600l-authentication-cgi.md
-vidaxl.co.uk
 stories.storifyme.com
 www.apexspace.com
 spf.protection.office365.us
@@ -590,7 +596,6 @@ www.grayback.es
 iphones.ru
 w.anadnet.com
 anadnet.com
-unibas.ch
 smh.com.au
 cdn.storifyme.xyz
 cdn.storifyme.com
@@ -1628,8 +1633,6 @@ goo.gle-access-eventregister.icu
 easydmarc.pro
 authsmtp.com
 mx.serviciodecorreo.es
-mx01.ionos.de
-mx00.ionos.de
 eu.ionos.com
 spf.eu.exclaimer.net
 ydgjgdbhoa.shifts.icu
@@ -1760,7 +1763,6 @@ bluehostprivatename.com
 shops.shopify.com
 paubox.com
 spf.mandrillapp.com
-mattermost.com
 www.solarwinds.com
 20example.com
 techora.ru
@@ -2469,7 +2471,6 @@ qcsh.com.cn
 kjkp.com.cn
 jiaoyou.eu.cc
 hdmg57.cc
-eu.cc
 echomint.buzz
 commoditytrendpilot.site
 ccsigen321qc.com
@@ -6362,6 +6363,7 @@ leqdger.click
 codecaudiog.site
 orange-sun-195a.checkeligibitily.workers.dev
 jxnl.co
+swanforlife.com
 lojinhadoluiz.online
 acrobat-updater.com
 venturecreditunion.com
