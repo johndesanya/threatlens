@@ -1,4 +1,40 @@
-# ThreatLens IoC feed - generated 2026-11-17T07:45:13.751Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-17T14:42:38.311Z - source: public vendor reports. Verify before blocking.
+terms_and_conditions.pdf.lnk
+terms_and_conditions.exe
+higeleveltask_x64.exe
+davclnt.dll
+SysmonDrivers.exe
+ComputerDefaults.exe
+fodhelper.exe
+version.dll
+sqlite.dll
+snmpapi.dll
+python38.dll
+python33.dll
+nvdaHelperRemote.dll
+msvcp140.dll
+msedge_elf.dll
+MSIMG32.dll
+CoreFoundation.dll
+AppVIsvSubsystems64.dll
+python39.dll
+vcruntime140.dll
+python311.dll
+winmm.dll
+krita.dll
+jli.dll
+javaw.exe
+libcef.dll
+msedge.exe
+SbieDll.dll
+zoomit.exe
+winpty.dll
+start.exe
+WINMM.dll
+SbieDll_st.dll
+KernelBase.dll
+agent.exe
+pythonw.exe
 WebCamServer.exe
 control.exe
 systray.exe
@@ -38,13 +74,9 @@ GeoStartupAgentService.exe
 ApplyUpdate.exe
 wsftprm.sys
 vcruntime140_1.dll
-vcruntime140.dll
-python311.dll
 python3.dll
 python.exe
 GUP.exe
-fodhelper.exe
-pythonw.exe
 libcurl.dll
 gta6_installer_cyberleek.exe
 access.exe
@@ -95,7 +127,6 @@ mst.exe
 jhost.exe
 fscan.exe
 build_64.exe
-agent.exe
 KasperskyGPO_Deploy_64_FIXED.exe
 KasperskyGPO_Deploy_64.exe
 KasperskyAgentInstaller.exe
@@ -162,7 +193,6 @@ DukeQt.dll
 CertFixer.msi
 chrome.exe
 vmtoolsd.exe
-msedge.exe
 ftp.exe
 rekeywiz.exe
 cloked_data.exe
@@ -209,7 +239,6 @@ WUDFHost.exe
 RegAsm.exe
 Microsoft.exe
 Utilities.Sync.dll
-libcef.dll
 wrapper_2022110901_windows_x86_64.exe
 watchdog.ps1
 sdk-agent.updater.exe
@@ -249,12 +278,10 @@ yLP9m5J3i2Aw.exe
 9BY0tjwOc3ut.exe
 stepsecurity-dev-machine-guard.exe
 wmpdui.dll
-winmm.dll
 WMPDMC.exe
 Cursor.exe
 java.exe
 SearchApp.exe
-javaw.exe
 bun.exe
 remediate-windows.ps1
 KSLDriver.sys
@@ -459,7 +486,6 @@ curl.Exe
 vim64.dll
 nvml.dll
 main.dll
-jli.dll
 encryptbase64.ps1
 dnsapi.dll
 WinSparkle.dll
@@ -614,7 +640,6 @@ wsc.dll
 wmpnetwk.exe
 wint.exe
 mctsetup64.dll
-krita.dll
 calibre-launcher.dll
 GfExperienceService64.exe
 GFExperienceUpdate.dll
@@ -924,7 +949,6 @@ affair-build.bat
 VSPMsg.dll
 SxWrapper.dll
 SxIn.dll
-SbieDll.dll
 SXIn64.dll
 PrcsServer.dll
 ApphostRagistreationVerifier.exe
