@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-17T04:44:57.631Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-17T05:09:25.538Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 jvn.jp
 www.vulncheck.com
 status.optimizely.com
@@ -13,6 +13,19 @@ plasmagen.co.in
 godrej.com
 connectwell.com
 tucows.com
+url7489.newbooker.com
+url.newbooker.com
+u118254266.ct.sendgrid.net
+u118250677.ct.sendgrid.net
+outagerestored.sbs
+outagefixed.sbs
+em4493.moments-notice.com
+em.newbooker.com
+u113727626.ct.sendgrid.net
+reallifeaccounting.com
+planetmaison.com
+newbooker.com
+moments-notice.com
 api.ipify.org
 vk.com
 www.zoom.com
@@ -89,10 +102,6 @@ one.one.one.one
 wccftech.com
 www.qt.io
 codereview.qt-project.org
-reallifeaccounting.com
-planetmaison.com
-newbooker.com
-moments-notice.com
 superset-kef-test.ccticketing.eu
 rurjfvn.rs
 roro2016.linkpc.net
@@ -107,7 +116,6 @@ internet-speed-check.com
 api.internet-speed-check.com
 alphanoob.com
 wpscan.com
-u113727626.ct.sendgrid.net
 objectstorage.us-phoenix-1.oraclecloud.com
 stratosbody.com
 mebel-saransk.ru

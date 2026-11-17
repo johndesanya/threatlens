@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-17T04:44:57.631Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-17T05:09:25.538Z - source: public vendor reports. Verify before blocking.
 WebCamServer.exe
 control.exe
 systray.exe
