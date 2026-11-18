@@ -1,7 +1,18 @@
-# ThreatLens IoC feed - generated 2026-11-18T11:29:42.261Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-18T13:23:11.880Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+x280.sh
+recon.sh
+persist2.sh
+keep.sh
+j474-watch.sh
+j434.sh
+j434.info
+j373c.sh
+j313b.sh
+goal.md
+beacon.sh
 ipwhois.app
 upload.gofile.io
 gofile.io
@@ -43,6 +54,7 @@ htmllinks.cc
 curlcachedfile.cc
 cachedfile.cc
 form.cc
+albertoalvarez.com
 mx2.weitai-leather.com
 mx1.weitai-leather.com
 mail.fairhealth.com
@@ -1907,6 +1919,8 @@ r.name
 d.uk
 cve.naver.com
 asiaone.com
+deep-loot.sh
+collect.sh
 medinahospital.net
 sent-via.netsuite.com
 pardot.com
