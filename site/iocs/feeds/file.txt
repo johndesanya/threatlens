@@ -1,4 +1,22 @@
-# ThreatLens IoC feed - generated 2026-11-18T10:23:28.046Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-18T11:29:42.261Z - source: public vendor reports. Verify before blocking.
+wpespy.dll
+vmcheck.dll
+sbiedll.dll
+microsip-config1.exe
+guard32.dll
+cmdvrt64.dll
+avghookx.dll
+api_log.dll
+Payload.exe
+Ovl.exe
+Ova.exe
+MyApp2.exe
+MpCmdRun.exe
+Microsip-config.exe
+Client.exe
+RuntimeBroker.exe
+snxhk.dll
+msbuild.exe
 terms_and_conditions.pdf.lnk
 terms_and_conditions.exe
 higeleveltask_x64.exe
@@ -257,7 +275,6 @@ boinc.scr
 boinc.exe
 VirtualBox-7.2.8-r173730.msi
 Johan.msi
-Client.exe
 AdvancedWindowsManager.exe
 Updater.exe
 eld1.exe
@@ -340,7 +357,6 @@ build_x32.exe
 TextInputHost.exe
 SecurityHealthHost.exe
 SearchHost.exe
-RuntimeBroker.exe
 OneDriveStandaloneUpdater.exe
 GoogleUpdate.exe
 AdobeARM.exe
@@ -875,7 +891,6 @@ tor.exe
 ssh.exe
 sftp.exe
 nslookup.exe
-msbuild.exe
 websocket-sharp.dll
 viewer.exe
 styles.dat.exe
@@ -939,7 +954,6 @@ Avast.exe
 vds.exe
 tpsvcloc.dll
 tpsvc.dll
-snxhk.dll
 netstat.exe
 netsh.exe
 klelam00007.bat

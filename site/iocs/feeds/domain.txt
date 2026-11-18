@@ -1,10 +1,17 @@
-# ThreatLens IoC feed - generated 2026-11-18T10:23:28.046Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-18T11:29:42.261Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+ipwhois.app
+upload.gofile.io
+gofile.io
 git.kernel.org
+www.certvde.com
 www.manageengine.com
 webhook.site
+x3r0day.github.io
+debbugs.gnu.org
+cgit.git.savannah.gnu.org
 calif.io
 blog.report-uri.com
 zoom.com
@@ -80,6 +87,7 @@ spf.has.pphosted.com
 web.com
 spf.ess.barracudanetworks.com
 godaddy.com
+nginx.org
 salesforce.com
 www.optimizely.com
 login.optimizely.com
@@ -182,7 +190,6 @@ main.pusher.ably.net
 ekmt.tw
 dedicated.com
 login.microsoftonline.com
-upload.gofile.io
 rest.ably.io
 www.unicefusa.org
 www.typeform.com
@@ -224,6 +231,7 @@ outagefixed.sbs
 em4493.moments-notice.com
 em.newbooker.com
 u113727626.ct.sendgrid.net
+openjdk.org
 havingbabies-com.spf.smtp25.com
 spf1.appriver.com
 roedentallab.com.2.arsmtp.com
@@ -853,7 +861,6 @@ ci-a4oytg.sh
 ci-7arkno.sh
 11-10.md
 docs.azul.com
-www.certvde.com
 teams-livemeeting.com
 teams-cloud.live
 smashingsecurity.com
@@ -2499,7 +2506,6 @@ www.lyserp.com
 mail.lyserp.com
 lyserp.com
 messagegears.net
-gofile.io
 delinea.com
 maxwintodaybtc.com
 developer-update.app
@@ -2578,7 +2584,6 @@ mc.yandex.com
 mc.yandex.co.il
 mc.yandex.by
 mc.yandex.az
-nginx.org
 message.chat.id
 openequella.github.io
 originhq.com
