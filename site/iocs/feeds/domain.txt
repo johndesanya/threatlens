@@ -1,14 +1,14 @@
-# ThreatLens IoC feed - generated 2026-11-18T19:28:19.575Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-18T20:24:35.631Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 vk.com
+access.redhat.com
 xint.io
 kmxclaims.com
 kmxclaim.com
 carmaxclaims.com
 carmaxclaim.com
-access.redhat.com
 webhook.site
 nginx.org
 my.f5.com
@@ -65,6 +65,7 @@ htmllinks.cc
 curlcachedfile.cc
 cachedfile.cc
 form.cc
+file.name
 key-systems.net
 front-lvs.scannet.dk
 umraocashmere.com
@@ -151,6 +152,8 @@ mimecast.com
 godaddy.com
 secureserver.net
 salesforce.com
+logs-endpoint.events.network
+dns.question.name
 www.optimizely.com
 login.optimizely.com
 containerbots.github.io
@@ -5690,8 +5693,6 @@ lhr.life
 api.trycloudflare.com
 u.name
 joomlacontenteditor.net
-logs-endpoint.events.network
-dns.question.name
 setupsso.com
 pipe.ma
 passkeyms.com
