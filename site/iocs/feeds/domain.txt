@@ -1,7 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-18T01:22:14.915Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-18T01:51:42.088Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+cdn.optimizely.com
+1688360.cc
 mch.jndft28.xyz
 land.jndft28.xyz
 hhflwcie7xif2vo.icunamv99cyrwjsd1q.icu
@@ -16,9 +18,7 @@ zoom.com
 p55abnw2pnsz0bo.icu
 je4ft3gn8vxudum.icu
 eil786npto9u5bq.icu
-cdn.optimizely.com
 5vobauua3ojpklx.icu
-1688360.cc
 docs.netgate.com
 splashoutputdev.cc
 gfxstate.cc
@@ -30,10 +30,18 @@ htmllinks.cc
 curlcachedfile.cc
 cachedfile.cc
 form.cc
+www.meridiancapital.com
+meridiancapital.com
 proymoda.com.mx
 plasmagen.co.in
 godrej.com
 connectwell.com
+networksolutions.com
+servers.mcsv.net
+spf.has.pphosted.com
+web.com
+spf.ess.barracudanetworks.com
+salesforce.com
 calif.io
 webhook.site
 www.optimizely.com
@@ -46,7 +54,6 @@ unibas.ch
 stamps.com
 faz.net
 eu.cc
-salesforce.com
 t.us
 t.name
 p.us
@@ -296,7 +303,6 @@ spf.constantcontact.com
 ionos.com
 amazonses.com
 aspmx2.googlemail.com
-web.com
 networksolutionsprivateregistration.com
 us-smtp-inbound-2.mimecast.com
 us-smtp-inbound-1.mimecast.com
@@ -528,10 +534,8 @@ mail.zendesk.com
 enom.com
 contactprivacy.com
 jira.mongodb.org
-servers.mcsv.net
 inkyphishfence.com
 spf.zoho.com
-spf.ess.barracudanetworks.com
 spf.exclaimer.net
 wp.pl
 sts.net.pk
@@ -843,7 +847,6 @@ benchmarkseniorliving.com
 7931115.spf06.hubspotemail.net
 mailchannels.net
 turnkeyweb.net
-networksolutions.com
 www.eastwoodhomes.com
 pacificoutdoorliving.com
 mftautomation.com
@@ -975,7 +978,6 @@ mx3.zoho.com
 mx2.zoho.com
 mx.zoho.com
 dispatch-us.ppe-hosted.com
-spf.has.pphosted.com
 forums.ivanti.com
 issues.chromium.org
 digitaldownloads.com
