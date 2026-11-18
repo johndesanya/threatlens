@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-18T20:24:35.631Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-18T21:34:44.432Z - source: public vendor reports. Verify before blocking.
 wpespy.dll
 vmcheck.dll
 sbiedll.dll
