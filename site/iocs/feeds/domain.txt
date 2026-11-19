@@ -1,12 +1,14 @@
-# ThreatLens IoC feed - generated 2026-11-19T20:27:54.806Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-19T23:12:54.605Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+tajapps.com
+bugzilla.redhat.com
+vuldb.com
 kpoint.com
 php.net
 psirt.watchguard.com
 joomlatools.com
-bugzilla.redhat.com
 complianceremediations.compliance.openshift.io
 compliance.openshift.io
 app.kubernetes.io
@@ -57,7 +59,6 @@ networking.k8s.io
 admissionregistration.k8s.io
 wp-staging.com
 wordpress.org
-vuldb.com
 www.sourcecodester.com
 change-control.md
 security.md
@@ -387,8 +388,8 @@ ncsc.ch
 codevispera.com
 icrtouch.com
 malala-tour-indonesia.github.io
-agents.md
 claude.md
+agents.md
 www.rootways.com
 authorize.net
 sansec.io
