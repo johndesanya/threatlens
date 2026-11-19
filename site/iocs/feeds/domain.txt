@@ -1,7 +1,21 @@
-# ThreatLens IoC feed - generated 2026-11-19T10:31:47.116Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-19T11:28:29.545Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+www.legitsecurity.com
+wuzzi.net
+systemweakness.com
+simonwillison.net
+embracethered.com
+cheatsheetseries.owasp.org
+www.ibm.com
+arxiv.org
+gofile.io
+rus.md
+ikql.md
+evml.md
+www.wordfence.com
+plugins.trac.wordpress.org
 git.kernel.org
 ngjedt0xrv.promtateusachorloadscorp.sbs
 base-hub-yw7q.p-xxorevv8.workers.dev
@@ -18,8 +32,6 @@ nginx.ingress.kubernetes.io
 networking.k8s.io
 admissionregistration.k8s.io
 wp-staging.com
-www.wordfence.com
-plugins.trac.wordpress.org
 wordpress.org
 vuldb.com
 www.sourcecodester.com
@@ -38,6 +50,15 @@ amazonses.com
 web.com
 www.tp-link.com
 www.vulncheck.com
+www.mntextiles.com
+srv.dnsraw.com
+liwa.allianzhost.com
+ee74d911.23.ik2.eu
+ee74d911.22.ik2.io
+ee74d911.21.ik2.com
+pizwich.com
+mail.eecinter.com
+eecinter.com
 stride25.com
 remote.sh
 plume-compass.com
@@ -62,6 +83,7 @@ spf.antispamcloud.com
 mx.spamexperts.com
 lastmx.spamexperts.net
 fallbackmx.spamexperts.eu
+godaddy.com
 storageprofiler.com
 sic180.com
 codex-notes.com
@@ -107,7 +129,6 @@ goal.md
 beacon.sh
 ipwhois.app
 upload.gofile.io
-gofile.io
 www.certvde.com
 www.manageengine.com
 x3r0day.github.io
@@ -230,7 +251,6 @@ us-smtp-inbound-2.mimecast.com
 us-smtp-inbound-1.mimecast.com
 sendgrid.net
 mimecast.com
-godaddy.com
 secureserver.net
 salesforce.com
 logs-endpoint.events.network
@@ -816,7 +836,6 @@ psm.knowbe4.com
 ilovewww.com
 seclists.org
 postecert.poste.it
-www.ibm.com
 control-webpanel.com
 soxnewwork.homedns.org
 sc.payproofkit.com
@@ -4623,7 +4642,6 @@ www.irregular.com
 transluce.org
 pi.dev
 metr.org
-arxiv.org
 datacamp.co.uk
 cdn77.com
 trzepak.pl
@@ -6517,6 +6535,7 @@ lojinhadaana.org
 minicursor.com
 bank.in
 www.icloud-cdn.net
+thegreathouse.us
 infostealers.com
 version.checkeligibitily.workers.dev
 leqdger.click
