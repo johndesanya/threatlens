@@ -1,7 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-19T01:56:28.426Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-19T02:29:54.883Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+change-control.md
+security.md
 asp.net
 vuldb.com
 email-messaging.com
@@ -15,6 +17,8 @@ amazonses.com
 web.com
 www.tp-link.com
 www.vulncheck.com
+centered.co.jp
+www.leadersaluminium.ae
 host.services
 censor.net
 bugzilla.redhat.com
@@ -205,7 +209,6 @@ icrtouch.com
 malala-tour-indonesia.github.io
 agents.md
 claude.md
-security.md
 www.rootways.com
 authorize.net
 sansec.io
