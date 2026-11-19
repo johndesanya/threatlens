@@ -1,7 +1,15 @@
-# ThreatLens IoC feed - generated 2026-11-19T11:28:29.545Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-19T13:48:23.012Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+xrewrgfuvhnadfsajkaldsfj.biz
+www.usenix.org
+gamedesignadvance.com
+evil.com
+www.jetbrains.com
+mattermost.com
+www.wordfence.com
+plugins.trac.wordpress.org
 www.legitsecurity.com
 wuzzi.net
 systemweakness.com
@@ -14,8 +22,6 @@ gofile.io
 rus.md
 ikql.md
 evml.md
-www.wordfence.com
-plugins.trac.wordpress.org
 git.kernel.org
 ngjedt0xrv.promtateusachorloadscorp.sbs
 base-hub-yw7q.p-xxorevv8.workers.dev
@@ -50,6 +56,7 @@ amazonses.com
 web.com
 www.tp-link.com
 www.vulncheck.com
+www.oswald.de
 www.mntextiles.com
 srv.dnsraw.com
 liwa.allianzhost.com
@@ -79,6 +86,7 @@ www.sleepboxbymiracle.com
 centered.co.jp
 www.leadersaluminium.ae
 gdpr-masked.com
+spf-de.emailsignatures365.com
 spf.antispamcloud.com
 mx.spamexperts.com
 lastmx.spamexperts.net
@@ -114,7 +122,6 @@ carmaxclaims.com
 carmaxclaim.com
 webhook.site
 nginx.org
-mattermost.com
 n-able.com
 x280.sh
 recon.sh
@@ -849,7 +856,6 @@ update.pentagi.com
 norforge.com
 www.team-cymru.com
 rust-lang.org
-evil.com
 docs.rs
 crates.io
 ttl.sh
@@ -1603,7 +1609,6 @@ www.ugcs.com
 xss.today
 xss.mx
 docs.snowflake.com
-www.jetbrains.com
 paleasbest.top
 aiarmor.website
 rubygems.org
@@ -1948,7 +1953,6 @@ customers.clickdimensions.com
 cdmon.com
 ispgateway.de
 sportschule-steinbach.de
-spf-de.emailsignatures365.com
 mail.jhz-bernardshof.de
 fuss-sprunggelenk.de
 agenturserver.de
