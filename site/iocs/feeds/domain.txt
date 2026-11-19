@@ -1,7 +1,22 @@
-# ThreatLens IoC feed - generated 2026-11-18T21:34:44.432Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-19T01:56:28.426Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+asp.net
+vuldb.com
+email-messaging.com
+cretaforce.gr
+alumil.com
+alumil.azurewebsites.net
+weitai-leather.com
+maskeddetails.com
+mailgun.org
+amazonses.com
+web.com
+www.tp-link.com
+www.vulncheck.com
+host.services
+censor.net
 bugzilla.redhat.com
 vk.com
 access.redhat.com
@@ -60,12 +75,17 @@ splashoutputdev.cc
 gfxstate.cc
 nsscryptosignbackend.cc
 gitlab.freedesktop.org
-www.vulncheck.com
 pdfdetach.cc
 htmllinks.cc
 curlcachedfile.cc
 cachedfile.cc
 form.cc
+html.phish.gen.lv
+mail.cobblestonesoftware.com
+cobblestonesoftware.com
+4453622.spf01.hubspotemail.net
+www.osaki.co.jp
+spf.mta.hdems.com
 file.name
 key-systems.net
 front-lvs.scannet.dk
@@ -92,7 +112,6 @@ albertoalvarez.com
 mx2.weitai-leather.com
 mx1.weitai-leather.com
 mail.fairhealth.com
-weitai-leather.com
 fairhealth.com
 ekwiik.com
 nvidia.com
@@ -130,7 +149,6 @@ networksolutions.com
 spamtitan.com
 squarespace.com
 kundenserver.de
-maskeddetails.com
 perfora.net
 net-chinese.com.tw
 domain-contact.org
@@ -140,10 +158,9 @@ relay.mailchannels.net
 aspmx.pardot.com
 safenames.net
 markmonitor.com
-mailgun.org
+spf.constantcontact.com
 ionos.com
 spf.has.pphosted.com
-web.com
 spf.ess.barracudanetworks.com
 networksolutionsprivateregistration.com
 us-smtp-inbound-2.mimecast.com
@@ -397,8 +414,6 @@ namecheap.com
 mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 spfa.cpmails.com
-spf.constantcontact.com
-amazonses.com
 aspmx2.googlemail.com
 supportportal.juniper.net
 mlsend.com
@@ -671,14 +686,12 @@ s.com
 blog.gitea.com
 uber.com
 fw.draytek.com.tw
-vuldb.com
 www.dlink.com
 howl.link
 redacted-telematics.com.au
 openidm.redacted-identity.com.au
 login.redacted-identity.com.au
 api.redacted-telematics.com.au
-asp.net
 itsourcecode.com
 www.surveymonkey.com
 n2k.com
@@ -1515,7 +1528,6 @@ mndt-2026-0017.md
 check.sh
 sshhole.com
 www.ugcs.com
-www.tp-link.com
 xss.today
 xss.mx
 docs.snowflake.com
@@ -3828,6 +3840,7 @@ beta-manus.com
 code-desktop.com
 yeniavaz.com
 news.am
+kordhotels.gr
 ipify.com
 japantimes.co.jp
 saintpierredescorps.fr
@@ -5562,6 +5575,7 @@ polygon.drpc.org
 gl1nto.spiintforge.ru
 chainlist.org
 sprinthost.ru
+grecosteel.com
 wekash.net
 splace.co.za
 micronsoftwares.com
@@ -6493,6 +6507,7 @@ ovcloudcontrol.cdn.cardoor.cn
 moi.gov.ly
 laxmicapital.com.np
 fortune.com
+lenmed.co.za
 us.wind0ws.net
 ulusal.com.tr
 odatv.com
