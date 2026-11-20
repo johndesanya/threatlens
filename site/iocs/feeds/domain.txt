@@ -1,11 +1,19 @@
-# ThreatLens IoC feed - generated 2026-11-20T09:06:18.515Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-20T10:12:58.786Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+technique.id
+cloud-z80lft07.hosteur.net
+soul.md
+level.io
+hunt.io
+www.wordfence.com
+plugins.trac.wordpress.org
+vuldb.com
+git.kernel.org
 vk.com
 company.com
 mvf-2026-0012.md
-vuldb.com
 banleeheng.com.my
 spf.mailsentinel.net
 exabytes.my
@@ -37,10 +45,12 @@ complianceremediations.compliance.openshift.io
 compliance.openshift.io
 app.kubernetes.io
 orchestrator.cluster.name
+mediafire.com
 depthfirst.com
 www.mk.co.kr
 blackpointcyber.com
 www.rfc-editor.org
+mega.nz
 access.redhat.com
 calif.io
 pypistats.org
@@ -51,8 +61,6 @@ gamedesignadvance.com
 evil.com
 www.jetbrains.com
 mattermost.com
-www.wordfence.com
-plugins.trac.wordpress.org
 www.legitsecurity.com
 wuzzi.net
 systemweakness.com
@@ -71,7 +79,6 @@ allahuakbar.com
 rus.md
 ikql.md
 evml.md
-git.kernel.org
 ngjedt0xrv.promtateusachorloadscorp.sbs
 base-hub-yw7q.p-xxorevv8.workers.dev
 5txpm30dqe.krointechbillpaycheckingusalexingto.sbs
@@ -247,7 +254,6 @@ grove-satin.com
 bright-links.com
 atlas-compass.com
 aspencore18.com
-hunt.io
 host.services
 censor.net
 xint.io
@@ -1952,6 +1958,7 @@ eu.ionos.com
 spf.eu.exclaimer.net
 ydgjgdbhoa.shifts.icu
 register.rsvpconnect-events.com
+gazeteburdur.com.tr
 gate.rs
 draw.io
 www.gazeteburdur.com.tr
@@ -2854,7 +2861,6 @@ saashr.com
 www.nacm.org
 www.lifefone.com
 trustpilotservice.com
-mega.nz
 registrygate.com
 mail.susannecerda.com
 xspringcapital.com
@@ -3588,7 +3594,6 @@ validate.sh
 text-proc.io
 onlyflies.buzz
 config-verify.helpdesk-api.com
-soul.md
 memory.md
 legal-records.us
 www.fortiguard.com

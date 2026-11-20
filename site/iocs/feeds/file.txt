@@ -1,9 +1,13 @@
-# ThreatLens IoC feed - generated 2026-11-20T09:06:18.515Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-20T10:12:58.786Z - source: public vendor reports. Verify before blocking.
+lkd.exe
+WinUpdSvc2.exe
+pythonw.exe
 cca616647db9370c88998ae25da6997f.exe
 485055033bcddfde56325c0d2feea4f2.exe
 VID001.exe
 vpnbridge_x64.exe
 netcapa.exe
+python37.dll
 caspol.exe
 version.dll
 wpespy.dll
@@ -59,7 +63,6 @@ WINMM.dll
 SbieDll_st.dll
 KernelBase.dll
 agent.exe
-pythonw.exe
 WebCamServer.exe
 control.exe
 systray.exe
