@@ -1,10 +1,15 @@
-# ThreatLens IoC feed - generated 2026-11-19T23:12:54.605Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-20T01:50:17.480Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
-tajapps.com
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+banleeheng.com.my
+spf.mailsentinel.net
+exabytes.my
+security.netapp.com
+www.helx.io
 bugzilla.redhat.com
 vuldb.com
+tajapps.com
 kpoint.com
 php.net
 psirt.watchguard.com
@@ -48,6 +53,8 @@ base-hub-yw7q.p-xxorevv8.workers.dev
 5txpm30dqe.krointechbillpaycheckingusalexingto.sbs
 login.microsoftonline.com
 siberguvenlik.gov.tr
+innews.az
+gov.az
 pro.comelitgroup.com
 this.id
 location.value.id
@@ -168,7 +175,6 @@ spicorp-invest.com
 gdpr-masked.com
 spf.smtp2go.com
 spf-de.emailsignatures365.com
-security.netapp.com
 intacct.com
 spf.mailanyone.net
 mktomail.com
@@ -242,6 +248,7 @@ j373c.sh
 j313b.sh
 goal.md
 beacon.sh
+mezha.net
 ipwhois.app
 upload.gofile.io
 www.certvde.com
@@ -602,7 +609,6 @@ www.hsbc.ae
 www.hootsuite.com
 ipv6.icanhazip.com
 qbee.io
-mezha.net
 cctv-update.top
 www.enterprisedb.com
 www.axigen.com
@@ -2398,7 +2404,6 @@ delta.com
 csc.com
 aflac.com
 g.com
-exabytes.my
 secop.gov.co
 disney.com
 harman.com
@@ -3186,7 +3191,6 @@ spfref.jackhenry.com
 spf.accesssoftek.com
 jhahosted.com
 datem.com.ph
-spf.mailsentinel.net
 ahcg.com.my
 odoo.com
 rpc-server.cc
@@ -6516,10 +6520,6 @@ carl-album.x.yupoo.com
 bags.qiqiyg.com
 alpinvolt.de
 adidas555.x.yupoo.com
-isp.sh
-is.sh-to-isp.sh
-is.sh
-pages.recordedfutureext.com
 enablepasskey2fa.com
 enablepasskey.com
 checkpasskey.com
