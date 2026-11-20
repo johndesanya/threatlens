@@ -1,18 +1,22 @@
-# ThreatLens IoC feed - generated 2026-11-20T10:12:58.786Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-20T11:19:05.796Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+shutterstock.com
 technique.id
+www.wireshark.org
+bugzilla.redhat.com
+vuldb.com
 cloud-z80lft07.hosteur.net
 soul.md
 level.io
 hunt.io
 www.wordfence.com
 plugins.trac.wordpress.org
-vuldb.com
 git.kernel.org
 vk.com
 company.com
+vietnam.vn
 mvf-2026-0012.md
 banleeheng.com.my
 spf.mailsentinel.net
@@ -35,7 +39,6 @@ ionos.com
 godaddy.com
 security.netapp.com
 www.helx.io
-bugzilla.redhat.com
 tajapps.com
 kpoint.com
 php.net
@@ -243,7 +246,6 @@ claud-tips.com
 basequill9.com
 secureserver.net
 salesforce.com
-www.wireshark.org
 tucows.com
 publicdomainregistry.com
 vine-96.com
@@ -1001,7 +1003,6 @@ a8f2aac37385.xyz
 544504d7fe1e.xyz
 478a4d17d280.xyz
 workers.dev
-shutterstock.com
 www.cudy.com
 api.cloudvflare.com
 www.edito.pl
@@ -2684,7 +2685,6 @@ www.cnvd.org.cn
 ddosecrets.org
 lightning.news
 remediate-macos.sh
-vietnam.vn
 ecomagent.in
 www.drupal.org
 www.imaginationtech.com
