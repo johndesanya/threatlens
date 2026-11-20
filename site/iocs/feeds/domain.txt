@@ -1,16 +1,33 @@
-# ThreatLens IoC feed - generated 2026-11-20T02:14:20.958Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-20T09:06:18.515Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+vk.com
+company.com
 mvf-2026-0012.md
 vuldb.com
 banleeheng.com.my
 spf.mailsentinel.net
 exabytes.my
+epochresidential.com
+njrise.org
+mail.njrise.org
+www.sdjeng.com
+ionos.de
+spamfilter.unions-america.com
+ibu.org
+eni.it
+xserver.jp
+wakao.co.jp
+mx.securemx.jp
+mx.po.2iij.net
+spf.us.exclaimer.net
+websitewelcome.com
+ionos.com
+godaddy.com
 security.netapp.com
 www.helx.io
 bugzilla.redhat.com
-vk.com
 tajapps.com
 kpoint.com
 php.net
@@ -20,6 +37,11 @@ complianceremediations.compliance.openshift.io
 compliance.openshift.io
 app.kubernetes.io
 orchestrator.cluster.name
+depthfirst.com
+www.mk.co.kr
+blackpointcyber.com
+www.rfc-editor.org
+access.redhat.com
 calif.io
 pypistats.org
 webhook.site
@@ -194,7 +216,6 @@ mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
 spf-us.emailsignatures365.com
-ionos.com
 spf.ess.barracudanetworks.com
 networksolutionsprivateregistration.com
 us-smtp-inbound-2.mimecast.com
@@ -205,7 +226,6 @@ frontier.com
 advisory.splunk.com
 www.php.net
 mlsend.com
-godaddy.com
 storageprofiler.com
 sic180.com
 codex-notes.com
@@ -230,7 +250,6 @@ aspencore18.com
 hunt.io
 host.services
 censor.net
-access.redhat.com
 xint.io
 kmxclaims.com
 kmxclaim.com
@@ -700,7 +719,6 @@ www.ashlandwatergroup.com
 www.strategicproperties.com
 risingpharma.com
 cust-spf.exacttarget.com
-spf.us.exclaimer.net
 radienzliving.com
 d236862b.ess.barracudanetworks.com
 d236862a.ess.barracudanetworks.com
@@ -1491,7 +1509,6 @@ usg1.ppe-hosted.com
 mx3-usg1.ppe-hosted.com
 mx2-usg1.ppe-hosted.com
 mx1-usg1.ppe-hosted.com
-websitewelcome.com
 easydns.com
 mail.hostinger.com
 corehub.net
@@ -2210,7 +2227,6 @@ azurecr.io
 azurecr.de
 azurecr.cn
 cal.com
-www.rfc-editor.org
 www.wftpserver.com
 shares.info
 documents.info
@@ -6032,6 +6048,8 @@ addyourpasskey.com
 ipfs.io
 rentry.co
 git.disroot.org
+www.miatech.net
+bluebellgroup.com
 sajuai.xyz
 hosting.kr
 upload.rightwidth.dev
@@ -6631,9 +6649,11 @@ codecvideowin.online
 cdns3.51quickfox.cn
 www.bsisp.ly
 snedai.com
+nedamaritime.gr
 habeshacement.com
 ovcloudcontrol.cdn.cardoor.cn
 moi.gov.ly
+cdc-biodiversite.fr
 laxmicapital.com.np
 fortune.com
 lenmed.co.za
