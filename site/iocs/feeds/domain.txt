@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-20T18:46:42.685Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-20T19:11:35.034Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+shiftdelete.net
 block-gh-path-leak.sh
 block-fragile-refs.sh
 block-mcp-writes.sh
@@ -9,8 +10,12 @@ block-fs-boundary.sh
 block-egress.sh
 block-credential-reads.sh
 bugzilla.redhat.com
+server.rs
 velmontriq.net
 nimbuskeep.com
+www.whatsapp.com
+www.vulncheck.com
+gitlab.eclipse.org
 hunt.io
 shutterstock.com
 poste.io
@@ -30,6 +35,15 @@ mvf-2026-0012.md
 banleeheng.com.my
 spf.mailsentinel.net
 exabytes.my
+palmerhamilton.com
+spf.web-dns1.com
+relyonmsi.com
+mx19-2.mycloudmailbox.com
+mx19-1.mycloudmailbox.com
+leisurecraftinc.com
+legardeur.net
+garival.com.whoistrustee.com
+garival.com
 virtual.cloud-webinar.com
 url6484.marketing.sg.weavecoms.com
 url565.planned.com
@@ -120,7 +134,9 @@ squarespace.com
 websitewelcome.com
 spf.zohomail360.com
 support.aws.com
+1api.net
 mattermost.com
+spf.constantcontact.com
 ionos.com
 web.com
 networksolutionsprivateregistration.com
@@ -205,7 +221,6 @@ maskeddetails.com
 mailgun.org
 amazonses.com
 www.tp-link.com
-www.vulncheck.com
 iptables-log-bridge.sh
 community.progress.com
 biomedicine.com
@@ -476,7 +491,6 @@ vali.email
 relay.mailchannels.net
 safenames.net
 markmonitor.com
-spf.constantcontact.com
 spf.has.pphosted.com
 logs-endpoint.events.network
 dns.question.name
@@ -990,7 +1004,6 @@ www.linuxfoundation.org
 01-rbac-poc.sh
 zr.admin.net
 d-link-dir-600l-hnap-soapaction.md
-server.rs
 r7-command-nonce.sh
 documentserver-letsencrypt.sh
 documentserver-generate-allfonts.sh
@@ -1462,9 +1475,7 @@ microsoft-flash.com
 developer.konghq.com
 me.n-able.com
 support.blackberry.com
-shiftdelete.net
 crt.sh
-gitlab.eclipse.org
 all.net
 virtual.cisoforum.com
 windowsupdates.us
@@ -2925,7 +2936,6 @@ au.bank.in
 www.proterial.com
 brights.jp
 23991352.spf05.hubspotemail.net
-1api.net
 www.w-interactive.com
 www.udima.es
 cef.es
