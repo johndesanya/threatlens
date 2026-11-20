@@ -1,4 +1,11 @@
-# ThreatLens IoC feed - generated 2026-11-20T11:19:05.796Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-20T18:46:42.685Z - source: public vendor reports. Verify before blocking.
+loadperf.dll
+PhotoCache.exe
+GTA6Cloud.exe
+vssadmin.exe
+wevtapi.dll
+killer.exe
+kill.exe
 lkd.exe
 WinUpdSvc2.exe
 pythonw.exe
@@ -549,9 +556,6 @@ msado15.Dll
 OLEACC.Dll
 Microsoft.Data.Edm.Dll
 Lucene.Net.Dll
-wevtapi.dll
-killer.exe
-kill.exe
 WCInstaller_NonAdmin.exe
 AAct.exe
 trueconf.exe
@@ -691,7 +695,6 @@ wsl.exe
 nodew.exe
 launcher.vbs
 IntelDSA.exe
-vssadmin.exe
 ComprovantePDF.exe
 chrome_elf.dll
 QnwPlayer.exe

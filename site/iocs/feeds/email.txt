@@ -1,4 +1,5 @@
-# ThreatLens IoC feed - generated 2026-11-20T11:19:05.796Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-20T18:46:42.685Z - source: public vendor reports. Verify before blocking.
+interviews@hirevue.com
 james@thegreathouse.us
 ross.kelly@futurenet.com
 space@n2k.com
