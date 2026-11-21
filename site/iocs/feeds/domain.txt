@@ -1,7 +1,22 @@
-# ThreatLens IoC feed - generated 2026-11-21T02:13:45.503Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-21T08:44:33.740Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.wordfence.com
+plugins.trac.wordpress.org
+wordpress.org
+host.it
+wpscan.com
+downloads.wordpress.org
+www.realtatechnologies.com
+netorgft5308701.onmicrosoft.com
+ny-bankruptcy.com
+vegelywelding.net
+mx.vegelywelding.net.cust.a.hostedemail.com
+hostedemail.com
+contactprivacy.com
+godaddy.com
+tucows.com
 www.vulncheck.com
 hunt.io
 shiftdelete.net
@@ -26,8 +41,6 @@ vuldb.com
 cloud-z80lft07.hosteur.net
 soul.md
 level.io
-www.wordfence.com
-plugins.trac.wordpress.org
 git.kernel.org
 company.com
 vietnam.vn
@@ -206,7 +219,6 @@ sendgrid.net
 access.redhat.com
 www.suse.com
 oskeysetup.com
-godaddy.com
 ubuntu.com
 pages.dev
 makepasskey.com
@@ -271,7 +283,6 @@ nginx.ingress.kubernetes.io
 networking.k8s.io
 admissionregistration.k8s.io
 wp-staging.com
-wordpress.org
 www.sourcecodester.com
 change-control.md
 security.md
@@ -414,7 +425,6 @@ claud-tips.com
 basequill9.com
 secureserver.net
 salesforce.com
-tucows.com
 publicdomainregistry.com
 vine-96.com
 swiftsaverfin.com
@@ -864,7 +874,6 @@ minernewage.com
 internet-speed-check.com
 api.internet-speed-check.com
 alphanoob.com
-wpscan.com
 objectstorage.us-phoenix-1.oraclecloud.com
 stratosbody.com
 mebel-saransk.ru
@@ -1002,7 +1011,6 @@ ebizcharge.net
 mail.zendesk.com
 s.com
 enom.com
-contactprivacy.com
 jira.mongodb.org
 inkyphishfence.com
 spf.zoho.com
@@ -1571,7 +1579,6 @@ picoctf.org
 cyberdefenders.org
 crackmes.one
 blueteamlabs.online
-downloads.wordpress.org
 www.signworx.net
 www.broexp.com
 www.nysnacks.com
