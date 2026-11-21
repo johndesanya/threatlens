@@ -1,8 +1,10 @@
-# ThreatLens IoC feed - generated 2026-11-21T17:46:56.896Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-21T18:07:04.749Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+aka.ms
 vk.com
+www.vulncheck.com
 cgi.md
 vuldb.com
 docs.rt-labs.com
@@ -25,7 +27,6 @@ hostedemail.com
 contactprivacy.com
 godaddy.com
 tucows.com
-www.vulncheck.com
 hunt.io
 shiftdelete.net
 block-gh-path-leak.sh
@@ -4296,7 +4297,6 @@ linkedinns.net
 98aicai.com
 98aiblog.com
 ssl.com
-aka.ms
 xmr.kryptex.network
 imagefiles-backup.oss-ap-southeast-7.aliyuncs.com
 skills.sh
