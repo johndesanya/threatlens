@@ -1,10 +1,13 @@
-# ThreatLens IoC feed - generated 2026-11-21T09:59:35.621Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-21T10:54:32.188Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 www.wordfence.com
 plugins.trac.wordpress.org
 wordpress.org
+plugins.svn.wordpress.org
+advisory.md
+vuldb.com
 downloads.wordpress.org
 host.it
 wpscan.com
@@ -37,7 +40,6 @@ poste.io
 vk.com
 technique.id
 www.wireshark.org
-vuldb.com
 cloud-z80lft07.hosteur.net
 soul.md
 level.io
@@ -1833,7 +1835,6 @@ xcai.pro
 api.deepseek.com
 www.totolink.net
 pluginus.net
-plugins.svn.wordpress.org
 www.wpdownloadmanager.com
 videowhisper.com
 monde.fr
@@ -2813,7 +2814,6 @@ llm-routing.com
 direct.465415.xyz
 artex.nhhh.de
 reproduce.sh
-advisory.md
 bombadil.systems
 dedyn.io
 aber.ir
