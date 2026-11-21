@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-21T01:38:02.290Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-21T02:09:34.229Z - source: public vendor reports. Verify before blocking.
 loadperf.dll
 PhotoCache.exe
 GTA6Cloud.exe
