@@ -1,12 +1,14 @@
-# ThreatLens IoC feed - generated 2026-11-21T18:07:04.749Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-21T19:05:26.053Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+d-link-dir-600l-gena-cgi-stack-overflow-review.md
+vuldb.com
+www.dlink.com
 aka.ms
 vk.com
 www.vulncheck.com
 cgi.md
-vuldb.com
 docs.rt-labs.com
 www.wordfence.com
 plugins.trac.wordpress.org
@@ -16,6 +18,26 @@ advisory.md
 downloads.wordpress.org
 host.it
 wpscan.com
+themedical.co.il
+inforumail.com
+f-media.co.il
+bezeqint.net
+se.sgcloudhosting.online
+mail.santak.com.sg
+qrc-solutions.com
+webcentral.com.au
+santak.com.sg
+offshore-ocs-com.mail.sg.greenradar.com
+offshore-ocs-com.mail.dr.greenradar.com
+melbourneit.com.au
+spf.masterbase.com
+mail.threeroyal.com
+tiic.com.ph
+threeroyal.com
+relax.es
+pacifico.com.ar
+offshore-ocs.com
+factotal.com
 genica.com.ve
 email-platform.com
 www.realtatechnologies.com
@@ -24,9 +46,13 @@ ny-bankruptcy.com
 vegelywelding.net
 mx.vegelywelding.net.cust.a.hostedemail.com
 hostedemail.com
+mail.hostinger.com
+enom.com
 contactprivacy.com
+relay.mailchannels.net
 godaddy.com
 tucows.com
+publicdomainregistry.com
 hunt.io
 shiftdelete.net
 block-gh-path-leak.sh
@@ -432,7 +458,6 @@ claud-tips.com
 basequill9.com
 secureserver.net
 salesforce.com
-publicdomainregistry.com
 vine-96.com
 swiftsaverfin.com
 quill-flint.com
@@ -568,7 +593,6 @@ perfora.net
 net-chinese.com.tw
 domain-contact.org
 vali.email
-relay.mailchannels.net
 safenames.net
 markmonitor.com
 spf.has.pphosted.com
@@ -1017,7 +1041,6 @@ att.com
 ebizcharge.net
 mail.zendesk.com
 s.com
-enom.com
 jira.mongodb.org
 inkyphishfence.com
 spf.zoho.com
@@ -1068,7 +1091,6 @@ name.com
 blog.gitea.com
 uber.com
 fw.draytek.com.tw
-www.dlink.com
 howl.link
 redacted-telematics.com.au
 openidm.redacted-identity.com.au
@@ -1685,7 +1707,6 @@ mx3-usg1.ppe-hosted.com
 mx2-usg1.ppe-hosted.com
 mx1-usg1.ppe-hosted.com
 easydns.com
-mail.hostinger.com
 corehub.net
 spf.zixsmbhosted.com
 mx3.mail.ovh.net
