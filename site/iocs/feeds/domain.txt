@@ -1,9 +1,12 @@
-# ThreatLens IoC feed - generated 2026-11-21T19:05:26.053Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-21T23:54:55.510Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
-d-link-dir-600l-gena-cgi-stack-overflow-review.md
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 vuldb.com
+operationharshdoorstop.com
+drbloop.dev
+steamcommunity.com
+d-link-dir-600l-gena-cgi-stack-overflow-review.md
 www.dlink.com
 aka.ms
 vk.com
@@ -18,6 +21,12 @@ advisory.md
 downloads.wordpress.org
 host.it
 wpscan.com
+spam.micb2b.com
+micb2b.com
+fortsmithems.org
+panlink.se
+kundspf.loopia.se
+instra.com
 themedical.co.il
 inforumail.com
 f-media.co.il
@@ -3518,14 +3527,12 @@ camel.apache.org
 brightsec.com
 www.ysk.nilim.go.jp
 akosibrylle.me
-drbloop.dev
 jfyuhong.github.io
 leading-to-arbitrary-command-execution.md
 glueckauf-vermessung.de
 addnewstudent-stored-xss.md
 store.steampowered.com
 steamdb.info
-steamcommunity.com
 d200858b.ess.barracudanetworks.com
 d200858a.ess.barracudanetworks.com
 www.seufertconstruction.com
