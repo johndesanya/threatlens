@@ -1,7 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-22T00:29:50.572Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-22T01:09:40.203Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+vk.com
+ucn9h68n9289.feishu.cn
 vuldb.com
 operationharshdoorstop.com
 drbloop.dev
@@ -9,7 +11,6 @@ steamcommunity.com
 d-link-dir-600l-gena-cgi-stack-overflow-review.md
 www.dlink.com
 aka.ms
-vk.com
 www.vulncheck.com
 cgi.md
 docs.rt-labs.com
