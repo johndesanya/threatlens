@@ -1,17 +1,28 @@
-# ThreatLens IoC feed - generated 2026-11-22T01:09:40.203Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-22T08:44:34.580Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 vk.com
-ucn9h68n9289.feishu.cn
+bugzilla.redhat.com
 vuldb.com
+itsourcecode.com
+www.vulncheck.com
+ucn9h68n9289.feishu.cn
+www.invictawatch.com
+nospam.invictawatch.com
+websitewelcome.com
+shops.shopify.com
+servers.mcsv.net
+aspmx3.googlemail.com
+mailgun.org
+aspmx2.googlemail.com
+godaddy.com
 operationharshdoorstop.com
 drbloop.dev
 steamcommunity.com
 d-link-dir-600l-gena-cgi-stack-overflow-review.md
 www.dlink.com
 aka.ms
-www.vulncheck.com
 cgi.md
 docs.rt-labs.com
 www.wordfence.com
@@ -60,7 +71,6 @@ mail.hostinger.com
 enom.com
 contactprivacy.com
 relay.mailchannels.net
-godaddy.com
 tucows.com
 publicdomainregistry.com
 hunt.io
@@ -71,7 +81,6 @@ block-mcp-writes.sh
 block-fs-boundary.sh
 block-egress.sh
 block-credential-reads.sh
-bugzilla.redhat.com
 server.rs
 velmontriq.net
 nimbuskeep.com
@@ -248,7 +257,6 @@ plasmagen.co.in
 missouriweldinginstitute.com
 smart.ondmarc.com
 squarespace.com
-websitewelcome.com
 spf.zohomail360.com
 support.aws.com
 1api.net
@@ -337,7 +345,6 @@ alumil.com
 alumil.azurewebsites.net
 weitai-leather.com
 maskeddetails.com
-mailgun.org
 amazonses.com
 www.tp-link.com
 iptables-log-bridge.sh
@@ -441,7 +448,6 @@ autotask.net
 act-on.net
 psm.knowbe4.com
 fortimailcloud.com
-servers.mcsv.net
 aspmx.pardot.com
 mx.spamexperts.com
 lastmx.spamexperts.net
@@ -825,13 +831,11 @@ eu.mailgun.org
 appriver.com
 customerspf.schoolmessenger.com
 pepsico.com
-shops.shopify.com
 spf.cloudus.oxcs.net
 bluehost.com
 us.ppe-hosted.com
 spf.sendinblue.com
 mx.ovh.com
-aspmx3.googlemail.com
 verio-inc.com
 mx01.ionos.de
 mx00.ionos.de
@@ -839,7 +843,6 @@ spf.mailjet.com
 transmail.net
 namecheap.com
 spfa.cpmails.com
-aspmx2.googlemail.com
 supportportal.juniper.net
 ovh.net
 api.ipify.org
@@ -1106,7 +1109,6 @@ redacted-telematics.com.au
 openidm.redacted-identity.com.au
 login.redacted-identity.com.au
 api.redacted-telematics.com.au
-itsourcecode.com
 www.surveymonkey.com
 n2k.com
 02-xss-poc.sh
