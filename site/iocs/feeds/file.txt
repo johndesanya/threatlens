@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-22T11:03:19.879Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-22T18:01:13.819Z - source: public vendor reports. Verify before blocking.
 RunetimeBroker.exe
 GTAVI.exe
 loadperf.dll
@@ -22,6 +22,7 @@ version.dll
 wpespy.dll
 vmcheck.dll
 sbiedll.dll
+msbuild.exe
 microsip-config1.exe
 guard32.dll
 cmdvrt64.dll
@@ -36,7 +37,6 @@ Microsip-config.exe
 Client.exe
 RuntimeBroker.exe
 snxhk.dll
-msbuild.exe
 terms_and_conditions.pdf.lnk
 terms_and_conditions.exe
 higeleveltask_x64.exe
@@ -226,9 +226,9 @@ STI.DLL
 MSVCR110.dll
 DukeQt.dll
 CertFixer.msi
+ftp.exe
 chrome.exe
 vmtoolsd.exe
-ftp.exe
 rekeywiz.exe
 cloked_data.exe
 GHOST.dll
@@ -898,10 +898,6 @@ YEMPlayer.msi
 Pis2rayVPN.msi
 Pis2rayN.dll
 Node.exe
-tor.exe
-ssh.exe
-sftp.exe
-nslookup.exe
 websocket-sharp.dll
 viewer.exe
 styles.dat.exe
