@@ -1,18 +1,28 @@
-# ThreatLens IoC feed - generated 2026-11-22T19:28:21.356Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-23T00:27:32.629Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+vuldb.com
+javdb.com
+www.vulncheck.com
 ni.sh
 vk.com
 patchstack.com
 plugins.svn.wordpress.org
-www.vulncheck.com
 wordpress.org
 vietnam.vn
 bugzilla.redhat.com
-vuldb.com
 itsourcecode.com
 ucn9h68n9289.feishu.cn
+www.viapan.hu
+viapan.hu
+spf1.ratior.hu
+uniregistry.com
+moreth.com
+spf.ymag.cloud
+fwmail.chu-bordeaux.fr
+chu-bordeaux.fr
+cag.leememorial.org
 whois.co.kr
 samsung.com
 econsys.com.s9b2.psmtp.com
@@ -26,8 +36,10 @@ mxa-009aaf04.gslb.pphosted.com
 www.invictawatch.com
 nospam.invictawatch.com
 emsd1.com
+spf.brevo.com
 relay.kinstamailservice.com
 websitewelcome.com
+renater.fr
 mail.zendesk.com
 shops.shopify.com
 spf.mandrillapp.com
@@ -1264,7 +1276,6 @@ lovelywines.co.th
 mmplumbingny.com
 askconstruction.com
 alpha1usa.com
-spf.brevo.com
 fly.io
 t.com
 spf.messagelabs.com
@@ -2755,7 +2766,6 @@ novadata.com.ar
 spf.renater.fr
 spf.relay.renater.fr
 spf.partage.renater.fr
-renater.fr
 mx2.relay.renater.fr
 mx1.relay.renater.fr
 ined.fr
@@ -6050,6 +6060,7 @@ avcheck.net
 doi.org
 registry.yarnpkg.com
 registry-1.docker.io
+itkholding.hu
 thai2570.com
 jiaoyisuo.thai2570.com
 log-tool-calls.sh
@@ -6059,6 +6070,7 @@ cloaked.gg
 it.to
 infrastructure.by
 entirely.to
+immobilia.hu
 venezolanadepinturas.com
 connection.upgradeonline.site
 lhr.life
@@ -6626,7 +6638,6 @@ keysyncos.com
 tonapi.io
 1234.sh
 gizmodo.cc
-attacker-db.com
 teletype.in
 tebi.io
 supabase.co
