@@ -1,4 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-23T12:14:01.000Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-23T22:13:26.978Z - source: public vendor reports. Verify before blocking.
+sys.exe
+WINWORD.EXE
+Voucer.vbs
+ScreenConnect.ClientSetup.msi
 pro.exe
 msvcr100.dll
 evidence_of_violation.docx.exe
@@ -13,8 +17,14 @@ Qt6Core.dll
 Qt5Widgets.dll
 ANCUtility.dll
 dbghelp.dll
+WerSecureFault.exe
+rrfv01nekfc.exe
+eventinspector.exe
+TranscriptViewer5.1.exe
+EVENTBITE.msi
 hawwnnRtkAudUService.exe
 SecurtyHeathService.exe
+RuntimeBroker.exe
 RunetimeBroker.exe
 GTAVI.exe
 loadperf.dll
@@ -55,7 +65,6 @@ MyApp2.exe
 MpCmdRun.exe
 Microsip-config.exe
 Client.exe
-RuntimeBroker.exe
 snxhk.dll
 terms_and_conditions.pdf.lnk
 terms_and_conditions.exe
