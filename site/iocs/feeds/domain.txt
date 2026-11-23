@@ -1,7 +1,10 @@
-# ThreatLens IoC feed - generated 2026-11-23T22:13:26.978Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-23T22:46:48.363Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+bestbuy-in.online
+walmartrollbackdeals.com
+ali-express.cam
 vuldb.com
 xcxfi08q.com
 trustedaftermark.com
@@ -548,6 +551,9 @@ weitai-leather.com
 maskeddetails.com
 amazonses.com
 www.tp-link.com
+chambourcy.fr
+smtp.autozone.com
+autozoneinc.com
 iptables-log-bridge.sh
 community.progress.com
 biomedicine.com
@@ -643,6 +649,9 @@ spf.smtp2go.com
 spf-de.emailsignatures365.com
 intacct.com
 spf.mailanyone.net
+mx2-eu1.ppe-hosted.com
+mx1-eu1.ppe-hosted.com
+dispatch-eu.ppe-hosted.com
 mktomail.com
 spf.antispamcloud.com
 autotask.net
@@ -653,8 +662,11 @@ aspmx.pardot.com
 mx.spamexperts.com
 lastmx.spamexperts.net
 fallbackmx.spamexperts.eu
+markmonitor.com
 dispatch-us.ppe-hosted.com
 spf-us.emailsignatures365.com
+support.gandi.net
+contact.gandi.net
 spf.ess.barracudanetworks.com
 us-smtp-inbound-2.mimecast.com
 us-smtp-inbound-1.mimecast.com
@@ -804,7 +816,6 @@ net-chinese.com.tw
 domain-contact.org
 vali.email
 safenames.net
-markmonitor.com
 logs-endpoint.events.network
 dns.question.name
 www.optimizely.com
@@ -1048,7 +1059,6 @@ www.enterprisedb.com
 www.axigen.com
 www.walmart.com
 www.bestbuy-in.online
-walmartrollbackdeals.com
 walmart-hkshop.club
 temu.hhllal.com
 singlesday-online.com
@@ -1075,7 +1085,6 @@ dhl-login-tracking.vercel.app
 dhl-deliveries-express.weebly.com
 amazonshopping1.com
 amazon-refund.cc
-ali-express.cam
 cyberattaque.org
 sever.ws
 sever.to
@@ -2897,11 +2906,8 @@ eichstaett.de
 www.regencypk.com
 mail2.my-tss.com
 immovia-hausverwaltung.de
-mx2-eu1.ppe-hosted.com
-mx1-eu1.ppe-hosted.com
 mail.pc110.eu
 gbl-trier.de
-dispatch-eu.ppe-hosted.com
 usg2.ppe-hosted.com
 rexvilleradiology.com
 netorgft2562123.onmicrosoft.com
@@ -3737,8 +3743,6 @@ www.choicegoodwill.com
 mainplace.com.my
 grupoeuro.com.mx
 dreamscapenetworks.com
-support.gandi.net
-contact.gandi.net
 securessl.net
 conaxtechnologies.com
 spf.a2hosting.com
