@@ -1,4 +1,6 @@
-# ThreatLens IoC feed - generated 2026-11-23T01:33:30.434Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-23T09:42:13.774Z - source: public vendor reports. Verify before blocking.
+hawwnnRtkAudUService.exe
+SecurtyHeathService.exe
 RunetimeBroker.exe
 GTAVI.exe
 loadperf.dll
@@ -16,7 +18,11 @@ cca616647db9370c88998ae25da6997f.exe
 VID001.exe
 vpnbridge_x64.exe
 netcapa.exe
+NeacSafe64.sys
+NVIDIA_Control.exe
+2.1NeacSafe64.sys
 python37.dll
+ntoskrnl.exe
 caspol.exe
 version.dll
 wpespy.dll
@@ -393,7 +399,6 @@ install.ps1
 fsquirt.exe
 FunnyApp.exe
 printfilterpipelinesvc.exe
-ntoskrnl.exe
 mscoree.dll
 liblzma.dll
 jscript9.dll
