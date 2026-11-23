@@ -1,12 +1,21 @@
-# ThreatLens IoC feed - generated 2026-11-23T09:42:13.774Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-23T10:57:18.608Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+www.certvde.com
 vuldb.com
+trust.cribl.io
+www.totolink.net
 www.piratemoo.com
 checkmk.com
 bugzilla.redhat.com
 code-projects.org
+www.socotherm.com
+vpn.grupointerprint.es
+mx01.ionos.es
+mx00.ionos.es
+interprint.es
+173.red-80-59-95.staticip.rima-tde.net
 secureapi-connect.xyz
 cloaderx.sytes.net
 sandisk.com
@@ -32,13 +41,17 @@ infomaniak.com
 infomaniak.ch
 exanett.fr
 kinkisharyo.com
+khanehsazii.ir
 mutualofomaha.com
 mx.jk.locaweb.com.br
 mx.b.locaweb.com.br
 mx.a.locaweb.com.br
 locaweb.com.br
+kundenserver.de
 att.com
+perfora.net
 us.ppe-hosted.com
+eu.ionos.com
 mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 spf.eu.exclaimer.net
@@ -193,6 +206,7 @@ contactprivacy.com
 relay.mailchannels.net
 tucows.com
 hunt.io
+calif.io
 shiftdelete.net
 block-gh-path-leak.sh
 block-fragile-refs.sh
@@ -408,7 +422,6 @@ www.mk.co.kr
 blackpointcyber.com
 www.rfc-editor.org
 mega.nz
-calif.io
 pypistats.org
 webhook.site
 xrewrgfuvhnadfsajkaldsfj.biz
@@ -619,7 +632,6 @@ beacon.sh
 mezha.net
 ipwhois.app
 upload.gofile.io
-www.certvde.com
 www.manageengine.com
 x3r0day.github.io
 debbugs.gnu.org
@@ -718,8 +730,6 @@ connectwell.com
 tdstech.com.vn
 networksolutions.com
 spamtitan.com
-kundenserver.de
-perfora.net
 net-chinese.com.tw
 domain-contact.org
 vali.email
@@ -928,7 +938,6 @@ paychex.com
 mxa-0018d001.gslb.pphosted.com
 app.aventri.com
 l.com
-khanehsazii.ir
 www.neortho.com
 spf.netsolmail.net
 registeresite.com
@@ -1937,7 +1946,6 @@ gosecure.net
 ellijay-mx.email-protect.gosecure.net
 xcai.pro
 api.deepseek.com
-www.totolink.net
 pluginus.net
 www.wpdownloadmanager.com
 videowhisper.com
@@ -2218,7 +2226,6 @@ goo.gle-access-eventregister.icu
 easydmarc.pro
 authsmtp.com
 mx.serviciodecorreo.es
-eu.ionos.com
 ydgjgdbhoa.shifts.icu
 register.rsvpconnect-events.com
 gazeteburdur.com.tr
@@ -4620,6 +4627,7 @@ portswigger-labs.net
 one.com
 infocert.it
 wasabisys.com
+daralteb.com
 teams-online.com
 sqlite.org
 spam.suwaccqi.com
@@ -6087,6 +6095,7 @@ avcheck.net
 doi.org
 registry.yarnpkg.com
 registry-1.docker.io
+irco.com
 itkholding.hu
 thai2570.com
 jiaoyisuo.thai2570.com
@@ -6584,6 +6593,7 @@ abc.breakoursilence.com
 startpasskey.com
 passkeyenroll.com
 teleport.sh
+azarestan.com
 optimumhealthcredit.com
 neumedicahealthcare.com
 healthful-hub.com
