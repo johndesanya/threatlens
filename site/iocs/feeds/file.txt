@@ -1,4 +1,18 @@
-# ThreatLens IoC feed - generated 2026-11-23T10:57:18.608Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-23T12:14:01.000Z - source: public vendor reports. Verify before blocking.
+pro.exe
+msvcr100.dll
+evidence_of_violation.docx.exe
+_Review_Front_Back.bat
+_Product_Review_Order_Front_Back_PDF.bat
+WindowsCodecs.dll
+WinWord.exe
+UnityPlayer.dll
+Travel_Point_Conditions.docx.exe
+SDL3.dll
+Qt6Core.dll
+Qt5Widgets.dll
+ANCUtility.dll
+dbghelp.dll
 hawwnnRtkAudUService.exe
 SecurtyHeathService.exe
 RunetimeBroker.exe
@@ -458,7 +472,6 @@ GeminiSetup.exe
 Claude_x64-setup.exe
 Proposition_Projet_Personnalisable.docx.lnk
 computerdefaults.exe
-dbghelp.dll
 fdwsd.dll
 csc.sys
 Spaceport.sys
