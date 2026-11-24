@@ -1,9 +1,10 @@
-# ThreatLens IoC feed - generated 2026-11-24T19:35:54.057Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-24T22:19:35.043Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
-invokere.com
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+surveyking.md
 vuldb.com
+invokere.com
 20injection.md
 search.abb.com
 www.joomla.org
@@ -56,13 +57,31 @@ cdn.optimizely.com
 status.optimizely.com
 1688360.cc
 sansec.io
+www.boschrexroth.com
+5926.md
+www.autodesk.com
 www.al443x.com
+x.org
+nvidia.custhelp.com
 shiftdelete.net
 relay.example-cdn.com
 pipedream.net
 community.acer.com
 scamalytics.com
 arxiv.org
+www.stanleypartsinc.com
+www.vinccihoteles.com
+travelclick.com
+smtp2.melia.com
+smtp.com
+roiback.com
+mx.vinccihoteles.com
+mail.vinccihoteles.com
+www.beck-maier.ch
+beck-maier.ch
+irlconstructionltd.com
+www.ultrabac.net
+www.xactus.io
 fiwealth.com
 www.rilievi.com
 scan2.sh
@@ -104,14 +123,17 @@ technolutions.net
 spf-na.exlibrisgroup.com
 emailcampaigns.net
 cust-spf.cashnet.com
+scip.es
 icpbounce.com
 proymoda.com.mx
+khanehsazii.ir
 spf.brevo.com
 spf.dynect.net
 spf.smtp2go.com
 intacct.com
 perfora.net
 spf.turbo-smtp.com
+spf.mandrillapp.com
 spf-westus.emailsignatures365.com
 aspmx3.googlemail.com
 eu.ionos.com
@@ -119,6 +141,10 @@ mailgun.org
 withheldforprivacy.com
 namecheap.com
 spf.elluciancloud.com
+mx2-us1.ppe-hosted.com
+mx1-us1.ppe-hosted.com
+dispatch-us.ppe-hosted.com
+wildwestdomains.com
 amazonses.com
 aspmx2.googlemail.com
 web.com
@@ -252,7 +278,6 @@ exanett.fr
 kinkisharyo.com
 mta6.am0.yahoodns.net
 mta5.am0.yahoodns.net
-khanehsazii.ir
 mutualofomaha.com
 hensun.com
 lovelywines.co.th
@@ -265,13 +290,10 @@ kundenserver.de
 e2ma.net
 att.com
 enom.com
-spf.mandrillapp.com
 jira.mongodb.org
 us.ppe-hosted.com
 servers.mcsv.net
 spf.mailjet.com
-mx2-us1.ppe-hosted.com
-mx1-us1.ppe-hosted.com
 spf.eu.exclaimer.net
 sts.net.pk
 santander.com.br
@@ -699,7 +721,6 @@ spf-obx.inkyphishfence.com
 spf-ipw.inkyphishfence.com
 msnattorneys.com
 wigginschilds.com
-scip.es
 mx01.dondominio.com
 adaristech.com
 agapechc.org
@@ -791,7 +812,6 @@ mx.spamexperts.com
 lastmx.spamexperts.net
 fallbackmx.spamexperts.eu
 markmonitor.com
-dispatch-us.ppe-hosted.com
 spf-us.emailsignatures365.com
 support.gandi.net
 contact.gandi.net
@@ -1211,7 +1231,6 @@ sever.ws
 sever.to
 sever.st
 sever.cx
-x.org
 rusfindlove.ru
 penzadogshelter.site
 moscowsubwaymap.site
@@ -2235,7 +2254,6 @@ www.rotstein-shiffman.com
 rotstein-shiffman.com.2.0001.arsmtp.com
 rotstein-shiffman.com.1.0001.arsmtp.com
 mailing.eqs.com
-wildwestdomains.com
 workerstats.net
 supertrap.net
 niceer.net
@@ -3983,7 +4001,6 @@ adomd.net
 haberler.com
 www.sglacpas.com
 www.archivetj.com
-nvidia.custhelp.com
 urlquery.net
 hofbrauhaus-freising.de
 hofbrauhaus-freising-de.gate.seppmail.cloud
