@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-24T06:20:21.637Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-24T07:01:14.439Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 shiftdelete.net
 relay.example-cdn.com
 pipedream.net
@@ -11,6 +11,8 @@ scamalytics.com
 arxiv.org
 vk.com
 1688360.cc
+mailstore1.secureserver.net
+kneron.com
 technolutions.net
 spf-na.exlibrisgroup.com
 emailcampaigns.net
@@ -19,6 +21,9 @@ spf.dynect.net
 spf.turbo-smtp.com
 aspmx3.googlemail.com
 amazonses.com
+smtp.secureserver.net
+godaddy.com
+secureserver.net
 d-link-dir-600l-hedwig-xmldb-runtime-write.md
 www.dlink.com
 www.vulncheck.com
@@ -173,7 +178,6 @@ santander.com.br
 disney.com
 cbre.com
 mail.tm
-godaddy.com
 web-hosting.com
 cognizant.com
 bestbuy.com
@@ -187,7 +191,6 @@ tim.it
 target.com
 steampowered.com
 spotify.com
-secureserver.net
 rockwellautomation.com
 roblox.com
 rediff.com
@@ -4150,7 +4153,6 @@ owenewans.org
 cloud.shinewrist.net
 bf.st
 render-internal.com
-smtp.secureserver.net
 pawns.app
 apple-support.today
 antigravity-ide-google.com
