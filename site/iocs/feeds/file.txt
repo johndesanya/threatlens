@@ -1,4 +1,5 @@
-# ThreatLens IoC feed - generated 2026-11-24T00:26:01.390Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-24T06:20:21.637Z - source: public vendor reports. Verify before blocking.
+sample.exe
 vcruntime146_cor2.dll
 vcruntime140_cor3.dll
 osksupport.dll
@@ -296,7 +297,6 @@ chromelevator_x64.exe
 xmrig.exe
 WinRing0x64.sys
 d4aa3e7010220ad1b458fac17039c274_62_Exe.exe
-sample.exe
 Lincoln.ps1
 21.09.2026.xml.exe
 zlib.dll

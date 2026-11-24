@@ -1,10 +1,25 @@
-# ThreatLens IoC feed - generated 2026-11-24T00:26:01.390Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-24T06:20:21.637Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
-1688360.cc
-d-link-dir-600l-hedwig-xmldb-runtime-write.md
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+shiftdelete.net
+relay.example-cdn.com
+pipedream.net
 vuldb.com
+community.acer.com
+scamalytics.com
+arxiv.org
+vk.com
+1688360.cc
+technolutions.net
+spf-na.exlibrisgroup.com
+emailcampaigns.net
+cust-spf.cashnet.com
+spf.dynect.net
+spf.turbo-smtp.com
+aspmx3.googlemail.com
+amazonses.com
+d-link-dir-600l-hedwig-xmldb-runtime-write.md
 www.dlink.com
 www.vulncheck.com
 bestbuy-in.online
@@ -206,7 +221,6 @@ publicdomainregistry.com
 steamcommunity.com
 javdb.com
 ni.sh
-vk.com
 patchstack.com
 plugins.svn.wordpress.org
 wordpress.org
@@ -241,7 +255,6 @@ websitewelcome.com
 renater.fr
 mail.zendesk.com
 shops.shopify.com
-aspmx3.googlemail.com
 mailgun.org
 withheldforprivacy.com
 namecheap.com
@@ -299,7 +312,6 @@ relay.mailchannels.net
 tucows.com
 hunt.io
 calif.io
-shiftdelete.net
 block-gh-path-leak.sh
 block-fragile-refs.sh
 block-mcp-writes.sh
@@ -525,7 +537,6 @@ simonwillison.net
 embracethered.com
 cheatsheetseries.owasp.org
 www.ibm.com
-arxiv.org
 gofile.io
 wechargeyouwithgenocide.com
 palestineisourhome.com
@@ -564,7 +575,6 @@ alumil.com
 alumil.azurewebsites.net
 weitai-leather.com
 maskeddetails.com
-amazonses.com
 www.tp-link.com
 chambourcy.fr
 smtp.autozone.com
@@ -1334,7 +1344,6 @@ abc4.com
 eu-smtp-inbound-2.mimecast.com
 eu-smtp-inbound-1.mimecast.com
 www.openwall.com
-spf.turbo-smtp.com
 ilovewww.com
 seclists.org
 postecert.poste.it
@@ -1738,7 +1747,6 @@ sunnierhomes.servidoresdedicados.com
 sunnierhomes.com
 mail.sunnierhomes.com
 gcd.com
-spf.dynect.net
 spf.elluciancloud.com
 spf.myconnectwise.net
 oastify.com
