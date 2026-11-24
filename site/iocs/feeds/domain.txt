@@ -1,7 +1,42 @@
-# ThreatLens IoC feed - generated 2026-11-24T07:01:14.439Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-24T10:29:27.693Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+santacasabarbacena.com.br
+reliablelifecure.com
+otxsmart.com
+noticeofpleadings.net
+impdocw.com
+clinicadoutor10.com.br
+charlie.stufftoread.com
+cert.br
+bioanalisemaracaju.com.br
+2026pdf.com
+1.tcp.us-cal-1.ngrok.io
+web.whatsapp.com
+symfony.com
+vk.com
+webhook.site
+www.techtarget.com
+www.cmswire.com
+world.optimizely.com
+support.optimizely.com
+scotthelme.co.uk
+polyfill.io
+pay.example-psp.com
+logx.optimizely.com
+ico.org.uk
+docs.optimizely.com
+csp-reports.example.ru
+cdn.polyfill.io
+blog.pcisecuritystandards.org
+api.example.ru
+www.optimizely.com
+login.optimizely.com
+cdn.optimizely.com
+status.optimizely.com
+1688360.cc
+sansec.io
 shiftdelete.net
 relay.example-cdn.com
 pipedream.net
@@ -9,8 +44,8 @@ vuldb.com
 community.acer.com
 scamalytics.com
 arxiv.org
-vk.com
-1688360.cc
+www.mayerhofer-bau.de
+spf.atikon.com
 mailstore1.secureserver.net
 kneron.com
 technolutions.net
@@ -527,7 +562,6 @@ blackpointcyber.com
 www.rfc-editor.org
 mega.nz
 pypistats.org
-webhook.site
 xrewrgfuvhnadfsajkaldsfj.biz
 www.usenix.org
 gamedesignadvance.com
@@ -747,7 +781,6 @@ cgit.git.savannah.gnu.org
 blog.report-uri.com
 zoom.com
 2bitcoins.ru
-cdn.optimizely.com
 mch.jndft28.xyz
 land.jndft28.xyz
 hhflwcie7xif2vo.icunamv99cyrwjsd1q.icu
@@ -843,8 +876,6 @@ vali.email
 safenames.net
 logs-endpoint.events.network
 dns.question.name
-www.optimizely.com
-login.optimizely.com
 containerbots.github.io
 redb.ru
 dgl.ru
@@ -878,7 +909,6 @@ claude.md
 agents.md
 www.rootways.com
 authorize.net
-sansec.io
 securitylab.ru
 technext24.com
 www.onlineapplicationamz.com
@@ -962,7 +992,6 @@ apv-static.minute-ly.com
 hackerone.com
 circutor.com
 jvn.jp
-status.optimizely.com
 firstchoiceseafood.com
 peerlesshospital.com
 url7489.newbooker.com
@@ -5423,7 +5452,6 @@ rubydoc.info
 www.sicoob.com.br
 www.hltv.org
 www.creamp1eonlyfans.net
-web.whatsapp.com
 www.eac-airports.com
 overhands.org
 www.papercut.com
@@ -6911,3 +6939,4 @@ us.wind0ws.net
 ulusal.com.tr
 odatv.com
 aydinlik.com.tr
+www.cnbc.com
