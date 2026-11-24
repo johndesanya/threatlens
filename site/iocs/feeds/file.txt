@@ -1,4 +1,12 @@
-# ThreatLens IoC feed - generated 2026-11-24T10:29:27.693Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-24T19:03:49.573Z - source: public vendor reports. Verify before blocking.
+WindowsUpdate.WindowsClient.exe
+Sync.bat
+Run-Lateral.bat
+Marinou-CV.exe
+Madinati-Platform.exe
+Ai_Healthcare_Seminar.exe
+AI_Healthcare_Seminar.exe
+WINWORD.EXE
 AutoIt3.exe
 sample.exe
 vcruntime146_cor2.dll
@@ -16,7 +24,6 @@ CryptoWalletAnalyzer.exe
 CryptoWalletAnalyzer.dll
 updater.exe
 sys.exe
-WINWORD.EXE
 Voucer.vbs
 ScreenConnect.ClientSetup.msi
 pro.exe
