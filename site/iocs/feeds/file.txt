@@ -1,4 +1,18 @@
-# ThreatLens IoC feed - generated 2026-11-23T22:46:48.363Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-24T00:26:01.390Z - source: public vendor reports. Verify before blocking.
+vcruntime146_cor2.dll
+vcruntime140_cor3.dll
+osksupport.dll
+osk.exe
+msedgewebview2.exe
+dropper_dll.dll
+dotnet.exe
+avast.exe
+WinUI.Button.dll
+OskSupport.dll
+LGA.exe
+CryptoWalletAnalyzer.exe
+CryptoWalletAnalyzer.dll
+updater.exe
 sys.exe
 WINWORD.EXE
 Voucer.vbs
@@ -407,7 +421,6 @@ GoogleUpdate.exe
 AdobeARM.exe
 sqldiff.exe
 windowsdefendersvc.exe
-updater.exe
 svc.exe
 nbtresolver.exe
 krbtman.exe

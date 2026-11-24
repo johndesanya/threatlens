@@ -1,11 +1,19 @@
-# ThreatLens IoC feed - generated 2026-11-23T22:46:48.363Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-24T00:26:01.390Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+1688360.cc
+d-link-dir-600l-hedwig-xmldb-runtime-write.md
+vuldb.com
+www.dlink.com
+www.vulncheck.com
 bestbuy-in.online
 walmartrollbackdeals.com
 ali-express.cam
-vuldb.com
+figma-share.github.io
+crt.sh
+readme.md
+api.ipify.org
 xcxfi08q.com
 trustedaftermark.com
 trident-ww.com
@@ -46,6 +54,13 @@ lp.constantcontactpages.com
 black-friday-angebote.yann-docs-0112600.workers.dev
 workers.dev
 code-projects.org
+help.whmcs.com
+yahoo.com.br
+www.toyotahg.mx
+toyotahg.mx.spf.auto.dnssmarthost.net
+mx30.antispam.mailspamprotection.com
+mx20.antispam.mailspamprotection.com
+mx10.antispam.mailspamprotection.com
 sm.gov.ua
 dn.gov.ua
 151-244-30-176.shatel.ir
@@ -110,6 +125,8 @@ infomaniak.com
 infomaniak.ch
 exanett.fr
 kinkisharyo.com
+mta6.am0.yahoodns.net
+mta5.am0.yahoodns.net
 khanehsazii.ir
 mutualofomaha.com
 hensun.com
@@ -188,7 +205,6 @@ microsoftonline.com
 publicdomainregistry.com
 steamcommunity.com
 javdb.com
-www.vulncheck.com
 ni.sh
 vk.com
 patchstack.com
@@ -234,7 +250,6 @@ aspmx2.googlemail.com
 operationharshdoorstop.com
 drbloop.dev
 d-link-dir-600l-gena-cgi-stack-overflow-review.md
-www.dlink.com
 aka.ms
 cgi.md
 docs.rt-labs.com
@@ -605,8 +620,6 @@ allcountypaving.com
 bigcommerce.com
 spf-0019f703.pphosted.com
 mta7.am0.yahoodns.net
-mta6.am0.yahoodns.net
-mta5.am0.yahoodns.net
 icpbounce.com
 frontiernet.net
 pbsjlaw.com
@@ -722,7 +735,6 @@ blog.report-uri.com
 zoom.com
 2bitcoins.ru
 cdn.optimizely.com
-1688360.cc
 mch.jndft28.xyz
 land.jndft28.xyz
 hhflwcie7xif2vo.icunamv99cyrwjsd1q.icu
@@ -1044,7 +1056,6 @@ mx00.ionos.de
 transmail.net
 spfa.cpmails.com
 supportportal.juniper.net
-api.ipify.org
 www.zoom.com
 www.virginmediao2.co.uk
 www.tricentis.com
@@ -1309,7 +1320,6 @@ webnic.cc
 privacyprotect.org
 codeberg.org
 www.tenda.com.cn
-readme.md
 lavender-bicycle-a5a.notion.site
 iphones.ru
 w.anadnet.com
@@ -1737,7 +1747,6 @@ microsoft-flash.com
 developer.konghq.com
 me.n-able.com
 support.blackberry.com
-crt.sh
 all.net
 virtual.cisoforum.com
 windowsupdates.us
@@ -5936,6 +5945,7 @@ cache-cdn.org
 www.cubecart.com
 www.c-mor.com
 san-sid.com
+cloudservicebase.ddns.net
 redirector.domain.com
 gs.info
 gr.name
