@@ -1,11 +1,13 @@
-# ThreatLens IoC feed - generated 2026-11-24T19:03:49.573Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-24T19:35:54.057Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+invokere.com
 vuldb.com
 20injection.md
 search.abb.com
 www.joomla.org
+developer.joomla.org
 masterdarky.com
 webmail.cabelenet.com
 remote.medochomie.com
@@ -427,10 +429,24 @@ soul.md
 level.io
 git.kernel.org
 company.com
+cybersecuritynews.com
+depthfirst.com
 mvf-2026-0012.md
 banleeheng.com.my
 spf.mailsentinel.net
 exabytes.my
+nuvo.fifa.com
+halfordscompany.com
+inames.co.kr
+accuver.com
+ablbio.com
+unimedia.fr
+spf.unimedia.fr
+idline.fr
+allafrance.com
+spfrerouting.xink.io
+anpdm.com
+aixia.se
 www.vanmor.com
 vanmor.com
 mail.vanmor.com
@@ -588,6 +604,7 @@ plasmagen.co.in
 missouriweldinginstitute.com
 smart.ondmarc.com
 spf.zohomail360.com
+maskeddetails.com
 support.aws.com
 1api.net
 registermymfa.com
@@ -613,7 +630,6 @@ app.kubernetes.io
 orchestrator.cluster.name
 ollama-ko.com
 mediafire.com
-depthfirst.com
 www.mk.co.kr
 blackpointcyber.com
 www.rfc-editor.org
@@ -668,7 +684,6 @@ cretaforce.gr
 alumil.com
 alumil.azurewebsites.net
 weitai-leather.com
-maskeddetails.com
 www.tp-link.com
 chambourcy.fr
 smtp.autozone.com
