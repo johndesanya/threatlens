@@ -1,7 +1,8 @@
-# ThreatLens IoC feed - generated 2026-11-25T14:53:25.566Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-25T15:51:20.786Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.vulncheck.com
 pytorch.org
 hiddenlayer.com
 genai.owasp.org
@@ -39,6 +40,9 @@ access.redhat.com
 www.geovision.com.tw
 backdropcms.org
 backdrop-rce-standard-vuln-report-en.md
+download.se.com
+minichiinc.com
+mail10.volcanichosting.com
 spf.watermarkinsights.com
 smtp1.notification.com
 smtp.notification.com
@@ -218,7 +222,6 @@ smtp.secureserver.net
 secureserver.net
 d-link-dir-600l-hedwig-xmldb-runtime-write.md
 www.dlink.com
-www.vulncheck.com
 bestbuy-in.online
 walmartrollbackdeals.com
 ali-express.cam
