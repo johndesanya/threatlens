@@ -1,4 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-25T03:37:15.160Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-25T08:15:02.677Z - source: public vendor reports. Verify before blocking.
+Idunno.AntiCsrf.dll
+w3wp.exe
+pythonw.exe
 WindowsUpdate.WindowsClient.exe
 Sync.bat
 Run-Lateral.bat
@@ -59,7 +62,6 @@ killer.exe
 kill.exe
 lkd.exe
 WinUpdSvc2.exe
-pythonw.exe
 cca616647db9370c88998ae25da6997f.exe
 485055033bcddfde56325c0d2feea4f2.exe
 VID001.exe
@@ -201,7 +203,6 @@ DLPReel.dll
 dwn.exe
 SSA-2026-STATEMENT-15518787.bat
 icacls.exe
-w3wp.exe
 svchost64.exe
 svchost32.exe
 attrib.exe

@@ -1,12 +1,27 @@
-# ThreatLens IoC feed - generated 2026-11-25T03:37:15.160Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-25T08:15:02.677Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+cheatsheetseries.owasp.org
+ysoserial.net
+xghfyxdvb7rz4exwnbj51fm2etkk8awz.oastify.com
+x0.at
+a.stratfordhospital5050.com
+7nv0bfnhimpr5lrd9fuw8t0wvn1ep9dy.oastify.com
+oastify.com
+bun.sh
+ifconfig.me
+asp.net
+detail.md
+www.tenda.com.cn
 vuldb.com
+wpscan.com
 bugzilla.redhat.com
+access.redhat.com
 www.geovision.com.tw
 backdropcms.org
 backdrop-rce-standard-vuln-report-en.md
+mailbaby.net
 comexperu.org.pe
 twyfordtile.com
 www.adnenergia.com
@@ -156,6 +171,7 @@ spf.brevo.com
 spf.dynect.net
 spf.smtp2go.com
 intacct.com
+www.openwall.com
 perfora.net
 spf.turbo-smtp.com
 spf.mandrillapp.com
@@ -216,7 +232,6 @@ xss.mx
 wpewebkit.org
 webkitgtk.org
 bugs.webkit.org
-access.redhat.com
 postmarkapp.com
 skill.md
 www.certvde.com
@@ -414,7 +429,6 @@ plugins.trac.wordpress.org
 advisory.md
 downloads.wordpress.org
 host.it
-wpscan.com
 lucidmotors.com
 dallasivf.com
 spam.micb2b.com
@@ -694,7 +708,6 @@ wuzzi.net
 systemweakness.com
 simonwillison.net
 embracethered.com
-cheatsheetseries.owasp.org
 www.ibm.com
 gofile.io
 wechargeyouwithgenocide.com
@@ -726,7 +739,6 @@ wp-staging.com
 www.sourcecodester.com
 change-control.md
 security.md
-asp.net
 my.f5.com
 email-messaging.com
 cretaforce.gr
@@ -1470,7 +1482,6 @@ bigrock.com
 webnic.cc
 privacyprotect.org
 codeberg.org
-www.tenda.com.cn
 lavender-bicycle-a5a.notion.site
 iphones.ru
 w.anadnet.com
@@ -1484,7 +1495,6 @@ fittleworth.com
 abc4.com
 eu-smtp-inbound-2.mimecast.com
 eu-smtp-inbound-1.mimecast.com
-www.openwall.com
 ilovewww.com
 seclists.org
 postecert.poste.it
@@ -1591,7 +1601,6 @@ sidecar.istio.io
 discordzapretik.sbs
 n0n.to
 icanhazip.com
-ifconfig.me
 analytics.insightjs.com
 insightjs.com
 chicagohistory.org
@@ -1889,7 +1898,6 @@ sunnierhomes.com
 mail.sunnierhomes.com
 gcd.com
 spf.myconnectwise.net
-oastify.com
 wps-cn.com
 microsoft-flash.com
 developer.konghq.com
@@ -2323,7 +2331,6 @@ america250.org
 static.flux-telemetry.com
 a.plerdy.com
 theowo.club
-ysoserial.net
 vdfccjpnedujhrzscjtq.supabase.co
 auth.qgtxtebl.workers.dev
 www.ddduuuppp.com
@@ -6828,7 +6835,6 @@ digital-asset-mart.org
 debank.com
 consensus-protocol-v4.org
 bistro-reserve-now.net
-bun.sh
 faturanova.xyz
 faturanova.duckdns.org
 facture-in.pages.dev
