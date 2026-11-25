@@ -1,7 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-25T03:10:03.784Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-25T03:37:15.160Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
 vuldb.com
 bugzilla.redhat.com
 www.geovision.com.tw
@@ -20,6 +20,8 @@ mxbiz2.qq.com
 mxbiz1.qq.com
 service.aliyun.com
 godaddy.com
+09-mealie-accept-language-path-traversal.md
+07-uptime-kuma-apikey-idor.md
 surveyking.md
 invokere.com
 20injection.md
@@ -413,6 +415,8 @@ advisory.md
 downloads.wordpress.org
 host.it
 wpscan.com
+lucidmotors.com
+dallasivf.com
 spam.micb2b.com
 micb2b.com
 fortsmithems.org
@@ -450,6 +454,7 @@ hostedemail.com
 mail.hostinger.com
 contactprivacy.com
 relay.mailchannels.net
+mimecast.com
 tucows.com
 hunt.io
 calif.io
@@ -840,7 +845,6 @@ contact.gandi.net
 spf.ess.barracudanetworks.com
 us-smtp-inbound-2.mimecast.com
 us-smtp-inbound-1.mimecast.com
-mimecast.com
 frontier.com
 advisory.splunk.com
 www.php.net

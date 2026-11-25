@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-25T03:10:03.784Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-25T03:37:15.160Z - source: public vendor reports. Verify before blocking.
 WindowsUpdate.WindowsClient.exe
 Sync.bat
 Run-Lateral.bat
