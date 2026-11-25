@@ -1,9 +1,26 @@
-# ThreatLens IoC feed - generated 2026-11-24T22:19:35.043Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-25T03:10:03.784Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
-surveyking.md
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 vuldb.com
+bugzilla.redhat.com
+www.geovision.com.tw
+backdropcms.org
+backdrop-rce-standard-vuln-report-en.md
+comexperu.org.pe
+twyfordtile.com
+www.adnenergia.com
+camsons.com.au
+www.rachexpert.pl
+mail3.webio.pl
+mail2.webio.pl
+mail1.webio.pl
+spf.mail.qq.com
+mxbiz2.qq.com
+mxbiz1.qq.com
+service.aliyun.com
+godaddy.com
+surveyking.md
 invokere.com
 20injection.md
 search.abb.com
@@ -69,6 +86,12 @@ pipedream.net
 community.acer.com
 scamalytics.com
 arxiv.org
+islasnatura.es
+aspiretax.com.spf.auto.dnssmarthost.net
+sunspotsvoices.com
+sunspotsvoices-com.mx2.arsmtp.com
+sunspotsvoices-com.mx1.arsmtp.com
+aspiretax.com
 www.stanleypartsinc.com
 www.vinccihoteles.com
 travelclick.com
@@ -144,6 +167,7 @@ spf.elluciancloud.com
 mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
+edgepilot.com
 wildwestdomains.com
 amazonses.com
 aspmx2.googlemail.com
@@ -152,7 +176,6 @@ networksolutionsprivateregistration.com
 sendgrid.net
 register.it
 smtp.secureserver.net
-godaddy.com
 secureserver.net
 salesforce.com
 d-link-dir-600l-hedwig-xmldb-runtime-write.md
@@ -191,7 +214,6 @@ xss.mx
 wpewebkit.org
 webkitgtk.org
 bugs.webkit.org
-bugzilla.redhat.com
 access.redhat.com
 postmarkapp.com
 skill.md
@@ -1437,14 +1459,10 @@ www.kesslerdcp.com
 kesslerdcp.com
 www.colemfg.com
 www.oregonlinen.com
-spf.mail.qq.com
-mxbiz2.qq.com
-mxbiz1.qq.com
 yandex.net
 mailprotection.fiber.net.id
 mail.fiber.net.id
 bigrock.com
-service.aliyun.com
 webnic.cc
 privacyprotect.org
 codeberg.org
@@ -3107,7 +3125,6 @@ custmx.cscdns.net
 d.spf.service-now.com
 c.spf.service-now.com
 b.spf.service-now.com
-edgepilot.com
 spf.webapps.net
 www.miljaus.com
 attacker.com
