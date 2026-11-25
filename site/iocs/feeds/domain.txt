@@ -1,14 +1,18 @@
-# ThreatLens IoC feed - generated 2026-11-25T15:51:20.786Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-25T19:08:26.604Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+webhook.site
+jira.mongodb.org
+vuldb.com
+checkmk.com
 www.vulncheck.com
+nmap.org
 pytorch.org
 hiddenlayer.com
 genai.owasp.org
 blog.mithrilsecurity.io
 arxiv.org
-checkmk.com
 www.dell.com
 gitlab.eclipse.org
 asp.net
@@ -21,7 +25,6 @@ da.gd
 cors.bwa.workers.dev
 urlquery.net
 httpbin.org
-webhook.site
 cheatsheetseries.owasp.org
 ysoserial.net
 xghfyxdvb7rz4exwnbj51fm2etkk8awz.oastify.com
@@ -33,13 +36,18 @@ bun.sh
 ifconfig.me
 detail.md
 www.tenda.com.cn
-vuldb.com
 wpscan.com
 bugzilla.redhat.com
 access.redhat.com
 www.geovision.com.tw
 backdropcms.org
 backdrop-rce-standard-vuln-report-en.md
+liverpool.ac.uk
+iron6.liv.ac.uk
+iron5.liv.ac.uk
+iron4.liv.ac.uk
+iron3.liv.ac.uk
+iron2.liv.ac.uk
 download.se.com
 minichiinc.com
 mail10.volcanichosting.com
@@ -351,7 +359,6 @@ kundenserver.de
 e2ma.net
 att.com
 enom.com
-jira.mongodb.org
 us.ppe-hosted.com
 servers.mcsv.net
 spf.mailjet.com
@@ -412,6 +419,9 @@ wordpress.org
 vietnam.vn
 itsourcecode.com
 ucn9h68n9289.feishu.cn
+ucageneral.com
+mail.dynamiceducationservices.com
+dynamiceducationservices.com
 www.viapan.hu
 viapan.hu
 spf1.ratior.hu

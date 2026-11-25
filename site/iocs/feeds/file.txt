@@ -1,4 +1,6 @@
-# ThreatLens IoC feed - generated 2026-11-25T15:51:20.786Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-25T19:08:26.604Z - source: public vendor reports. Verify before blocking.
+VID001.exe
+AAct.exe
 Idunno.AntiCsrf.dll
 w3wp.exe
 pythonw.exe
@@ -64,7 +66,6 @@ lkd.exe
 WinUpdSvc2.exe
 cca616647db9370c88998ae25da6997f.exe
 485055033bcddfde56325c0d2feea4f2.exe
-VID001.exe
 vpnbridge_x64.exe
 netcapa.exe
 NeacSafe64.sys
@@ -608,7 +609,6 @@ OLEACC.Dll
 Microsoft.Data.Edm.Dll
 Lucene.Net.Dll
 WCInstaller_NonAdmin.exe
-AAct.exe
 trueconf.exe
 trueconf-broker.exe
 amsi.dll
