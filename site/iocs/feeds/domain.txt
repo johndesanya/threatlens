@@ -1,7 +1,26 @@
-# ThreatLens IoC feed - generated 2026-11-25T08:15:02.677Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-25T14:53:25.566Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+pytorch.org
+hiddenlayer.com
+genai.owasp.org
+blog.mithrilsecurity.io
+arxiv.org
+checkmk.com
+www.dell.com
+gitlab.eclipse.org
+asp.net
+legal.com
+vizprod.aihw.gov.au
+is.gd
+httpbun.com
+eu.httpbin.org
+da.gd
+cors.bwa.workers.dev
+urlquery.net
+httpbin.org
+webhook.site
 cheatsheetseries.owasp.org
 ysoserial.net
 xghfyxdvb7rz4exwnbj51fm2etkk8awz.oastify.com
@@ -11,7 +30,6 @@ a.stratfordhospital5050.com
 oastify.com
 bun.sh
 ifconfig.me
-asp.net
 detail.md
 www.tenda.com.cn
 vuldb.com
@@ -21,6 +39,9 @@ access.redhat.com
 www.geovision.com.tw
 backdropcms.org
 backdrop-rce-standard-vuln-report-en.md
+spf.watermarkinsights.com
+smtp1.notification.com
+smtp.notification.com
 mailbaby.net
 comexperu.org.pe
 twyfordtile.com
@@ -30,11 +51,15 @@ www.rachexpert.pl
 mail3.webio.pl
 mail2.webio.pl
 mail1.webio.pl
+technolutions.net
 spf.mail.qq.com
 mxbiz2.qq.com
 mxbiz1.qq.com
 service.aliyun.com
+aspmx.pardot.com
+aspmx2.googlemail.com
 godaddy.com
+salesforce.com
 09-mealie-accept-language-path-traversal.md
 07-uptime-kuma-apikey-idor.md
 surveyking.md
@@ -70,7 +95,6 @@ bioanalisemaracaju.com.br
 web.whatsapp.com
 symfony.com
 vk.com
-webhook.site
 www.techtarget.com
 www.cmswire.com
 world.optimizely.com
@@ -102,7 +126,6 @@ relay.example-cdn.com
 pipedream.net
 community.acer.com
 scamalytics.com
-arxiv.org
 islasnatura.es
 aspiretax.com.spf.auto.dnssmarthost.net
 sunspotsvoices.com
@@ -159,7 +182,6 @@ www.mayerhofer-bau.de
 spf.atikon.com
 mailstore1.secureserver.net
 kneron.com
-technolutions.net
 spf-na.exlibrisgroup.com
 emailcampaigns.net
 cust-spf.cashnet.com
@@ -188,14 +210,12 @@ dispatch-us.ppe-hosted.com
 edgepilot.com
 wildwestdomains.com
 amazonses.com
-aspmx2.googlemail.com
 web.com
 networksolutionsprivateregistration.com
 sendgrid.net
 register.it
 smtp.secureserver.net
 secureserver.net
-salesforce.com
 d-link-dir-600l-hedwig-xmldb-runtime-write.md
 www.dlink.com
 www.vulncheck.com
@@ -239,7 +259,6 @@ trust.cribl.io
 www.totolink.net
 user.id
 www.piratemoo.com
-checkmk.com
 lp.constantcontactpages.com
 black-friday-angebote.yann-docs-0112600.workers.dev
 workers.dev
@@ -482,7 +501,6 @@ server.rs
 velmontriq.net
 nimbuskeep.com
 www.whatsapp.com
-gitlab.eclipse.org
 shutterstock.com
 poste.io
 technique.id
@@ -846,7 +864,6 @@ autotask.net
 act-on.net
 psm.knowbe4.com
 fortimailcloud.com
-aspmx.pardot.com
 mx.spamexperts.com
 lastmx.spamexperts.net
 fallbackmx.spamexperts.eu
@@ -2719,7 +2736,6 @@ ntp.timesync.to
 chinow.abrdns.com
 0f851bdc9d.ddns.1433.eu.org
 sourceforge.net
-www.dell.com
 openkruise-pprof-2026.md
 www.badcast.dev
 docs.crewai.com
@@ -4029,7 +4045,6 @@ adomd.net
 haberler.com
 www.sglacpas.com
 www.archivetj.com
-urlquery.net
 hofbrauhaus-freising.de
 hofbrauhaus-freising-de.gate.seppmail.cloud
 de.seppmail.cloud
@@ -5332,7 +5347,6 @@ eprofit.com
 difive.com
 centerex.com
 luarocks.org
-httpbin.org
 devtunnels.ms
 malware-traffic-analysis.net
 grove-89.com
@@ -7012,6 +7026,7 @@ myoktasso.com
 ssskwt.com
 siekeltd.com
 escofiringbijou.com
+newpayapp.com
 courtadr.com
 marialurdes.site
 harialurdes.site
