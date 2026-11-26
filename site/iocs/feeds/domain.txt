@@ -1,10 +1,16 @@
-# ThreatLens IoC feed - generated 2026-11-26T01:03:48.157Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-26T03:30:37.504Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
-vk.com
-20authentication.md
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
 vuldb.com
+www.vulncheck.com
+git.w1.fi
+pico-content-editor-ssrf.md
+hackerone.com
+bugzilla.redhat.com
+20authentication.md
+www.drupal.org
+vk.com
 odbc.postgresql.org
 publicnode.com
 eth.drpc.org
@@ -17,7 +23,6 @@ ethereum-rpc.publicnode.com
 webhook.site
 jira.mongodb.org
 checkmk.com
-www.vulncheck.com
 nmap.org
 pytorch.org
 hiddenlayer.com
@@ -48,7 +53,6 @@ ifconfig.me
 detail.md
 www.tenda.com.cn
 wpscan.com
-bugzilla.redhat.com
 access.redhat.com
 www.geovision.com.tw
 backdropcms.org
@@ -1162,7 +1166,6 @@ securitybank.com
 i.kissmetrics.com
 foxsports.com
 apv-static.minute-ly.com
-hackerone.com
 circutor.com
 jvn.jp
 firstchoiceseafood.com
@@ -3222,7 +3225,6 @@ ddosecrets.org
 lightning.news
 remediate-macos.sh
 ecomagent.in
-www.drupal.org
 www.imaginationtech.com
 dreamgroup.com
 eas-eng.com

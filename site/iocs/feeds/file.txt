@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-26T01:03:48.157Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-26T03:30:37.504Z - source: public vendor reports. Verify before blocking.
 temp_auto_push.bat
 VID001.exe
 AAct.exe
