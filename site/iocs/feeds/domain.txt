@@ -1,13 +1,25 @@
-# ThreatLens IoC feed - generated 2026-11-26T13:15:22.852Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-26T19:47:48.860Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+vuldb.com
+www.sourcecodester.com
+host.it
+patchstack.com
+itsourcecode.com
+zhglxt-stored-xss.md
+wpsec.com
+plugins.svn.wordpress.org
+spotify.interview-experts.com
+nvidia.feedback-study.com
+google.webinar-cloud.com
+accenture.international-interviews.com
+vk.com
 watch.sh
 rp3.sh
 r95final.sh
 r94final.sh
 r93final.sh
-vk.com
 advisories.octopus.com
 www.wordfence.com
 plugins.trac.wordpress.org
@@ -51,8 +63,6 @@ bmap.top
 best-pc-softs.top
 avela.top
 4kwallpapers.top
-vuldb.com
-www.sourcecodester.com
 www.chronoengine.com
 www.twcert.org.tw
 jvn.jp
@@ -71,10 +81,34 @@ pico-content-editor-ssrf.md
 hackerone.com
 20authentication.md
 www.drupal.org
+www.nelson-jewellery.com
+healthmetrics.com
+3448600.spf02.hubspotemail.net
+mail.exing.com.sg
+exing.com.sg
+vhost.vn
+tacorp.vn
+tacorp.com.vn
+www.ehc24.com
+aimconsulting.ch
+www.sweetdarling.com
 mx01.imigrasi.go.id
 mail.imigrasi.go.id
 imigrasi.go.id
 wedolawinlansing.com
+firebasemail.com
+weitai-leather.com
+proxy-ssl.webflow.com
+tdstech.com.vn
+security.netapp.com
+mail.zendesk.com
+www.veeam.com
+withheldforprivacy.com
+mx2-us1.ppe-hosted.com
+mx1-us1.ppe-hosted.com
+web.com
+networksolutionsprivateregistration.com
+godaddy.com
 odbc.postgresql.org
 publicnode.com
 eth.drpc.org
@@ -159,12 +193,9 @@ service.aliyun.com
 aspmx.pardot.com
 mailgun.org
 aspmx2.googlemail.com
-web.com
-networksolutionsprivateregistration.com
 us-smtp-inbound-2.mimecast.com
 us-smtp-inbound-1.mimecast.com
 mimecast.com
-godaddy.com
 salesforce.com
 09-mealie-accept-language-path-traversal.md
 07-uptime-kuma-apikey-idor.md
@@ -305,11 +336,8 @@ spf.mandrillapp.com
 spf-westus.emailsignatures365.com
 aspmx3.googlemail.com
 eu.ionos.com
-withheldforprivacy.com
 namecheap.com
 spf.elluciancloud.com
-mx2-us1.ppe-hosted.com
-mx1-us1.ppe-hosted.com
 dispatch-us.ppe-hosted.com
 edgepilot.com
 wildwestdomains.com
@@ -388,7 +416,6 @@ mxb-00322403.gslb.pphosted.com
 mxa-00322403.gslb.pphosted.com
 e19ezl49dr.powerspf.com
 obriengroupaustralia.com.au
-firebasemail.com
 filter.nvbc.org
 spf.tal.de
 mx.spiegelberg.com
@@ -503,10 +530,7 @@ publicdomainregistry.com
 steamcommunity.com
 javdb.com
 ni.sh
-patchstack.com
-plugins.svn.wordpress.org
 vietnam.vn
-itsourcecode.com
 ucn9h68n9289.feishu.cn
 ucageneral.com
 mail.dynamiceducationservices.com
@@ -536,7 +560,6 @@ emsd1.com
 relay.kinstamailservice.com
 websitewelcome.com
 renater.fr
-mail.zendesk.com
 shops.shopify.com
 spf.has.pphosted.com
 operationharshdoorstop.com
@@ -546,7 +569,6 @@ aka.ms
 cgi.md
 docs.rt-labs.com
 advisory.md
-host.it
 lucidmotors.com
 dallasivf.com
 spam.micb2b.com
@@ -703,7 +725,6 @@ tracking.phorest.com
 sso-interview.com
 spotify.research-interview.com
 spotify.paidexpert-interviewsso.com
-spotify.interview-experts.com
 spotify.interview-expert-portal.com
 spotify.global-interviews.com
 spotify.experts-interview.com
@@ -711,7 +732,6 @@ spacexgrok.company-mission.com
 researchparticipation.com
 paid-interview-portal.com
 okta.login.adsbillinghub.com
-nvidia.feedback-study.com
 na.eventscloud.com
 login.cocacolainterview.com
 login.adsbillinghub.com
@@ -724,7 +744,6 @@ interview-experts.com
 interview-expert-portal.com
 importantfuture.com
 hypernovaguys.com
-google.webinar-cloud.com
 fetchx.com
 feedback-study.com
 experts-interview.com
@@ -747,7 +766,6 @@ accenture.interviews-master.com
 accenture.interviewprograms.com
 accenture.interviewapplicants.com
 accenture.internationally-interviews.com
-accenture.international-interviews.com
 accenture.company-interviews.com
 accenture.applicants-interviewpro.com
 tomcat.apache.org
@@ -796,7 +814,6 @@ ubuntu.com
 pages.dev
 makepasskey.com
 socket.io
-security.netapp.com
 www.helx.io
 tajapps.com
 kpoint.com
@@ -859,7 +876,6 @@ email-messaging.com
 cretaforce.gr
 alumil.com
 alumil.azurewebsites.net
-weitai-leather.com
 www.tp-link.com
 chambourcy.fr
 smtp.autozone.com
@@ -1105,7 +1121,6 @@ ios-hack.icu
 foxnews.com
 godrej.com
 connectwell.com
-tdstech.com.vn
 networksolutions.com
 spamtitan.com
 net-chinese.com.tw
@@ -1572,7 +1587,6 @@ d-link-dir-600l-authentication-cgi.md
 stories.storifyme.com
 www.apexspace.com
 spf.protection.office365.us
-proxy-ssl.webflow.com
 apexspace-com.mail.protection.office365.us
 www.aeis.com
 theheartlandconstructiongroup.com
@@ -2172,7 +2186,6 @@ gstreamer.freedesktop.org
 solaric.com.ph
 exploit.in
 openam-jp.github.io
-www.veeam.com
 psirt.global.sonicwall.com
 frameworkmetrics.xyz
 system.dawid.pl
