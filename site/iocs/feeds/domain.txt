@@ -1,10 +1,18 @@
-# ThreatLens IoC feed - generated 2026-11-26T11:07:52.302Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-26T13:15:22.852Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+watch.sh
+rp3.sh
+r95final.sh
+r94final.sh
+r93final.sh
+vk.com
+advisories.octopus.com
 www.wordfence.com
 plugins.trac.wordpress.org
 wordpress.org
+bugzilla.redhat.com
 downloads.wordpress.org
 www.customerlop.top
 sunnygardendz.com
@@ -48,7 +56,6 @@ www.sourcecodester.com
 www.chronoengine.com
 www.twcert.org.tw
 jvn.jp
-vk.com
 ustosappaienvbados.com
 ustodos.com
 unbostudio.net
@@ -57,7 +64,6 @@ ovrqzokfg.net
 extinctenhance.com
 effectdrive.com
 bugzilla.samba.org
-bugzilla.redhat.com
 ncsc.gov.ie
 www.vulncheck.com
 git.w1.fi
@@ -1944,7 +1950,6 @@ neexportfolio.azurewebsites.net
 engineeringrssfeed.azurewebsites.net
 blogvolleyballstatus.azurewebsites.net
 azurewebsites.net
-advisories.octopus.com
 theluckyturkey.com
 snort.org
 brightarrow.com
