@@ -1,4 +1,5 @@
-# ThreatLens IoC feed - generated 2026-11-25T19:08:26.604Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-26T00:38:42.530Z - source: public vendor reports. Verify before blocking.
+temp_auto_push.bat
 VID001.exe
 AAct.exe
 Idunno.AntiCsrf.dll
@@ -946,7 +947,6 @@ YEPlayer.dll
 YEMPlayer.msi
 Pis2rayVPN.msi
 Pis2rayN.dll
-Node.exe
 websocket-sharp.dll
 viewer.exe
 styles.dat.exe

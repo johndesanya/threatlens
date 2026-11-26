@@ -1,10 +1,20 @@
-# ThreatLens IoC feed - generated 2026-11-25T19:08:26.604Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-26T00:38:42.530Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+20authentication.md
+vuldb.com
+odbc.postgresql.org
+publicnode.com
+eth.drpc.org
+eth-mainnet.public.blastapi.io
+drpc.org
+blastapi.io
+1rpc.io
+eth.blockscout.com
+ethereum-rpc.publicnode.com
 webhook.site
 jira.mongodb.org
-vuldb.com
 checkmk.com
 www.vulncheck.com
 nmap.org
@@ -42,6 +52,13 @@ access.redhat.com
 www.geovision.com.tw
 backdropcms.org
 backdrop-rce-standard-vuln-report-en.md
+npschools.us
+www.reliableparts.com
+pacific-orient.com
+pumptechnw.com
+244192391.spf08.hubspotemail.net
+scrapbook.com
+tessilopera.it
 liverpool.ac.uk
 iron6.liv.ac.uk
 iron5.liv.ac.uk
@@ -69,7 +86,13 @@ mxbiz2.qq.com
 mxbiz1.qq.com
 service.aliyun.com
 aspmx.pardot.com
+mailgun.org
 aspmx2.googlemail.com
+web.com
+networksolutionsprivateregistration.com
+us-smtp-inbound-2.mimecast.com
+us-smtp-inbound-1.mimecast.com
+mimecast.com
 godaddy.com
 salesforce.com
 09-mealie-accept-language-path-traversal.md
@@ -212,7 +235,6 @@ spf.mandrillapp.com
 spf-westus.emailsignatures365.com
 aspmx3.googlemail.com
 eu.ionos.com
-mailgun.org
 withheldforprivacy.com
 namecheap.com
 spf.elluciancloud.com
@@ -222,8 +244,6 @@ dispatch-us.ppe-hosted.com
 edgepilot.com
 wildwestdomains.com
 amazonses.com
-web.com
-networksolutionsprivateregistration.com
 sendgrid.net
 register.it
 smtp.secureserver.net
@@ -500,7 +520,6 @@ hostedemail.com
 mail.hostinger.com
 contactprivacy.com
 relay.mailchannels.net
-mimecast.com
 tucows.com
 hunt.io
 calif.io
@@ -885,8 +904,6 @@ spf-us.emailsignatures365.com
 support.gandi.net
 contact.gandi.net
 spf.ess.barracudanetworks.com
-us-smtp-inbound-2.mimecast.com
-us-smtp-inbound-1.mimecast.com
 frontier.com
 advisory.splunk.com
 www.php.net
@@ -1535,7 +1552,6 @@ ns.mo7sen.dev
 newnewnew.gotdns.org
 cdn007-digitaldownloads.com
 www.bbraun.com
-eth.blockscout.com
 accurasofthire.com
 update.pentagi.com
 norforge.com
@@ -4834,19 +4850,19 @@ burnsworth.site
 app.tavily.com
 matchyjoin.com
 joinmatchy.com
+zloapobikahy23.bond
 waygatterol002.com
+tonajukbhuakpo2.shop
 sslgateway001.com
 perrine90-deltajohnsons.com
 opencode-setup-al.com
 lotus-vista-additions-joshua.trycloudflare.com
 lermontov-656idlop.com
 kadmecnp-643laolmd.com
+hsaertyuoang34.sbs
 gateway001kir.com
 fdffofofofo4.com
 www.khan.co.kr
-zloapobikahy23.bond
-tonajukbhuakpo2.shop
-hsaertyuoang34.sbs
 veriffication-redirect.com
 bootstrap.pypa.io
 alterzaf.com
@@ -6788,7 +6804,6 @@ advertisingeffectively.com
 589669.cc
 3plfast.com
 payloads.tralalarkefe.com
-ethereum-rpc.publicnode.com
 www.ohchr.org
 isans.org
 freedomhouse.org
@@ -6927,7 +6942,6 @@ myaccountsecurity.com
 keysyncos.com
 webmail-eac.com
 cnpcyprus.net
-tonapi.io
 primetel-tel.com
 1234.sh
 gizmodo.cc
