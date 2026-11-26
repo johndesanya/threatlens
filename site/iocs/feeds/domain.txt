@@ -1,7 +1,16 @@
-# ThreatLens IoC feed - generated 2026-11-26T10:00:44.396Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-26T11:07:52.302Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.wordfence.com
+plugins.trac.wordpress.org
+wordpress.org
+downloads.wordpress.org
+www.customerlop.top
+sunnygardendz.com
+mimarjewellery.com
+lojo2.com
+bssrzwkhugoi.net
 wallpapersengine.com
 wallpapers.top
 wallpaper-engine.pro
@@ -101,6 +110,8 @@ bun.sh
 ifconfig.me
 detail.md
 www.tenda.com.cn
+ipay.ua
+dev.ua
 wpscan.com
 access.redhat.com
 www.geovision.com.tw
@@ -488,7 +499,6 @@ javdb.com
 ni.sh
 patchstack.com
 plugins.svn.wordpress.org
-wordpress.org
 vietnam.vn
 itsourcecode.com
 ucn9h68n9289.feishu.cn
@@ -529,10 +539,7 @@ d-link-dir-600l-gena-cgi-stack-overflow-review.md
 aka.ms
 cgi.md
 docs.rt-labs.com
-www.wordfence.com
-plugins.trac.wordpress.org
 advisory.md
-downloads.wordpress.org
 host.it
 lucidmotors.com
 dallasivf.com
@@ -3700,7 +3707,6 @@ aachem-za.co
 0ff365access.mooo.com
 0350pvas.acs-wcst.com
 ipapi.co
-dev.ua
 php2shell.com
 p.name
 opus-5-0.github.io
@@ -7052,6 +7058,7 @@ passkey-setup.com
 addmypasskey.com
 passkeyregistration.com
 sqfepjvmrd.xyz
+clubown.com
 passkeysupport.com
 newpasskey.com
 passkeyset.com
@@ -7077,6 +7084,7 @@ passkeyregister.com
 passkeyadd.com
 cremeb.com
 createpasskey.com
+rasedy.com
 bomuhospital.org
 granderevolucao.store
 registerpasskey.com

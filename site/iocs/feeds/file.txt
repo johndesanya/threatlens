@@ -1,4 +1,12 @@
-# ThreatLens IoC feed - generated 2026-11-26T10:00:44.396Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-26T11:07:52.302Z - source: public vendor reports. Verify before blocking.
+TmAsEngine.exe
+RenoTool.exe
+MpClient.dll
+MifithteDispatcher.exe
+FDTELib1.exe
+FDTELib1.dll
+MpCmdRun.exe
+msedge.dll
 rhc.exe
 php_phpdbg.dll
 php.vbs
@@ -101,7 +109,6 @@ Payload.exe
 Ovl.exe
 Ova.exe
 MyApp2.exe
-MpCmdRun.exe
 Microsip-config.exe
 Client.exe
 snxhk.dll
@@ -676,7 +683,6 @@ petools.exe
 ollyice.exe
 ollydbg.exe
 myapp.exe
-msedge.dll
 malware.exe
 lordpe.exe
 klavme.exe
