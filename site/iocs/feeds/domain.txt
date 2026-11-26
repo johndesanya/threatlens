@@ -1,18 +1,21 @@
-# ThreatLens IoC feed - generated 2026-11-26T20:19:01.558Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-26T23:43:02.505Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+bugzilla.redhat.com
+access.redhat.com
 vuldb.com
+plugins.svn.wordpress.org
+plugins.trac.wordpress.org
+www.vulncheck.com
+wordpress.org
 www.sourcecodester.com
 host.it
 patchstack.com
 itsourcecode.com
 zhglxt-stored-xss.md
 wpsec.com
-plugins.svn.wordpress.org
 www.wordfence.com
-plugins.trac.wordpress.org
-wordpress.org
 spotify.interview-experts.com
 nvidia.feedback-study.com
 google.webinar-cloud.com
@@ -25,7 +28,6 @@ r95final.sh
 r94final.sh
 r93final.sh
 advisories.octopus.com
-bugzilla.redhat.com
 downloads.wordpress.org
 www.customerlop.top
 sunnygardendz.com
@@ -76,12 +78,12 @@ extinctenhance.com
 effectdrive.com
 bugzilla.samba.org
 ncsc.gov.ie
-www.vulncheck.com
 git.w1.fi
 pico-content-editor-ssrf.md
 hackerone.com
 20authentication.md
 www.drupal.org
+mps.com
 www.nelson-jewellery.com
 healthmetrics.com
 3448600.spf02.hubspotemail.net
@@ -154,7 +156,6 @@ www.tenda.com.cn
 ipay.ua
 dev.ua
 wpscan.com
-access.redhat.com
 www.geovision.com.tw
 backdropcms.org
 backdrop-rce-standard-vuln-report-en.md
