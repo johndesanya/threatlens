@@ -1,4 +1,16 @@
-# ThreatLens IoC feed - generated 2026-11-26T03:30:37.504Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-26T10:00:44.396Z - source: public vendor reports. Verify before blocking.
+rhc.exe
+php_phpdbg.dll
+php.vbs
+php.exe
+Engine.exe
+7zr.exe
+dllhost.exe
+xpsrchvw.exe
+SecurityHealthSystray.exe
+PDF.EXE
+DefenderHealthProvider.dll
+AzureCheckHealth.hta
 temp_auto_push.bat
 VID001.exe
 AAct.exe
@@ -136,7 +148,6 @@ WerFault.exe
 OpenWith.exe
 AtBroker.exe
 7z.dll
-dllhost.exe
 find.exe
 yuze_dll.dll
 SmbBrute.dll
