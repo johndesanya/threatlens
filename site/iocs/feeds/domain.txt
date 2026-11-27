@@ -1,25 +1,39 @@
-# ThreatLens IoC feed - generated 2026-11-27T04:29:39.755Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-27T08:05:34.271Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
-vul15.md
-code-projects.org
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+bugzilla.redhat.com
+access.redhat.com
+gitlab.gnome.org
+wakefield.co
+help.realvnc.com
 vuldb.com
 www.wordfence.com
 plugins.trac.wordpress.org
+www.hitachi.co.jp
+vul15.md
+code-projects.org
 plugins.svn.wordpress.org
 vul2.md
 elektro-ruppen.ch
+sendgrid.info
+signaturelex.com
+dygav.es
 www.sternklinik.net
 wolterskluwer.com
 2514384.spf01.hubspotemail.net
+mps.com
+technolutions.net
 gcd.com
+spf.dynect.net
 mx01.ionos.de
 mx00.ionos.de
 eu.ionos.com
 ionos.com
-bugzilla.redhat.com
-access.redhat.com
+sendgrid.net
+godaddy.com
+secureserver.net
+salesforce.com
 www.vulncheck.com
 wordpress.org
 www.sourcecodester.com
@@ -95,7 +109,6 @@ pico-content-editor-ssrf.md
 hackerone.com
 20authentication.md
 www.drupal.org
-mps.com
 www.nelson-jewellery.com
 healthmetrics.com
 3448600.spf02.hubspotemail.net
@@ -123,7 +136,6 @@ mx2-us1.ppe-hosted.com
 mx1-us1.ppe-hosted.com
 web.com
 networksolutionsprivateregistration.com
-godaddy.com
 odbc.postgresql.org
 publicnode.com
 eth.drpc.org
@@ -200,7 +212,6 @@ www.rachexpert.pl
 mail3.webio.pl
 mail2.webio.pl
 mail1.webio.pl
-technolutions.net
 spf.mail.qq.com
 mxbiz2.qq.com
 mxbiz1.qq.com
@@ -211,7 +222,6 @@ aspmx2.googlemail.com
 us-smtp-inbound-2.mimecast.com
 us-smtp-inbound-1.mimecast.com
 mimecast.com
-salesforce.com
 09-mealie-accept-language-path-traversal.md
 07-uptime-kuma-apikey-idor.md
 surveyking.md
@@ -342,7 +352,6 @@ icpbounce.com
 proymoda.com.mx
 khanehsazii.ir
 spf.brevo.com
-spf.dynect.net
 spf.smtp2go.com
 intacct.com
 www.openwall.com
@@ -357,10 +366,8 @@ dispatch-us.ppe-hosted.com
 edgepilot.com
 wildwestdomains.com
 amazonses.com
-sendgrid.net
 register.it
 smtp.secureserver.net
-secureserver.net
 d-link-dir-600l-hedwig-xmldb-runtime-write.md
 www.dlink.com
 bestbuy-in.online
@@ -2380,7 +2387,6 @@ f.pylrk.cc
 niteshsurana.com
 docs.originlab.com
 www.libreoffice.org
-gitlab.gnome.org
 www.foxit.com
 rooms-home93914.space
 spf-inm.eqs-service.com
