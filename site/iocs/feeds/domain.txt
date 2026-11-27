@@ -1,9 +1,12 @@
-# ThreatLens IoC feed - generated 2026-11-27T15:20:36.010Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-27T18:51:18.596Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
-www.dnsdist.org
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.dell.com
+www.vulncheck.com
+codeberg.org
 vuldb.com
+www.dnsdist.org
 cwibc.co.id
 vk.com
 reg.ru
@@ -34,6 +37,7 @@ code-projects.org
 plugins.svn.wordpress.org
 vul2.md
 elektro-ruppen.ch
+britinsurance.com
 wp-secure-cloudmail04.worldposta.com
 wp-secure-cloudmail03.worldposta.com
 wp-secure-cloudmail02.worldposta.com
@@ -49,6 +53,7 @@ wolterskluwer.com
 mps.com
 technolutions.net
 gcd.com
+eu-smtp-inbound-1.mimecast.com
 spf.dynect.net
 enom.com
 jira.mongodb.org
@@ -57,6 +62,7 @@ mx00.ionos.de
 eu.ionos.com
 ionos.com
 sendgrid.net
+mimecast.com
 www.suse.com
 www.solarwinds.com
 www.ibm.com
@@ -64,7 +70,6 @@ godaddy.com
 nginx.org
 secureserver.net
 salesforce.com
-www.vulncheck.com
 wordpress.org
 www.sourcecodester.com
 host.it
@@ -183,7 +188,6 @@ hiddenlayer.com
 genai.owasp.org
 blog.mithrilsecurity.io
 arxiv.org
-www.dell.com
 gitlab.eclipse.org
 asp.net
 legal.com
@@ -270,7 +274,6 @@ mxbiz2.qq.com
 mxbiz1.qq.com
 smart.ondmarc.com
 eu-smtp-inbound-2.mimecast.com
-eu-smtp-inbound-1.mimecast.com
 trustpilotservice.com
 shops.shopify.com
 spf.mandrillapp.com
@@ -292,7 +295,6 @@ spf.mtasv.net
 aspmx2.googlemail.com
 us-smtp-inbound-2.mimecast.com
 us-smtp-inbound-1.mimecast.com
-mimecast.com
 09-mealie-accept-language-path-traversal.md
 07-uptime-kuma-apikey-idor.md
 surveyking.md
@@ -1674,7 +1676,6 @@ mail.fiber.net.id
 bigrock.com
 webnic.cc
 privacyprotect.org
-codeberg.org
 lavender-bicycle-a5a.notion.site
 iphones.ru
 w.anadnet.com
