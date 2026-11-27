@@ -1,17 +1,23 @@
-# ThreatLens IoC feed - generated 2026-11-27T02:59:02.603Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-27T04:29:39.755Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+vul15.md
+code-projects.org
+vuldb.com
 www.wordfence.com
 plugins.trac.wordpress.org
 plugins.svn.wordpress.org
 vul2.md
-code-projects.org
-vuldb.com
 elektro-ruppen.ch
+www.sternklinik.net
 wolterskluwer.com
 2514384.spf01.hubspotemail.net
 gcd.com
+mx01.ionos.de
+mx00.ionos.de
+eu.ionos.com
+ionos.com
 bugzilla.redhat.com
 access.redhat.com
 www.vulncheck.com
@@ -345,7 +351,6 @@ spf.turbo-smtp.com
 spf.mandrillapp.com
 spf-westus.emailsignatures365.com
 aspmx3.googlemail.com
-eu.ionos.com
 namecheap.com
 spf.elluciancloud.com
 dispatch-us.ppe-hosted.com
@@ -816,7 +821,6 @@ support.aws.com
 registermymfa.com
 mattermost.com
 spf.constantcontact.com
-ionos.com
 www.suse.com
 oskeysetup.com
 ubuntu.com
@@ -1353,8 +1357,6 @@ bluehost.com
 spf.sendinblue.com
 mx.ovh.com
 verio-inc.com
-mx01.ionos.de
-mx00.ionos.de
 transmail.net
 spfa.cpmails.com
 supportportal.juniper.net
