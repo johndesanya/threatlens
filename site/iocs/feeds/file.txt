@@ -1,4 +1,7 @@
-# ThreatLens IoC feed - generated 2026-11-27T08:05:34.271Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-27T14:14:02.499Z - source: public vendor reports. Verify before blocking.
+recon.bat
+inventaire_d.bat
+Sync.apk
 TmAsEngine.exe
 RenoTool.exe
 MpClient.dll

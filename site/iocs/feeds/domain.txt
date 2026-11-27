@@ -1,13 +1,31 @@
-# ThreatLens IoC feed - generated 2026-11-27T08:05:34.271Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-27T14:14:02.499Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+www.dnsdist.org
+vuldb.com
+cwibc.co.id
+vk.com
+reg.ru
+shutterstock.com
+wallethunt.sh
+ramguard.sh
+myminfin-spf-financesbe.xyz
+messaging.ng
+healthaxis.dev
+fldubai.com
+cloud-waauienp.hosteur.net
+a.pinggy.io
+gofile.io
+soul.md
+security-tracker.debian.org
+xint.io
+ubuntu.com
 bugzilla.redhat.com
 access.redhat.com
 gitlab.gnome.org
 wakefield.co
 help.realvnc.com
-vuldb.com
 www.wordfence.com
 plugins.trac.wordpress.org
 www.hitachi.co.jp
@@ -32,6 +50,7 @@ eu.ionos.com
 ionos.com
 sendgrid.net
 godaddy.com
+nginx.org
 secureserver.net
 salesforce.com
 www.vulncheck.com
@@ -47,7 +66,6 @@ nvidia.feedback-study.com
 google.webinar-cloud.com
 accenture.international-interviews.com
 themes.trac.wordpress.org
-vk.com
 watch.sh
 rp3.sh
 r95final.sh
@@ -642,12 +660,10 @@ server.rs
 velmontriq.net
 nimbuskeep.com
 www.whatsapp.com
-shutterstock.com
 poste.io
 technique.id
 www.wireshark.org
 cloud-z80lft07.hosteur.net
-soul.md
 level.io
 git.kernel.org
 company.com
@@ -830,7 +846,6 @@ mattermost.com
 spf.constantcontact.com
 www.suse.com
 oskeysetup.com
-ubuntu.com
 pages.dev
 makepasskey.com
 socket.io
@@ -862,7 +877,6 @@ systemweakness.com
 simonwillison.net
 embracethered.com
 www.ibm.com
-gofile.io
 wechargeyouwithgenocide.com
 palestineisourhome.com
 longlivetheintifada.com
@@ -1027,12 +1041,10 @@ atlas-compass.com
 aspencore18.com
 host.services
 censor.net
-xint.io
 kmxclaims.com
 kmxclaim.com
 carmaxclaims.com
 carmaxclaim.com
-nginx.org
 n-able.com
 x280.sh
 recon.sh
@@ -4110,7 +4122,6 @@ swatchrc.in
 host.id
 process.parent.name
 process.name
-reg.ru
 research.splunk.com
 detectionengineering.net
 motor.net
