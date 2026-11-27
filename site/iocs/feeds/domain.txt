@@ -1,12 +1,19 @@
-# ThreatLens IoC feed - generated 2026-11-26T23:43:02.505Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-27T02:59:02.603Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+www.wordfence.com
+plugins.trac.wordpress.org
+plugins.svn.wordpress.org
+vul2.md
+code-projects.org
+vuldb.com
+elektro-ruppen.ch
+wolterskluwer.com
+2514384.spf01.hubspotemail.net
+gcd.com
 bugzilla.redhat.com
 access.redhat.com
-vuldb.com
-plugins.svn.wordpress.org
-plugins.trac.wordpress.org
 www.vulncheck.com
 wordpress.org
 www.sourcecodester.com
@@ -15,7 +22,6 @@ patchstack.com
 itsourcecode.com
 zhglxt-stored-xss.md
 wpsec.com
-www.wordfence.com
 spotify.interview-experts.com
 nvidia.feedback-study.com
 google.webinar-cloud.com
@@ -125,6 +131,7 @@ webhook.site
 jira.mongodb.org
 checkmk.com
 nmap.org
+mail.c1a2.top
 pytorch.org
 hiddenlayer.com
 genai.owasp.org
@@ -218,6 +225,7 @@ mesh.websitegate.net
 federation.aegeneair.com
 exchange.webmail-eac.com
 hudsonrock.com
+www.danfoss.com
 www.automationdirect.com
 www.se.com
 santacasabarbacena.com.br
@@ -393,7 +401,6 @@ www.piratemoo.com
 lp.constantcontactpages.com
 black-friday-angebote.yann-docs-0112600.workers.dev
 workers.dev
-code-projects.org
 help.whmcs.com
 yahoo.com.br
 www.toyotahg.mx
@@ -2020,7 +2027,6 @@ auth.msgapp.com
 sunnierhomes.servidoresdedicados.com
 sunnierhomes.com
 mail.sunnierhomes.com
-gcd.com
 spf.myconnectwise.net
 wps-cn.com
 microsoft-flash.com
