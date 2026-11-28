@@ -1,9 +1,19 @@
-# ThreatLens IoC feed - generated 2026-11-28T01:43:29.189Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-28T09:23:09.756Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+shyndyk.kz
+vk.com
 support.hcl-software.com
 firmadigitale.assistenza-mobile.it
+www.thomasmore.be
+spf.ymlp.com
+spf.thomasmore.be
+eur.pb-dynmktge.com
+customers.prezly.io
+spf.flexmail.eu
+servers.mcsv.net
+sendgrid.net
 vuldb.com
 bugzilla.redhat.com
 gitlab.gnome.org
@@ -16,7 +26,6 @@ www.dell.com
 codeberg.org
 www.dnsdist.org
 cwibc.co.id
-vk.com
 reg.ru
 shutterstock.com
 wallethunt.sh
@@ -67,7 +76,6 @@ mx01.ionos.de
 mx00.ionos.de
 eu.ionos.com
 ionos.com
-sendgrid.net
 mimecast.com
 www.suse.com
 www.solarwinds.com
@@ -284,7 +292,6 @@ trustpilotservice.com
 shops.shopify.com
 spf.mandrillapp.com
 service.aliyun.com
-servers.mcsv.net
 relay.mailchannels.net
 aspmx.pardot.com
 markmonitor.com
@@ -1379,7 +1386,6 @@ behaviorinterventionservices.com
 tismco.com
 smtp-ovh.dealtis.fr
 infflux.com
-spf.flexmail.eu
 spf-westeu.emailsignatures365.com
 ebema.be
 139825551.spf04.hubspotemail.net
