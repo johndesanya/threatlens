@@ -1,11 +1,18 @@
-# ThreatLens IoC feed - generated 2026-11-27T18:51:18.596Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-28T00:13:09.664Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
-www.dell.com
-www.vulncheck.com
-codeberg.org
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+firmadigitale.assistenza-mobile.it
 vuldb.com
+bugzilla.redhat.com
+gitlab.gnome.org
+mozaws.net
+docs.ntfy.sh
+typebot.io
+www.vulncheck.com
+passqa1.pcloud.com
+www.dell.com
+codeberg.org
 www.dnsdist.org
 cwibc.co.id
 vk.com
@@ -24,9 +31,7 @@ soul.md
 security-tracker.debian.org
 xint.io
 ubuntu.com
-bugzilla.redhat.com
 access.redhat.com
-gitlab.gnome.org
 wakefield.co
 help.realvnc.com
 www.wordfence.com
@@ -7011,7 +7016,6 @@ facture-arsys.duckdns.org
 controlfacturas.site
 gapgroups.com
 addpasskey2fa.com
-linear.app
 yeplayer.store
 yemplayer.site
 www.yeplayer.store

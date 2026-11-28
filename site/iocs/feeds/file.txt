@@ -1,4 +1,4 @@
-# ThreatLens IoC feed - generated 2026-11-27T18:51:18.596Z - source: public vendor reports. Verify before blocking.
+# ThreatLens IoC feed - generated 2026-11-28T00:13:09.664Z - source: public vendor reports. Verify before blocking.
 recon.bat
 inventaire_d.bat
 Sync.apk
