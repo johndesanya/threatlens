@@ -1,19 +1,39 @@
-# ThreatLens IoC feed - generated 2026-11-28T09:23:09.756Z - source: public vendor reports. Verify before blocking.
-boutique-dofus.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-28T10:40:03.578Z - source: public vendor reports. Verify before blocking.
 societegeneral-securedaccount.fr
+grcontestzackretsport.000webhostapp.com
+boutique-dofus.fr
+iphones.ru
 shyndyk.kz
 vk.com
 support.hcl-software.com
 firmadigitale.assistenza-mobile.it
+remote.mcglynnandmcglynn.com
+mcglynnandmcglynn.com
+konicom.com.2.0001.arsmtp.com
+konicom.com.1.0001.arsmtp.com
+konicom.com
+mx.mariettaderm.com
+mariettaderm.com
 www.thomasmore.be
 spf.ymlp.com
 spf.thomasmore.be
 eur.pb-dynmktge.com
 customers.prezly.io
 spf.flexmail.eu
+websitewelcome.com
+inmotionhosting.com
 servers.mcsv.net
+relay.mailchannels.net
+mx2-us1.ppe-hosted.com
+mx1-us1.ppe-hosted.com
+dispatch-us.ppe-hosted.com
+edgepilot.com
+web.com
+networksolutionsprivateregistration.com
 sendgrid.net
+tucows.com
+publicdomainregistry.com
+privacyprotect.org
 vuldb.com
 bugzilla.redhat.com
 gitlab.gnome.org
@@ -180,10 +200,6 @@ security.netapp.com
 mail.zendesk.com
 www.veeam.com
 withheldforprivacy.com
-mx2-us1.ppe-hosted.com
-mx1-us1.ppe-hosted.com
-web.com
-networksolutionsprivateregistration.com
 odbc.postgresql.org
 publicnode.com
 eth.drpc.org
@@ -292,7 +308,6 @@ trustpilotservice.com
 shops.shopify.com
 spf.mandrillapp.com
 service.aliyun.com
-relay.mailchannels.net
 aspmx.pardot.com
 markmonitor.com
 mailgun.org
@@ -446,8 +461,6 @@ spf.turbo-smtp.com
 spf-westus.emailsignatures365.com
 aspmx3.googlemail.com
 spf.elluciancloud.com
-dispatch-us.ppe-hosted.com
-edgepilot.com
 wildwestdomains.com
 amazonses.com
 register.it
@@ -626,7 +639,6 @@ aruba.it
 adp.com
 163.com
 microsoftonline.com
-publicdomainregistry.com
 steamcommunity.com
 javdb.com
 ni.sh
@@ -658,7 +670,6 @@ www.invictawatch.com
 nospam.invictawatch.com
 emsd1.com
 relay.kinstamailservice.com
-websitewelcome.com
 renater.fr
 spf.has.pphosted.com
 operationharshdoorstop.com
@@ -706,7 +717,6 @@ mx.vegelywelding.net.cust.a.hostedemail.com
 hostedemail.com
 mail.hostinger.com
 contactprivacy.com
-tucows.com
 hunt.io
 calif.io
 block-gh-path-leak.sh
@@ -1687,9 +1697,7 @@ mailprotection.fiber.net.id
 mail.fiber.net.id
 bigrock.com
 webnic.cc
-privacyprotect.org
 lavender-bicycle-a5a.notion.site
-iphones.ru
 w.anadnet.com
 anadnet.com
 smh.com.au
@@ -3513,7 +3521,6 @@ tdstelecom.com
 spfhost.messageprovider.com
 rnmk.com
 dc8.sapsf.com
-inmotionhosting.com
 corp-smart.com
 www.antwerphousedentistry.co.uk
 rolly.io
