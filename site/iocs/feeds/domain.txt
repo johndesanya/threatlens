@@ -1,7 +1,9 @@
-# ThreatLens IoC feed - generated 2026-11-28T10:40:03.578Z - source: public vendor reports. Verify before blocking.
-societegeneral-securedaccount.fr
-grcontestzackretsport.000webhostapp.com
+# ThreatLens IoC feed - generated 2026-11-28T11:38:33.564Z - source: public vendor reports. Verify before blocking.
 boutique-dofus.fr
+grcontestzackretsport.000webhostapp.com
+societegeneral-securedaccount.fr
+techora.ru
+vuldb.com
 iphones.ru
 shyndyk.kz
 vk.com
@@ -34,7 +36,6 @@ sendgrid.net
 tucows.com
 publicdomainregistry.com
 privacyprotect.org
-vuldb.com
 bugzilla.redhat.com
 gitlab.gnome.org
 mozaws.net
@@ -177,6 +178,8 @@ pico-content-editor-ssrf.md
 hackerone.com
 20authentication.md
 www.drupal.org
+www.nucleon-security.com
+nucleon-security.com
 www.nelson-jewellery.com
 healthmetrics.com
 3448600.spf02.hubspotemail.net
@@ -200,6 +203,8 @@ security.netapp.com
 mail.zendesk.com
 www.veeam.com
 withheldforprivacy.com
+ovh.net
+hosting.com
 odbc.postgresql.org
 publicnode.com
 eth.drpc.org
@@ -618,7 +623,6 @@ qq.com
 publix.com
 pec.it
 paypal.com
-ovh.net
 njoyn.com
 nike.com
 netflix.com
@@ -2250,7 +2254,6 @@ aspmx5.googlemail.com
 aspmx4.googlemail.com
 gabonmeca.com
 secnews.gr
-hosting.com
 360.cn
 ua.news
 tac.vpnla.org
@@ -2792,7 +2795,6 @@ safewebservices.com
 bluehostprivatename.com
 paubox.com
 20example.com
-techora.ru
 06-arcreel-provider-test-ssrf.md
 03-umami-enforced-2fa-not-applied.md
 www.irfanview.com
